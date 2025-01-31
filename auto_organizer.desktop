@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Auto Organizer
+Comment=Automatisiertes Datenmanagement-System
+Exec=/media/sven/L_SSD_LINUX/Folder_1/start_auto_organizer.sh
+Terminal=false
+X-GNOME-Autostart-enabled=true 

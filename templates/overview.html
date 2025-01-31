@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIS-Daten Explorer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        :root {
+            --dark-green: #2c5530;
+            --accent-green: #5c8d76;
+            --light-green: #7ab092;
+        }
+
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .header-section {
+            background: var(--dark-green);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .feature-card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            height: 100%;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--accent-green);
+            margin-bottom: 1rem;
+        }
+
+        .btn-primary {
+            background: var(--accent-green);
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .btn-primary:hover {
+            background: var(--light-green);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="header-section">
+        <div class="container">
+            <h1>GIS-Daten Explorer</h1>
+            <p class="lead">Erkunden und Verwalten Sie WFS/WMS-Dienste mit KI-Unterstützung</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row g-4">
+            <!-- WFS/WMS Explorer -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card feature-card">
+                    <div class="card-body text-center">
+                        <i class="bi bi-globe feature-icon"></i>
+                        <h5 class="card-title">WFS/WMS Explorer</h5>
+                        <p class="card-text">Durchsuchen und laden Sie Layer von WFS- und WMS-Diensten.</p>
+                        <a href="/wfs_wms_explorer" class="btn btn-primary">
+                            <i class="bi bi-search"></i> Explorer öffnen
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Datenlexikon -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card feature-card">
+                    <div class="card-body text-center">
+                        <i class="bi bi-book feature-icon"></i>
+                        <h5 class="card-title">Datenlexikon</h5>
+                        <p class="card-text">Durchsuchen Sie das Lexikon aller Layer und Attribute.</p>
+                        <a href="/data_lexicon" class="btn btn-primary">
+                            <i class="bi bi-journal-text"></i> Lexikon öffnen
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Layer-Verwaltung -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card feature-card">
+                    <div class="card-body text-center">
+                        <i class="bi bi-layers feature-icon"></i>
+                        <h5 class="card-title">Layer-Verwaltung</h5>
+                        <p class="card-text">Verwalten und organisieren Sie Ihre Layer.</p>
+                        <a href="#" class="btn btn-primary">
+                            <i class="bi bi-gear"></i> Verwaltung öffnen
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Statistiken -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card feature-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Statistiken</h5>
+                        <div class="row text-center mt-3">
+                            <div class="col-md-4">
+                                <h3 class="text-success">0</h3>
+                                <p>Gespeicherte Layer</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h3 class="text-success">0</h3>
+                                <p>Verbundene Dienste</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h3 class="text-success">0</h3>
+                                <p>Attribute im Lexikon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <p class="mb-0">© 2024 GIS-Daten Explorer</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

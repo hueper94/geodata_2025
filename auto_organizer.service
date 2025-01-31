@@ -1,0 +1,15 @@
+[Unit]
+Description=Automatisiertes Datenmanagement-System
+After=network.target
+
+[Service]
+Type=simple
+User=sven
+WorkingDirectory=/media/sven/L_SSD_LINUX/Folder_1
+Environment=PATH=/media/sven/L_SSD_LINUX/Folder_1/env/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/media/sven/L_SSD_LINUX/Folder_1/env/bin/python auto_organizer.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target 

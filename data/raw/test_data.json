@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Testpolygon 1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[9.993682, 53.551086], [9.994682, 53.551086], [9.994682, 53.552086], [9.993682, 53.552086], [9.993682, 53.551086]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Testlinie 1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.995682, 53.551086], [9.996682, 53.552086]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Testpunkt 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.997682, 53.551086]
+      }
+    }
+  ]
+} 

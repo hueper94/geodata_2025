@@ -1,0 +1,7 @@
+{
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_bplan",
+    "version": "2.0.0",
+    "typename": "fis:s_wfs_bplan",
+    "bbox": [13.1, 52.3, 13.7, 52.7],
+    "srsname": "EPSG:4326"
+} 

@@ -1,0 +1,3379 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wfs:FeatureCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd http://www.deegree.org/app https://geodienste.hamburg.de/HH_WFS_Bebauungsplaene?SERVICE=WFS&amp;VERSION=2.0.0&amp;REQUEST=DescribeFeatureType&amp;OUTPUTFORMAT=application%2Fgml%2Bxml%3B+version%3D3.2&amp;TYPENAME=app:prosin_imverfahren&amp;NAMESPACES=xmlns(app,http%3A%2F%2Fwww.deegree.org%2Fapp)" xmlns:wfs="http://www.opengis.net/wfs/2.0" timeStamp="2025-01-28T19:04:26Z" xmlns:gml="http://www.opengis.net/gml/3.2" numberMatched="unknown" numberReturned="0">
+  <!--NOTE: numberReturned attribute should be 'unknown' as well, but this would not validate against the current version of the WFS 2.0 schema (change upcoming). See change request (CR 144): https://portal.opengeospatial.org/files?artifact_id=43925.-->
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_0">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Barmbek-Nord45</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_0_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_0_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_266ae8ac-bff2-4108-910f-cc13d86777e9" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569917.899 5938254.074 569930.381 5938271.274 569947.995 5938295.540 569957.477 5938308.605 569980.982 5938340.999 569997.404 5938363.630 569996.304 5938370.539 569992.219 5938373.503 569989.737 5938375.272 569987.226 5938376.998 569984.686 5938378.681 569982.117 5938380.322 569979.522 5938381.918 569976.899 5938383.471 569974.251 5938384.978 569971.577 5938386.441 569968.879 5938387.858 569966.158 5938389.229 569963.413 5938390.554 569960.647 5938391.833 569957.859 5938393.064 569955.051 5938394.248 569952.224 5938395.384 569949.377 5938396.472 569946.512 5938397.512 569943.631 5938398.503 569940.732 5938399.445 569937.819 5938400.338 569934.890 5938401.181 569931.948 5938401.975 569928.993 5938402.719 569926.025 5938403.412 569923.046 5938404.056 569920.057 5938404.648 569917.058 5938405.190 569914.051 5938405.682 569911.035 5938406.122 569908.013 5938406.511 569904.984 5938406.849 569901.950 5938407.135 569887.210 5938400.929 569877.421 5938377.940 569877.208 5938377.441 569858.930 5938331.898 569857.172 5938327.211 569855.433 5938322.516 569852.963 5938315.739 569850.534 5938308.947 569848.127 5938302.086 569845.763 5938295.211 569852.906 5938274.028 569909.520 5938250.798 569917.899 5938254.074</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_2">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Barmbek-Nord40</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/hamburg-nord/bauleitplanung/38790/bebauungsplaene/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_2_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_2_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_ef374120-8e31-4f13-acab-83cd4a682738" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569121.086 5938009.486 569074.136 5937958.963 569045.534 5937928.183 569016.932 5937897.404 569025.743 5937889.161 569065.376 5937868.484 569098.608 5937851.147 569116.931 5937841.588 569141.891 5937828.565 569147.851 5937857.632 569141.245 5937861.176 569150.596 5937879.098 569132.988 5937888.284 569131.694 5937888.959 569134.848 5937903.343 569137.145 5937913.823 569133.777 5937915.579 569140.700 5937946.215 569142.562 5937945.842 569147.693 5937971.457 569149.397 5937979.962 569161.929 5937977.447 569163.972 5937987.621 569165.628 5937995.874 569166.534 5938000.384 569130.924 5938007.588 569121.086 5938009.486</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_3">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Barmbek-Nord44</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/hamburg-nord/bauleitplanung/38790/bebauungsplaene/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_3_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_3_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_ac8c2476-bc34-44c4-bc2d-e278ea7c3a56" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569882.468 5938189.641 569932.776 5938260.511 569983.883 5938328.587 570024.808 5938386.082 570065.720 5938443.520 570073.480 5938454.415 569889.047 5938590.083 569789.686 5938476.505 569784.821 5938469.972 569779.213 5938461.117 569771.841 5938447.283 569765.249 5938433.836 569757.229 5938413.926 569713.338 5938311.359 569695.478 5938269.622 569870.939 5938189.369 569879.412 5938185.494 569882.468 5938189.641</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_4">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Barmbek-Nord60</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/hamburg-nord/bauleitplanung/13459914/barmbek-nord60/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_4_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_4_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_cd22b7e0-9c85-467a-bbea-7761444168a2" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>568953.787 5938179.207 568958.297 5938191.514 568958.929 5938193.237 568960.013 5938196.196 568964.742 5938209.100 568969.047 5938220.845 568999.712 5938304.516 568989.186 5938307.469 568968.112 5938313.697 568947.081 5938321.507 568926.808 5938329.597 568903.536 5938341.682 568887.590 5938351.288 568876.883 5938358.699 568853.104 5938377.110 568834.838 5938394.943 568815.994 5938414.224 568801.500 5938432.779 568794.831 5938443.072 568781.055 5938464.384 568769.646 5938482.115 568756.823 5938517.187 568756.367 5938518.669 568688.201 5938500.393 568653.543 5938491.101 568656.794 5938478.239 568660.980 5938463.578 568665.645 5938449.062 568670.781 5938434.707 568672.996 5938428.938 568676.384 5938420.527 568682.449 5938406.538 568688.968 5938392.755 568695.934 5938379.193 568700.928 5938370.095 568706.260 5938361.243 568712.703 5938351.250 568719.469 5938341.473 568726.552 5938331.923 568733.944 5938322.609 568735.255 5938321.021 568741.636 5938313.543 568749.621 5938304.733 568757.890 5938296.189 568766.434 5938287.920 568775.244 5938279.935 568777.177 5938278.252 568778.205 5938277.348 568790.229 5938267.146 568802.580 5938257.344 568815.245 5938247.951 568828.211 5938238.977 568841.464 5938230.432 568854.989 5938222.325 568860.221 5938219.348 568868.772 5938214.666 568882.798 5938207.461 568897.053 5938200.719 568911.520 5938194.447 568926.185 5938188.652 568941.032 5938183.340 568953.787 5938179.207</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_5">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Barmbek-Sued2</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/hamburg-nord/bauleitplanung/9878688/barmbek-sued2/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_5_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_5_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_53e6bdb1-a3eb-45aa-a495-e07d0e55a657" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>568858.060 5937259.420 568863.525 5937273.640 568878.194 5937311.145 568860.272 5937319.510 568835.861 5937325.312 568810.520 5937326.945 568736.168 5937325.486 568633.744 5937324.121 568622.991 5937322.075 568571.098 5937309.100 568522.275 5937295.613 568456.551 5937278.373 568458.504 5937267.124 568472.252 5937193.870 568480.278 5937153.752 568509.294 5937065.153 568515.649 5937066.362 568586.964 5937079.151 568615.468 5937082.736 568665.486 5937087.344 568712.427 5937089.394 568766.008 5937088.695 568791.980 5937087.855 568858.060 5937259.420</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_6">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Fuhlsbuettel23-Langenhorn83</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/hamburg-nord/bauleitplanung/5306664/fuhlsbuettel23-langenhorn83/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_6_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_6_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_11f4834d-b9e1-4df2-a05d-58224e3091d2" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567264.348 5943956.926 567230.887 5943958.361 567230.728 5943946.518 567230.747 5943945.738 567231.427 5943945.725 567231.235 5943936.388 567241.463 5943935.919 567259.833 5943935.077 567264.457 5943845.890 567397.698 5943845.994 567431.898 5943892.254 567449.549 5943892.643 567449.109 5943912.619 567447.992 5943955.472 567446.743 5943955.472 567446.720 5943958.084 567446.696 5943960.161 567446.657 5943964.374 567446.564 5943973.660 567392.422 5943968.582 567327.222 5943962.466 567264.348 5943956.926</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_12">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Hohenfelde11</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/hamburg-nord/bauleitplanung/38790/bebauungsplaene/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_12_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_12_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_52b5f953-1b22-4c86-826f-ca3ebbdd813e" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567947.099 5935057.000 568008.420 5935099.402 568057.049 5935130.056 568079.227 5935143.766 568083.530 5935146.426 568127.327 5935171.320 568097.995 5935297.747 568090.058 5935333.731 568089.517 5935336.729 568087.374 5935348.169 568086.068 5935354.838 568084.502 5935362.571 568081.459 5935374.516 568076.966 5935390.250 568075.523 5935394.923 568071.960 5935405.828 568066.448 5935421.234 568064.393 5935426.600 568029.468 5935513.383 568029.368 5935513.636 567974.178 5935507.318 567871.417 5935494.614 567869.072 5935494.357 567858.801 5935493.198 567861.482 5935478.937 567884.346 5935355.422 567895.285 5935289.338 567922.793 5935115.340 567934.821 5935048.510 567947.099 5935057.000</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_14">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Langenhorn7</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_14_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_14_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_d5d5795d-7843-489b-8441-759b601aaa3d" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567872.747 5947658.721 567876.949 5947676.023 567898.534 5947769.801 567899.001 5947771.625 568133.577 5947717.862 568169.339 5947871.472 568161.193 5947873.368 568144.971 5947877.134 568128.748 5947880.900 568123.246 5947882.177 568103.694 5947886.714 568084.143 5947891.255 568042.573 5947900.905 568004.130 5947909.830 568004.106 5947909.837 567999.692 5947911.077 567999.569 5947911.054 567999.445 5947911.035 567999.321 5947911.021 567999.196 5947911.010 567999.071 5947911.005 567998.945 5947911.003 567998.820 5947911.006 567998.695 5947911.014 567998.570 5947911.026 567998.446 5947911.042 567998.322 5947911.062 567998.200 5947911.087 567998.078 5947911.116 567997.957 5947911.149 567997.837 5947911.186 567997.719 5947911.228 567997.603 5947911.274 567997.488 5947911.324 567997.374 5947911.377 567997.263 5947911.435 567997.154 5947911.496 567997.047 5947911.562 567996.942 5947911.631 567996.840 5947911.703 567996.741 5947911.779 567996.644 5947911.859 567996.596 5947911.893 567996.550 5947911.928 567996.504 5947911.965 567996.460 5947912.003 567996.418 5947912.043 567996.377 5947912.084 567996.337 5947912.127 567996.298 5947912.171 567996.262 5947912.217 567996.227 5947912.263 567996.193 5947912.311 567996.161 5947912.360 567996.131 5947912.410 567996.103 5947912.461 567996.076 5947912.513 567996.052 5947912.566 567996.029 5947912.620 567996.008 5947912.674 567995.989 5947912.730 567995.971 5947912.785 567995.956 5947912.842 567995.943 5947912.899 567995.932 5947912.956 567995.922 5947913.014 567995.915 5947913.072 567995.910 5947913.130 567995.907 5947913.188 567995.905 5947913.247 567995.906 5947913.305 568000.113 5947931.655 568004.319 5947950.005 568005.230 5947953.539 568006.141 5947957.073 568011.117 5947978.798 568016.653 5948002.973 568200.017 5947959.012 568117.070 5947602.725 567872.747 5947658.721</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_15">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Langenhorn81</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_15_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_15_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_319a2dd7-9bc4-461c-a371-0a8349748150" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567321.099 5947704.792 567264.267 5947805.986 567266.561 5947808.872 567215.032 5947849.434 567208.057 5947854.652 567194.973 5947837.161 567181.747 5947819.720 567188.844 5947814.347 567199.436 5947799.618 567214.944 5947777.046 567235.936 5947753.110 567263.912 5947687.128 567291.363 5947683.245 567321.099 5947704.792</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_17">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Winterhude73</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_17_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_17_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_2af96e25-813d-4f93-b589-ae15ab0573ea" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567644.355 5940544.793 567647.934 5940534.988 567655.264 5940514.911 567661.338 5940476.975 567661.147 5940286.582 567661.285 5940286.573 567672.180 5940285.500 567682.981 5940283.717 567693.642 5940281.231 567704.118 5940278.053 567708.336 5940276.558 567714.364 5940274.197 567724.336 5940269.679 567733.990 5940264.518 567743.287 5940258.737 567750.703 5940253.485 567755.737 5940248.244 567762.094 5940241.230 567768.218 5940234.012 567774.102 5940226.598 567779.741 5940218.995 567785.128 5940211.211 567790.258 5940203.256 567795.124 5940195.136 567798.628 5940188.890 567799.722 5940186.862 567804.047 5940178.442 567808.094 5940169.885 567811.860 5940161.200 567815.338 5940152.397 567818.527 5940143.484 567821.423 5940134.472 567824.022 5940125.370 567826.322 5940116.188 567826.914 5940113.596 567833.010 5939976.755 567867.822 5939976.714 567926.337 5939976.644 567943.882 5939976.623 567988.583 5939977.245 567988.458 5939986.299 568006.853 5939986.554 568039.676 5939987.008 568052.747 5939995.912 568059.152 5940002.385 568059.160 5940002.393 568059.150 5940002.413 568040.079 5940039.687 567992.812 5940132.085 567986.644 5940144.143 567979.124 5940158.848 567981.140 5940174.475 567981.135 5940174.478 567931.560 5940213.656 567916.872 5940225.265 567920.738 5940241.813 567895.643 5940311.447 567891.247 5940323.641 567887.640 5940333.388 567886.500 5940336.461 567828.876 5940456.982 567822.848 5940469.575 567806.271 5940504.250 567784.951 5940500.182 567784.593 5940513.122 567783.539 5940518.687 567779.621 5940539.086 567778.450 5940547.333 567777.857 5940551.460 567775.796 5940565.959 567762.732 5940590.051 567761.639 5940591.976 567760.616 5940593.780 567755.540 5940602.722 567755.399 5940602.976 567725.825 5940587.892 567671.141 5940561.262 567642.956 5940547.699 567644.355 5940544.793</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_21">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Duvenstedt18</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/7996388/bebauungsplanentwurf-duvenstedt-18/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_21_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_21_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_176e3ada-41fe-4584-848f-f9072a9bf250" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>573180.808 5952289.111 573183.512 5952299.349 573187.016 5952304.466 573180.065 5952309.994 573169.950 5952311.503 573140.922 5952315.834 573091.764 5952325.292 573023.040 5952339.039 573003.158 5952342.780 572943.482 5952352.814 572881.553 5952364.383 572817.546 5952375.737 572763.536 5952386.135 572733.687 5952392.423 572729.152 5952392.662 572726.444 5952392.222 572742.308 5952348.531 572756.500 5952309.445 572761.309 5952308.637 572802.509 5952301.721 572821.340 5952298.560 572837.515 5952295.585 572837.610 5952295.568 572855.796 5952292.223 572867.722 5952290.186 572898.666 5952284.901 572912.040 5952282.617 572918.776 5952281.363 572921.872 5952280.786 572949.446 5952275.653 572959.282 5952273.966 572959.329 5952273.958 572981.005 5952270.238 572997.016 5952267.387 572998.750 5952267.078 573003.119 5952265.996 573020.127 5952263.155 573076.275 5952254.108 573076.683 5952256.800 573084.593 5952255.617 573126.982 5952249.280 573160.081 5952244.331 573164.993 5952243.597 573171.969 5952242.755 573180.808 5952289.111</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_22">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Hummelsbuettel30</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/10965862/hummelsbuettel-30/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_22_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_22_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_bf34590e-9bee-42ee-b376-aa70543c2723" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567588.416 5944129.095 567573.450 5944130.945 567532.203 5944056.652 567498.104 5943996.776 567495.048 5943996.520 567485.717 5943979.463 567549.366 5943985.467 567553.831 5943985.228 567558.442 5943983.556 567566.864 5943979.052 567572.530 5943976.790 567578.772 5943976.084 567587.283 5943977.281 567607.370 5943980.105 567615.854 5943981.205 567618.743 5943981.563 567623.231 5943982.004 567627.720 5943982.446 567631.990 5943982.724 567704.976 5943986.366 567724.547 5944119.224 567708.878 5944125.971 567685.853 5944134.642 567681.176 5944136.403 567666.478 5944141.534 567633.516 5944153.678 567622.038 5944158.737 567616.687 5944161.095 567610.561 5944163.795 567609.409 5944164.376 567599.161 5944148.539 567588.416 5944129.095</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_24">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Jenfeld29</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/14405800/bebauungsplanentwurf-jenfeld-29/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_24_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_24_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_4d683723-a821-4c74-b4e2-65b510c9b0b7" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>575299.870 5936928.931 575299.220 5936971.177 575299.215 5936977.682 575240.338 5936978.498 575211.395 5936979.894 575201.973 5936979.894 575202.034 5936974.616 575200.962 5936974.584 575196.254 5936973.944 575194.062 5936959.181 575184.933 5936897.725 575184.108 5936892.170 575182.896 5936884.011 575214.994 5936883.979 575214.973 5936885.202 575218.263 5936884.756 575227.366 5936883.521 575263.880 5936887.149 575263.918 5936885.144 575270.176 5936885.765 575290.110 5936887.747 575295.018 5936838.039 575305.095 5936839.034 575300.552 5936884.840 575299.870 5936928.931</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_25">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Lemsahl-Mellingstedt18(1Aend)</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_25_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_25_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_bb8134f9-f1da-4bd3-8b3b-1a6896fa139e" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>572145.586 5947843.552 572149.846 5947856.061 572152.427 5947862.785 572154.609 5947867.155 572155.491 5947869.803 572158.512 5947880.505 572170.419 5947920.869 572171.115 5947923.235 572117.215 5947918.979 572057.440 5947914.260 572057.482 5947905.718 572057.796 5947841.238 572101.288 5947838.400 572142.378 5947828.166 572145.586 5947843.552</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_26">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Poppenbuettel45-Wellingsbuettel19</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/9101168/poppenbuettel-45-wellingsbuettel-19/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_26_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_26_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_c2306c50-d036-4da4-bc00-040a0dd01f14" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>571916.800 5944743.600 571926.900 5944751.100 571936.600 5944757.800 571950.800 5944766.800 571969.189 5944779.410 571959.226 5944849.387 571950.363 5944848.787 571950.360 5944848.820 571860.885 5944839.144 571852.237 5944862.643 571809.978 5944858.609 571809.507 5944850.255 571809.634 5944833.033 571809.017 5944829.541 571801.519 5944816.447 571800.931 5944810.681 571798.605 5944803.415 571795.929 5944795.914 571738.101 5944769.833 571716.655 5944760.359 571700.773 5944753.000 571690.884 5944748.745 571723.532 5944708.330 571726.590 5944703.341 571731.730 5944691.480 571735.455 5944681.143 571736.784 5944676.667 571737.385 5944674.640 571740.215 5944665.099 571741.955 5944655.479 571729.631 5944632.900 571721.975 5944624.904 571732.466 5944614.859 571746.978 5944600.964 571760.540 5944587.978 571768.864 5944580.008 571780.774 5944568.598 571784.050 5944573.800 571794.000 5944589.600 571800.200 5944601.000 571806.200 5944612.400 571811.900 5944623.600 571818.600 5944635.600 571832.600 5944658.000 571839.400 5944668.600 571846.600 5944679.200 571853.200 5944688.000 571859.400 5944695.600 571863.400 5944700.200 571868.600 5944705.200 571877.200 5944712.800 571885.600 5944720.000 571895.000 5944727.400 571905.600 5944735.400 571916.800 5944743.600</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_33">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wandsbek56(2Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/14305916/bebauungsplan-verfahren-wandsbek-56-aenderung/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_33_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_33_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_afbec4df-0f82-4ced-a60e-8a4bcd6e56c3" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>571775.528 5936636.236 571754.327 5936719.240 571748.155 5936743.400 571709.587 5936894.397 571706.539 5936906.330 571687.862 5936952.412 571680.643 5936970.223 571677.994 5936969.218 571596.041 5936935.622 571599.724 5936921.334 571601.200 5936915.608 571606.807 5936893.866 571607.786 5936890.015 571610.582 5936879.005 571612.564 5936871.207 571614.533 5936863.457 571615.625 5936858.968 571607.112 5936856.718 571569.744 5936846.839 571568.047 5936846.390 571567.763 5936847.477 571566.606 5936851.909 571565.549 5936855.955 571565.359 5936856.753 571557.355 5936854.328 571522.410 5936843.446 571502.843 5936837.354 571481.304 5936830.715 571465.230 5936825.762 571457.262 5936823.307 571475.192 5936762.467 571483.476 5936734.354 571477.361 5936732.459 571409.245 5936711.351 571410.426 5936705.626 571416.654 5936674.072 571422.348 5936675.715 571452.209 5936684.333 571452.935 5936684.543 571472.053 5936690.061 571483.789 5936693.447 571488.558 5936694.823 571494.873 5936696.645 571536.097 5936556.168 571538.305 5936548.645 571484.356 5936532.912 571492.591 5936521.746 571533.191 5936466.693 571634.124 5936384.692 571640.445 5936389.728 571644.310 5936392.807 571650.143 5936393.211 571672.607 5936407.017 571684.693 5936414.134 571703.613 5936425.277 571742.811 5936449.286 571760.763 5936460.592 571761.756 5936461.217 571775.475 5936482.275 571787.005 5936493.943 571790.302 5936496.853 571802.853 5936508.232 571788.372 5936562.133 571787.628 5936564.970 571783.812 5936579.521 571780.856 5936590.633 571781.475 5936590.794 571778.359 5936602.934 571774.121 5936619.443 571771.877 5936628.053 571770.129 5936634.853 571775.528 5936636.236</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_34">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wandsbek84</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/14301496/bebauungsplan-entwurf-wandsbek-84/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_34_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_34_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_6487fd4c-ac70-488e-9cfd-c41ead98fb3d" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>571145.006 5936788.787 571141.333 5936785.668 571135.642 5936780.597 571138.822 5936777.447 571144.436 5936771.886 571163.345 5936750.092 571178.190 5936732.438 571181.023 5936733.624 571183.566 5936727.897 571346.499 5936838.479 571358.276 5936845.926 571379.260 5936856.552 571399.732 5936865.241 571431.248 5936878.623 571430.303 5936884.445 571425.016 5936883.943 571411.193 5936882.632 571399.847 5936879.045 571378.445 5936873.663 571362.376 5936885.243 571355.776 5936890.000 571354.707 5936892.434 571351.353 5936900.058 571333.493 5936895.376 571320.283 5936891.961 571303.022 5936886.289 571296.337 5936883.830 571288.361 5936880.733 571284.198 5936879.020 571264.259 5936870.728 571249.228 5936864.483 571242.127 5936861.507 571226.740 5936853.332 571223.825 5936851.662 571220.594 5936849.715 571219.270 5936848.841 571206.479 5936839.610 571206.827 5936839.164 571168.845 5936808.952 571165.689 5936806.442 571158.257 5936800.040 571145.006 5936788.787</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_57">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Lohbruegge91</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bergedorf/stadtplanung/12135612/lo91/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_57_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_57_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_d4eedd2d-735c-4a76-b953-2c05c6be5587" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>578114.529 5928218.097 578122.368 5928204.253 578126.693 5928194.918 578130.791 5928180.989 578136.104 5928185.431 578142.970 5928188.825 578150.205 5928189.628 578162.586 5928189.789 578175.288 5928191.236 578186.865 5928193.809 578193.618 5928196.864 578198.280 5928200.240 578204.872 5928206.029 578213.394 5928212.621 578223.202 5928220.821 578243.943 5928236.095 578254.877 5928243.331 578259.582 5928245.559 578259.011 5928247.047 578242.780 5928289.368 578236.786 5928304.997 578227.068 5928300.135 578171.909 5928286.197 578149.199 5928266.106 578112.069 5928235.289 578111.773 5928235.084 578106.823 5928231.656 578114.529 5928218.097</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_31">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Rahlstedt137</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/stadtplanung-wandsbek/bauleitplanung/bebauungsplaene/14880496/bebauungsplanentwurf-rahlstedt-137/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_31_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_31_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_8d92d7b3-67b7-4deb-aa08-87a781d64372" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>577582.141 5943111.771 577555.533 5943094.826 577537.719 5943122.699 577532.722 5943119.487 577503.045 5943100.417 577494.656 5943113.386 577478.094 5943138.987 577469.760 5943151.870 577464.718 5943159.663 577459.694 5943167.429 577337.333 5943076.015 577376.640 5943018.533 577507.028 5943023.036 577600.256 5943083.718 577582.141 5943111.771</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_29">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Rahlstedt134</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/12631898/bebauungsplanentwurf-rahlstedt-134/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_29_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_29_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_0cc5cf9d-cfec-496d-97ab-b67e7a7f8374" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>578515.465 5939332.653 578515.224 5939260.476 578515.221 5939259.482 578515.018 5939198.624 578515.268 5939196.659 578524.264 5939191.225 578527.909 5939188.021 578533.129 5939186.353 578535.281 5939185.354 578536.799 5939184.452 578540.200 5939183.419 578542.992 5939181.845 578544.363 5939178.186 578545.301 5939174.438 578547.322 5939172.451 578552.424 5939172.412 578553.574 5939169.601 578553.404 5939167.057 578556.608 5939165.079 578558.235 5939165.250 578565.301 5939166.551 578568.837 5939167.557 578576.805 5939164.113 578580.567 5939163.750 578587.645 5939167.637 578588.991 5939168.839 578588.767 5939172.002 578591.430 5939173.186 578595.429 5939170.210 578603.299 5939177.747 578604.814 5939177.868 578618.407 5939189.722 578621.111 5939190.255 578622.113 5939196.624 578625.862 5939200.051 578630.158 5939201.853 578632.534 5939199.374 578634.689 5939196.820 578635.301 5939195.678 578639.417 5939195.147 578643.348 5939196.687 578646.161 5939197.373 578648.610 5939196.812 578654.297 5939196.498 578656.490 5939195.011 578657.483 5939191.739 578660.937 5939189.268 578669.459 5939193.198 578671.302 5939194.589 578676.503 5939192.883 578680.746 5939190.915 578682.831 5939187.904 578685.618 5939187.127 578687.443 5939185.986 578690.545 5939185.512 578696.545 5939185.362 578702.456 5939183.512 578702.957 5939183.416 578704.360 5939183.028 578706.011 5939182.741 578707.455 5939183.253 578708.251 5939183.760 578710.134 5939185.575 578712.234 5939185.592 578714.646 5939184.013 578714.707 5939176.616 578721.613 5939175.574 578724.187 5939178.494 578726.775 5939179.715 578727.569 5939180.322 578729.563 5939180.938 578732.347 5939182.560 578738.338 5939183.310 578740.339 5939183.027 578743.053 5939181.150 578745.658 5939180.472 578747.956 5939180.491 578749.352 5939181.103 578750.328 5939183.810 578752.105 5939186.524 578763.395 5939186.918 578763.410 5939185.118 578762.530 5939182.712 578762.562 5939178.814 578764.475 5939177.230 578769.269 5939177.669 578770.647 5939180.080 578770.632 5939181.980 578771.622 5939183.087 578772.604 5939185.094 578772.576 5939188.493 578775.177 5939188.315 578776.978 5939188.130 578779.193 5939186.149 578780.294 5939185.958 578782.692 5939185.978 578784.387 5939186.593 578787.080 5939187.214 578789.265 5939188.832 578791.045 5939191.146 578794.941 5939191.279 578798.448 5939190.208 578810.233 5939191.307 578813.042 5939190.130 578815.344 5939189.749 578820.641 5939189.793 578824.746 5939189.627 578831.318 5939191.899 578837.107 5939192.661 578840.280 5939194.895 578843.358 5939196.728 578848.241 5939197.981 578853.079 5939194.234 578855.872 5939193.764 578860.587 5939193.016 578866.539 5939190.594 578867.840 5939190.495 578871.720 5939189.339 578873.654 5939190.232 578882.146 5939163.901 578887.028 5939141.042 578895.386 5939115.621 578897.241 5939109.877 578897.920 5939107.773 578901.322 5939098.965 578910.158 5939071.341 578914.648 5939067.100 578919.143 5939062.918 578919.561 5939048.315 578918.852 5939040.791 578921.718 5939035.136 578920.925 5939028.582 578921.756 5939021.894 578927.363 5939019.098 578933.502 5939016.315 578934.990 5939015.083 578937.078 5939008.943 578982.220 5938875.938 578985.617 5938867.352 578989.220 5938863.717 579017.183 5938781.393 579028.114 5938749.212 579044.926 5938699.650 579051.214 5938702.179 579072.104 5938652.327 579079.430 5938638.822 579100.241 5938601.886 579106.408 5938597.847 579143.066 5938540.749 579158.345 5938516.951 579201.811 5938443.423 579223.953 5938407.460 579227.321 5938401.990 579264.089 5938340.618 579280.805 5938312.691 579312.554 5938259.645 579338.457 5938216.367 579343.425 5938208.067 579346.409 5938203.081 579524.390 5937909.601 579522.200 5937907.163 579520.241 5937904.982 579515.207 5937899.376 579490.850 5937872.258 579335.054 5937698.793 579332.864 5937702.812 579332.125 5937704.371 579302.692 5937751.639 579163.096 5937975.826 579150.002 5937974.597 579150.421 5937973.907 579145.706 5937973.109 579139.616 5937972.078 578968.534 5937946.444 578856.304 5937929.776 578784.589 5937919.159 578738.844 5937911.959 578734.892 5937911.370 578673.851 5937901.796 578644.936 5937897.241 578613.118 5937892.241 578609.367 5937916.801 578606.300 5937936.886 578603.215 5937956.977 578600.155 5937977.110 578597.078 5937997.185 578594.014 5938017.287 578590.950 5938037.388 578587.029 5938063.111 578578.665 5938060.467 578483.950 5938046.649 578455.172 5938042.412 578412.219 5938036.086 578381.259 5938273.482 578424.674 5938288.069 578429.455 5938289.778 578449.462 5938296.398 578442.685 5938345.774 578461.583 5938352.740 578463.035 5938360.432 578464.900 5938370.312 578489.361 5938499.913 578493.345 5938521.023 578499.435 5938553.286 578505.696 5938586.462 578512.133 5938620.555 578518.177 5938652.577 578524.727 5938687.275 578532.798 5938730.041 578532.749 5938736.301 578572.832 5938742.575 578572.093 5938748.163 578542.579 5938743.138 578532.708 5938741.458 578532.554 5938742.149 578526.670 5938768.484 578526.511 5938785.217 578522.938 5938785.182 578521.598 5938791.185 578512.319 5938832.707 578505.679 5938862.425 578499.247 5938891.208 578498.313 5938895.385 578495.779 5938922.124 578493.082 5938950.568 578489.604 5938987.245 578475.857 5938991.848 578473.606 5939023.757 578472.634 5939037.563 578466.174 5939129.308 578435.058 5939127.220 578418.148 5939126.085 578401.002 5939124.932 578400.846 5939127.252 578383.687 5939126.431 578367.697 5939125.660 578351.754 5939124.891 578319.849 5939123.282 578319.448 5939123.263 578314.456 5939123.025 578300.927 5939122.381 578300.896 5939122.519 578300.094 5939122.342 578280.247 5939121.398 578249.029 5939119.913 578243.956 5939119.672 578226.987 5939118.865 578217.072 5939118.394 578216.512 5939120.829 578215.065 5939127.123 578208.768 5939126.697 578177.510 5939124.585 578180.777 5939111.318 578106.941 5939113.468 578104.427 5939121.600 578081.820 5939114.200 578055.415 5939114.970 578050.128 5939115.124 578018.539 5939116.043 578000.657 5939116.564 577993.353 5939138.281 577990.869 5939144.753 577991.112 5939157.626 577992.788 5939200.361 577971.998 5939203.466 577932.618 5939216.973 577915.148 5939227.809 577911.545 5939230.071 577915.801 5939239.834 577905.912 5939247.015 577892.839 5939236.423 577885.728 5939242.029 577887.645 5939246.141 577889.472 5939250.294 577890.799 5939253.554 577892.019 5939256.856 577893.129 5939260.197 577894.128 5939263.572 577895.016 5939266.979 577895.791 5939270.412 577896.452 5939273.870 577896.999 5939277.347 577897.774 5939283.561 577898.362 5939289.795 577899.040 5939321.190 577903.846 5939330.603 578020.326 5939348.782 578068.213 5939356.256 578072.104 5939355.554 578075.889 5939358.099 578104.840 5939372.361 578112.888 5939378.218 578117.358 5939378.054 578137.041 5939387.289 578140.221 5939376.099 578142.954 5939366.484 578144.380 5939361.467 578147.170 5939351.652 578148.897 5939345.576 578149.443 5939343.656 578150.336 5939339.668 578151.734 5939333.423 578153.141 5939327.137 578154.464 5939321.229 578154.587 5939320.682 578157.625 5939309.038 578195.721 5939308.938 578225.709 5939308.858 578230.706 5939308.844 578255.197 5939308.781 578284.686 5939308.702 578318.834 5939308.612 578345.435 5939308.542 578350.444 5939308.529 578470.399 5939308.214 578400.275 5939496.909 578450.266 5939520.634 578484.568 5939537.361 578504.889 5939426.802 578510.302 5939381.576 578513.115 5939361.112 578515.465 5939332.653</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_76f97085-5a7b-4955-a872-81a12e95a14c" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>577241.605 5940009.433 577245.149 5940008.244 577247.748 5940005.303 577248.334 5940000.144 577249.227 5939996.298 577253.057 5939992.727 577262.752 5939985.895 577271.086 5939981.710 577278.616 5939981.504 577296.846 5939983.985 577304.243 5939985.592 577315.638 5939988.802 577348.009 5939934.121 577364.009 5939909.036 577374.740 5939892.211 577378.304 5939910.374 577389.054 5939914.474 577399.358 5939896.078 577418.969 5939885.823 577454.758 5939874.384 577453.339 5939854.386 577469.544 5939858.049 577486.090 5939857.826 577491.146 5939861.618 577494.575 5939869.885 577506.374 5939866.568 577503.978 5939856.667 577517.661 5939863.150 577524.212 5939865.051 577534.358 5939865.608 577537.392 5939865.358 577541.529 5939863.946 577544.044 5939863.904 577549.370 5939863.342 577555.665 5939863.112 577570.041 5939865.558 577576.999 5939866.386 577584.508 5939866.758 577590.538 5939866.756 577597.192 5939865.300 577599.837 5939866.774 577613.226 5939868.888 577623.121 5939873.720 577635.970 5939877.744 577655.179 5939890.068 577657.720 5939893.468 577664.591 5939902.943 577667.838 5939904.594 577667.947 5939907.422 577680.328 5939925.742 577690.723 5939947.668 577722.168 5939978.572 577727.407 5939969.675 577734.874 5939968.641 577732.398 5939965.754 577730.972 5939959.327 577729.002 5939948.429 577727.033 5939937.530 577729.287 5939922.345 577732.313 5939919.150 577733.673 5939882.887 577734.302 5939828.397 577729.607 5939828.951 577728.320 5939820.322 577728.119 5939816.172 577728.290 5939815.425 577728.515 5939814.694 577728.795 5939813.981 577729.127 5939813.291 577729.510 5939812.628 577729.941 5939811.995 577730.419 5939811.396 577730.939 5939810.835 577731.501 5939810.314 577732.099 5939809.836 577732.731 5939809.404 577733.394 5939809.021 577734.084 5939808.688 577734.797 5939808.408 577735.528 5939808.182 577736.275 5939808.011 577737.032 5939807.896 577737.795 5939807.838 577738.561 5939807.837 577739.325 5939807.893 577740.082 5939808.006 577740.829 5939808.176 577741.561 5939808.400 577742.274 5939808.679 577742.965 5939809.010 577743.628 5939809.392 577744.262 5939809.822 577744.861 5939810.298 577745.424 5939810.818 577745.946 5939811.378 577746.424 5939811.976 577746.857 5939812.608 577747.619 5939814.187 577748.300 5939815.328 577749.127 5939816.369 577750.084 5939817.291 577751.155 5939818.078 577752.322 5939818.716 577753.562 5939819.193 577754.855 5939819.502 577756.177 5939819.637 577807.889 5939815.620 577807.889 5939657.877 577805.386 5939657.143 577806.087 5939650.149 577777.624 5939651.666 577760.438 5939648.241 577754.101 5939646.545 577747.742 5939649.602 577739.762 5939650.237 577733.312 5939651.796 577691.971 5939539.912 577694.160 5939537.954 577698.939 5939537.865 577702.910 5939536.308 577708.267 5939535.587 577717.895 5939529.037 577728.393 5939523.145 577743.705 5939515.667 577747.263 5939511.551 577754.007 5939501.762 577760.588 5939492.431 577762.267 5939491.281 577767.915 5939487.415 577773.176 5939484.059 577775.909 5939480.598 577789.454 5939467.881 577797.371 5939462.813 577814.610 5939471.871 577823.122 5939475.495 577827.721 5939476.730 577823.559 5939467.161 577819.212 5939457.164 577818.736 5939455.583 577815.277 5939444.076 577809.805 5939425.866 577808.772 5939422.429 577805.672 5939410.650 577802.147 5939400.144 577798.552 5939390.823 577789.156 5939370.350 577787.569 5939366.892 577781.055 5939362.375 577773.565 5939358.502 577769.680 5939357.225 577763.600 5939347.426 577769.493 5939344.409 577777.407 5939340.923 577785.116 5939337.780 577789.079 5939336.288 577793.101 5939334.775 577795.902 5939333.893 577803.686 5939331.443 577809.270 5939329.923 577817.628 5939327.789 577824.518 5939326.428 577830.141 5939325.317 577835.137 5939324.613 577842.771 5939323.538 577855.480 5939322.455 577887.048 5939322.029 577887.033 5939316.031 577886.576 5939310.574 577886.193 5939306.002 577885.693 5939300.032 577885.007 5939291.842 577884.616 5939287.924 577884.102 5939284.019 577883.465 5939280.133 577882.706 5939276.269 577881.826 5939272.431 577880.825 5939268.623 577879.705 5939264.848 577878.466 5939261.110 577877.110 5939257.413 577875.639 5939253.760 577874.053 5939250.156 577872.354 5939246.603 577870.544 5939243.106 577868.625 5939239.667 577866.599 5939236.291 577864.467 5939232.980 577861.473 5939224.776 577857.437 5939217.905 577854.309 5939214.989 577848.457 5939207.712 577841.424 5939194.026 577840.982 5939193.166 577840.030 5939183.540 577832.201 5939171.558 577819.355 5939168.810 577748.285 5939213.837 577754.920 5939224.132 577724.823 5939244.435 577680.619 5939292.853 577643.861 5939328.545 577619.444 5939352.789 577604.369 5939367.759 577607.961 5939376.475 577599.426 5939385.190 577594.514 5939389.217 577585.067 5939396.964 577582.342 5939400.984 577581.378 5939401.903 577568.182 5939414.482 577567.438 5939415.191 577563.730 5939421.074 577557.424 5939425.374 577553.450 5939428.969 577542.583 5939435.195 577549.225 5939447.507 577564.003 5939476.324 577562.476 5939477.189 577568.252 5939500.273 577577.687 5939537.966 577588.007 5939579.620 577568.665 5939584.720 577518.279 5939598.008 577519.715 5939602.796 577515.638 5939609.076 577521.444 5939608.661 577539.694 5939670.674 577535.103 5939673.083 577519.856 5939675.419 577485.260 5939684.379 577464.123 5939689.853 577461.641 5939695.428 577458.963 5939701.441 577427.297 5939689.315 577415.159 5939706.996 577397.866 5939709.391 577388.522 5939708.528 577382.000 5939705.461 577377.096 5939701.132 577373.615 5939695.691 577364.807 5939675.421 577362.667 5939670.628 577347.492 5939677.414 577331.001 5939683.539 577313.651 5939689.984 577283.356 5939701.908 577251.449 5939713.189 577220.831 5939729.948 577203.750 5939738.972 577197.501 5939743.305 577190.006 5939750.172 577185.782 5939755.172 577182.479 5939759.921 577127.766 5939852.547 577091.226 5939914.407 577096.311 5939917.529 577154.730 5939952.210 577163.921 5939956.835 577180.802 5939969.511 577206.721 5939988.752 577224.002 5940002.741 577233.061 5940008.546 577233.878 5940009.426 577234.844 5940008.489 577241.605 5940009.433</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_36">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Hoheluft-West15-Eimsbuettel38</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/eimsbuettel/bplaene-im-verfahren/11562710/hoheluft-west15/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_36_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_36_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_d5e2f326-78df-470b-a625-96e59a6da4ce" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>563379.239 5937277.929 563380.847 5937269.733 563392.766 5937257.619 563400.075 5937256.959 563407.239 5937261.779 563421.279 5937241.635 563436.099 5937220.587 563446.506 5937205.781 563455.001 5937193.976 563469.884 5937176.673 563484.077 5937160.657 563490.065 5937152.445 563520.587 5937127.607 563557.588 5937098.239 563582.667 5937077.685 563598.884 5937064.445 563603.512 5937070.113 563644.450 5937121.633 563643.480 5937122.252 563663.708 5937153.708 563678.382 5937143.895 563701.127 5937177.981 563706.011 5937185.733 563678.886 5937203.827 563657.191 5937220.054 563648.905 5937226.011 563625.173 5937244.258 563609.276 5937256.481 563586.172 5937274.244 563570.075 5937286.622 563553.976 5937299.001 563552.575 5937300.017 563551.326 5937300.806 563549.753 5937301.661 563548.414 5937302.279 563546.794 5937302.904 563545.086 5937303.427 563543.548 5937303.788 563541.793 5937304.076 563540.403 5937304.214 563539.051 5937304.274 563537.386 5937304.247 563535.656 5937304.100 563513.160 5937301.249 563483.421 5937297.423 563436.173 5937291.344 563417.811 5937288.981 563416.739 5937297.409 563400.501 5937295.319 563396.008 5937297.518 563379.239 5937277.929</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_37">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Lokstedt68</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_37_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_37_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_ac5e4eba-fa6b-4840-a6fc-8fe4c9d946a9" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>563073.994 5937675.837 563077.164 5937717.197 563077.775 5937725.174 563069.801 5937725.784 563070.539 5937735.422 563064.774 5937736.387 563063.460 5937736.726 563059.101 5937737.931 563053.580 5937739.852 563048.971 5937741.621 563044.159 5937743.252 563039.194 5937744.652 563033.913 5937745.756 563029.534 5937746.473 563025.913 5937746.920 563021.486 5937747.240 563021.108 5937742.717 563018.286 5937708.971 563060.224 5937705.462 563056.962 5937662.905 563053.329 5937615.504 563003.025 5937619.650 562977.294 5937621.770 562923.209 5937625.996 562915.298 5937626.614 562916.502 5937623.035 562919.699 5937614.673 562925.514 5937609.066 562928.410 5937606.560 562940.990 5937585.346 562944.673 5937578.717 562947.895 5937572.470 562951.237 5937565.457 562954.111 5937558.607 562955.313 5937555.070 562955.291 5937551.222 562968.069 5937513.642 562970.693 5937505.923 562967.998 5937476.719 563041.670 5937451.129 563098.770 5937430.865 563101.580 5937438.784 563113.388 5937485.890 563113.459 5937486.171 563113.707 5937487.158 563114.923 5937492.011 563111.333 5937492.795 563096.769 5937496.267 563094.613 5937497.011 563092.951 5937497.715 563092.055 5937498.333 563091.752 5937498.673 563091.157 5937499.858 563089.531 5937504.998 563086.999 5937515.011 563085.928 5937519.602 563081.992 5937537.110 563081.793 5937544.240 563082.480 5937547.867 563083.305 5937551.002 563084.881 5937553.636 563089.892 5937561.448 563094.283 5937568.002 563095.529 5937569.363 563096.467 5937570.134 563101.905 5937573.311 563106.858 5937576.246 563109.199 5937577.676 563112.121 5937579.660 563113.402 5937580.941 563114.771 5937583.037 563115.617 5937584.244 563117.125 5937587.669 563118.083 5937590.243 563118.899 5937592.860 563120.162 5937598.311 563120.601 5937600.396 563120.918 5937603.724 563121.026 5937605.833 563121.092 5937608.232 563121.034 5937610.025 563117.576 5937626.058 563114.067 5937639.495 563110.184 5937653.380 563108.974 5937658.219 563109.331 5937660.679 563109.420 5937661.714 563109.708 5937665.071 563110.448 5937666.601 563110.608 5937666.782 563111.564 5937668.882 563112.337 5937671.908 563112.168 5937674.753 563107.152 5937674.885 563107.130 5937674.886 563107.196 5937677.384 563098.782 5937676.737 563097.774 5937676.659 563094.736 5937674.060 563073.994 5937675.837</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_38">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Lokstedt69-Eimsbuettel37-Hoheluft-West14</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/eimsbuettel/bplaene-im-verfahren/11038340/lokstedt-69-eim-37-ho-west-14/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_38_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_38_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_1dce3985-934c-45ff-87e9-ef3ae7bec962" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>563610.431 5937608.741 563587.089 5937593.663 563578.187 5937588.039 563570.114 5937583.606 563561.857 5937579.742 563553.437 5937576.438 563533.700 5937570.000 563497.300 5937561.400 563445.900 5937549.700 563374.400 5937532.700 563319.100 5937519.600 563314.100 5937465.300 563304.100 5937376.900 563303.540 5937371.523 563274.732 5937358.829 563283.415 5937319.919 563295.391 5937307.719 563366.390 5937282.495 563379.239 5937277.929 563396.008 5937297.518 563391.767 5937304.029 563387.103 5937310.244 563386.033 5937311.556 563384.944 5937312.852 563383.685 5937314.305 563382.412 5937315.725 563380.561 5937317.711 563378.398 5937319.919 563375.483 5937322.718 563372.186 5937325.663 563370.399 5937327.169 563368.673 5937328.566 563373.215 5937328.701 563381.717 5937329.844 563388.383 5937330.825 563411.990 5937334.295 563430.272 5937336.941 563445.542 5937339.091 563457.157 5937340.693 563463.362 5937341.479 563509.483 5937346.577 563517.709 5937347.493 563533.505 5937350.368 563536.114 5937350.876 563573.286 5937358.056 563591.732 5937361.970 563604.043 5937364.630 563613.952 5937366.686 563639.220 5937374.174 563648.124 5937376.886 563657.720 5937374.573 563681.142 5937386.967 563692.357 5937390.422 563700.277 5937392.635 563694.200 5937398.500 563689.900 5937404.600 563686.300 5937411.900 563682.800 5937421.500 563669.100 5937468.900 563664.200 5937486.500 563662.500 5937495.700 563659.600 5937510.300 563649.600 5937559.600 563637.096 5937625.981 563610.431 5937608.741</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_39">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Niendorf92</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/eimsbuettel/bplaene-im-verfahren/8339748/bebauungsplaene-eimsbuettel/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_39_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_39_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_3d15bcd6-7e1b-46eb-9ff2-9fc23f86f341" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>562981.345 5941794.454 562979.144 5941782.704 562973.126 5941750.578 562960.295 5941682.080 562972.502 5941679.301 562974.889 5941678.758 562977.362 5941678.407 562995.023 5941676.035 563028.004 5941672.209 563044.336 5941670.356 563068.380 5941666.616 563077.491 5941665.199 563089.073 5941663.397 563089.457 5941664.064 563090.046 5941665.087 563102.475 5941691.797 563115.173 5941722.739 563127.076 5941758.176 563132.102 5941778.277 563136.101 5941797.378 563139.506 5941816.359 563144.301 5941896.508 563117.559 5941889.567 563056.589 5941873.741 563051.457 5941872.409 563053.782 5941899.218 563054.365 5941905.943 563054.623 5941908.913 563045.900 5941904.257 563022.507 5941891.777 563021.878 5941891.452 563017.175 5941889.023 562999.448 5941879.869 562992.954 5941849.227 562981.345 5941794.454</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_42">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Niendorf96</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/eimsbuettel/bplaene-im-verfahren/17015296/bebauungsplaene-eimsbuettel/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_42_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_42_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_cc8dc404-6de5-45e3-8196-c8ef36111c74" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>563564.493 5940289.124 563560.106 5940297.004 563556.673 5940302.793 563555.231 5940305.137 563550.092 5940313.107 563548.122 5940316.017 563546.079 5940318.958 563544.697 5940320.903 563539.037 5940328.535 563534.570 5940334.209 563533.130 5940335.977 563526.983 5940343.222 563522.083 5940348.670 563521.096 5940349.728 563514.668 5940356.555 563496.399 5940347.609 563378.293 5940289.763 563379.758 5940308.612 563381.336 5940329.117 563259.411 5940346.103 563257.359 5940332.155 563257.191 5940328.192 563257.743 5940320.706 563257.279 5940311.460 563257.574 5940307.921 563291.903 5940295.703 563314.029 5940286.221 563355.551 5940265.932 563387.509 5940249.850 563460.361 5940212.177 563521.803 5940181.135 563597.196 5940139.660 563597.248 5940147.784 563597.339 5940161.858 563597.397 5940170.998 563597.404 5940172.473 563597.361 5940176.162 563597.157 5940181.322 563597.065 5940182.836 563596.543 5940188.975 563596.046 5940193.186 563595.560 5940196.590 563595.305 5940198.159 563594.045 5940205.246 563593.602 5940207.522 563592.269 5940213.853 563591.283 5940218.234 563590.486 5940221.564 563588.978 5940227.435 563588.493 5940229.224 563586.493 5940236.125 563585.854 5940238.202 563583.588 5940245.166 563582.927 5940247.090 563580.397 5940254.082 563579.641 5940256.068 563576.892 5940262.951 563576.062 5940264.934 563574.013 5940269.664 563573.083 5940271.739 563569.435 5940279.483 563569.030 5940280.308 563564.699 5940288.739 563564.493 5940289.124</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_43">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Rotherbaum37</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/eimsbuettel/bplaene-im-verfahren/16071142/bebauungsplaene-eimsbuettel/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_43_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_43_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_913c6147-e51d-4d1c-a727-f6f721bb6f7a" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565931.982 5935196.323 565869.067 5935016.323 565726.095 5935070.983 565740.647 5935094.795 565741.146 5935095.648 565741.643 5935096.501 565742.139 5935097.356 565742.633 5935098.211 565743.126 5935099.068 565743.617 5935099.925 565744.106 5935100.783 565744.593 5935101.642 565745.079 5935102.503 565745.564 5935103.364 565746.046 5935104.226 565746.527 5935105.089 565747.007 5935105.952 565747.484 5935106.817 565747.960 5935107.683 565748.435 5935108.550 565748.907 5935109.417 565749.378 5935110.285 565749.848 5935111.155 565750.315 5935112.025 565750.781 5935112.896 565751.246 5935113.768 565751.709 5935114.641 565752.170 5935115.515 565752.629 5935116.389 565753.087 5935117.265 565753.543 5935118.141 565753.997 5935119.018 565754.450 5935119.896 565754.901 5935120.775 565755.350 5935121.655 565755.797 5935122.536 565756.243 5935123.418 565756.688 5935124.300 565757.130 5935125.183 565757.571 5935126.067 565758.010 5935126.952 565758.448 5935127.838 565758.883 5935128.725 565759.317 5935129.612 565759.750 5935130.500 565760.181 5935131.389 565760.609 5935132.279 565761.037 5935133.170 565761.462 5935134.062 565761.886 5935134.954 565762.308 5935135.847 565762.729 5935136.741 565763.147 5935137.636 565763.565 5935138.532 565763.980 5935139.428 565764.393 5935140.325 565764.805 5935141.223 565765.215 5935142.122 565765.624 5935143.021 565766.031 5935143.922 565766.436 5935144.823 565766.839 5935145.725 565767.240 5935146.627 565767.640 5935147.531 565768.038 5935148.435 565768.435 5935149.340 565768.829 5935150.246 565769.222 5935151.152 565776.211 5935168.684 565819.527 5935165.122 565820.532 5935165.040 565821.963 5935164.922 565826.008 5935164.579 565841.678 5935163.251 565851.713 5935162.411 565860.737 5935161.656 565863.021 5935161.465 565867.942 5935175.416 565878.090 5935204.185 565880.346 5935204.285 565906.156 5935205.432 565906.582 5935205.282 565910.390 5935203.938 565911.981 5935203.377 565916.509 5935201.781 565924.497 5935198.963 565925.084 5935198.756 565931.982 5935196.323</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_44">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Schnelsen92</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/eimsbuettel/bplaene-im-verfahren/3810410/schnelsen-92.html</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_44_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_44_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_90faf560-573b-46d6-a81e-0abc9078e0f1" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>560384.066 5943294.843 560384.386 5943297.305 560385.409 5943304.787 560388.139 5943321.837 560391.001 5943339.701 560391.905 5943345.352 560392.413 5943349.897 560393.442 5943359.073 560393.552 5943360.056 560393.731 5943361.647 560392.862 5943373.951 560391.712 5943390.309 560390.457 5943407.980 560390.006 5943414.361 560389.966 5943425.036 560389.902 5943441.882 560389.418 5943442.141 560383.340 5943445.387 560377.096 5943448.722 560375.051 5943449.815 560369.804 5943455.329 560366.879 5943458.403 560360.574 5943464.601 560356.557 5943470.145 560346.497 5943484.022 560345.006 5943486.079 560333.252 5943486.371 560317.893 5943486.755 560305.301 5943487.069 560304.033 5943487.101 560266.846 5943475.178 560252.677 5943470.635 560256.855 5943448.410 560259.158 5943433.406 560260.376 5943414.627 560260.356 5943393.416 560251.344 5943282.484 560343.215 5943227.246 560384.066 5943294.843</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_60">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Ochsenwerder15</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_60_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_60_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_68b49a83-51a5-43c0-aa3d-40ff86c0bd79" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>571651.212 5925980.778 571649.872 5925984.077 571632.377 5925969.852 571627.657 5925973.442 571624.573 5925971.084 571608.097 5925956.992 571587.470 5925940.851 571578.903 5925933.823 571572.056 5925928.711 571568.036 5925924.926 571556.953 5925915.826 571546.352 5925906.196 571536.386 5925897.499 571528.863 5925891.390 571524.829 5925888.900 571532.585 5925863.851 571537.467 5925847.731 571541.798 5925832.769 571549.245 5925807.037 571555.019 5925786.776 571562.317 5925788.755 571568.126 5925789.974 571578.464 5925784.763 571584.178 5925758.664 571586.612 5925756.818 571618.892 5925751.011 571637.283 5925748.684 571685.622 5925780.035 571707.025 5925787.446 571724.122 5925799.861 571726.553 5925801.626 571710.057 5925837.351 571707.565 5925842.749 571692.271 5925879.712 571651.212 5925980.778</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_45">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Schnelsen94</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/eimsbuettel/bplaene-im-verfahren/12120160/schnelsen-94/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_45_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_45_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_449f2499-705e-4a97-b1a1-b6df8255a371" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>559943.026 5943306.993 559955.180 5943162.595 559958.598 5943076.232 559959.264 5943070.787 559959.678 5943060.928 559992.262 5943038.003 559994.488 5943036.438 560003.144 5943032.397 560010.973 5943029.878 560009.287 5943012.478 560004.492 5943011.037 559953.718 5942995.898 559949.504 5942994.644 559949.490 5942989.447 559949.398 5942987.156 559915.969 5942977.140 559898.743 5942971.917 559852.857 5942958.037 559815.107 5942946.611 559764.327 5942931.236 559728.092 5942920.297 559712.205 5942915.647 559700.526 5942912.190 559686.754 5942908.999 559667.729 5942905.910 559648.177 5942902.824 559647.859 5942904.799 559648.453 5942910.270 559648.715 5942913.226 559648.978 5942917.136 559652.508 5942980.838 559658.916 5943096.594 559659.512 5943107.367 559662.529 5943161.862 559631.952 5943166.352 559692.579 5943256.432 559721.474 5943235.120 559800.161 5943178.599 559821.115 5943162.623 559827.192 5943170.764 559866.254 5943223.865 559857.947 5943242.285 559851.783 5943255.953 559874.284 5943266.702 559867.689 5943281.051 559920.533 5943305.150 559928.122 5943305.738 559943.026 5943306.993</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_46">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Schnelsen95</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/eimsbuettel/bplaene-im-verfahren/11562850/schnelsen-95/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_46_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_46_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_b4cd6a9f-eb41-4530-9dbd-8a722bce0c80" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>561012.358 5943182.328 561013.261 5943190.072 561009.330 5943229.206 561014.736 5943232.846 561009.531 5943240.483 561005.708 5943256.104 561004.849 5943259.611 560835.658 5943144.861 560840.325 5943135.476 560846.697 5943122.071 560857.049 5943104.023 560865.546 5943089.553 560897.674 5943040.607 560940.229 5942984.989 560950.463 5942975.380 560959.776 5942968.968 560941.916 5942956.653 560940.483 5942955.599 560929.105 5942947.809 560919.886 5942941.495 560909.534 5942937.032 560898.070 5942933.174 560885.098 5942932.304 560846.945 5942929.055 560810.931 5942926.388 560808.960 5942870.385 560813.039 5942870.143 560831.240 5942869.061 560848.773 5942868.022 560849.459 5942867.981 560867.696 5942866.897 560879.558 5942864.551 560876.097 5942849.488 560871.871 5942831.561 560867.898 5942814.096 560863.854 5942796.043 560862.641 5942790.359 560859.998 5942777.973 560856.703 5942760.184 560853.955 5942742.423 560851.298 5942724.540 560848.639 5942706.609 560845.994 5942688.839 560844.007 5942670.743 560843.208 5942652.804 560843.183 5942636.685 560841.965 5942636.664 560843.677 5942622.157 560816.018 5942615.518 560802.100 5942612.176 560797.097 5942610.975 560793.167 5942519.549 560838.475 5942524.082 560866.906 5942529.470 560902.882 5942537.287 560907.560 5942564.387 560909.412 5942571.993 560915.656 5942592.366 560915.762 5942594.641 560923.389 5942622.303 560914.816 5942623.796 560926.980 5942665.497 560935.341 5942714.550 560936.452 5942720.477 560938.304 5942727.356 560941.215 5942736.352 560942.902 5942740.592 560944.721 5942744.462 560949.781 5942753.524 560953.419 5942759.874 560957.090 5942767.050 560958.281 5942770.093 560962.117 5942787.523 560980.936 5942870.404 560999.457 5942954.409 560995.022 5942955.321 560996.821 5942964.072 560997.830 5942968.943 560999.047 5942974.818 561002.416 5942983.923 561018.219 5943075.540 561012.358 5943182.328</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_47">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Schnelsen97</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/eimsbuettel/bplaene-im-verfahren/14525570/schnelsen-97/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_47_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_47_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_fd1ab8af-4364-48fb-b022-63f648a93580" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>560091.916 5944226.454 560090.813 5944226.362 559881.686 5944209.825 559876.721 5944209.374 559876.763 5944204.947 559878.615 5944044.496 559884.185 5944047.127 559884.979 5944017.766 559884.277 5943969.226 559889.816 5943970.745 559904.725 5943974.073 559939.851 5943981.923 559980.133 5943990.924 559988.937 5943949.955 560043.760 5943959.060 560095.037 5943967.578 560135.445 5943974.314 560144.910 5943975.678 560091.916 5944226.454</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_48">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Stellingen69</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_48_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_48_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_59ed610d-bfcc-4be3-8b2f-a197d7bae549" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>561307.919 5938582.294 561293.386 5938577.281 561270.229 5938569.097 561169.433 5938539.043 561154.480 5938533.993 561169.989 5938502.158 561177.876 5938480.413 561195.913 5938435.761 561208.983 5938395.650 561215.596 5938397.805 561262.389 5938412.035 561278.533 5938416.945 561282.076 5938418.019 561283.443 5938418.438 561354.999 5938440.116 561353.435 5938447.571 561368.461 5938451.136 561408.661 5938460.396 561416.283 5938459.849 561415.006 5938442.070 561424.406 5938443.014 561426.660 5938443.322 561429.162 5938443.465 561482.285 5938450.109 561529.531 5938468.519 561531.185 5938469.163 561549.885 5938475.818 561519.956 5938509.102 561497.606 5938534.334 561473.029 5938557.553 561437.882 5938602.166 561413.232 5938630.576 561358.216 5938690.002 561348.727 5938682.826 561342.268 5938677.875 561341.789 5938677.507 561321.989 5938662.329 561329.471 5938649.306 561316.669 5938644.226 561328.565 5938617.419 561329.644 5938614.985 561336.793 5938599.134 561333.575 5938597.810 561334.817 5938593.820 561307.919 5938582.294</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_50">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Bergedorf105</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bergedorf/bebauungsplaene/1420818/bergedorf-105.html</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_50_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_50_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_44d82c5e-d0a5-49d9-b73d-0626f842cb19" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>579777.963 5926947.419 579789.042 5926942.954 579800.122 5926938.489 579801.286 5926938.247 579818.696 5926934.620 579847.804 5926928.755 579886.809 5926921.440 579931.603 5926913.070 579950.196 5926909.890 580002.781 5926900.955 580026.276 5926896.979 580038.063 5926922.362 580042.834 5926927.637 580075.311 5927000.707 580115.919 5927092.067 579831.989 5927183.522 579821.678 5927170.453 579778.146 5927030.401 579776.300 5927019.008 579758.077 5926958.622 579777.963 5926947.419</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_61">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Tonndorf35-Rahlstedt139</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_61_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_61_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_8aebf45b-8aa7-4733-a0ad-f1c5e8ddc3f1" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>575458.666 5938390.636 575483.277 5938398.237 575512.231 5938405.385 575526.700 5938409.375 575534.327 5938413.993 575573.092 5938428.548 575586.345 5938436.934 575569.744 5938586.729 575569.541 5938588.563 575568.443 5938598.472 575563.517 5938596.651 575500.016 5938574.806 575471.895 5938565.129 575325.852 5938512.159 575311.827 5938507.072 575317.919 5938416.762 575323.211 5938342.679 575458.666 5938390.636</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_62">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Eissendorf48</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/harburg/bebauungsplaene/11697392/eissendorf-48/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_62_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_62_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_5c2eb18a-f944-493d-b00e-f7c81931492c" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>564320.168 5922959.089 564339.914 5922933.720 564335.895 5922890.533 564284.613 5922859.929 564288.270 5922853.802 564218.040 5922811.867 564212.108 5922823.097 564200.462 5922824.088 564179.745 5922826.558 564179.456 5922822.070 564179.351 5922817.276 564179.560 5922810.557 564180.101 5922804.927 564181.076 5922799.355 564182.477 5922793.875 564184.297 5922788.520 564203.681 5922753.577 564235.509 5922773.598 564266.000 5922791.600 564299.688 5922811.626 564338.859 5922834.375 564363.854 5922848.409 564396.717 5922867.684 564404.908 5922876.575 564459.650 5922909.050 564489.261 5922927.108 564466.818 5922963.806 564425.793 5922939.034 564429.498 5922932.830 564375.375 5922900.448 564359.552 5922901.901 564354.617 5922910.430 564341.044 5922902.603 564344.027 5922934.910 564317.179 5922969.433 564306.932 5922961.447 564320.168 5922959.089</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_63">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Eissendorf49</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_63_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_63_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_965b09e2-db94-4c03-aed9-5712d282cace" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>562590.192 5923292.934 562609.747 5923230.966 562620.540 5923196.500 562744.269 5923182.550 562743.121 5923172.357 562740.546 5923149.481 562740.021 5923144.817 562741.013 5923144.705 562763.054 5923161.829 562777.854 5923170.531 562830.002 5923188.784 562826.139 5923200.637 562826.495 5923202.375 562826.736 5923204.132 562826.862 5923205.901 562826.872 5923207.675 562826.767 5923209.445 562826.546 5923211.205 562826.211 5923212.947 562825.763 5923214.663 562825.204 5923216.346 562824.537 5923217.989 562815.705 5923237.834 562814.440 5923240.676 562811.451 5923247.388 562810.105 5923250.571 562809.964 5923251.141 562797.320 5923289.110 562798.287 5923302.473 562808.496 5923305.113 562809.096 5923313.232 562809.138 5923313.730 562781.812 5923316.067 562781.770 5923315.569 562779.620 5923307.574 562789.324 5923303.237 562788.774 5923295.544 562788.747 5923294.567 562788.744 5923293.591 562788.774 5923292.326 562788.904 5923290.311 562789.311 5923287.162 562790.173 5923283.232 562790.891 5923280.429 562791.834 5923277.354 562789.548 5923277.525 562590.192 5923292.934</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_64">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Eissendorf50</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/harburg/bebauungsplaene/15542758/eissendorf-50/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_64_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_64_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_871df5ab-1082-4b68-8ff0-95c525414fa6" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>563476.746 5923562.365 563478.226 5923564.225 563479.454 5923565.911 563480.624 5923567.539 563480.839 5923567.864 563474.440 5923593.256 563472.799 5923599.767 563423.475 5923587.486 563420.587 5923586.765 563425.259 5923567.985 563407.416 5923563.457 563420.339 5923527.671 563426.131 5923520.321 563436.924 5923515.329 563476.746 5923562.365</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_66">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Harburg73</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/harburg/bebauungsplaene/11592220/harburg-73/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_66_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_66_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_0092faf4-1290-4f84-b0cb-db977b0f16ed" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565755.911 5924541.863 565748.720 5924551.694 565734.380 5924550.099 565733.268 5924549.975 565731.907 5924553.290 565722.940 5924552.681 565715.795 5924552.166 565715.022 5924548.371 565675.826 5924355.942 565950.130 5924291.097 565953.904 5924304.878 565957.548 5924317.945 565983.704 5924412.038 565999.318 5924475.832 566005.927 5924476.454 566005.999 5924476.700 566007.339 5924481.254 565963.468 5924490.366 565896.239 5924504.379 565834.590 5924517.228 565764.179 5924531.711 565763.214 5924532.899 565755.911 5924541.863</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_69">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Heimfeld54</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_69_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_69_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_2e049c12-137f-4b7c-89fa-5b36583bcd8d" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>560859.956 5926194.686 560857.223 5926188.552 560853.763 5926180.785 560847.468 5926156.203 560846.298 5926154.272 560842.790 5926148.478 560842.389 5926147.639 560841.469 5926145.675 560840.568 5926143.702 560839.813 5926142.003 560839.195 5926140.582 560837.893 5926137.485 560836.435 5926134.458 560834.826 5926131.509 560833.069 5926128.645 560831.169 5926125.874 560830.660 5926125.206 560829.131 5926123.203 560826.961 5926120.639 560824.981 5926118.569 560822.945 5926116.554 560820.853 5926114.598 560818.707 5926112.701 560816.509 5926110.864 560814.260 5926109.090 560811.963 5926107.379 560800.572 5926099.584 560791.701 5926092.747 560783.404 5926086.175 560781.345 5926084.568 560779.346 5926082.887 560777.411 5926081.133 560775.542 5926079.309 560773.741 5926077.417 560772.011 5926075.460 560770.355 5926073.441 560768.376 5926070.666 560766.576 5926067.773 560764.962 5926064.772 560763.539 5926061.675 560762.314 5926058.495 560761.292 5926055.244 560760.477 5926051.935 560760.082 5926049.287 560759.727 5926046.634 560759.413 5926043.975 560759.139 5926041.312 560758.905 5926038.646 560758.673 5926035.307 560758.559 5926033.303 560667.276 5926022.564 560671.664 5925996.473 560691.497 5925894.691 560709.203 5925819.561 560717.280 5925788.307 560725.257 5925757.648 560731.240 5925734.668 560732.565 5925729.576 560830.141 5925717.149 560834.780 5925702.342 560838.376 5925690.865 560847.154 5925664.768 560865.872 5925609.437 560880.930 5925568.754 560892.487 5925539.746 560900.605 5925519.368 560920.389 5925573.380 560937.590 5925614.851 560958.458 5925653.565 560960.943 5925657.731 560963.469 5925661.873 560966.034 5925665.990 560968.638 5925670.083 560971.281 5925674.151 560973.962 5925678.193 560976.683 5925682.210 560986.123 5925680.870 560995.381 5925693.710 560997.538 5925693.404 561005.861 5925692.224 561014.400 5925702.500 561032.349 5925724.083 561046.584 5925739.141 561061.445 5925753.579 561076.907 5925767.374 561092.940 5925780.499 561109.517 5925792.932 561115.812 5925797.372 561122.177 5925801.712 561128.610 5925805.951 561135.108 5925810.088 561141.671 5925814.122 561148.297 5925818.052 561154.984 5925821.877 561162.768 5925826.155 561170.628 5925830.290 561178.563 5925834.281 561186.569 5925838.127 561194.644 5925841.827 561202.785 5925845.379 561210.989 5925848.782 561219.799 5925852.243 561228.675 5925855.532 561237.613 5925858.648 561246.610 5925861.590 561255.663 5925864.357 561264.767 5925866.948 561273.920 5925869.362 561279.061 5925870.635 561284.217 5925871.852 561289.385 5925873.014 561294.565 5925874.118 561299.758 5925875.167 561304.961 5925876.159 561310.175 5925877.094 561311.895 5925877.391 561313.616 5925877.681 561315.338 5925877.965 561317.061 5925878.243 561318.785 5925878.515 561320.511 5925878.780 561322.237 5925879.039 561315.843 5925885.109 561304.671 5925895.715 561308.005 5925896.298 561311.342 5925896.859 561314.684 5925897.397 561318.028 5925897.913 561321.377 5925898.407 561324.728 5925898.878 561328.083 5925899.327 561329.568 5925899.491 561331.052 5925899.660 561332.536 5925899.834 561334.019 5925900.011 561335.502 5925900.194 561336.984 5925900.380 561338.466 5925900.571 561343.863 5925901.194 561349.253 5925901.877 561354.636 5925902.618 561360.010 5925903.418 561365.375 5925904.277 561370.730 5925905.195 561376.075 5925906.171 561340.649 5925932.578 561287.562 5925969.813 561256.042 5925989.536 561171.065 5926040.411 561071.896 5926095.895 560980.283 5926144.005 560915.030 5926175.341 560858.439 5926202.103 560859.956 5926194.686</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_53">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Bergedorf119-Curslack21</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bergedorf/bebauungsplaene/11287258/b-119-c-u-21/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_53_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_53_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_50a406df-d562-413b-a000-ff6e34ca6492" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>582249.906 5925661.690 582229.087 5925667.691 582178.903 5925682.160 582179.945 5925689.080 582162.482 5925691.705 582111.776 5925700.262 582094.446 5925618.082 582093.611 5925614.717 582093.091 5925612.617 582082.278 5925556.668 582074.440 5925517.454 582060.639 5925448.399 582054.675 5925418.558 582084.609 5925412.518 582091.275 5925410.959 582104.072 5925407.969 582116.350 5925405.036 582121.631 5925403.775 582128.627 5925402.103 582118.545 5925357.421 582133.935 5925353.342 582152.695 5925347.178 582193.833 5925334.922 582202.875 5925332.220 582217.842 5925410.725 582230.388 5925479.325 582238.926 5925529.883 582245.926 5925572.467 582251.608 5925617.543 582252.904 5925639.672 582254.703 5925656.694 582254.266 5925660.437 582249.906 5925661.694 582249.906 5925661.690</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_54">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Bergedorf122</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/planen-bauen-wohnen/bebauungsplaene/15032890/b-122/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_54_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_54_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_6b2990af-1fab-4be8-bcee-717f8ecef38a" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>580846.817 5927323.782 580885.025 5927332.121 580905.553 5927336.691 580921.635 5927340.447 580934.003 5927343.335 580953.632 5927349.729 580975.205 5927356.756 580988.235 5927361.172 580989.568 5927361.652 580961.364 5927413.290 580956.370 5927423.040 580954.078 5927435.384 580948.975 5927447.622 580944.179 5927464.278 580938.341 5927462.138 580903.089 5927451.485 580897.167 5927449.694 580887.637 5927446.814 580877.853 5927443.856 580867.818 5927440.822 580850.182 5927435.491 580855.734 5927421.689 580862.879 5927403.922 580829.655 5927392.553 580823.037 5927390.609 580827.903 5927376.389 580830.230 5927366.602 580833.179 5927354.200 580836.169 5927334.387 580837.971 5927322.447 580846.817 5927323.782</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_67">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Heimfeld49</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/harburg/bebauungsplaene/4391026/heimfeld-49/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_67_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_67_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_2d976bac-73ec-42e0-a296-2aeb7898bddb" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>564267.671 5924899.916 564263.574 5924877.331 564261.871 5924867.495 564255.920 5924837.012 564249.605 5924803.252 564246.914 5924788.057 564244.746 5924775.806 564526.561 5924628.677 564533.422 5924641.916 564543.916 5924662.161 564554.424 5924682.446 564565.761 5924702.818 564562.770 5924704.802 564542.323 5924718.366 564508.580 5924745.101 564502.248 5924750.119 564501.103 5924750.973 564425.929 5924807.149 564369.129 5924849.458 564350.898 5924863.037 564316.666 5924885.417 564275.762 5924910.713 564270.097 5924913.305 564267.671 5924899.916</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_68">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Heimfeld51</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/harburg/bebauungsplaene/10402318/heimfeld-51/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_68_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_68_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_1363286a-1467-4ece-95e9-3867319de476" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565101.648 5924618.285 565021.701 5924657.676 564975.634 5924680.374 564969.735 5924668.450 564969.560 5924668.096 564968.330 5924665.612 564966.661 5924662.238 564965.225 5924659.336 564962.184 5924653.189 564959.671 5924648.110 564958.496 5924645.736 564956.037 5924640.767 564950.300 5924629.172 564947.349 5924623.209 564946.203 5924620.892 564945.283 5924619.022 564944.974 5924618.408 564943.744 5924615.923 564942.994 5924614.407 564915.930 5924559.850 564915.113 5924558.140 564913.727 5924555.240 564913.327 5924554.405 564911.639 5924551.264 564905.874 5924540.149 564926.989 5924523.913 564944.597 5924510.296 564971.831 5924486.584 564992.236 5924464.674 565030.040 5924425.736 565035.482 5924420.131 565058.525 5924477.808 565113.717 5924612.339 565101.648 5924618.285</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_55">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Bergedorf99</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bergedorf/bebauungsplaene/2620746/bergedorf-99.html</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_55_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_55_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_81192e85-ba74-446b-ba01-249505687f99" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>580898.923 5926386.246 580846.920 5926406.025 580822.316 5926415.098 580772.473 5926428.779 580745.634 5926439.724 580732.434 5926446.270 580717.364 5926453.108 580694.566 5926469.673 580673.388 5926490.364 580632.557 5926529.446 580617.524 5926543.687 580570.556 5926587.839 580476.602 5926677.181 580409.192 5926741.016 580400.429 5926722.567 580397.440 5926717.735 580398.063 5926717.145 580411.970 5926703.970 580426.479 5926690.226 580459.409 5926659.032 580495.559 5926624.787 580553.287 5926569.978 580575.685 5926543.384 580594.658 5926524.946 580573.450 5926481.648 580558.655 5926479.739 580534.259 5926388.560 580527.604 5926390.568 580493.922 5926400.730 580482.810 5926404.001 580476.740 5926405.464 580442.896 5926414.547 580442.316 5926412.392 580437.502 5926394.494 580427.548 5926355.207 580424.491 5926342.764 580414.630 5926301.964 580405.621 5926265.360 580398.228 5926236.721 580391.353 5926209.753 580242.899 5926249.532 580138.555 5926277.435 580134.958 5926283.250 580137.788 5926299.749 580125.671 5926302.564 580120.430 5926281.958 580108.574 5926238.988 580086.614 5926159.407 580072.272 5926101.984 580069.127 5926088.778 580052.718 5926018.696 580048.116 5925999.037 580037.104 5925952.003 580036.848 5925950.590 580038.980 5925950.200 580048.524 5925948.290 580068.762 5925943.790 580084.752 5925933.407 580086.260 5925932.428 580095.334 5925929.921 580109.971 5925928.327 580122.642 5925927.112 580127.750 5925926.594 580135.981 5925925.760 580203.447 5925932.333 580254.974 5925937.920 580275.045 5925940.917 580291.793 5925944.128 580317.151 5925950.071 580318.666 5925950.426 580318.998 5925950.436 580319.330 5925950.447 580319.662 5925950.460 580319.994 5925950.473 580320.326 5925950.487 580320.658 5925950.503 580320.990 5925950.519 580321.322 5925950.537 580321.654 5925950.556 580321.985 5925950.575 580322.317 5925950.596 580322.649 5925950.618 580322.980 5925950.640 580323.311 5925950.664 580323.643 5925950.689 580323.974 5925950.715 580324.305 5925950.742 580324.636 5925950.770 580324.967 5925950.799 580325.298 5925950.829 580325.629 5925950.861 580325.960 5925950.893 580326.290 5925950.926 580326.621 5925950.960 580326.951 5925950.996 580327.282 5925951.032 580327.612 5925951.070 580327.942 5925951.108 580328.272 5925951.148 580328.602 5925951.188 580328.931 5925951.230 580329.261 5925951.273 580329.590 5925951.316 580329.920 5925951.361 580330.249 5925951.407 580330.578 5925951.454 580330.906 5925951.502 580331.235 5925951.550 580331.564 5925951.600 580331.892 5925951.651 580332.220 5925951.703 580332.548 5925951.757 580332.876 5925951.811 580333.204 5925951.866 580333.531 5925951.922 580333.859 5925951.979 580334.186 5925952.038 580334.513 5925952.097 580334.839 5925952.157 580335.166 5925952.219 580335.492 5925952.281 580335.818 5925952.344 580336.144 5925952.409 580336.470 5925952.474 580336.796 5925952.541 580337.121 5925952.608 580337.446 5925952.677 580337.771 5925952.747 580338.096 5925952.817 580338.420 5925952.889 580338.745 5925952.962 580339.069 5925953.035 580339.392 5925953.110 580339.716 5925953.186 580345.806 5925954.618 580351.898 5925956.040 580357.992 5925957.454 580364.089 5925958.859 580370.187 5925960.255 580376.287 5925961.642 580382.390 5925963.020 580388.494 5925964.389 580394.601 5925965.749 580400.709 5925967.100 580406.820 5925968.443 580412.932 5925969.776 580419.047 5925971.100 580425.163 5925972.415 580431.281 5925973.721 580437.401 5925975.018 580443.523 5925976.307 580449.647 5925977.586 580455.773 5925978.856 580461.901 5925980.117 580468.030 5925981.369 580474.162 5925982.613 580480.295 5925983.847 580486.430 5925985.072 580492.566 5925986.288 580498.705 5925987.495 580504.845 5925988.693 580510.987 5925989.882 580517.131 5925991.062 580523.277 5925992.233 580529.424 5925993.395 580535.573 5925994.548 580541.723 5925995.692 580547.876 5925996.827 580554.030 5925997.953 580560.185 5925999.070 580566.343 5926000.178 580572.501 5926001.276 580578.662 5926002.366 580584.824 5926003.447 580590.988 5926004.518 580597.153 5926005.581 580603.320 5926006.634 580609.488 5926007.679 580615.658 5926008.714 580621.829 5926009.740 580628.002 5926010.757 580634.176 5926011.765 580640.352 5926012.764 580646.529 5926013.754 580652.708 5926014.735 580658.888 5926015.707 580665.070 5926016.670 580671.253 5926017.623 580677.437 5926018.568 580683.623 5926019.503 580689.810 5926020.430 580695.999 5926021.347 580702.189 5926022.255 580708.380 5926023.154 580714.572 5926024.044 580720.766 5926024.925 580726.961 5926025.797 580733.157 5926026.660 580733.178 5926026.662 580733.198 5926026.665 580733.219 5926026.668 580733.239 5926026.671 580733.260 5926026.674 580733.280 5926026.677 580733.301 5926026.680 580733.321 5926026.682 580733.342 5926026.685 580733.362 5926026.688 580733.383 5926026.691 580733.403 5926026.694 580733.424 5926026.697 580733.444 5926026.700 580733.465 5926026.703 580733.485 5926026.705 580733.506 5926026.708 580733.526 5926026.711 580733.547 5926026.714 580733.567 5926026.717 580733.588 5926026.720 580733.608 5926026.723 580733.629 5926026.726 580733.649 5926026.729 580733.669 5926026.732 580733.690 5926026.735 580733.710 5926026.738 580733.731 5926026.741 580733.751 5926026.743 580733.772 5926026.746 580733.792 5926026.749 580733.813 5926026.752 580733.833 5926026.755 580733.854 5926026.758 580733.874 5926026.761 580733.895 5926026.764 580733.915 5926026.767 580733.936 5926026.770 580733.956 5926026.773 580733.977 5926026.776 580733.997 5926026.779 580734.017 5926026.782 580734.038 5926026.785 580734.058 5926026.788 580734.079 5926026.791 580734.099 5926026.794 580734.120 5926026.797 580734.140 5926026.800 580734.161 5926026.803 580734.181 5926026.806 580734.202 5926026.809 580734.222 5926026.812 580734.243 5926026.815 580734.263 5926026.818 580734.283 5926026.821 580734.304 5926026.825 580734.324 5926026.828 580734.345 5926026.831 580734.365 5926026.834 580734.386 5926026.837 580734.406 5926026.840 580734.427 5926026.843 580734.447 5926026.846 580734.468 5926026.849 580755.452 5926030.015 580755.476 5926030.019 580755.499 5926030.022 580755.522 5926030.026 580755.545 5926030.029 580755.569 5926030.033 580755.592 5926030.036 580755.615 5926030.040 580755.639 5926030.043 580755.662 5926030.047 580755.685 5926030.050 580755.709 5926030.053 580755.732 5926030.057 580755.755 5926030.060 580755.779 5926030.064 580755.802 5926030.067 580755.825 5926030.071 580755.849 5926030.074 580755.872 5926030.077 580755.895 5926030.081 580755.919 5926030.084 580755.942 5926030.088 580755.965 5926030.091 580755.989 5926030.094 580756.012 5926030.098 580756.035 5926030.101 580756.059 5926030.105 580756.082 5926030.108 580756.105 5926030.111 580756.129 5926030.115 580756.152 5926030.118 580756.175 5926030.121 580756.199 5926030.125 580756.222 5926030.128 580756.245 5926030.131 580756.269 5926030.135 580756.292 5926030.138 580756.315 5926030.141 580756.339 5926030.144 580756.362 5926030.148 580756.385 5926030.151 580756.409 5926030.154 580756.432 5926030.158 580756.455 5926030.161 580756.479 5926030.164 580756.502 5926030.167 580756.525 5926030.171 580756.549 5926030.174 580756.572 5926030.177 580756.595 5926030.180 580756.619 5926030.183 580756.642 5926030.187 580756.666 5926030.190 580756.689 5926030.193 580756.712 5926030.196 580756.736 5926030.199 580756.759 5926030.203 580756.782 5926030.206 580756.806 5926030.209 580756.829 5926030.212 580756.852 5926030.215 580756.876 5926030.218 580756.899 5926030.222 580756.922 5926030.225 580756.946 5926030.228 580802.359 5926036.311 580824.870 5926039.327 580827.119 5926039.627 580829.368 5926039.924 580831.617 5926040.219 580833.867 5926040.511 580836.117 5926040.801 580838.367 5926041.088 580840.618 5926041.373 580842.869 5926041.655 580845.120 5926041.934 580847.372 5926042.211 580849.624 5926042.486 580851.876 5926042.758 580854.128 5926043.027 580856.381 5926043.294 580858.634 5926043.558 580860.888 5926043.820 580863.142 5926044.079 580865.396 5926044.335 580867.650 5926044.589 580869.904 5926044.841 580872.159 5926045.089 580874.415 5926045.336 580876.670 5926045.579 580878.926 5926045.821 580881.182 5926046.059 580883.438 5926046.295 580885.694 5926046.529 580887.951 5926046.760 580890.208 5926046.988 580892.466 5926047.214 580894.723 5926047.437 580896.981 5926047.658 580899.239 5926047.876 580901.497 5926048.092 580903.756 5926048.305 580906.015 5926048.515 580908.274 5926048.723 580910.533 5926048.928 580912.792 5926049.131 580915.052 5926049.331 580917.312 5926049.529 580919.572 5926049.724 580921.833 5926049.917 580924.093 5926050.107 580926.354 5926050.294 580928.615 5926050.479 580930.876 5926050.661 580933.138 5926050.841 580935.399 5926051.018 580937.661 5926051.193 580939.923 5926051.365 580942.186 5926051.534 580944.448 5926051.701 580946.711 5926051.865 580948.973 5926052.027 580951.236 5926052.186 580953.500 5926052.343 580955.763 5926052.497 580958.026 5926052.648 580960.290 5926052.797 580962.554 5926052.944 580964.818 5926053.087 580967.082 5926053.229 580969.346 5926053.367 581004.871 5926055.522 581010.416 5926080.554 581030.826 5926081.792 581031.946 5926081.873 581033.066 5926081.954 581034.186 5926082.034 581035.306 5926082.113 581036.426 5926082.193 581037.546 5926082.272 581038.666 5926082.350 581039.786 5926082.428 581040.907 5926082.506 581042.027 5926082.584 581043.147 5926082.661 581044.267 5926082.737 581045.388 5926082.814 581046.508 5926082.890 581047.628 5926082.965 581048.749 5926083.040 581049.869 5926083.115 581050.989 5926083.189 581052.110 5926083.263 581053.230 5926083.337 581054.351 5926083.410 581055.471 5926083.483 581056.592 5926083.556 581057.712 5926083.628 581058.833 5926083.700 581059.954 5926083.771 581061.074 5926083.842 581062.195 5926083.913 581063.316 5926083.983 581064.436 5926084.053 581065.557 5926084.122 581066.678 5926084.191 581067.799 5926084.260 581068.919 5926084.328 581070.040 5926084.396 581071.161 5926084.464 581072.282 5926084.531 581073.403 5926084.598 581074.524 5926084.664 581075.645 5926084.730 581076.766 5926084.796 581077.887 5926084.861 581079.008 5926084.926 581080.129 5926084.991 581081.250 5926085.055 581082.371 5926085.119 581083.492 5926085.182 581084.613 5926085.245 581085.734 5926085.308 581086.855 5926085.370 581087.976 5926085.432 581089.098 5926085.494 581090.219 5926085.555 581091.340 5926085.616 581092.461 5926085.676 581093.583 5926085.736 581094.704 5926085.796 581095.825 5926085.855 581096.947 5926085.914 581098.068 5926085.972 581099.189 5926086.030 581100.311 5926086.088 581101.432 5926086.145 581102.554 5926086.202 581105.503 5926097.961 581105.718 5926098.820 581150.140 5926270.806 580898.962 5926364.185 580904.324 5926384.191 580898.923 5926386.246</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_56">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Billwerder30-Bergedorf120-Neuallermoehe2-Lohbruegge95</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bergedorf/bebauungsplaene/14474896/lo95/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_56_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_56_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_fbfe15f3-374a-41e8-bf03-9d7be7b5a867" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>575143.784 5928275.382 575140.807 5928271.975 575119.725 5928291.498 575119.640 5928291.574 575114.827 5928295.845 575091.040 5928316.956 575069.190 5928290.404 575094.326 5928267.348 575117.573 5928245.877 575113.090 5928240.847 575107.125 5928234.154 575105.241 5928232.040 575101.027 5928227.311 575085.400 5928209.021 575081.104 5928203.993 575064.340 5928184.369 575063.797 5928183.733 575062.647 5928182.371 575079.414 5928168.341 575081.237 5928170.437 575099.116 5928190.998 575102.458 5928194.798 575102.900 5928195.301 575102.853 5928195.342 575113.367 5928207.409 575119.135 5928214.030 575122.730 5928218.156 575125.393 5928221.213 575125.557 5928221.069 575133.527 5928230.133 575135.837 5928232.760 575159.684 5928259.881 575161.823 5928262.314 575162.360 5928262.925 575164.993 5928263.845 575179.614 5928269.085 575180.913 5928269.559 575205.230 5928249.554 575205.359 5928249.447 575205.489 5928249.341 575205.619 5928249.235 575205.749 5928249.130 575205.879 5928249.024 575206.009 5928248.919 575206.140 5928248.814 575206.271 5928248.709 575206.402 5928248.604 575206.533 5928248.500 575206.664 5928248.396 575206.795 5928248.292 575206.927 5928248.188 575207.059 5928248.085 575207.191 5928247.981 575207.323 5928247.878 575207.455 5928247.775 575207.588 5928247.673 575207.720 5928247.570 575207.853 5928247.468 575207.986 5928247.366 575208.119 5928247.265 575208.253 5928247.163 575208.386 5928247.062 575208.520 5928246.961 575208.654 5928246.860 575208.788 5928246.759 575208.922 5928246.659 575209.056 5928246.559 575209.191 5928246.459 575209.325 5928246.359 575209.460 5928246.260 575209.595 5928246.160 575209.730 5928246.061 575209.866 5928245.962 575210.001 5928245.864 575210.137 5928245.766 575210.273 5928245.667 575210.409 5928245.570 575210.545 5928245.472 575210.681 5928245.374 575210.818 5928245.277 575210.954 5928245.180 575211.091 5928245.083 575211.228 5928244.987 575211.365 5928244.891 575211.503 5928244.795 575211.640 5928244.699 575211.778 5928244.603 575211.916 5928244.508 575212.053 5928244.413 575212.192 5928244.318 575212.330 5928244.223 575212.468 5928244.129 575212.607 5928244.034 575212.746 5928243.940 575212.884 5928243.847 575213.024 5928243.753 575213.163 5928243.660 575213.302 5928243.567 575213.442 5928243.474 575213.581 5928243.381 575213.721 5928243.289 575214.001 5928243.105 575214.141 5928243.013 575214.281 5928242.920 575214.420 5928242.827 575214.559 5928242.734 575214.699 5928242.641 575214.838 5928242.547 575214.977 5928242.454 575215.115 5928242.360 575215.254 5928242.265 575215.392 5928242.171 575215.531 5928242.076 575215.669 5928241.981 575215.807 5928241.886 575215.945 5928241.791 575216.082 5928241.695 575216.220 5928241.599 575216.357 5928241.503 575216.494 5928241.407 575216.631 5928241.311 575216.768 5928241.214 575216.905 5928241.117 575217.041 5928241.020 575217.177 5928240.922 575217.314 5928240.825 575217.450 5928240.727 575217.585 5928240.629 575217.721 5928240.530 575217.857 5928240.432 575217.992 5928240.333 575218.127 5928240.234 575218.262 5928240.134 575218.397 5928240.035 575218.532 5928239.935 575218.666 5928239.835 575218.800 5928239.735 575218.935 5928239.635 575219.069 5928239.534 575219.202 5928239.433 575219.336 5928239.332 575219.470 5928239.231 575219.603 5928239.130 575219.736 5928239.028 575219.869 5928238.926 575220.002 5928238.824 575220.135 5928238.721 575220.267 5928238.619 575220.399 5928238.516 575220.532 5928238.413 575220.663 5928238.309 575220.795 5928238.206 575220.927 5928238.102 575221.058 5928237.998 575221.190 5928237.894 575221.321 5928237.790 575221.452 5928237.685 575221.582 5928237.580 575221.713 5928237.475 575221.843 5928237.370 575221.973 5928237.264 575222.103 5928237.159 575222.233 5928237.053 575222.363 5928236.947 575222.493 5928236.840 575284.170 5928186.099 575294.808 5928177.348 575517.585 5927995.531 575520.070 5927993.511 575522.563 5927991.501 575525.064 5927989.502 575527.572 5927987.512 575530.089 5927985.532 575532.614 5927983.563 575535.147 5927981.603 575537.687 5927979.654 575540.236 5927977.715 575542.792 5927975.786 575545.355 5927973.867 575547.927 5927971.959 575550.506 5927970.061 575553.092 5927968.173 575555.686 5927966.296 575558.288 5927964.429 575560.897 5927962.573 575563.513 5927960.727 575566.137 5927958.891 575568.768 5927957.066 575571.407 5927955.252 575574.053 5927953.448 575576.705 5927951.655 575579.366 5927949.872 575582.033 5927948.100 575584.707 5927946.339 575587.388 5927944.588 575590.076 5927942.848 575592.772 5927941.119 575595.474 5927939.401 575598.183 5927937.694 575600.899 5927935.997 575603.621 5927934.312 575606.350 5927932.637 575609.086 5927930.973 575611.829 5927929.321 575614.578 5927927.679 575617.334 5927926.048 575620.096 5927924.428 575622.865 5927922.820 575625.640 5927921.222 575628.422 5927919.636 575631.210 5927918.060 575634.004 5927916.496 575636.804 5927914.943 575639.611 5927913.402 575642.423 5927911.871 575645.242 5927910.352 575648.067 5927908.844 575650.898 5927907.348 575653.735 5927905.863 575656.578 5927904.389 575659.426 5927902.926 575662.281 5927901.475 575665.141 5927900.036 575668.007 5927898.608 575670.879 5927897.191 575673.756 5927895.786 575676.639 5927894.393 575679.528 5927893.011 575682.422 5927891.640 575685.322 5927890.281 575688.226 5927888.934 575691.137 5927887.599 575841.503 5927818.959 575841.804 5927818.822 575842.104 5927818.685 575842.405 5927818.549 575842.705 5927818.412 575843.006 5927818.276 575843.307 5927818.140 575843.608 5927818.004 575843.909 5927817.869 575844.210 5927817.733 575844.511 5927817.598 575844.812 5927817.463 575845.114 5927817.328 575845.415 5927817.194 575845.717 5927817.059 575846.018 5927816.925 575846.320 5927816.791 575846.622 5927816.657 575846.924 5927816.524 575847.226 5927816.390 575847.528 5927816.257 575847.830 5927816.124 575848.132 5927815.991 575848.434 5927815.858 575848.737 5927815.726 575849.039 5927815.594 575849.342 5927815.462 575849.644 5927815.330 575849.947 5927815.198 575850.250 5927815.067 575850.553 5927814.936 575850.856 5927814.805 575851.159 5927814.674 575851.462 5927814.543 575851.766 5927814.413 575852.069 5927814.283 575852.372 5927814.153 575852.676 5927814.023 575852.980 5927813.893 575853.283 5927813.764 575853.587 5927813.635 575853.891 5927813.506 575854.195 5927813.377 575854.499 5927813.248 575854.803 5927813.120 575855.107 5927812.992 575855.412 5927812.864 575855.716 5927812.736 575856.020 5927812.608 575856.325 5927812.481 575856.630 5927812.354 575856.934 5927812.227 575857.239 5927812.100 575857.544 5927811.973 575857.849 5927811.847 575858.154 5927811.721 575858.459 5927811.595 575858.764 5927811.469 575859.070 5927811.343 575859.375 5927811.218 575859.681 5927811.093 575859.986 5927810.968 575860.292 5927810.843 575860.598 5927810.718 575860.903 5927810.594 575861.548 5927810.332 575862.192 5927810.069 575862.837 5927809.806 575863.481 5927809.543 575864.125 5927809.279 575864.768 5927809.014 575865.412 5927808.749 575866.055 5927808.484 575866.698 5927808.218 575867.341 5927807.952 575867.984 5927807.685 575868.626 5927807.418 575869.269 5927807.151 575869.911 5927806.883 575870.553 5927806.614 575871.195 5927806.345 575871.836 5927806.076 575872.478 5927805.806 575873.119 5927805.536 575873.760 5927805.265 575874.401 5927804.994 575875.041 5927804.723 575875.682 5927804.451 575876.322 5927804.178 575876.962 5927803.905 575877.602 5927803.632 575878.242 5927803.358 575878.882 5927803.084 575879.521 5927802.809 575880.160 5927802.534 575880.799 5927802.258 575881.438 5927801.982 575882.076 5927801.706 575882.715 5927801.429 575883.353 5927801.152 575883.991 5927800.874 575884.629 5927800.596 575885.266 5927800.317 575885.904 5927800.038 575886.541 5927799.758 575887.178 5927799.478 575887.815 5927799.198 575888.452 5927798.917 575889.088 5927798.635 575889.724 5927798.354 575890.360 5927798.071 575890.996 5927797.789 575891.632 5927797.505 575892.267 5927797.222 575892.902 5927796.938 575893.538 5927796.653 575894.172 5927796.369 575894.807 5927796.083 575895.442 5927795.797 575896.076 5927795.511 575896.710 5927795.225 575897.344 5927794.937 575897.977 5927794.650 575898.611 5927794.362 575899.244 5927794.073 575899.877 5927793.785 575900.510 5927793.495 575901.143 5927793.206 575901.775 5927792.915 576015.943 5927740.484 576017.590 5927739.727 576019.236 5927738.969 576020.882 5927738.212 576022.529 5927737.454 576024.175 5927736.697 576025.821 5927735.939 576027.467 5927735.181 576029.113 5927734.422 576030.759 5927733.664 576032.404 5927732.905 576034.050 5927732.147 576035.696 5927731.388 576037.341 5927730.628 576038.987 5927729.869 576040.632 5927729.110 576042.277 5927728.350 576043.923 5927727.590 576045.568 5927726.830 576047.213 5927726.070 576048.858 5927725.310 576050.503 5927724.549 576052.147 5927723.789 576053.792 5927723.028 576055.437 5927722.267 576057.081 5927721.505 576058.726 5927720.744 576060.370 5927719.983 576062.015 5927719.221 576063.659 5927718.459 576065.303 5927717.697 576066.947 5927716.935 576068.591 5927716.172 576070.235 5927715.410 576071.879 5927714.647 576073.523 5927713.884 576075.166 5927713.121 576076.810 5927712.358 576078.454 5927711.594 576080.097 5927710.831 576081.741 5927710.067 576083.384 5927709.303 576085.027 5927708.539 576086.670 5927707.775 576088.313 5927707.010 576089.956 5927706.245 576091.599 5927705.481 576093.242 5927704.716 576094.885 5927703.951 576096.527 5927703.185 576098.170 5927702.420 576099.812 5927701.654 576101.455 5927700.888 576103.097 5927700.122 576104.739 5927699.356 576106.382 5927698.590 576108.024 5927697.823 576109.666 5927697.056 576111.308 5927696.290 576112.950 5927695.523 576114.591 5927694.755 576114.669 5927694.720 576114.746 5927694.686 576114.825 5927694.654 576114.904 5927694.622 576114.983 5927694.592 576115.063 5927694.564 576115.143 5927694.536 576115.224 5927694.511 576115.305 5927694.486 576115.387 5927694.463 576115.469 5927694.441 576115.551 5927694.421 576115.634 5927694.402 576115.717 5927694.384 576115.800 5927694.368 576115.884 5927694.354 576115.968 5927694.340 576116.052 5927694.329 576116.136 5927694.318 576116.220 5927694.309 576116.305 5927694.302 576116.389 5927694.295 576116.474 5927694.291 576116.559 5927694.287 576116.644 5927694.286 576116.729 5927694.285 576116.814 5927694.286 576116.898 5927694.289 576116.983 5927694.293 576117.068 5927694.298 576117.152 5927694.305 576117.237 5927694.313 576117.321 5927694.323 576117.405 5927694.334 576117.489 5927694.347 576117.573 5927694.361 576117.656 5927694.376 576117.739 5927694.393 576117.822 5927694.411 576117.905 5927694.431 576117.987 5927694.452 576118.069 5927694.474 576118.150 5927694.498 576118.231 5927694.523 576118.312 5927694.550 576118.392 5927694.578 576118.472 5927694.607 576118.551 5927694.638 576118.629 5927694.670 576118.708 5927694.703 576118.785 5927694.737 576118.862 5927694.773 576118.938 5927694.811 576119.014 5927694.849 576119.089 5927694.889 576119.163 5927694.930 576119.237 5927694.972 576119.309 5927695.016 576119.381 5927695.061 576119.453 5927695.107 576119.523 5927695.154 576119.593 5927695.202 576119.662 5927695.252 576119.730 5927695.303 576123.766 5927698.367 576131.165 5927690.250 576133.079 5927689.672 576133.236 5927689.515 576133.394 5927689.358 576133.553 5927689.203 576133.712 5927689.048 576133.873 5927688.895 576134.035 5927688.743 576134.198 5927688.591 576134.362 5927688.441 576134.526 5927688.292 576134.692 5927688.144 576134.859 5927687.997 576135.026 5927687.851 576135.195 5927687.707 576135.365 5927687.563 576135.535 5927687.421 576135.706 5927687.279 576135.879 5927687.139 576136.052 5927687.000 576136.226 5927686.862 576136.401 5927686.725 576136.577 5927686.589 576136.754 5927686.455 576136.932 5927686.321 576137.110 5927686.189 576137.290 5927686.058 576137.470 5927685.928 576137.651 5927685.799 576137.833 5927685.672 576138.016 5927685.545 576138.199 5927685.420 576138.384 5927685.296 576138.569 5927685.174 576138.755 5927685.052 576138.942 5927684.932 576139.130 5927684.813 576139.318 5927684.695 576139.507 5927684.578 576139.697 5927684.463 576139.888 5927684.349 576140.079 5927684.236 576140.271 5927684.124 576140.464 5927684.014 576140.658 5927683.905 576140.852 5927683.797 576141.047 5927683.691 576141.243 5927683.585 576141.439 5927683.481 576141.636 5927683.379 576141.834 5927683.277 576142.032 5927683.177 576142.231 5927683.078 576142.431 5927682.981 576142.631 5927682.884 576142.832 5927682.790 576143.033 5927682.696 576143.236 5927682.604 576143.438 5927682.513 576143.642 5927682.423 576143.846 5927682.335 576144.050 5927682.248 576144.255 5927682.162 576144.461 5927682.078 576144.667 5927681.995 576144.874 5927681.913 576172.226 5927671.221 576171.066 5927665.091 576169.181 5927655.128 576163.338 5927624.258 576161.785 5927624.776 576121.621 5927639.215 576087.803 5927652.444 576021.545 5927678.522 575975.348 5927695.141 575951.171 5927704.490 575936.492 5927710.176 575935.581 5927710.525 575934.716 5927710.858 575885.558 5927729.728 575855.406 5927658.123 575884.662 5927648.580 575965.173 5927624.258 575979.101 5927619.487 576031.424 5927601.567 576068.937 5927588.720 576203.912 5927542.492 576201.101 5927527.160 576199.675 5927519.389 576198.419 5927512.538 576187.486 5927514.291 576176.255 5927516.091 576174.283 5927505.339 576139.031 5927518.629 576129.928 5927533.669 576078.261 5927542.109 576056.770 5927424.917 576160.909 5927405.831 576167.375 5927404.646 576172.006 5927429.894 576172.764 5927429.756 576401.569 5927388.155 576564.506 5927359.555 576605.153 5927385.004 576624.336 5927394.595 576647.156 5927396.580 576761.258 5927374.421 576790.693 5927370.783 576814.175 5927374.090 576867.881 5927386.245 576874.741 5927423.640 576917.039 5927416.785 576923.876 5927407.385 576923.475 5927403.931 576978.633 5927395.091 577027.287 5927387.291 577073.806 5927380.412 577276.108 5927348.518 577373.617 5927332.296 577405.967 5927326.914 577515.892 5927305.341 577573.662 5927295.409 577588.004 5927293.101 577638.499 5927286.694 577668.304 5927285.402 577711.281 5927277.748 577798.663 5927262.220 577806.702 5927306.828 577806.665 5927306.834 577809.822 5927322.525 577809.478 5927322.581 577799.693 5927359.211 577799.121 5927377.040 577805.205 5927380.336 577839.085 5927528.942 577831.901 5927530.145 577803.626 5927534.737 577801.121 5927535.099 577813.292 5927593.237 577831.587 5927677.218 577842.922 5927733.393 577854.750 5927789.455 577861.012 5927817.408 577867.973 5927845.204 577875.215 5927872.938 577881.362 5927893.583 577887.540 5927916.775 577898.158 5927958.385 577901.749 5927971.539 577909.473 5927999.827 577914.880 5928023.467 577919.046 5928041.683 577922.076 5928055.674 577925.244 5928069.632 577927.865 5928078.730 577930.861 5928087.353 577974.312 5928074.771 577982.873 5928072.292 577986.011 5928071.643 577990.588 5928071.091 578002.739 5928070.274 578011.024 5928070.911 578012.004 5928071.070 578028.056 5928073.490 578028.631 5928073.596 578080.429 5928083.093 578098.627 5928087.408 578100.615 5928087.706 578120.964 5928092.518 578129.213 5928094.332 578129.564 5928098.235 578131.045 5928098.401 578131.775 5928112.845 578121.777 5928110.289 578120.230 5928109.894 578118.682 5928109.502 578117.133 5928109.113 578115.584 5928108.726 578114.034 5928108.341 578112.484 5928107.959 578110.933 5928107.580 578109.382 5928107.203 578107.829 5928106.828 578106.277 5928106.456 578104.723 5928106.087 578103.169 5928105.720 578101.615 5928105.355 578100.060 5928104.993 578098.504 5928104.634 578096.948 5928104.277 578095.391 5928103.922 578093.833 5928103.570 578092.275 5928103.221 578090.717 5928102.874 578089.158 5928102.529 578087.598 5928102.187 578086.038 5928101.848 578084.477 5928101.511 578082.916 5928101.176 578081.354 5928100.844 578079.791 5928100.515 578078.229 5928100.188 578076.665 5928099.864 578075.101 5928099.542 578073.537 5928099.222 578071.972 5928098.905 578070.406 5928098.591 578068.840 5928098.279 578067.274 5928097.970 578065.707 5928097.663 578064.139 5928097.359 578062.571 5928097.057 578061.003 5928096.758 578059.434 5928096.461 578057.865 5928096.167 578056.295 5928095.875 578054.725 5928095.586 578053.154 5928095.299 578051.583 5928095.015 578050.011 5928094.734 578048.439 5928094.455 578046.866 5928094.178 578045.293 5928093.904 578043.720 5928093.633 578042.146 5928093.364 578040.571 5928093.097 578038.997 5928092.834 578037.421 5928092.572 578035.846 5928092.313 578034.270 5928092.057 578032.693 5928091.803 578031.116 5928091.552 578029.539 5928091.303 578027.962 5928091.057 578026.384 5928090.814 578024.805 5928090.573 578023.226 5928090.334 578021.647 5928090.098 578021.240 5928090.039 578020.833 5928089.981 578020.426 5928089.925 578020.019 5928089.871 578019.611 5928089.818 578019.203 5928089.768 578018.795 5928089.719 578018.387 5928089.672 578017.978 5928089.627 578017.569 5928089.583 578017.161 5928089.542 578016.751 5928089.502 578016.342 5928089.464 578015.933 5928089.428 578015.523 5928089.393 578015.113 5928089.360 578014.704 5928089.330 578014.294 5928089.300 578013.883 5928089.273 578013.473 5928089.248 578013.063 5928089.224 578012.652 5928089.202 578012.242 5928089.182 578011.831 5928089.164 578011.420 5928089.147 578011.010 5928089.133 578010.599 5928089.120 578010.188 5928089.109 578009.777 5928089.100 578009.366 5928089.092 578008.955 5928089.086 578008.544 5928089.083 578008.133 5928089.081 578007.722 5928089.080 578007.311 5928089.082 578006.900 5928089.085 578006.489 5928089.090 578006.078 5928089.097 578005.667 5928089.106 578005.256 5928089.117 578004.845 5928089.129 578004.434 5928089.143 578004.024 5928089.159 578003.613 5928089.177 578003.203 5928089.197 578002.792 5928089.218 578002.382 5928089.241 578001.971 5928089.266 578001.561 5928089.293 578001.151 5928089.321 578000.741 5928089.352 578000.331 5928089.384 577999.922 5928089.418 577999.512 5928089.454 577999.103 5928089.491 577998.694 5928089.531 577998.285 5928089.572 577997.876 5928089.615 577997.468 5928089.660 577997.059 5928089.706 577996.651 5928089.754 577996.243 5928089.804 577995.835 5928089.856 577995.428 5928089.910 577995.256 5928089.935 577995.084 5928089.961 577994.912 5928089.986 577994.740 5928090.012 577994.568 5928090.039 577994.397 5928090.066 577994.225 5928090.093 577994.053 5928090.120 577993.882 5928090.148 577993.710 5928090.176 577993.539 5928090.205 577993.367 5928090.233 577993.196 5928090.263 577993.025 5928090.292 577992.853 5928090.322 577992.682 5928090.352 577992.511 5928090.383 577992.340 5928090.413 577992.169 5928090.445 577991.998 5928090.476 577991.827 5928090.508 577991.657 5928090.540 577991.486 5928090.573 577991.315 5928090.606 577991.145 5928090.639 577990.974 5928090.673 577990.804 5928090.707 577990.633 5928090.741 577990.463 5928090.775 577990.293 5928090.810 577990.122 5928090.846 577989.952 5928090.881 577989.782 5928090.917 577989.612 5928090.954 577989.442 5928090.990 577989.273 5928091.027 577989.103 5928091.065 577988.933 5928091.102 577988.764 5928091.140 577988.594 5928091.179 577988.425 5928091.217 577988.255 5928091.256 577988.086 5928091.296 577987.917 5928091.335 577987.748 5928091.375 577987.579 5928091.416 577987.410 5928091.457 577987.241 5928091.498 577987.072 5928091.539 577986.903 5928091.581 577986.734 5928091.623 577986.566 5928091.665 577986.397 5928091.708 577986.229 5928091.751 577986.061 5928091.794 577985.893 5928091.838 577985.724 5928091.882 577985.556 5928091.927 577985.388 5928091.971 577985.221 5928092.016 577985.053 5928092.062 577984.885 5928092.108 577984.717 5928092.154 577984.550 5928092.200 577984.336 5928092.254 577984.123 5928092.311 577983.910 5928092.368 577983.698 5928092.428 577983.486 5928092.489 577983.274 5928092.551 577983.063 5928092.616 577982.853 5928092.682 577982.643 5928092.750 577982.434 5928092.819 577982.225 5928092.890 577982.017 5928092.962 577981.809 5928093.037 577981.602 5928093.112 577981.395 5928093.190 577981.189 5928093.269 577980.984 5928093.349 577980.779 5928093.432 577980.575 5928093.516 577980.372 5928093.601 577980.169 5928093.688 577979.967 5928093.777 577979.766 5928093.867 577979.566 5928093.959 577979.366 5928094.052 577979.167 5928094.147 577978.968 5928094.243 577978.771 5928094.341 577978.574 5928094.441 577978.378 5928094.542 577978.183 5928094.644 577977.988 5928094.748 577977.795 5928094.854 577977.602 5928094.961 577977.410 5928095.070 577977.219 5928095.180 577977.028 5928095.291 577976.839 5928095.404 577976.651 5928095.519 577976.463 5928095.635 577976.276 5928095.753 577976.091 5928095.872 577975.906 5928095.992 577975.722 5928096.114 577975.539 5928096.237 577975.357 5928096.362 577975.176 5928096.488 577974.996 5928096.615 577974.817 5928096.744 577974.640 5928096.875 577974.463 5928097.006 577974.287 5928097.139 577974.112 5928097.274 577973.938 5928097.410 577973.765 5928097.547 577973.594 5928097.685 577973.423 5928097.825 577973.254 5928097.966 577973.085 5928098.109 577972.918 5928098.253 577972.752 5928098.398 577972.587 5928098.544 577972.423 5928098.692 577972.261 5928098.841 577969.720 5928101.187 577969.660 5928101.241 577969.601 5928101.296 577969.541 5928101.350 577969.482 5928101.404 577969.422 5928101.459 577969.362 5928101.513 577969.302 5928101.566 577969.242 5928101.620 577969.181 5928101.674 577969.121 5928101.727 577969.061 5928101.781 577969.000 5928101.834 577968.939 5928101.887 577968.878 5928101.940 577968.818 5928101.993 577968.757 5928102.046 577968.695 5928102.098 577968.634 5928102.151 577968.573 5928102.203 577968.511 5928102.255 577968.450 5928102.307 577968.388 5928102.359 577968.326 5928102.411 577968.264 5928102.463 577968.202 5928102.514 577968.140 5928102.566 577968.078 5928102.617 577968.015 5928102.668 577967.953 5928102.719 577967.890 5928102.770 577967.828 5928102.821 577967.765 5928102.872 577967.702 5928102.922 577967.639 5928102.972 577967.576 5928103.023 577967.513 5928103.073 577967.449 5928103.123 577967.386 5928103.172 577967.322 5928103.222 577967.259 5928103.272 577967.195 5928103.321 577967.131 5928103.370 577967.067 5928103.420 577967.003 5928103.469 577966.939 5928103.517 577966.875 5928103.566 577966.810 5928103.615 577966.746 5928103.663 577966.681 5928103.712 577966.617 5928103.760 577966.552 5928103.808 577966.487 5928103.856 577966.422 5928103.903 577966.357 5928103.951 577966.292 5928103.999 577966.226 5928104.046 577966.161 5928104.093 577966.095 5928104.140 577966.030 5928104.187 577965.964 5928104.234 577965.898 5928104.281 577965.832 5928104.327 577965.766 5928104.374 577965.700 5928104.420 577965.634 5928104.466 577965.567 5928104.512 577965.501 5928104.558 577965.435 5928104.604 577965.368 5928104.650 577965.302 5928104.696 577965.235 5928104.741 577965.168 5928104.787 577965.101 5928104.832 577965.035 5928104.877 577964.968 5928104.922 577964.901 5928104.967 577964.834 5928105.012 577964.767 5928105.057 577964.699 5928105.102 577964.632 5928105.147 577964.565 5928105.191 577964.497 5928105.236 577964.430 5928105.280 577964.362 5928105.324 577964.295 5928105.369 577964.227 5928105.413 577964.159 5928105.457 577964.092 5928105.500 577964.024 5928105.544 577963.956 5928105.588 577963.888 5928105.631 577963.820 5928105.675 577963.752 5928105.718 577963.684 5928105.762 577963.615 5928105.805 577963.547 5928105.848 577963.479 5928105.891 577963.410 5928105.934 577963.342 5928105.976 577963.273 5928106.019 577963.205 5928106.061 577963.136 5928106.104 577963.067 5928106.146 577962.998 5928106.188 577962.930 5928106.231 577962.861 5928106.273 577962.792 5928106.315 577962.723 5928106.356 577962.653 5928106.398 577962.584 5928106.440 577962.515 5928106.481 577962.446 5928106.523 577962.376 5928106.564 577962.307 5928106.605 577962.237 5928106.646 577962.168 5928106.687 577962.098 5928106.728 577962.029 5928106.769 577961.959 5928106.810 577961.889 5928106.850 577961.819 5928106.891 577961.749 5928106.931 577961.679 5928106.971 577961.609 5928107.011 577961.539 5928107.051 577961.469 5928107.091 577961.399 5928107.131 577961.328 5928107.171 577958.058 5928109.017 577954.200 5928112.700 577951.200 5928116.300 577950.400 5928117.200 577948.900 5928119.500 577945.100 5928128.000 577944.500 5928133.400 577943.715 5928136.735 577939.592 5928134.611 577934.996 5928144.574 577930.639 5928154.738 577929.658 5928157.398 577918.817 5928153.299 577920.803 5928148.048 577920.820 5928148.002 577920.837 5928147.956 577920.854 5928147.910 577920.871 5928147.864 577920.888 5928147.818 577920.905 5928147.772 577920.921 5928147.726 577920.938 5928147.680 577920.954 5928147.634 577920.970 5928147.587 577920.986 5928147.541 577921.002 5928147.495 577921.018 5928147.448 577921.033 5928147.402 577921.049 5928147.355 577921.064 5928147.309 577921.079 5928147.262 577921.095 5928147.215 577921.110 5928147.169 577921.124 5928147.122 577921.139 5928147.075 577921.154 5928147.028 577921.168 5928146.981 577921.183 5928146.935 577921.197 5928146.888 577921.211 5928146.841 577921.225 5928146.794 577921.239 5928146.747 577921.253 5928146.700 577921.266 5928146.653 577921.280 5928146.605 577921.293 5928146.558 577921.306 5928146.511 577921.319 5928146.464 577921.332 5928146.416 577921.345 5928146.369 577921.358 5928146.322 577921.370 5928146.274 577921.383 5928146.227 577921.395 5928146.179 577921.407 5928146.132 577921.419 5928146.084 577921.431 5928146.037 577921.443 5928145.989 577921.455 5928145.942 577921.466 5928145.894 577921.478 5928145.846 577921.489 5928145.799 577921.500 5928145.751 577921.511 5928145.703 577921.522 5928145.655 577921.533 5928145.607 577921.544 5928145.560 577921.554 5928145.512 577921.564 5928145.464 577921.575 5928145.416 577921.585 5928145.368 577921.595 5928145.320 577921.605 5928145.272 577921.614 5928145.224 577921.624 5928145.176 577921.633 5928145.127 577921.643 5928145.079 577921.652 5928145.031 577921.955 5928143.432 577921.969 5928143.358 577921.983 5928143.285 577921.997 5928143.212 577922.012 5928143.138 577922.027 5928143.065 577922.042 5928142.992 577922.058 5928142.919 577922.074 5928142.846 577922.090 5928142.773 577922.106 5928142.700 577922.123 5928142.627 577922.139 5928142.554 577922.156 5928142.481 577922.174 5928142.408 577922.191 5928142.336 577922.209 5928142.263 577922.227 5928142.190 577922.245 5928142.118 577922.264 5928142.045 577922.282 5928141.973 577922.301 5928141.901 577922.321 5928141.829 577922.340 5928141.756 577922.360 5928141.684 577922.380 5928141.612 577922.400 5928141.540 577922.420 5928141.468 577922.441 5928141.396 577922.462 5928141.325 577922.483 5928141.253 577922.505 5928141.181 577922.526 5928141.110 577922.548 5928141.038 577922.571 5928140.967 577922.593 5928140.896 577922.616 5928140.824 577922.638 5928140.753 577922.662 5928140.682 577922.685 5928140.611 577922.709 5928140.540 577922.732 5928140.469 577922.757 5928140.398 577922.781 5928140.328 577922.805 5928140.257 577922.830 5928140.187 577922.855 5928140.116 577922.881 5928140.046 577922.906 5928139.975 577922.932 5928139.905 577922.958 5928139.835 577922.984 5928139.765 577923.011 5928139.695 577923.037 5928139.625 577923.064 5928139.556 577923.092 5928139.486 577923.119 5928139.417 577923.147 5928139.347 577923.175 5928139.278 577923.203 5928139.208 577923.231 5928139.139 577923.260 5928139.070 577923.289 5928139.001 577923.318 5928138.932 577923.347 5928138.864 577926.858 5928130.668 577925.612 5928117.739 577874.773 5928094.823 577870.004 5928092.674 577835.622 5928075.340 577789.969 5928049.676 577741.352 5928022.347 577727.812 5928014.735 577679.859 5927987.779 577679.379 5927987.512 577678.895 5927987.251 577678.409 5927986.995 577677.920 5927986.744 577677.429 5927986.499 577676.935 5927986.259 577676.438 5927986.024 577675.939 5927985.794 577675.437 5927985.570 577674.933 5927985.352 577674.427 5927985.139 577673.918 5927984.931 577673.407 5927984.729 577672.894 5927984.533 577672.379 5927984.342 577671.861 5927984.156 577671.342 5927983.977 577670.821 5927983.802 577670.298 5927983.634 577669.773 5927983.471 577669.247 5927983.314 577668.719 5927983.163 577668.189 5927983.017 577667.658 5927982.877 577667.125 5927982.743 577666.591 5927982.615 577666.055 5927982.492 577665.518 5927982.376 577664.980 5927982.265 577664.441 5927982.160 577663.900 5927982.060 577663.359 5927981.967 577662.817 5927981.880 577662.273 5927981.798 577661.729 5927981.722 577661.184 5927981.652 577660.639 5927981.588 577660.092 5927981.530 577659.545 5927981.478 577658.998 5927981.432 577658.450 5927981.392 577657.901 5927981.358 577657.353 5927981.329 577656.804 5927981.307 577656.255 5927981.290 577655.705 5927981.280 577655.156 5927981.275 577654.606 5927981.277 577654.057 5927981.284 577653.508 5927981.297 577652.959 5927981.317 577652.410 5927981.342 577651.861 5927981.373 577651.313 5927981.410 577650.766 5927981.453 577650.218 5927981.502 577649.672 5927981.557 577649.126 5927981.618 577648.580 5927981.684 577648.036 5927981.757 577647.492 5927981.835 577646.949 5927981.920 577646.407 5927982.010 577645.866 5927982.106 577593.245 5927991.758 577515.228 5928006.069 577523.583 5928051.605 577507.789 5928054.458 577466.365 5928061.942 577405.539 5928072.931 577361.464 5928080.894 577343.187 5928090.558 577281.248 5928123.308 577286.645 5928152.681 577293.596 5928190.510 577285.537 5928191.977 577213.097 5928205.158 577143.235 5928217.871 577138.003 5928218.823 577146.979 5928268.184 577076.688 5928281.078 577001.511 5928294.868 576964.312 5928301.692 576926.946 5928308.546 576852.754 5928322.155 576785.207 5928334.546 576781.556 5928314.646 576774.012 5928315.858 576729.824 5928322.958 576657.187 5928314.277 576656.079 5928314.145 576594.719 5928325.371 576588.431 5928291.000 576585.825 5928291.477 576555.248 5928297.077 576544.336 5928299.076 576542.884 5928291.157 576468.051 5928304.895 576463.730 5928281.381 576439.214 5928147.960 576427.624 5928084.883 576419.585 5928086.358 576385.036 5928092.695 576374.343 5928034.399 576370.637 5928035.077 576255.448 5928056.149 576231.131 5927923.269 576203.425 5927771.866 576191.680 5927774.019 576183.417 5927730.358 576137.929 5927738.702 576137.855 5927738.715 576137.780 5927738.727 576137.706 5927738.738 576137.631 5927738.747 576137.556 5927738.756 576137.481 5927738.763 576137.406 5927738.770 576137.331 5927738.775 576137.256 5927738.779 576137.181 5927738.782 576137.105 5927738.783 576137.030 5927738.784 576136.955 5927738.784 576136.879 5927738.782 576136.804 5927738.779 576136.729 5927738.775 576136.654 5927738.770 576136.579 5927738.764 576136.504 5927738.757 576136.429 5927738.748 576136.354 5927738.739 576136.280 5927738.728 576136.205 5927738.716 576136.131 5927738.703 576136.057 5927738.689 576135.984 5927738.674 576135.910 5927738.658 576135.837 5927738.640 576135.764 5927738.622 576135.691 5927738.602 576135.619 5927738.582 576135.547 5927738.560 576135.475 5927738.537 576135.403 5927738.513 576135.332 5927738.488 576135.262 5927738.462 576135.191 5927738.435 576135.122 5927738.407 576135.052 5927738.377 576134.983 5927738.347 576134.915 5927738.316 576134.847 5927738.283 576134.779 5927738.250 576134.712 5927738.216 576134.646 5927738.180 576134.580 5927738.144 576134.514 5927738.107 576134.450 5927738.068 576134.385 5927738.029 576134.322 5927737.989 576134.259 5927737.947 576134.196 5927737.905 576134.135 5927737.862 576134.074 5927737.818 576134.013 5927737.773 576133.953 5927737.727 576133.894 5927737.681 576133.836 5927737.633 576133.778 5927737.584 576133.722 5927737.535 576133.666 5927737.485 576133.610 5927737.434 576133.556 5927737.382 576133.502 5927737.329 576106.685 5927742.248 576106.332 5927742.314 576105.979 5927742.380 576105.627 5927742.449 576105.275 5927742.518 576104.923 5927742.589 576104.571 5927742.661 576104.220 5927742.735 576103.869 5927742.810 576103.518 5927742.886 576103.168 5927742.964 576102.818 5927743.043 576102.468 5927743.124 576102.119 5927743.206 576101.770 5927743.289 576101.421 5927743.373 576101.072 5927743.459 576100.724 5927743.547 576100.376 5927743.635 576100.029 5927743.725 576099.682 5927743.817 576099.335 5927743.909 576098.989 5927744.003 576098.643 5927744.099 576098.297 5927744.195 576097.952 5927744.293 576097.607 5927744.393 576097.263 5927744.494 576096.919 5927744.596 576096.575 5927744.699 576096.232 5927744.804 576095.889 5927744.910 576095.546 5927745.017 576095.204 5927745.126 576094.863 5927745.236 576094.522 5927745.348 576094.181 5927745.460 576093.840 5927745.575 576093.501 5927745.690 576093.161 5927745.807 576092.822 5927745.925 576092.484 5927746.044 576092.146 5927746.165 576091.808 5927746.287 576091.471 5927746.410 576091.135 5927746.535 576090.799 5927746.661 576090.463 5927746.788 576090.128 5927746.916 576089.793 5927747.046 576089.459 5927747.177 576089.126 5927747.310 576088.793 5927747.444 576088.460 5927747.579 576088.128 5927747.715 576087.797 5927747.853 576087.466 5927747.992 576087.135 5927748.132 576086.805 5927748.273 576086.476 5927748.416 576086.147 5927748.560 576085.819 5927748.705 576085.492 5927748.852 576085.165 5927749.000 576084.838 5927749.149 576045.387 5927767.266 576045.268 5927767.321 576045.150 5927767.377 576045.033 5927767.433 576044.915 5927767.490 576044.798 5927767.547 576044.681 5927767.606 576044.565 5927767.665 576044.449 5927767.724 576044.333 5927767.784 576044.218 5927767.845 576044.103 5927767.907 576043.988 5927767.969 576043.874 5927768.032 576043.760 5927768.096 576043.646 5927768.160 576043.533 5927768.225 576043.421 5927768.291 576043.308 5927768.357 576043.196 5927768.424 576043.085 5927768.492 576042.973 5927768.560 576042.863 5927768.629 576042.752 5927768.699 576042.642 5927768.769 576042.533 5927768.840 576042.424 5927768.911 576042.315 5927768.984 576042.207 5927769.056 576042.099 5927769.130 576041.991 5927769.204 576041.884 5927769.278 576041.778 5927769.354 576041.672 5927769.430 576041.566 5927769.506 576041.461 5927769.583 576041.356 5927769.661 576041.252 5927769.740 576041.148 5927769.819 576041.045 5927769.898 576040.942 5927769.979 576040.839 5927770.059 576040.737 5927770.141 576040.636 5927770.223 576040.535 5927770.305 576040.434 5927770.389 576040.334 5927770.472 576040.235 5927770.557 576040.136 5927770.642 576040.037 5927770.727 576039.939 5927770.814 576039.842 5927770.900 576039.745 5927770.987 576039.648 5927771.075 576039.552 5927771.164 576039.457 5927771.253 576039.362 5927771.342 576039.267 5927771.432 576039.174 5927771.523 576039.080 5927771.614 576038.987 5927771.706 576038.895 5927771.798 576038.803 5927771.891 576038.712 5927771.984 576038.622 5927772.078 576038.621 5927772.079 576038.483 5927772.222 576038.343 5927772.365 576038.203 5927772.507 576038.063 5927772.648 576037.921 5927772.789 576037.779 5927772.929 576037.636 5927773.068 576037.492 5927773.206 576037.348 5927773.344 576037.202 5927773.481 576037.057 5927773.617 576036.910 5927773.752 576036.763 5927773.887 576036.615 5927774.020 576036.466 5927774.153 576036.316 5927774.285 576036.166 5927774.417 576036.015 5927774.547 576035.864 5927774.677 576035.712 5927774.806 576035.559 5927774.934 576035.405 5927775.062 576035.251 5927775.188 576035.096 5927775.314 576034.940 5927775.439 576034.784 5927775.563 576034.627 5927775.686 576034.470 5927775.808 576034.312 5927775.930 576034.153 5927776.051 576033.993 5927776.171 576033.833 5927776.290 576033.673 5927776.408 576033.511 5927776.525 576033.349 5927776.642 576033.187 5927776.757 576033.024 5927776.872 576032.860 5927776.986 576032.695 5927777.099 576032.530 5927777.211 576032.365 5927777.323 576032.199 5927777.433 576032.032 5927777.543 576031.865 5927777.651 576031.697 5927777.759 576031.528 5927777.866 576031.359 5927777.972 576031.190 5927778.077 576031.020 5927778.181 576030.849 5927778.285 576030.678 5927778.387 576030.506 5927778.488 576030.334 5927778.589 576030.161 5927778.689 576029.988 5927778.787 576029.814 5927778.885 576029.639 5927778.982 576029.465 5927779.078 576029.289 5927779.173 576029.113 5927779.267 576028.937 5927779.361 576028.760 5927779.453 576028.583 5927779.544 576028.405 5927779.635 576020.905 5927782.468 576020.791 5927782.497 576020.677 5927782.526 576020.563 5927782.555 576020.449 5927782.584 576020.334 5927782.612 576020.220 5927782.639 576020.105 5927782.667 576019.991 5927782.694 576019.876 5927782.720 576019.761 5927782.747 576019.646 5927782.773 576019.531 5927782.798 576019.416 5927782.823 576019.301 5927782.848 576019.186 5927782.873 576019.071 5927782.897 576018.955 5927782.921 576018.840 5927782.944 576018.725 5927782.967 576018.609 5927782.990 576018.493 5927783.012 576018.378 5927783.034 576018.262 5927783.056 576018.146 5927783.077 576018.030 5927783.098 576017.914 5927783.118 576017.798 5927783.139 576017.682 5927783.158 576017.566 5927783.178 576017.450 5927783.197 576017.333 5927783.216 576017.217 5927783.234 576017.101 5927783.252 576016.984 5927783.270 576016.868 5927783.287 576016.751 5927783.304 576016.635 5927783.320 576016.518 5927783.336 576016.401 5927783.352 576016.284 5927783.368 576016.168 5927783.383 576016.051 5927783.398 576015.934 5927783.412 576015.817 5927783.426 576015.700 5927783.439 576015.583 5927783.453 576015.466 5927783.466 576015.349 5927783.478 576015.232 5927783.490 576015.114 5927783.502 576014.997 5927783.514 576014.880 5927783.525 576014.763 5927783.535 576014.645 5927783.546 576014.528 5927783.556 576014.411 5927783.565 576014.293 5927783.574 576014.176 5927783.583 576014.058 5927783.592 576013.941 5927783.600 576013.823 5927783.608 576013.706 5927783.615 576013.588 5927783.622 576013.471 5927783.629 576013.470 5927783.629 576013.340 5927783.636 576013.210 5927783.645 576013.079 5927783.654 576012.949 5927783.664 576012.819 5927783.674 576012.689 5927783.686 576012.559 5927783.698 576012.430 5927783.711 576012.300 5927783.724 576012.170 5927783.739 576012.040 5927783.754 576011.911 5927783.770 576011.782 5927783.787 576011.652 5927783.804 576011.523 5927783.822 576011.394 5927783.841 576011.265 5927783.861 576011.136 5927783.881 576011.007 5927783.903 576010.879 5927783.925 576010.750 5927783.947 576010.622 5927783.971 576010.494 5927783.995 576010.366 5927784.020 576010.238 5927784.046 576010.110 5927784.073 576009.982 5927784.100 576009.855 5927784.128 576009.728 5927784.157 576009.600 5927784.186 576009.474 5927784.216 576009.347 5927784.247 576009.220 5927784.279 576009.094 5927784.312 576008.968 5927784.345 576008.842 5927784.379 576008.716 5927784.413 576008.590 5927784.449 576008.465 5927784.485 576008.340 5927784.522 576008.215 5927784.560 576008.090 5927784.598 576007.966 5927784.637 576007.841 5927784.677 576007.717 5927784.717 576007.594 5927784.759 576007.470 5927784.801 576007.347 5927784.844 576007.224 5927784.887 576007.101 5927784.931 576006.978 5927784.976 576006.856 5927785.022 576006.734 5927785.068 576006.612 5927785.115 576006.491 5927785.163 576006.370 5927785.211 576006.249 5927785.261 576006.128 5927785.310 576006.008 5927785.361 576005.888 5927785.412 576005.769 5927785.464 576005.649 5927785.517 576005.530 5927785.570 576005.411 5927785.625 575941.017 5927815.197 575940.759 5927815.317 575940.501 5927815.438 575940.244 5927815.560 575939.988 5927815.684 575939.732 5927815.809 575939.477 5927815.936 575939.223 5927816.064 575938.970 5927816.194 575938.717 5927816.325 575938.466 5927816.458 575938.215 5927816.592 575937.964 5927816.727 575937.715 5927816.864 575937.466 5927817.003 575937.218 5927817.142 575936.971 5927817.283 575936.724 5927817.426 575936.479 5927817.570 575936.234 5927817.715 575935.990 5927817.862 575935.747 5927818.010 575935.505 5927818.159 575935.264 5927818.310 575935.023 5927818.463 575934.784 5927818.616 575934.545 5927818.771 575934.307 5927818.927 575934.070 5927819.085 575933.834 5927819.244 575933.599 5927819.404 575933.365 5927819.566 575933.131 5927819.729 575932.899 5927819.893 575932.668 5927820.059 575932.437 5927820.226 575932.208 5927820.394 575931.979 5927820.564 575931.751 5927820.735 575931.525 5927820.907 575931.299 5927821.081 575931.074 5927821.255 575930.851 5927821.431 575930.628 5927821.609 575930.407 5927821.787 575930.186 5927821.967 575929.966 5927822.148 575929.748 5927822.331 575929.530 5927822.514 575929.314 5927822.699 575929.098 5927822.885 575928.884 5927823.072 575928.671 5927823.261 575928.459 5927823.450 575928.248 5927823.641 575928.038 5927823.833 575927.829 5927824.027 575927.621 5927824.221 575927.414 5927824.417 575927.209 5927824.614 575927.004 5927824.812 575926.801 5927825.011 575926.599 5927825.211 575926.398 5927825.413 575926.198 5927825.615 575896.340 5927856.049 575896.215 5927856.177 575896.088 5927856.303 575895.961 5927856.429 575895.833 5927856.554 575895.704 5927856.679 575895.574 5927856.802 575895.444 5927856.925 575895.313 5927857.047 575895.181 5927857.168 575895.048 5927857.289 575894.915 5927857.408 575894.781 5927857.527 575894.646 5927857.645 575894.511 5927857.762 575894.374 5927857.879 575894.238 5927857.994 575894.100 5927858.109 575893.962 5927858.222 575893.823 5927858.335 575893.683 5927858.448 575893.543 5927858.559 575893.402 5927858.669 575893.260 5927858.779 575893.118 5927858.887 575892.975 5927858.995 575892.831 5927859.102 575892.687 5927859.208 575892.542 5927859.314 575892.397 5927859.418 575892.250 5927859.521 575892.104 5927859.624 575891.956 5927859.726 575891.808 5927859.826 575891.659 5927859.926 575891.510 5927860.025 575891.360 5927860.123 575891.210 5927860.220 575891.059 5927860.317 575890.907 5927860.412 575890.755 5927860.506 575890.602 5927860.600 575890.449 5927860.692 575890.295 5927860.784 575890.141 5927860.874 575889.986 5927860.964 575889.830 5927861.053 575889.674 5927861.141 575889.517 5927861.228 575889.360 5927861.314 575889.203 5927861.399 575889.044 5927861.483 575888.886 5927861.566 575888.727 5927861.648 575888.567 5927861.729 575888.407 5927861.809 575888.246 5927861.888 575888.085 5927861.966 575887.924 5927862.043 575887.762 5927862.120 575887.599 5927862.195 575887.436 5927862.269 575887.273 5927862.342 575887.109 5927862.415 575886.944 5927862.486 575712.372 5927937.593 575708.885 5927939.104 575705.405 5927940.633 575701.934 5927942.181 575698.471 5927943.746 575695.016 5927945.330 575691.569 5927946.931 575688.131 5927948.550 575684.701 5927950.188 575681.280 5927951.843 575677.867 5927953.515 575674.463 5927955.206 575671.068 5927956.914 575667.682 5927958.640 575664.305 5927960.384 575660.937 5927962.145 575657.579 5927963.924 575654.229 5927965.720 575650.890 5927967.533 575647.559 5927969.364 575644.238 5927971.212 575640.927 5927973.078 575637.626 5927974.961 575634.334 5927976.861 575631.052 5927978.778 575627.781 5927980.712 575624.519 5927982.663 575621.268 5927984.631 575618.027 5927986.616 575614.796 5927988.618 575611.576 5927990.636 575608.367 5927992.672 575605.168 5927994.724 575601.979 5927996.792 575598.802 5927998.878 575595.635 5928000.979 575592.480 5928003.098 575589.335 5928005.232 575586.202 5928007.383 575583.080 5928009.550 575579.969 5928011.734 575576.870 5928013.934 575573.782 5928016.149 575570.706 5928018.381 575567.642 5928020.629 575564.589 5928022.893 575561.548 5928025.173 575558.519 5928027.468 575555.502 5928029.779 575552.497 5928032.106 575549.504 5928034.449 575546.524 5928036.807 575543.555 5928039.180 575540.599 5928041.569 575537.656 5928043.973 575534.725 5928046.393 575531.807 5928048.828 575528.902 5928051.278 575526.009 5928053.743 575523.129 5928056.223 575520.263 5928058.718 575517.409 5928061.228 575514.568 5928063.753 575511.741 5928066.293 575508.926 5928068.847 575484.941 5928090.731 575484.752 5928090.904 575484.563 5928091.076 575484.373 5928091.248 575484.183 5928091.420 575483.993 5928091.591 575483.803 5928091.762 575483.612 5928091.933 575483.421 5928092.104 575483.230 5928092.274 575483.039 5928092.445 575482.848 5928092.615 575482.656 5928092.784 575482.464 5928092.954 575482.272 5928093.123 575482.080 5928093.292 575481.888 5928093.461 575481.695 5928093.629 575481.502 5928093.798 575481.309 5928093.966 575481.115 5928094.133 575480.922 5928094.301 575480.728 5928094.468 575480.534 5928094.635 575480.340 5928094.802 575480.145 5928094.969 575479.951 5928095.135 575479.756 5928095.301 575479.561 5928095.467 575479.366 5928095.632 575479.170 5928095.797 575478.974 5928095.962 575478.779 5928096.127 575478.582 5928096.292 575478.386 5928096.456 575478.190 5928096.620 575477.993 5928096.784 575477.796 5928096.947 575477.599 5928097.111 575477.401 5928097.274 575477.204 5928097.436 575477.006 5928097.599 575476.808 5928097.761 575476.610 5928097.923 575476.411 5928098.085 575476.213 5928098.246 575476.014 5928098.408 575475.815 5928098.569 575475.616 5928098.729 575475.416 5928098.890 575475.216 5928099.050 575475.017 5928099.210 575474.817 5928099.370 575474.616 5928099.529 575474.416 5928099.688 575474.215 5928099.847 575474.014 5928100.006 575473.813 5928100.164 575473.612 5928100.322 575473.410 5928100.480 575473.209 5928100.638 575473.007 5928100.795 575472.805 5928100.953 575472.602 5928101.109 575472.400 5928101.266 575472.323 5928101.326 575472.245 5928101.386 575472.168 5928101.445 575472.090 5928101.505 575472.012 5928101.565 575471.935 5928101.624 575471.857 5928101.684 575471.779 5928101.743 575471.702 5928101.803 575471.624 5928101.862 575471.546 5928101.922 575471.469 5928101.981 575471.391 5928102.040 575471.313 5928102.100 575471.235 5928102.159 575471.157 5928102.218 575471.079 5928102.277 575471.001 5928102.337 575470.923 5928102.396 575470.845 5928102.455 575470.767 5928102.514 575470.689 5928102.573 575470.611 5928102.632 575470.533 5928102.691 575470.455 5928102.750 575470.376 5928102.808 575470.298 5928102.867 575470.220 5928102.926 575470.142 5928102.985 575470.063 5928103.043 575469.985 5928103.102 575469.907 5928103.161 575469.828 5928103.219 575469.750 5928103.278 575469.671 5928103.336 575469.593 5928103.395 575469.515 5928103.453 575469.436 5928103.512 575469.357 5928103.570 575469.279 5928103.628 575469.200 5928103.687 575469.122 5928103.745 575469.043 5928103.803 575468.964 5928103.861 575468.885 5928103.919 575468.807 5928103.977 575468.728 5928104.035 575468.649 5928104.093 575468.570 5928104.151 575468.491 5928104.209 575468.412 5928104.267 575468.334 5928104.325 575468.255 5928104.383 575468.176 5928104.441 575468.097 5928104.498 575468.017 5928104.556 575467.938 5928104.614 575467.859 5928104.671 575467.780 5928104.729 575467.701 5928104.787 575467.622 5928104.844 575467.543 5928104.901 575467.463 5928104.959 575467.384 5928105.016 575467.377 5928105.021 575467.370 5928105.026 575467.364 5928105.031 575467.357 5928105.036 575467.350 5928105.041 575467.343 5928105.046 575467.336 5928105.051 575467.329 5928105.056 575467.322 5928105.061 575467.315 5928105.066 575467.309 5928105.071 575467.302 5928105.076 575467.295 5928105.081 575467.288 5928105.086 575467.281 5928105.091 575467.274 5928105.096 575467.267 5928105.100 575467.260 5928105.105 575467.253 5928105.110 575467.247 5928105.115 575467.240 5928105.120 575467.233 5928105.125 575467.226 5928105.130 575467.219 5928105.135 575467.212 5928105.140 575467.205 5928105.145 575467.198 5928105.150 575467.191 5928105.155 575467.185 5928105.160 575467.178 5928105.165 575467.171 5928105.169 575467.164 5928105.174 575467.157 5928105.179 575467.150 5928105.184 575467.143 5928105.189 575467.136 5928105.194 575467.129 5928105.199 575467.122 5928105.204 575467.115 5928105.209 575467.109 5928105.214 575467.102 5928105.218 575467.095 5928105.223 575467.088 5928105.228 575467.081 5928105.233 575467.074 5928105.238 575467.067 5928105.243 575467.060 5928105.248 575467.053 5928105.253 575467.046 5928105.258 575467.039 5928105.262 575467.032 5928105.267 575467.026 5928105.272 575467.019 5928105.277 575467.012 5928105.282 575467.005 5928105.287 575466.998 5928105.292 575466.991 5928105.297 575466.984 5928105.301 575466.977 5928105.306 575466.970 5928105.311 575466.963 5928105.316 575466.956 5928105.321 575466.949 5928105.326 575466.942 5928105.331 575459.522 5928109.274 575459.303 5928109.357 575459.083 5928109.439 575459.080 5928109.440 575459.076 5928109.442 575459.073 5928109.443 575459.070 5928109.444 575459.066 5928109.445 575459.063 5928109.447 575459.059 5928109.448 575459.056 5928109.449 575459.052 5928109.450 575459.049 5928109.452 575459.045 5928109.453 575459.042 5928109.454 575459.039 5928109.456 575459.035 5928109.457 575459.032 5928109.458 575459.028 5928109.459 575459.025 5928109.461 575459.021 5928109.462 575459.018 5928109.463 575459.015 5928109.464 575459.011 5928109.466 575459.008 5928109.467 575459.004 5928109.468 575459.001 5928109.469 575458.997 5928109.471 575458.994 5928109.472 575458.991 5928109.473 575458.987 5928109.474 575458.984 5928109.476 575458.980 5928109.477 575458.977 5928109.478 575458.973 5928109.479 575458.970 5928109.481 575458.966 5928109.482 575458.963 5928109.483 575458.960 5928109.484 575458.956 5928109.486 575458.953 5928109.487 575458.949 5928109.488 575458.946 5928109.489 575458.942 5928109.491 575458.939 5928109.492 575458.936 5928109.493 575458.932 5928109.494 575458.929 5928109.496 575458.925 5928109.497 575458.922 5928109.498 575458.918 5928109.499 575458.915 5928109.501 575458.911 5928109.502 575458.908 5928109.503 575458.905 5928109.504 575458.901 5928109.506 575458.898 5928109.507 575458.894 5928109.508 575458.891 5928109.509 575458.887 5928109.511 575458.884 5928109.512 575458.880 5928109.513 575458.877 5928109.514 575458.874 5928109.516 575458.870 5928109.517 575458.867 5928109.518 575458.863 5928109.519 575458.643 5928109.598 575458.422 5928109.675 575458.200 5928109.751 575457.978 5928109.825 575457.755 5928109.898 575457.532 5928109.969 575457.309 5928110.038 575457.085 5928110.106 575456.860 5928110.173 575456.635 5928110.238 575456.410 5928110.301 575456.184 5928110.363 575455.958 5928110.424 575455.731 5928110.483 575455.504 5928110.540 575455.277 5928110.596 575455.049 5928110.650 575454.821 5928110.703 575454.592 5928110.754 575454.363 5928110.804 575454.134 5928110.852 575453.905 5928110.898 575453.675 5928110.943 575453.445 5928110.987 575453.214 5928111.029 575452.984 5928111.069 575452.753 5928111.108 575452.749 5928111.108 575452.746 5928111.109 575452.742 5928111.109 575452.738 5928111.110 575452.735 5928111.111 575452.731 5928111.111 575452.728 5928111.112 575452.724 5928111.112 575452.720 5928111.113 575452.717 5928111.114 575452.713 5928111.114 575452.709 5928111.115 575452.706 5928111.115 575452.702 5928111.116 575452.699 5928111.116 575452.695 5928111.117 575452.691 5928111.118 575452.688 5928111.118 575452.684 5928111.119 575452.681 5928111.119 575452.677 5928111.120 575452.673 5928111.121 575452.670 5928111.121 575452.666 5928111.122 575452.663 5928111.122 575452.659 5928111.123 575452.655 5928111.123 575452.652 5928111.124 575452.648 5928111.125 575452.644 5928111.125 575452.641 5928111.126 575452.637 5928111.126 575452.634 5928111.127 575452.630 5928111.128 575452.626 5928111.128 575452.623 5928111.129 575452.619 5928111.129 575452.616 5928111.130 575452.612 5928111.130 575452.608 5928111.131 575452.605 5928111.132 575452.601 5928111.132 575452.598 5928111.133 575452.594 5928111.133 575452.590 5928111.134 575452.587 5928111.134 575452.583 5928111.135 575452.579 5928111.136 575452.576 5928111.136 575452.572 5928111.137 575452.569 5928111.137 575452.565 5928111.138 575452.561 5928111.138 575452.558 5928111.139 575452.554 5928111.140 575452.551 5928111.140 575452.547 5928111.141 575452.543 5928111.141 575452.540 5928111.142 575452.536 5928111.142 575452.532 5928111.143 575452.529 5928111.144 575452.525 5928111.144 575452.522 5928111.145 575452.290 5928111.180 575452.058 5928111.214 575451.827 5928111.247 575451.594 5928111.278 575451.362 5928111.307 575451.130 5928111.334 575450.897 5928111.361 575450.664 5928111.385 575450.431 5928111.408 575450.198 5928111.429 575449.965 5928111.449 575449.731 5928111.467 575449.497 5928111.484 575449.264 5928111.499 575449.030 5928111.512 575448.796 5928111.524 575448.562 5928111.535 575448.328 5928111.543 575448.094 5928111.550 575447.860 5928111.556 575447.626 5928111.560 575447.392 5928111.562 575447.158 5928111.563 575446.923 5928111.562 575446.689 5928111.559 575446.455 5928111.555 575446.221 5928111.550 575445.987 5928111.542 575445.753 5928111.534 575445.519 5928111.523 575445.285 5928111.511 575445.282 5928111.511 575445.278 5928111.511 575445.274 5928111.511 575445.271 5928111.510 575445.267 5928111.510 575445.263 5928111.510 575445.260 5928111.510 575445.256 5928111.510 575445.252 5928111.509 575445.249 5928111.509 575445.245 5928111.509 575445.241 5928111.509 575445.238 5928111.509 575445.234 5928111.508 575445.231 5928111.508 575445.227 5928111.508 575445.223 5928111.508 575445.220 5928111.508 575445.216 5928111.507 575445.212 5928111.507 575445.209 5928111.507 575445.205 5928111.507 575445.201 5928111.507 575445.198 5928111.506 575445.194 5928111.506 575445.190 5928111.506 575445.187 5928111.506 575445.183 5928111.506 575445.179 5928111.505 575445.176 5928111.505 575445.172 5928111.505 575445.168 5928111.505 575445.165 5928111.504 575445.161 5928111.504 575445.157 5928111.504 575445.154 5928111.504 575445.150 5928111.504 575445.146 5928111.503 575445.143 5928111.503 575445.139 5928111.503 575445.136 5928111.503 575445.132 5928111.503 575445.128 5928111.502 575445.125 5928111.502 575445.121 5928111.502 575445.117 5928111.502 575445.114 5928111.501 575445.110 5928111.501 575445.106 5928111.501 575445.103 5928111.501 575445.099 5928111.501 575445.095 5928111.500 575445.092 5928111.500 575445.088 5928111.500 575445.084 5928111.500 575445.081 5928111.499 575445.077 5928111.499 575445.073 5928111.499 575445.070 5928111.499 575445.066 5928111.499 575445.062 5928111.498 575445.059 5928111.498 575445.055 5928111.498 575445.052 5928111.498 575445.048 5928111.497 575445.044 5928111.497 575445.041 5928111.497 575445.037 5928111.497 575445.033 5928111.497 575445.030 5928111.496 575445.026 5928111.496 575445.022 5928111.496 575445.019 5928111.496 575445.015 5928111.495 575445.011 5928111.495 575445.008 5928111.495 575445.004 5928111.495 575445.000 5928111.495 575444.997 5928111.494 575444.993 5928111.494 575444.989 5928111.494 575444.986 5928111.494 575444.982 5928111.493 575444.979 5928111.493 575444.975 5928111.493 575444.971 5928111.493 575444.968 5928111.492 575444.964 5928111.492 575444.960 5928111.492 575444.957 5928111.492 575444.953 5928111.491 575444.949 5928111.491 575444.946 5928111.491 575444.942 5928111.491 575444.938 5928111.491 575444.935 5928111.490 575444.931 5928111.490 575444.927 5928111.490 575444.924 5928111.490 575444.920 5928111.489 575444.916 5928111.489 575444.913 5928111.489 575444.909 5928111.489 575444.905 5928111.488 575444.902 5928111.488 575444.898 5928111.488 575444.895 5928111.488 575444.891 5928111.487 575444.887 5928111.487 575444.884 5928111.487 575444.880 5928111.487 575444.876 5928111.486 575444.873 5928111.486 575444.869 5928111.486 575444.865 5928111.486 575444.862 5928111.485 575444.858 5928111.485 575444.854 5928111.485 575444.851 5928111.485 575444.847 5928111.485 575444.843 5928111.484 575444.840 5928111.484 575444.836 5928111.484 575444.832 5928111.484 575444.829 5928111.483 575444.825 5928111.483 575444.822 5928111.483 575444.818 5928111.483 575444.816 5928111.482 575444.281 5928111.449 575443.746 5928111.422 575443.211 5928111.401 575442.675 5928111.387 575442.140 5928111.379 575441.604 5928111.377 575441.068 5928111.381 575440.533 5928111.392 575439.997 5928111.409 575439.462 5928111.433 575438.927 5928111.462 575438.393 5928111.498 575437.859 5928111.541 575437.325 5928111.589 575436.793 5928111.644 575436.260 5928111.705 575435.729 5928111.773 575435.198 5928111.846 575434.669 5928111.926 575434.140 5928112.012 575433.612 5928112.105 575433.086 5928112.203 575432.560 5928112.308 575432.036 5928112.419 575431.514 5928112.536 575430.992 5928112.659 575430.473 5928112.789 575429.954 5928112.924 575429.438 5928113.066 575428.923 5928113.214 575428.410 5928113.367 575427.898 5928113.527 575427.389 5928113.693 575426.881 5928113.865 575426.376 5928114.042 575425.873 5928114.226 575425.372 5928114.416 575424.873 5928114.611 575424.377 5928114.812 575423.883 5928115.019 575423.391 5928115.232 575422.902 5928115.451 575422.416 5928115.676 575421.932 5928115.906 575421.451 5928116.142 575420.973 5928116.383 575420.498 5928116.630 575420.025 5928116.883 575419.556 5928117.141 575419.090 5928117.405 575418.627 5928117.674 575418.167 5928117.949 575417.710 5928118.229 575417.257 5928118.515 575416.807 5928118.805 575416.361 5928119.101 575415.918 5928119.403 575415.478 5928119.709 575415.043 5928120.021 575414.611 5928120.337 575414.182 5928120.659 575413.758 5928120.986 575413.337 5928121.318 575412.921 5928121.655 575283.138 5928227.817 575282.427 5928228.403 575281.722 5928228.995 575281.021 5928229.591 575280.324 5928230.194 575279.632 5928230.802 575278.945 5928231.415 575278.263 5928232.033 575277.586 5928232.657 575276.914 5928233.287 575276.247 5928233.921 575275.584 5928234.561 575274.927 5928235.206 575274.275 5928235.856 575273.628 5928236.511 575272.986 5928237.171 575272.349 5928237.836 575271.718 5928238.506 575271.092 5928239.182 575270.471 5928239.862 575269.855 5928240.546 575269.245 5928241.236 575268.640 5928241.931 575268.041 5928242.630 575267.447 5928243.334 575266.859 5928244.042 575266.277 5928244.755 575265.700 5928245.473 575265.128 5928246.195 575264.563 5928246.922 575264.003 5928247.653 575263.449 5928248.388 575262.900 5928249.128 575262.358 5928249.872 575261.821 5928250.620 575261.290 5928251.372 575260.765 5928252.129 575260.247 5928252.890 575259.734 5928253.654 575259.227 5928254.423 575258.726 5928255.196 575258.231 5928255.972 575257.742 5928256.753 575257.260 5928257.537 575256.783 5928258.325 575256.313 5928259.117 575255.849 5928259.912 575255.392 5928260.711 575254.940 5928261.514 575254.495 5928262.320 575254.056 5928263.129 575253.624 5928263.942 575253.198 5928264.759 575252.779 5928265.578 575252.365 5928266.401 575251.959 5928267.227 575251.559 5928268.057 575251.165 5928268.889 575250.778 5928269.725 575250.397 5928270.563 575250.024 5928271.405 575249.656 5928272.249 575249.296 5928273.096 575248.942 5928273.946 575248.594 5928274.799 575248.565 5928274.872 575248.535 5928274.945 575248.506 5928275.018 575248.476 5928275.090 575248.446 5928275.163 575248.416 5928275.236 575248.386 5928275.308 575248.355 5928275.381 575248.325 5928275.453 575248.294 5928275.526 575248.263 5928275.598 575248.233 5928275.670 575248.202 5928275.742 575248.171 5928275.815 575248.139 5928275.887 575248.108 5928275.959 575248.077 5928276.031 575248.045 5928276.103 575248.013 5928276.175 575247.981 5928276.247 575247.949 5928276.318 575247.917 5928276.390 575247.885 5928276.462 575247.853 5928276.534 575247.820 5928276.605 575247.788 5928276.677 575247.755 5928276.748 575247.722 5928276.819 575247.689 5928276.891 575247.656 5928276.962 575247.623 5928277.033 575247.589 5928277.104 575247.556 5928277.176 575247.522 5928277.247 575247.488 5928277.318 575247.454 5928277.389 575247.420 5928277.459 575247.386 5928277.530 575247.352 5928277.601 575247.318 5928277.672 575247.283 5928277.742 575247.249 5928277.813 575247.214 5928277.883 575247.179 5928277.954 575247.144 5928278.024 575247.109 5928278.095 575247.074 5928278.165 575247.038 5928278.235 575247.003 5928278.305 575246.967 5928278.375 575246.931 5928278.445 575246.896 5928278.515 575246.860 5928278.585 575246.823 5928278.655 575246.787 5928278.725 575246.751 5928278.794 575246.714 5928278.864 575246.678 5928278.933 575246.641 5928279.003 575246.604 5928279.072 575246.567 5928279.142 575246.530 5928279.211 575246.493 5928279.280 575246.456 5928279.349 575261.196 5928295.703 575262.334 5928296.981 575283.173 5928320.401 575296.096 5928334.924 575300.117 5928339.091 575310.500 5928351.411 575311.531 5928350.641 575326.708 5928369.266 575284.096 5928401.920 575269.078 5928414.694 575234.902 5928376.740 575225.986 5928397.893 575232.618 5928405.844 575199.578 5928433.081 575199.392 5928432.909 575168.737 5928458.093 575145.036 5928477.564 575064.586 5928386.740 575059.415 5928380.903 575053.331 5928373.946 575067.770 5928362.086 575154.125 5928291.156 575152.095 5928288.689 575149.486 5928281.907 575143.784 5928275.382</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_2ee2ba8d-a745-40d2-a964-2a4d98843bf3" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>574989.818 5928096.120 575047.838 5928164.830 575043.107 5928169.150 575006.580 5928126.140 575009.162 5928123.685 574985.372 5928095.873 574981.943 5928093.206 574970.767 5928083.173 574969.416 5928081.567 574973.956 5928077.823 574989.818 5928096.120</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_81a6d8da-466e-4792-8fbd-2caf79b51c5f" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>578649.465 5928526.850 578619.054 5928503.893 578622.189 5928499.740 578593.622 5928478.574 578593.691 5928478.477 578575.919 5928465.895 578579.563 5928460.748 578587.858 5928445.874 578601.662 5928441.548 578615.465 5928437.223 578629.268 5928432.897 578641.383 5928425.880 578653.499 5928418.861 578666.480 5928411.343 578681.692 5928407.381 578696.903 5928403.421 578712.372 5928399.391 578724.828 5928390.797 578750.428 5928373.135 578763.227 5928364.303 578776.301 5928355.955 578790.639 5928346.799 578804.979 5928337.643 578817.705 5928329.517 578820.600 5928327.668 578821.861 5928326.506 578833.790 5928315.521 578840.472 5928317.643 578884.132 5928279.053 578904.695 5928254.855 578918.313 5928238.586 578871.207 5928299.055 578862.086 5928311.639 578883.659 5928327.277 578870.680 5928343.947 578855.931 5928363.497 578841.504 5928383.286 578830.213 5928399.262 578827.403 5928403.308 578813.631 5928423.558 578800.192 5928444.031 578787.090 5928464.722 578781.173 5928474.318 578777.251 5928480.768 578774.341 5928485.603 578761.922 5928506.712 578749.850 5928528.022 578748.915 5928529.707 578738.128 5928549.527 578726.760 5928571.220 578722.448 5928579.681 578717.132 5928590.194 578715.564 5928588.052 578711.370 5928582.486 578697.724 5928566.061 578697.725 5928566.058 578697.723 5928566.061 578695.820 5928569.684 578694.844 5928571.541 578693.850 5928570.443 578693.403 5928569.931 578686.610 5928562.574 578684.646 5928560.582 578678.951 5928555.112 578656.266 5928534.184 578655.776 5928533.713 578654.975 5928532.855 578654.306 5928532.037 578653.836 5928531.394 578653.284 5928530.639 578651.831 5928528.949 578651.559 5928528.672 578649.592 5928526.946 578649.465 5928526.850</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_58">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Lohbruegge95-Bergedorf121-Neuallermoehe3</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bergedorf/bebauungsplaene/14474896/lo95/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_58_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_58_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_d550c2f9-dbad-4535-a348-d9331caf2d25" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>578728.887 5928567.095 578728.076 5928568.665 578727.266 5928570.236 578726.459 5928571.807 578725.653 5928573.380 578724.849 5928574.954 578724.047 5928576.529 578723.246 5928578.105 578722.448 5928579.681 578717.132 5928590.194 578717.108 5928590.161 578717.083 5928590.127 578717.059 5928590.094 578717.034 5928590.060 578717.010 5928590.027 578716.986 5928589.993 578716.961 5928589.959 578716.937 5928589.926 578716.912 5928589.892 578716.888 5928589.859 578716.864 5928589.825 578716.839 5928589.792 578716.815 5928589.758 578716.790 5928589.725 578716.766 5928589.691 578716.741 5928589.658 578716.717 5928589.624 578716.693 5928589.591 578716.668 5928589.557 578716.644 5928589.524 578716.619 5928589.490 578716.595 5928589.457 578716.570 5928589.423 578716.546 5928589.390 578716.521 5928589.356 578716.497 5928589.323 578716.472 5928589.289 578716.448 5928589.256 578716.423 5928589.222 578716.399 5928589.189 578716.374 5928589.155 578716.350 5928589.122 578716.325 5928589.088 578716.301 5928589.055 578716.276 5928589.021 578716.252 5928588.988 578716.227 5928588.954 578716.203 5928588.921 578716.178 5928588.887 578716.154 5928588.854 578716.129 5928588.821 578716.105 5928588.787 578716.080 5928588.754 578716.056 5928588.720 578716.031 5928588.687 578716.006 5928588.653 578715.982 5928588.620 578715.957 5928588.586 578715.933 5928588.553 578715.908 5928588.520 578715.884 5928588.486 578715.859 5928588.453 578715.834 5928588.419 578715.810 5928588.386 578715.785 5928588.353 578715.761 5928588.319 578715.736 5928588.286 578715.711 5928588.252 578715.687 5928588.219 578715.662 5928588.186 578715.638 5928588.152 578715.613 5928588.119 578715.588 5928588.085 578715.564 5928588.052 578711.370 5928582.486 578697.724 5928566.061 578695.820 5928569.684 578694.844 5928571.541 578693.850 5928570.443 578693.631 5928570.191 578693.411 5928569.940 578693.190 5928569.689 578692.969 5928569.438 578692.747 5928569.188 578692.526 5928568.938 578692.303 5928568.688 578692.081 5928568.439 578691.858 5928568.190 578691.634 5928567.942 578691.410 5928567.694 578691.186 5928567.446 578690.961 5928567.199 578690.735 5928566.952 578690.510 5928566.706 578690.284 5928566.459 578690.057 5928566.214 578689.830 5928565.968 578689.603 5928565.723 578689.375 5928565.479 578689.147 5928565.235 578688.918 5928564.991 578688.689 5928564.747 578688.460 5928564.504 578688.230 5928564.262 578688.000 5928564.020 578687.769 5928563.778 578687.538 5928563.536 578687.307 5928563.295 578687.075 5928563.055 578686.842 5928562.814 578686.610 5928562.574 578686.377 5928562.335 578686.143 5928562.096 578685.909 5928561.857 578685.675 5928561.619 578685.440 5928561.381 578685.205 5928561.144 578684.969 5928560.907 578684.733 5928560.670 578684.497 5928560.434 578684.260 5928560.198 578684.023 5928559.962 578683.786 5928559.727 578683.548 5928559.493 578683.309 5928559.258 578683.070 5928559.025 578682.831 5928558.791 578682.592 5928558.558 578682.352 5928558.326 578682.111 5928558.093 578681.871 5928557.862 578681.629 5928557.630 578681.388 5928557.399 578681.146 5928557.169 578680.904 5928556.938 578680.661 5928556.709 578680.418 5928556.479 578680.174 5928556.251 578679.930 5928556.022 578679.686 5928555.794 578679.442 5928555.566 578679.196 5928555.339 578678.951 5928555.112 578656.266 5928534.184 578656.223 5928534.145 578656.181 5928534.105 578656.139 5928534.065 578656.097 5928534.026 578656.055 5928533.986 578656.013 5928533.946 578655.971 5928533.905 578655.930 5928533.865 578655.888 5928533.825 578655.847 5928533.784 578655.806 5928533.743 578655.765 5928533.702 578655.724 5928533.661 578655.683 5928533.620 578655.643 5928533.579 578655.602 5928533.537 578655.562 5928533.496 578655.522 5928533.454 578655.482 5928533.412 578655.442 5928533.370 578655.402 5928533.328 578655.362 5928533.286 578655.323 5928533.243 578655.284 5928533.201 578655.245 5928533.158 578655.206 5928533.115 578655.167 5928533.072 578655.128 5928533.029 578655.089 5928532.986 578655.051 5928532.943 578655.013 5928532.899 578654.975 5928532.855 578654.937 5928532.812 578654.899 5928532.768 578654.861 5928532.724 578654.824 5928532.680 578654.786 5928532.635 578654.749 5928532.591 578654.712 5928532.547 578654.675 5928532.502 578654.638 5928532.457 578654.602 5928532.412 578654.565 5928532.367 578654.529 5928532.322 578654.493 5928532.277 578654.457 5928532.232 578654.421 5928532.186 578654.385 5928532.140 578654.350 5928532.095 578654.314 5928532.049 578654.279 5928532.003 578654.244 5928531.957 578654.209 5928531.911 578654.174 5928531.864 578654.140 5928531.818 578654.105 5928531.771 578654.071 5928531.724 578654.037 5928531.678 578654.003 5928531.631 578653.969 5928531.584 578653.936 5928531.537 578653.902 5928531.489 578653.869 5928531.442 578653.836 5928531.394 578653.779 5928531.313 578653.722 5928531.232 578653.664 5928531.152 578653.607 5928531.072 578653.548 5928530.992 578653.490 5928530.912 578653.431 5928530.833 578653.371 5928530.754 578653.311 5928530.675 578653.251 5928530.596 578653.190 5928530.518 578653.129 5928530.440 578653.068 5928530.363 578653.006 5928530.286 578652.944 5928530.209 578652.882 5928530.132 578652.819 5928530.056 578652.755 5928529.980 578652.692 5928529.904 578652.628 5928529.828 578652.563 5928529.753 578652.499 5928529.679 578652.433 5928529.604 578652.368 5928529.530 578652.302 5928529.456 578652.236 5928529.383 578652.169 5928529.310 578652.102 5928529.237 578652.035 5928529.164 578651.967 5928529.092 578651.899 5928529.020 578651.831 5928528.949 578651.762 5928528.878 578651.693 5928528.807 578651.623 5928528.737 578651.554 5928528.666 578651.484 5928528.597 578651.413 5928528.527 578651.342 5928528.458 578651.271 5928528.390 578651.200 5928528.321 578651.128 5928528.253 578651.055 5928528.186 578650.983 5928528.118 578650.910 5928528.051 578650.837 5928527.985 578650.763 5928527.919 578650.690 5928527.853 578650.615 5928527.787 578650.541 5928527.722 578650.466 5928527.657 578650.391 5928527.593 578650.316 5928527.529 578650.240 5928527.465 578650.164 5928527.402 578650.087 5928527.339 578650.011 5928527.277 578649.934 5928527.215 578649.856 5928527.153 578649.779 5928527.092 578649.701 5928527.031 578649.623 5928526.970 578649.544 5928526.910 578649.465 5928526.850 578619.054 5928503.893 578622.189 5928499.740 578593.622 5928478.574 578593.691 5928478.477 578575.919 5928465.895 578579.563 5928460.748 578587.858 5928445.874 578601.662 5928441.548 578615.465 5928437.223 578629.268 5928432.897 578641.383 5928425.880 578653.499 5928418.861 578666.480 5928411.343 578681.692 5928407.381 578696.903 5928403.421 578712.372 5928399.391 578724.828 5928390.797 578750.428 5928373.135 578763.227 5928364.303 578776.301 5928355.955 578790.639 5928346.799 578804.979 5928337.643 578817.705 5928329.517 578820.600 5928327.668 578821.861 5928326.506 578833.790 5928315.521 578840.472 5928317.643 578884.132 5928279.053 578904.695 5928254.855 578918.313 5928238.586 578871.207 5928299.055 578862.086 5928311.639 578883.659 5928327.277 578881.924 5928329.477 578880.193 5928331.681 578878.467 5928333.888 578876.744 5928336.098 578875.026 5928338.312 578873.311 5928340.528 578871.601 5928342.748 578869.895 5928344.971 578868.193 5928347.197 578866.495 5928349.426 578864.802 5928351.659 578863.112 5928353.895 578861.427 5928356.134 578859.746 5928358.376 578858.069 5928360.621 578856.397 5928362.869 578854.729 5928365.120 578853.064 5928367.375 578851.405 5928369.633 578849.749 5928371.893 578848.097 5928374.157 578846.450 5928376.424 578844.807 5928378.694 578843.169 5928380.967 578841.534 5928383.243 578839.904 5928385.523 578838.278 5928387.805 578836.656 5928390.090 578835.039 5928392.379 578833.426 5928394.670 578831.817 5928396.964 578830.213 5928399.262 578828.613 5928401.562 578827.017 5928403.865 578825.425 5928406.172 578823.838 5928408.481 578822.255 5928410.793 578820.677 5928413.109 578819.102 5928415.427 578817.533 5928417.748 578815.967 5928420.072 578814.406 5928422.399 578812.849 5928424.729 578811.297 5928427.062 578809.749 5928429.398 578808.205 5928431.736 578806.666 5928434.078 578805.131 5928436.422 578803.600 5928438.770 578802.074 5928441.120 578800.552 5928443.473 578799.035 5928445.829 578797.522 5928448.187 578796.014 5928450.549 578794.510 5928452.913 578793.010 5928455.280 578791.515 5928457.650 578790.024 5928460.023 578788.538 5928462.398 578787.056 5928464.777 578785.578 5928467.158 578784.105 5928469.542 578782.637 5928471.928 578781.173 5928474.318 578777.251 5928480.768 578776.338 5928482.281 578775.426 5928483.795 578774.517 5928485.310 578773.609 5928486.826 578772.702 5928488.343 578771.798 5928489.862 578770.895 5928491.381 578769.994 5928492.902 578769.095 5928494.423 578768.198 5928495.946 578767.302 5928497.469 578766.409 5928498.994 578765.517 5928500.520 578764.627 5928502.047 578763.739 5928503.574 578762.852 5928505.103 578761.967 5928506.633 578761.085 5928508.164 578760.203 5928509.696 578759.324 5928511.229 578758.447 5928512.764 578757.571 5928514.299 578756.697 5928515.835 578755.825 5928517.372 578754.955 5928518.910 578754.087 5928520.450 578753.220 5928521.990 578752.356 5928523.531 578751.493 5928525.074 578750.632 5928526.617 578749.772 5928528.161 578748.915 5928529.707 578748.059 5928531.253 578747.206 5928532.801 578746.354 5928534.349 578745.504 5928535.898 578744.655 5928537.449 578743.809 5928539.000 578742.964 5928540.553 578742.121 5928542.106 578741.281 5928543.661 578740.441 5928545.216 578739.604 5928546.772 578738.769 5928548.330 578737.935 5928549.888 578737.103 5928551.447 578736.273 5928553.008 578735.445 5928554.569 578734.619 5928556.131 578733.795 5928557.695 578732.972 5928559.259 578732.152 5928560.824 578731.333 5928562.390 578730.516 5928563.957 578729.701 5928565.525 578728.887 5928567.095</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_70">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Neugraben-Fischbek67</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/harburg/bebauungsplaene/8650040/neugraben-fischbek-67/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_70_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_70_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_bc86543d-dbe5-468b-a766-2747f7640243" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>553394.763 5925811.060 553346.647 5925806.300 553309.496 5925802.625 553257.560 5925797.483 553204.122 5925792.197 553195.014 5925752.352 553188.512 5925723.906 553171.052 5925647.527 553203.200 5925650.758 553181.188 5925578.178 553130.088 5925573.037 553135.996 5925461.476 553134.320 5925460.863 553126.759 5925457.486 553128.579 5925454.240 553129.214 5925446.390 553124.871 5925381.589 553121.761 5925336.727 553121.450 5925315.394 553119.998 5925290.764 553119.576 5925283.603 553119.339 5925279.871 553118.744 5925269.928 553117.926 5925256.449 553117.491 5925249.284 553116.903 5925239.605 553116.873 5925239.109 553109.552 5925118.529 553107.206 5925080.271 553107.196 5925080.044 553107.126 5925078.862 553106.810 5925073.379 553106.763 5925072.541 553106.760 5925072.496 553106.458 5925067.147 553106.283 5925064.049 553104.301 5925028.946 553096.087 5924883.492 553095.307 5924869.685 553094.704 5924859.001 553094.047 5924847.364 553093.812 5924843.201 553093.206 5924832.475 553092.465 5924819.348 553092.227 5924815.127 553091.624 5924804.454 553091.097 5924795.118 553090.815 5924790.130 553095.377 5924789.398 553105.879 5924787.713 553110.067 5924787.041 553120.896 5924787.648 553135.618 5924788.473 553135.902 5924788.459 553170.618 5924786.802 553178.297 5924786.862 553219.194 5924787.181 553248.196 5924785.173 553262.697 5924784.170 553305.100 5924781.234 553316.101 5924780.473 553316.285 5924778.152 553319.680 5924726.169 553319.973 5924721.684 553321.302 5924701.242 553323.391 5924669.285 553325.610 5924635.248 553328.811 5924586.492 553329.127 5924581.330 553330.750 5924555.636 553332.929 5924532.749 553334.966 5924511.347 553337.131 5924505.737 553352.570 5924515.275 553383.749 5924517.036 553393.470 5924516.574 553426.040 5924523.872 553459.620 5924535.352 553472.184 5924543.753 553493.684 5924561.419 553503.146 5924566.174 553510.286 5924568.291 553534.588 5924507.531 553543.989 5924480.435 553544.477 5924479.028 553548.218 5924467.594 553551.976 5924456.095 553553.649 5924450.338 553565.654 5924409.020 553585.062 5924342.226 553627.450 5924364.627 553646.976 5924370.242 553673.852 5924383.039 553680.725 5924386.312 553674.429 5924398.523 553673.848 5924399.650 553650.063 5924445.780 553639.100 5924467.043 553625.278 5924493.849 553617.570 5924508.162 553690.884 5924550.074 553761.588 5924590.039 553853.030 5924644.154 553912.481 5924677.016 553965.589 5924702.947 553993.852 5924715.190 554025.016 5924728.656 554043.794 5924736.736 554094.555 5924755.073 554182.340 5924786.658 554179.327 5924799.807 554165.696 5924801.604 554169.004 5924832.553 554169.474 5924842.538 554169.364 5924847.837 554162.555 5924844.294 554166.013 5924956.127 554166.362 5924967.428 554166.881 5924967.413 554166.766 5924972.316 554166.389 5924988.325 554167.260 5925006.114 554167.136 5925032.809 554167.580 5925044.261 554179.077 5925046.252 554181.929 5925059.138 554173.713 5925057.820 554173.127 5925061.473 554172.370 5925066.200 554179.413 5925075.065 554179.209 5925077.421 554166.575 5925075.394 554122.427 5925070.546 554106.832 5925070.661 554113.508 5925224.101 554114.444 5925245.623 554116.470 5925292.193 554118.776 5925345.199 554251.556 5925359.188 554279.843 5925362.168 554280.540 5925354.901 554283.320 5925343.544 554281.795 5925305.808 554281.659 5925302.447 554284.548 5925304.186 554291.675 5925308.250 554292.888 5925308.839 554293.799 5925310.892 554300.834 5925340.967 554299.455 5925341.324 554308.629 5925380.677 554287.870 5925378.328 554279.862 5925377.406 554251.427 5925374.132 554251.384 5925392.689 554251.368 5925399.754 554257.160 5925639.720 554257.160 5925649.119 554154.456 5925635.939 554145.730 5925634.719 554137.570 5925633.578 554135.599 5925633.303 553762.655 5925585.508 553685.738 5925575.246 553588.235 5925562.812 553398.496 5925538.409 553395.135 5925542.267 553405.445 5925575.352 553417.171 5925612.984 553435.659 5925674.120 553434.172 5925673.970 553430.892 5925673.641 553425.201 5925673.069 553358.548 5925666.371 553351.099 5925665.623 553394.763 5925811.060</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_71">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Neugraben-Fischbek72</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/harburg/bebauungsplaene/12127902/neugraben-fischbek-72/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_71_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_71_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_ea85710a-9bdf-4123-83c5-33c431479e12" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>556432.662 5925057.744 556426.141 5925057.266 556383.942 5925054.170 556387.940 5925018.172 556388.136 5925016.407 556387.164 5924986.433 556336.032 5924988.094 556337.208 5925003.817 556229.095 5925026.803 556228.207 5925016.796 556227.679 5925010.849 556226.878 5925001.811 556226.713 5924997.668 556225.792 5924974.496 556241.488 5924967.661 556237.379 5924952.020 556230.193 5924933.314 556218.539 5924915.954 556206.903 5924894.880 556203.534 5924888.778 556234.724 5924876.367 556252.041 5924871.042 556259.399 5924927.153 556308.637 5924919.983 556305.415 5924902.013 556322.181 5924899.231 556336.975 5924896.778 556366.832 5924891.830 556404.861 5924881.994 556406.239 5924895.235 556404.754 5924901.078 556405.146 5924911.246 556403.220 5924922.141 556444.746 5924925.353 556445.661 5924925.424 556452.536 5924925.956 556441.260 5924967.737 556438.860 5924983.540 556432.662 5925057.744</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_75">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wilstorf37</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/stadtplanung-harburg/bauleitplanung/bebauungsplaene/2183358/wilstorf-37.html</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_75_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_75_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_bbfc63f8-a7a7-4941-938e-e232212effb5" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565616.679 5922666.628 565610.360 5922673.415 565606.412 5922677.655 565604.314 5922680.537 565602.142 5922683.651 565599.538 5922687.574 565597.940 5922690.094 565596.638 5922692.232 565585.659 5922686.793 565577.771 5922682.901 565563.082 5922675.462 565547.822 5922667.734 565519.959 5922653.345 565527.013 5922641.021 565527.188 5922641.186 565531.677 5922633.546 565532.403 5922631.771 565544.517 5922602.157 565548.188 5922593.183 565553.225 5922584.716 565585.527 5922559.055 565527.864 5922501.221 565523.627 5922496.972 565526.459 5922494.149 565530.696 5922498.398 565550.311 5922518.070 565587.829 5922480.659 565634.644 5922527.591 565645.642 5922521.275 565692.917 5922569.842 565699.668 5922576.822 565651.240 5922629.506 565616.679 5922666.628</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_76">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wilstorf43</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_76_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_76_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_6434e07e-4361-40a6-808d-421cf0877a17" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565446.626 5922915.037 565447.832 5922917.397 565455.509 5922920.916 565462.049 5922923.912 565462.768 5922924.325 565466.563 5922926.511 565467.901 5922927.061 565470.383 5922928.082 565473.437 5922929.490 565475.477 5922930.430 565480.744 5922933.040 565484.155 5922934.730 565501.538 5922943.461 565512.095 5922962.353 565515.085 5922966.789 565517.091 5922969.765 565526.329 5922983.471 565524.647 5922983.865 565506.100 5922988.170 565412.940 5923009.795 565306.362 5923019.602 565305.589 5923011.794 565304.518 5923000.987 565303.032 5922985.981 565303.898 5922976.138 565306.658 5922944.771 565308.892 5922919.380 565309.394 5922913.660 565313.351 5922912.799 565335.401 5922909.084 565349.011 5922906.100 565364.805 5922904.300 565386.795 5922907.400 565395.406 5922908.314 565395.580 5922907.705 565396.793 5922903.384 565395.508 5922902.474 565394.078 5922901.269 565393.473 5922900.689 565391.750 5922898.734 565402.948 5922902.154 565404.439 5922902.610 565419.981 5922907.359 565419.538 5922908.933 565432.277 5922912.743 565432.320 5922912.572 565432.557 5922911.852 565432.958 5922911.008 565432.992 5922910.948 565433.891 5922909.731 565434.061 5922909.556 565435.097 5922908.708 565435.440 5922908.496 565437.055 5922907.827 565438.789 5922907.599 565440.523 5922907.827 565440.916 5922907.945 565442.139 5922908.496 565443.527 5922909.561 565444.591 5922910.948 565445.103 5922912.057 565446.626 5922915.037</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_177">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Gross-Borstel32</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/politik-und-verwaltung/bezirke/hamburg-nord/bebauungsplan-entwurf-gross-borstel-32--955014</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_177_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_177_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_7b5ee0d8-ad04-4fbd-a9a6-f84948c945f9" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>564862.640 5940184.968 564852.989 5940171.901 564847.331 5940114.863 564846.335 5940104.826 564837.394 5940103.667 564798.726 5940098.655 564783.161 5940094.975 564725.625 5940082.639 564723.843 5940082.247 564698.644 5940100.083 564698.361 5940099.370 564692.763 5940085.258 564691.309 5940081.593 564699.036 5940061.004 564684.997 5940055.737 564727.059 5939943.664 564686.595 5939928.522 564683.084 5939940.646 564644.292 5939925.921 564641.554 5939924.882 564639.082 5939931.445 564632.976 5939929.370 564589.634 5940046.308 564588.120 5940050.800 564586.617 5940055.260 564603.054 5940058.122 564616.892 5940064.116 564632.501 5940074.628 564641.622 5940082.512 564647.963 5940090.551 564652.289 5940098.591 564674.860 5940153.315 564682.895 5940170.320 564728.855 5940254.143 564739.850 5940275.583 564747.979 5940268.231 564844.028 5940198.800 564862.640 5940184.968</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_182">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Alsterdorf7(2Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/politik-und-verwaltung/bezirke/hamburg-nord/bebauungsplan-alsterdorf-7-2-textaenderung--954226</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_182_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_182_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_a693b3fb-c422-4b6a-98f1-c9611510565a" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>566042.624 5939813.959 566040.491 5939812.292 566013.601 5939790.191 566019.284 5939801.180 566049.732 5939851.928 566070.037 5939885.129 566124.789 5939974.951 566133.684 5939989.206 566140.868 5940002.701 566202.555 5940104.783 566211.653 5940116.931 566220.985 5940130.132 566234.276 5940144.911 566243.765 5940154.942 566255.963 5940165.718 566271.285 5940178.666 566285.381 5940188.427 566287.958 5940190.188 566300.835 5940198.052 566316.430 5940206.185 566344.356 5940219.604 566495.356 5940290.742 566500.422 5940280.364 566518.478 5940242.420 566541.030 5940194.950 566552.227 5940175.992 566562.996 5940158.756 566575.412 5940136.257 566582.986 5940123.086 566588.936 5940110.622 566596.183 5940097.010 566603.211 5940082.273 566608.680 5940069.379 566608.239 5940069.188 566599.267 5940065.076 566594.444 5940062.861 566393.890 5939970.764 566393.323 5939970.729 566225.702 5939893.536 566212.692 5939889.100 566189.012 5939880.367 566177.093 5939875.726 566165.546 5939871.230 566142.139 5939861.792 566119.103 5939851.508 566096.224 5939840.993 566073.338 5939830.260 566050.624 5939819.295 566043.251 5939814.273 566042.624 5939813.959</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_72">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Neugraben-Fischbek73</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/harburg/bebauungsplaene/15044768/neugraben-fischbek-73/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_72_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_72_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_0ce3b719-931f-4f46-abff-f152b90e4368" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>556768.861 5925289.993 556768.057 5925290.339 556767.252 5925290.678 556766.446 5925291.012 556765.638 5925291.340 556764.830 5925291.661 556764.019 5925291.976 556763.208 5925292.286 556762.395 5925292.589 556761.582 5925292.886 556760.766 5925293.177 556759.950 5925293.462 556759.132 5925293.741 556758.313 5925294.013 556757.492 5925294.280 556756.671 5925294.540 556755.848 5925294.795 556755.023 5925295.043 556754.198 5925295.285 556753.371 5925295.522 556752.543 5925295.752 556751.713 5925295.976 556750.882 5925296.194 556750.050 5925296.405 556749.217 5925296.611 556748.382 5925296.811 556747.546 5925297.004 556746.709 5925297.192 556745.871 5925297.373 556745.031 5925297.548 556744.190 5925297.718 556743.347 5925297.881 556742.503 5925298.038 556741.658 5925298.189 556740.812 5925298.334 556739.964 5925298.472 556739.116 5925298.605 556738.265 5925298.732 556737.414 5925298.852 556736.561 5925298.966 556735.707 5925299.075 556734.852 5925299.177 556733.995 5925299.273 556733.137 5925299.363 556732.278 5925299.447 556731.417 5925299.525 556730.556 5925299.597 556729.692 5925299.662 556728.828 5925299.722 556727.962 5925299.775 556727.095 5925299.823 556726.227 5925299.864 556725.357 5925299.899 556724.486 5925299.928 556723.614 5925299.952 556722.741 5925299.969 556721.866 5925299.979 556720.990 5925299.984 556720.113 5925299.983 556719.234 5925299.975 556718.354 5925299.962 556706.941 5925299.291 556666.996 5925289.892 556604.714 5925293.194 556608.244 5925267.677 556620.258 5925180.623 556662.314 5925178.918 556662.986 5925178.862 556663.658 5925178.803 556664.330 5925178.743 556665.001 5925178.682 556665.673 5925178.618 556666.344 5925178.553 556667.015 5925178.487 556667.686 5925178.418 556668.357 5925178.348 556669.028 5925178.276 556669.699 5925178.203 556670.369 5925178.127 556671.039 5925178.050 556671.710 5925177.972 556672.380 5925177.891 556673.050 5925177.809 556673.720 5925177.725 556674.390 5925177.640 556675.059 5925177.553 556675.729 5925177.464 556676.398 5925177.373 556677.067 5925177.281 556677.736 5925177.187 556678.405 5925177.091 556679.074 5925176.993 556679.743 5925176.894 556680.411 5925176.793 556681.080 5925176.691 556681.748 5925176.586 556682.416 5925176.480 556683.084 5925176.373 556683.752 5925176.263 556684.420 5925176.152 556685.088 5925176.039 556685.755 5925175.924 556686.423 5925175.808 556687.090 5925175.690 556687.757 5925175.571 556688.424 5925175.449 556689.091 5925175.326 556689.758 5925175.201 556690.424 5925175.075 556691.091 5925174.946 556691.757 5925174.816 556692.423 5925174.685 556693.089 5925174.551 556693.755 5925174.416 556694.421 5925174.280 556695.087 5925174.141 556695.752 5925174.001 556696.418 5925173.859 556697.083 5925173.715 556697.748 5925173.570 556698.413 5925173.423 556699.078 5925173.274 556699.743 5925173.124 556700.407 5925172.972 556701.072 5925172.818 556701.736 5925172.662 556702.400 5925172.505 556703.065 5925172.346 556703.729 5925172.185 556704.392 5925172.023 556705.056 5925171.859 556705.752 5925171.684 556706.447 5925171.507 556707.142 5925171.329 556707.835 5925171.149 556708.529 5925170.967 556709.221 5925170.783 556709.913 5925170.597 556710.605 5925170.410 556711.296 5925170.221 556711.986 5925170.030 556712.676 5925169.837 556713.365 5925169.642 556714.053 5925169.446 556714.741 5925169.247 556715.428 5925169.047 556716.114 5925168.846 556716.800 5925168.642 556717.485 5925168.437 556718.170 5925168.229 556718.854 5925168.020 556719.537 5925167.809 556720.220 5925167.597 556720.902 5925167.382 556721.584 5925167.166 556722.265 5925166.948 556722.945 5925166.728 556723.625 5925166.507 556724.304 5925166.283 556724.983 5925166.058 556725.661 5925165.831 556726.338 5925165.602 556727.014 5925165.371 556727.690 5925165.139 556728.366 5925164.905 556729.041 5925164.668 556729.715 5925164.431 556730.388 5925164.191 556731.061 5925163.949 556731.734 5925163.706 556732.405 5925163.461 556733.076 5925163.214 556733.747 5925162.966 556734.417 5925162.715 556735.086 5925162.463 556735.755 5925162.209 556736.423 5925161.953 556737.090 5925161.695 556737.757 5925161.436 556738.423 5925161.174 556739.088 5925160.911 556739.753 5925160.646 556740.418 5925160.380 556741.081 5925160.111 556741.744 5925159.841 556742.407 5925159.569 556743.069 5925159.295 556743.730 5925159.019 556744.390 5925158.742 556745.050 5925158.463 556745.710 5925158.181 556746.368 5925157.899 556747.027 5925157.614 556747.684 5925157.327 556748.341 5925157.039 556760.150 5925179.767 556760.468 5925180.423 556760.788 5925181.077 556761.111 5925181.729 556761.436 5925182.380 556761.764 5925183.029 556762.094 5925183.676 556762.427 5925184.322 556762.762 5925184.966 556763.100 5925185.608 556763.440 5925186.249 556763.783 5925186.888 556764.128 5925187.526 556764.476 5925188.162 556764.827 5925188.796 556765.180 5925189.428 556765.535 5925190.059 556765.893 5925190.688 556766.253 5925191.316 556766.616 5925191.942 556766.982 5925192.566 556767.350 5925193.189 556767.720 5925193.810 556768.093 5925194.429 556768.469 5925195.046 556768.847 5925195.662 556769.227 5925196.277 556769.610 5925196.889 556769.996 5925197.500 556770.384 5925198.110 556770.775 5925198.718 556771.168 5925199.324 556771.563 5925199.928 556771.961 5925200.531 556772.362 5925201.132 556772.765 5925201.731 556773.171 5925202.329 556773.579 5925202.925 556773.990 5925203.520 556774.403 5925204.113 556774.819 5925204.704 556775.237 5925205.293 556775.658 5925205.881 556776.081 5925206.468 556776.507 5925207.052 556776.935 5925207.635 556777.366 5925208.216 556777.799 5925208.796 556778.235 5925209.374 556778.673 5925209.950 556779.114 5925210.525 556779.557 5925211.098 556780.003 5925211.669 556780.452 5925212.239 556780.903 5925212.807 556781.356 5925213.374 556781.812 5925213.938 556782.270 5925214.502 556782.731 5925215.063 556783.195 5925215.623 556783.661 5925216.181 556784.129 5925216.737 556784.600 5925217.292 556785.074 5925217.845 556785.550 5925218.397 556796.198 5925231.303 556819.057 5925259.010 556803.658 5925269.546 556793.545 5925276.465 556772.062 5925288.549 556771.264 5925288.919 556770.464 5925289.283 556769.663 5925289.641 556768.861 5925289.993</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_73">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Neugraben-Fischbek76</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_73_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_73_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_d6c1f698-9f9e-40a5-9088-da7507dbf3a6" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>555002.127 5925352.733 555014.516 5925411.358 555014.658 5925425.969 554983.229 5925426.562 554944.032 5925427.270 554944.030 5925427.159 554946.246 5925422.989 554962.188 5925391.011 554886.820 5925392.824 554873.452 5925374.109 554864.163 5925359.002 554852.932 5925340.118 554845.190 5925338.000 554842.088 5925339.412 554858.448 5925411.929 554861.958 5925427.487 554840.640 5925426.821 554819.300 5925426.239 554740.920 5925422.080 554714.962 5925420.487 554720.437 5925405.534 554728.088 5925384.730 554733.612 5925374.054 554738.179 5925366.647 554741.783 5925361.139 554739.655 5925271.146 554760.244 5925264.811 554764.785 5925263.803 554769.679 5925262.981 554773.618 5925262.514 554780.083 5925262.115 554785.165 5925262.119 554790.827 5925262.455 554795.887 5925263.051 554801.781 5925264.107 554806.955 5925265.366 554811.106 5925266.608 554817.076 5925268.777 554820.616 5925260.717 554821.775 5925261.199 554821.825 5925261.221 554823.354 5925267.685 554823.337 5925267.678 554824.178 5925271.166 554828.168 5925272.978 554834.510 5925273.886 554837.594 5925274.065 554842.850 5925272.253 554845.931 5925269.897 554848.469 5925266.453 554850.823 5925261.558 554852.440 5925256.455 554858.020 5925257.105 554863.435 5925257.181 554866.383 5925257.352 554867.790 5925252.344 554869.240 5925247.189 554870.452 5925241.951 554871.665 5925236.705 554872.630 5925231.424 554873.594 5925226.148 554875.035 5925215.494 554882.375 5925217.006 554883.880 5925218.106 554885.604 5925218.937 554887.319 5925219.766 554899.334 5925225.483 554918.930 5925231.537 554934.765 5925233.110 554930.223 5925265.763 554925.859 5925296.795 554925.372 5925300.329 554989.300 5925318.649 554995.048 5925320.296 554999.745 5925321.404 555002.127 5925352.733</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_74">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Neugraben-Fischbek77</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/harburg/bebauungsplaene/15023668/neugraben-fischbek-77/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_74_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_74_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_c44466ac-9f29-4d22-a2a0-724bb0016593" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>556983.861 5925164.298 557038.630 5925178.057 557044.341 5925281.894 557044.351 5925282.206 557044.357 5925282.516 557044.360 5925282.826 557044.359 5925283.134 557044.355 5925283.441 557044.348 5925283.746 557044.337 5925284.051 557044.323 5925284.354 557044.305 5925284.656 557044.284 5925284.956 557044.259 5925285.256 557044.231 5925285.554 557044.200 5925285.851 557044.165 5925286.147 557044.127 5925286.441 557044.085 5925286.735 557044.040 5925287.027 557043.991 5925287.317 557043.939 5925287.607 557043.883 5925287.895 557043.824 5925288.182 557043.762 5925288.468 557043.696 5925288.753 557043.627 5925289.036 557043.554 5925289.318 557043.478 5925289.599 557043.399 5925289.878 557043.316 5925290.157 557043.229 5925290.434 557043.139 5925290.710 557043.046 5925290.985 557042.949 5925291.258 557042.849 5925291.530 557042.746 5925291.801 557042.639 5925292.071 557042.528 5925292.339 557042.414 5925292.607 557042.297 5925292.873 557042.176 5925293.137 557042.052 5925293.401 557041.924 5925293.663 557041.793 5925293.924 557041.659 5925294.184 557041.521 5925294.443 557041.380 5925294.700 557041.235 5925294.956 557041.087 5925295.211 557040.935 5925295.464 557040.780 5925295.717 557040.622 5925295.968 557040.460 5925296.218 557040.294 5925296.466 557040.125 5925296.714 557039.953 5925296.960 557039.778 5925297.205 557039.598 5925297.449 557039.416 5925297.691 557039.230 5925297.932 557039.040 5925298.172 557038.848 5925298.411 557038.651 5925298.649 557038.452 5925298.885 557038.249 5925299.120 557038.042 5925299.354 557037.809 5925299.601 557037.575 5925299.846 557037.338 5925300.087 557037.099 5925300.324 557036.859 5925300.559 557036.616 5925300.790 557036.372 5925301.017 557036.125 5925301.241 557035.877 5925301.462 557035.627 5925301.679 557035.375 5925301.893 557035.120 5925302.104 557034.864 5925302.311 557034.606 5925302.515 557034.346 5925302.715 557034.084 5925302.912 557033.820 5925303.106 557033.554 5925303.296 557033.286 5925303.483 557033.016 5925303.667 557032.745 5925303.847 557032.471 5925304.024 557032.195 5925304.197 557031.918 5925304.367 557031.638 5925304.534 557031.356 5925304.697 557031.073 5925304.857 557030.787 5925305.013 557030.500 5925305.166 557030.211 5925305.316 557029.919 5925305.462 557029.626 5925305.605 557029.331 5925305.745 557029.034 5925305.881 557028.735 5925306.014 557028.434 5925306.143 557028.131 5925306.269 557027.826 5925306.392 557027.519 5925306.511 557027.210 5925306.627 557026.899 5925306.740 557026.586 5925306.849 557026.272 5925306.955 557025.955 5925307.057 557025.636 5925307.156 557025.316 5925307.252 557024.993 5925307.344 557024.669 5925307.433 557024.342 5925307.518 557024.014 5925307.600 557023.684 5925307.679 557023.351 5925307.754 557023.017 5925307.826 557022.681 5925307.895 557022.343 5925307.960 557022.003 5925308.022 557021.661 5925308.080 557021.317 5925308.135 557020.971 5925308.187 557020.623 5925308.235 557020.273 5925308.280 557019.921 5925308.322 557019.567 5925308.360 557019.212 5925308.395 556865.678 5925315.923 556796.198 5925231.303 556947.340 5925167.597 556966.369 5925163.624 556983.861 5925164.298</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_78">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Jenfeld28</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/10222674/bebauungsplanentwurf-jenfeld-28/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_78_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_78_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_436f6223-3695-4126-91b3-e9f589789226" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>575748.043 5937937.693 575718.224 5937937.602 575718.233 5937933.461 575564.272 5937932.692 575564.842 5937840.766 575686.912 5937837.855 575694.202 5937837.767 575704.056 5937837.928 575710.125 5937838.188 575713.899 5937838.412 575723.721 5937839.217 575733.243 5937840.308 575753.991 5937843.758 575769.789 5937847.483 575769.657 5937858.754 575769.527 5937918.228 575758.892 5937926.257 575748.081 5937926.221 575748.043 5937937.693</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_80">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Steilshoop11</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/13760788/bebauungsplanentwurf-steilshoop-11/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_80_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_80_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_294aac44-e86f-4d20-a676-8605c7ddf1a6" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>570304.555 5941622.804 570369.090 5941573.908 570372.110 5941577.894 570395.678 5941560.037 570382.039 5941542.032 570366.107 5941537.089 570304.596 5941455.655 570308.492 5941432.539 570295.067 5941417.673 570271.196 5941435.736 570266.878 5941439.009 570221.736 5941379.417 570168.184 5941419.897 570216.327 5941483.587 570159.967 5941526.297 570304.555 5941622.804</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_81">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Steilshoop12</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/13760802/bebauungsplanentwurf-steilshoop-12/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_81_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_81_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_8e041dfa-4093-424a-a552-963b5d7e0452" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569868.015 5941319.512 569804.910 5941119.554 569792.843 5941123.362 569782.173 5941090.252 569732.845 5941105.820 569731.205 5941100.624 569724.180 5941078.075 569704.578 5941084.183 569696.739 5941096.071 569598.875 5941126.858 569579.773 5941115.504 569560.688 5941121.184 569570.248 5941151.476 569570.862 5941156.943 569450.622 5941194.888 569448.998 5941189.741 569440.706 5941163.465 569421.641 5941168.894 569412.216 5941185.932 569418.826 5941204.922 569441.401 5941197.775 569444.269 5941196.893 569471.955 5941284.603 569476.718 5941283.091 569603.309 5941243.141 569638.195 5941353.670 569762.776 5941315.740 569789.460 5941363.447 569868.015 5941319.512</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_82">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Steilshoop3(3Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/13760762/bebauungsplanverfahren-steilshoop-3-aenderung/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_82_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_82_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_c102b0a8-a007-4167-8ed5-b86d830a272e" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>570446.668 5940477.946 570444.798 5940471.741 570442.184 5940472.252 570437.946 5940462.588 570424.631 5940432.231 570414.920 5940410.088 570413.622 5940407.130 570402.322 5940390.827 570400.739 5940391.786 570359.383 5940346.760 570322.380 5940308.014 570319.080 5940304.110 570313.961 5940299.601 570310.863 5940296.169 570252.673 5940235.826 570247.426 5940228.798 570243.021 5940223.368 570196.796 5940138.689 570179.025 5940109.681 570153.701 5940070.935 570124.086 5940099.323 570130.728 5940103.875 570138.219 5940109.451 570149.337 5940118.487 570156.357 5940124.533 570147.990 5940133.276 570145.032 5940136.128 570128.895 5940150.127 570187.596 5940203.389 570155.152 5940259.475 570164.942 5940273.495 570107.641 5940373.454 570101.084 5940385.349 570082.832 5940385.177 570062.482 5940384.985 570062.477 5940379.961 570125.239 5940271.326 570128.419 5940267.205 570130.939 5940264.470 570126.584 5940259.779 570108.652 5940243.920 570087.308 5940228.211 570073.418 5940219.128 570061.676 5940208.981 570101.436 5940174.161 570082.088 5940152.081 570046.769 5940179.933 570028.446 5940191.711 570016.693 5940199.266 570005.427 5940206.508 569988.516 5940217.378 569984.082 5940214.285 569890.246 5940274.606 569887.711 5940276.235 569887.092 5940275.445 569881.446 5940279.074 569853.415 5940246.062 569834.188 5940222.965 569808.658 5940191.066 569786.119 5940160.417 569760.089 5940124.774 569710.778 5940056.980 569658.612 5939986.126 569667.247 5939980.919 569667.827 5939981.736 569670.403 5939980.183 569650.172 5939951.665 569640.486 5939938.199 569619.432 5939909.072 569593.811 5939873.578 569580.586 5939855.183 569575.286 5939847.812 569563.631 5939854.120 569537.506 5939817.445 569536.249 5939815.911 569533.026 5939811.368 569522.118 5939817.929 569504.690 5939828.411 569298.894 5939955.160 569289.101 5939971.380 569098.646 5940228.684 569077.108 5940255.813 569052.361 5940285.039 569050.034 5940287.753 569046.769 5940289.514 569042.568 5940290.354 569038.374 5940290.354 569032.890 5940290.902 569029.554 5940292.764 569023.792 5940329.056 569017.732 5940367.223 569017.100 5940371.200 569021.310 5940372.890 569057.792 5940386.125 569101.254 5940401.124 569117.889 5940406.867 569181.913 5940427.609 569233.427 5940441.558 569244.970 5940443.467 570277.674 5940518.802 570311.168 5940518.840 570350.160 5940515.977 570447.847 5940506.892 570452.204 5940506.501 570451.392 5940499.597 570451.330 5940499.039 570450.572 5940492.627 570446.668 5940477.946</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_83">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Barmbek-Nord43</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/hamburg-nord/bauleitplanung/13620492/barmbek-nord43/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_83_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_83_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_18d94923-8450-4d53-baa0-bcd28fad8ca3" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569218.986 5938819.016 569116.999 5938800.614 569110.454 5938849.570 569104.695 5938882.295 569097.103 5938918.424 569075.635 5939009.269 569070.923 5939031.260 569081.286 5939032.915 569111.593 5939039.751 569116.619 5939040.812 569121.678 5939041.697 569126.765 5939042.408 569131.873 5939042.941 569184.055 5939046.359 569197.412 5939046.939 569198.030 5939046.949 569198.646 5939046.904 569199.256 5939046.805 569199.855 5939046.652 569200.438 5939046.446 569201.000 5939046.190 569201.537 5939045.884 569202.045 5939045.532 569202.520 5939045.136 569202.957 5939044.700 569203.354 5939044.226 569203.708 5939043.719 569204.015 5939043.183 569204.273 5939042.622 569204.480 5939042.039 569204.635 5939041.441 569218.986 5938819.016</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_114">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Billstedt117</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_114_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_114_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_fcfacc1a-f9f8-499e-b1aa-e3f217df0efa" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>573907.574 5933042.902 573917.210 5933040.564 573894.275 5932958.369 573921.617 5932948.497 573968.757 5933028.056 574065.004 5933111.342 574088.107 5933167.794 574080.947 5933179.656 574076.663 5933178.867 574074.897 5933178.701 574072.241 5933178.452 574069.905 5933178.651 574067.922 5933178.819 573951.736 5933188.679 573907.574 5933042.902</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_79">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Rahlstedt135</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/12631904/bebauungsplanentwurf-rahlstedt-135/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_79_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_79_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_854e8cac-fbb2-431e-99cc-c3370b6f20b8" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>577786.303 5939080.939 577780.045 5939082.456 577778.447 5939082.843 577828.415 5939157.872 577834.625 5939164.375 577844.582 5939181.706 577879.350 5939244.704 577885.728 5939242.029 577892.839 5939236.423 577905.912 5939247.015 577915.801 5939239.834 577911.545 5939230.071 577932.618 5939216.973 577971.998 5939203.466 577992.788 5939200.361 577991.950 5939178.993 577991.112 5939157.626 577990.869 5939144.753 577993.353 5939138.281 578000.657 5939116.564 578012.254 5939082.085 578015.917 5939071.331 578020.621 5939057.535 578021.210 5939055.807 578028.536 5939034.312 577985.212 5939032.714 577786.303 5939080.939</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_86">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Eppendorf26-Alsterdorf23</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/hamburg-nord/bauleitplanung/13835446/eppendorf26-alsterdorf23/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_86_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_86_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_e76b3e19-656b-416f-904b-793feb5a4bb8" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565417.543 5939554.145 565345.161 5939751.546 565331.620 5939749.421 565270.310 5939781.740 565252.973 5939790.879 565236.182 5939769.182 565221.204 5939752.434 565219.203 5939750.121 565213.168 5939743.006 565204.113 5939732.330 565185.667 5939705.669 565179.314 5939696.524 565175.901 5939691.101 565173.578 5939685.673 565170.942 5939678.852 565169.079 5939672.651 565166.857 5939643.495 565166.733 5939623.028 565161.862 5939624.439 565156.908 5939610.567 565151.468 5939600.079 565147.212 5939593.254 565139.102 5939581.778 565134.154 5939575.591 565147.629 5939569.074 565149.880 5939567.985 565176.196 5939555.257 565178.236 5939554.230 565180.414 5939552.774 565182.384 5939551.047 565183.085 5939550.309 565184.111 5939549.077 565185.567 5939546.899 565186.725 5939544.549 565187.308 5939542.954 565193.827 5939516.544 565201.822 5939485.171 565204.023 5939476.718 565210.073 5939453.866 565218.580 5939422.629 565221.879 5939410.780 565230.062 5939413.105 565282.355 5939427.946 565284.438 5939418.141 565286.215 5939410.083 565287.126 5939406.061 565288.050 5939402.041 565288.302 5939400.957 565289.028 5939397.862 565290.020 5939393.687 565291.061 5939389.386 565292.119 5939385.089 565292.706 5939382.737 565293.293 5939380.402 565294.486 5939375.719 565297.478 5939364.320 565298.185 5939361.695 565302.059 5939347.719 565302.569 5939345.928 565303.403 5939343.022 565304.768 5939338.331 565305.815 5939334.782 565306.873 5939331.237 565307.798 5939328.174 565307.943 5939327.695 565309.024 5939324.157 565310.161 5939320.479 565311.310 5939316.804 565312.426 5939313.278 565313.415 5939310.187 565313.553 5939309.756 565315.250 5939304.527 565316.971 5939299.306 565318.557 5939294.566 565319.356 5939292.203 565320.164 5939289.832 565321.793 5939285.106 565323.442 5939280.386 565325.279 5939275.201 565325.508 5939274.560 565327.142 5939270.025 565330.244 5939261.572 565332.036 5939256.780 565333.411 5939253.144 565335.382 5939248.000 565337.377 5939242.866 565338.892 5939238.974 565340.449 5939235.098 565341.979 5939231.208 565342.702 5939229.442 565343.582 5939227.347 565345.319 5939223.074 565345.459 5939222.736 565347.105 5939218.820 565349.442 5939213.271 565351.253 5939209.022 565353.080 5939204.780 565355.016 5939200.341 565356.970 5939195.909 565358.734 5939191.950 565360.514 5939187.997 565360.734 5939187.511 565362.503 5939183.627 565364.511 5939179.266 565366.915 5939174.104 565368.663 5939170.391 565369.344 5939168.954 565372.284 5939162.806 565375.260 5939156.676 565376.443 5939154.267 565376.929 5939153.281 565377.630 5939151.861 565366.211 5939148.189 565362.081 5939138.787 565352.206 5939116.305 565355.066 5939117.222 565363.307 5939085.308 565365.898 5939075.274 565371.515 5939076.652 565371.575 5939076.660 565374.848 5939076.874 565376.793 5939076.799 565378.122 5939076.660 565381.339 5939076.020 565381.984 5939075.838 565391.207 5939073.148 565392.872 5939079.111 565398.604 5939092.893 565402.696 5939100.811 565414.708 5939120.595 565439.732 5939155.280 565452.514 5939172.860 565458.106 5939183.640 565461.113 5939192.647 565464.658 5939206.430 565467.993 5939230.033 565469.735 5939251.984 565469.946 5939258.797 565472.377 5939352.733 565472.901 5939373.642 565472.901 5939387.741 565471.956 5939397.562 565470.473 5939405.379 565468.786 5939412.875 565467.201 5939418.896 565464.562 5939426.815 565462.250 5939433.109 565437.590 5939499.577 565417.787 5939554.121 565417.543 5939554.145</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_89">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Altona-Altstadt29(1Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/12279092/bebauungsplanentwurf-altona-altstadt-29/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_89_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_89_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_b1867e9a-7435-4799-839a-201504d22e4d" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>563383.653 5934646.658 563383.650 5934645.201 563383.694 5934643.745 563383.787 5934642.292 563383.927 5934640.842 563384.115 5934639.397 563384.351 5934637.960 563384.634 5934636.531 563384.932 5934635.019 563385.177 5934633.497 563385.368 5934631.968 563385.506 5934630.433 563385.590 5934628.894 563385.620 5934627.353 563385.596 5934625.812 563385.519 5934624.273 563385.387 5934622.737 563385.202 5934621.207 563384.964 5934619.685 563384.672 5934618.171 563384.328 5934616.669 563379.630 5934597.731 563370.666 5934561.593 563368.647 5934553.455 563368.020 5934550.926 563367.537 5934548.978 563368.284 5934548.784 563370.452 5934548.218 563447.054 5934528.234 563451.490 5934527.078 563481.549 5934653.432 563440.077 5934662.153 563425.493 5934664.281 563385.169 5934668.114 563383.794 5934653.843 563383.653 5934646.658</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_91">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Altona-Altstadt61</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/16499234/altona-altstadt-61/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_91_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_91_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_6ff64c36-e062-414c-b0cc-8711934240f1" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>562744.449 5934489.196 562741.120 5934496.202 562627.537 5934479.460 562609.285 5934389.936 562609.039 5934378.179 562719.512 5934367.136 562744.449 5934489.196</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_158">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Harburg74</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bebauungsplaene/12063232/harburg-74/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_158_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_158_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_2b962039-215e-4834-8257-2c0e48a3f552" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>564422.139 5923666.651 564415.068 5923675.024 564408.561 5923682.706 564363.852 5923645.251 564370.342 5923637.602 564377.152 5923629.560 564378.090 5923628.452 564379.179 5923627.585 564395.125 5923608.750 564398.916 5923604.273 564402.879 5923599.593 564414.929 5923609.719 564427.019 5923619.878 564436.649 5923627.971 564437.599 5923626.868 564447.616 5923608.541 564447.919 5923608.676 564455.088 5923592.315 564457.836 5923593.498 564448.126 5923615.696 564468.791 5923624.621 564477.037 5923628.182 564478.354 5923625.224 564482.566 5923631.987 564484.510 5923627.504 564487.598 5923628.854 564486.971 5923630.304 564493.924 5923633.285 564490.840 5923640.371 564490.641 5923640.829 564499.574 5923642.804 564503.512 5923643.676 564512.373 5923645.635 564514.136 5923640.031 564523.075 5923642.844 564533.110 5923646.000 564528.686 5923660.061 564518.742 5923656.924 564508.503 5923653.692 564500.056 5923656.473 564496.896 5923656.962 564495.289 5923662.010 564494.526 5923664.404 564490.174 5923678.065 564489.979 5923678.678 564476.051 5923674.062 564463.566 5923670.122 564458.952 5923668.665 564458.573 5923665.723 564449.087 5923657.786 564451.021 5923655.494 564447.145 5923652.250 564439.620 5923645.952 564425.270 5923662.945 564422.139 5923666.651</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_92">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Altona-Altstadt62</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/16634474/altona-altstadt-62/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_92_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_92_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_6d4ed562-d20e-4631-b88b-03e5431c5e38" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>562729.108 5933915.860 562729.161 5933915.012 562731.506 5933915.158 562730.711 5933927.918 562729.479 5933927.841 562729.099 5933933.930 562711.833 5933932.854 562711.711 5933934.833 562711.568 5933937.127 562710.833 5933949.020 562710.486 5933948.998 562709.705 5933961.091 562685.308 5933959.488 562646.127 5933956.917 562647.353 5933953.360 562679.882 5933859.036 562735.441 5933879.212 562732.217 5933888.091 562726.668 5933903.374 562722.672 5933914.380 562722.289 5933915.435 562729.108 5933915.860</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_93">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Altona-Nord28</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/11405358/altona-nord28-holsten-quartier/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_93_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_93_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_3ef22f8a-9853-4ce4-935d-b4055e87e481" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>562640.560 5935252.172 562640.545 5935252.152 562640.531 5935252.131 562640.461 5935252.050 562640.162 5935251.867 562639.913 5935251.824 562639.709 5935251.853 562639.655 5935251.865 562639.557 5935251.873 562639.246 5935251.791 562639.121 5935251.692 562638.978 5935251.473 562636.570 5935252.130 562636.351 5935251.598 562635.999 5935250.883 562635.044 5935249.638 562633.799 5935248.683 562633.602 5935248.574 562632.349 5935248.082 562630.793 5935247.877 562629.555 5935248.007 562617.211 5935250.609 562615.617 5935250.945 562606.418 5935252.867 562482.729 5935282.268 562426.278 5935294.343 562368.227 5935304.186 562365.136 5935304.283 562365.111 5935304.542 562364.847 5935304.554 562357.261 5935304.701 562356.208 5935298.210 562292.145 5935113.806 562234.440 5934946.937 562243.775 5934943.796 562245.167 5934943.823 562245.848 5934945.703 562256.583 5934943.583 562257.003 5934934.688 562258.687 5934898.988 562258.973 5934892.915 562302.096 5934894.976 562334.850 5934865.301 562349.834 5934852.176 562353.072 5934855.748 562361.051 5934864.551 562362.934 5934866.628 562387.946 5934894.224 562400.842 5934908.453 562413.816 5934922.290 562414.033 5934922.521 562427.710 5934936.342 562441.929 5934949.965 562451.656 5934958.965 562453.471 5934960.644 562456.240 5934962.917 562459.538 5934965.727 562471.247 5934975.700 562474.409 5934978.227 562486.608 5934987.972 562489.564 5934990.211 562501.310 5934999.106 562508.454 5935004.202 562517.414 5935010.594 562533.978 5935021.788 562544.348 5935028.345 562551.062 5935032.589 562563.187 5935039.681 562568.238 5935042.636 562574.533 5935046.152 562585.857 5935052.475 562588.149 5935053.672 562595.261 5935057.385 562605.224 5935062.359 562647.615 5935078.966 562655.034 5935081.873 562672.672 5935088.706 562672.959 5935088.971 562673.249 5935089.232 562673.542 5935089.491 562673.837 5935089.746 562674.136 5935089.998 562674.436 5935090.247 562674.740 5935090.493 562675.046 5935090.736 562675.355 5935090.975 562675.666 5935091.211 562675.980 5935091.444 562676.296 5935091.673 562676.615 5935091.899 562676.935 5935092.121 562677.259 5935092.340 562677.584 5935092.556 562677.912 5935092.768 562678.243 5935092.977 562678.575 5935093.182 562678.910 5935093.383 562679.246 5935093.581 562679.585 5935093.775 562679.926 5935093.966 562680.269 5935094.153 562680.614 5935094.337 562680.960 5935094.516 562681.309 5935094.692 562681.659 5935094.865 562682.012 5935095.033 562682.366 5935095.198 562682.722 5935095.359 562683.079 5935095.516 562683.438 5935095.669 562683.799 5935095.819 562684.162 5935095.965 562684.525 5935096.106 562684.891 5935096.244 562685.258 5935096.378 562685.626 5935096.508 562685.996 5935096.635 562686.366 5935096.757 562686.739 5935096.875 562687.112 5935096.989 562687.487 5935097.100 562687.863 5935097.206 562688.240 5935097.308 562688.618 5935097.406 562688.997 5935097.501 562689.377 5935097.591 562689.758 5935097.677 562690.139 5935097.759 562690.522 5935097.837 562690.906 5935097.911 562691.290 5935097.981 562691.675 5935098.046 562692.061 5935098.108 562692.447 5935098.165 562692.834 5935098.219 562693.221 5935098.268 562693.609 5935098.313 562693.997 5935098.354 562694.386 5935098.391 562694.775 5935098.423 562695.165 5935098.452 562702.746 5935100.185 562749.661 5935111.849 562737.407 5935125.499 562721.657 5935143.044 562659.799 5935238.660 562653.718 5935249.282 562640.560 5935252.172</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_94">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Bahrenfeld35(1Aend)</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_94_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_94_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_27d7d690-61e7-4cc5-802c-f85751735122" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>559639.109 5935298.801 559637.770 5935354.318 559637.764 5935355.185 559637.789 5935356.052 559637.843 5935356.917 559637.928 5935357.780 559638.042 5935358.639 559638.186 5935359.494 559638.359 5935360.343 559638.562 5935361.186 559638.794 5935362.021 559639.055 5935362.848 559639.344 5935363.665 559639.662 5935364.472 559640.007 5935365.267 559640.380 5935366.050 559640.779 5935366.820 559641.205 5935367.575 559641.657 5935368.314 559642.135 5935369.038 559642.637 5935369.745 559643.163 5935370.434 559643.713 5935371.104 559644.286 5935371.755 559644.881 5935372.385 559645.497 5935372.995 559646.134 5935373.583 559646.792 5935374.148 559647.468 5935374.690 559648.163 5935375.209 559648.875 5935375.703 559649.604 5935376.172 559650.349 5935376.615 559651.109 5935377.033 559651.883 5935377.423 559652.670 5935377.787 559636.773 5935376.718 559636.433 5935381.318 559635.620 5935392.346 559635.597 5935392.651 559635.472 5935394.352 559635.191 5935396.801 559629.060 5935444.942 559620.111 5935445.767 559614.353 5935446.297 559607.329 5935416.358 559607.118 5935415.089 559605.502 5935405.389 559605.414 5935404.856 559597.250 5935355.802 559595.352 5935344.401 559583.803 5935297.469 559639.109 5935298.801</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_95">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Bahrenfeld39(1Aend)</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_95_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_95_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_23d597a0-4966-4430-b859-d3fdac8db73f" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>561606.178 5935579.373 561568.513 5935558.393 561567.357 5935577.887 561554.139 5935708.432 561547.207 5935778.892 561542.746 5935811.437 561572.813 5935806.480 561598.253 5935800.697 561612.130 5935798.549 561638.561 5935790.454 561676.556 5935778.723 561692.415 5935773.106 561708.439 5935766.828 561725.453 5935759.724 561773.336 5935739.007 561778.150 5935736.924 561792.852 5935730.663 561794.669 5935723.724 561789.878 5935714.308 561783.724 5935709.693 561644.504 5935605.310 561631.453 5935596.058 561618.238 5935586.642 561606.178 5935579.373</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_184">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Ottensen60</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_184_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_184_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_bd1eac04-f985-4178-901e-bc141dd396a7" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>561046.826 5934518.090 561086.571 5934315.717 561034.500 5934304.407 561020.500 5934301.637 560987.182 5934295.061 560918.675 5934284.128 560816.502 5934281.801 560828.220 5934616.825 561046.826 5934518.090</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_96">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Bahrenfeld73</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_96_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_96_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_81f1e0c9-7458-4c4f-89ff-98db6c11e37c" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>560268.631 5936327.671 560267.717 5936332.247 560272.521 5936333.211 560279.697 5936343.428 560307.756 5936327.069 560308.840 5936326.438 560309.924 5936325.810 560311.011 5936325.185 560312.098 5936324.561 560313.187 5936323.940 560314.277 5936323.321 560315.368 5936322.705 560316.460 5936322.090 560317.554 5936321.478 560318.649 5936320.869 560319.746 5936320.261 560320.843 5936319.656 560321.942 5936319.053 560323.043 5936318.453 560324.144 5936317.854 560325.247 5936317.258 560326.350 5936316.665 560327.456 5936316.073 560328.562 5936315.484 560329.670 5936314.897 560330.778 5936314.313 560331.888 5936313.731 560333.000 5936313.151 560334.112 5936312.573 560335.226 5936311.998 560336.341 5936311.425 560337.457 5936310.855 560338.574 5936310.287 560339.692 5936309.721 560340.812 5936309.157 560341.933 5936308.596 560343.054 5936308.037 560344.178 5936307.480 560345.302 5936306.926 560346.427 5936306.374 560347.554 5936305.825 560348.681 5936305.278 560349.810 5936304.733 560350.940 5936304.190 560352.071 5936303.650 560353.204 5936303.113 560354.337 5936302.577 560355.471 5936302.044 560356.607 5936301.514 560357.744 5936300.985 560358.881 5936300.460 560360.020 5936299.936 560361.160 5936299.415 560362.301 5936298.896 560363.443 5936298.380 560364.586 5936297.866 560365.731 5936297.354 560366.876 5936296.845 560368.022 5936296.338 560369.170 5936295.834 560370.318 5936295.332 560371.468 5936294.832 560372.618 5936294.335 560373.770 5936293.840 560374.923 5936293.347 560376.076 5936292.857 560377.231 5936292.370 560378.387 5936291.884 560379.543 5936291.402 560379.547 5936291.400 560380.596 5936288.138 560383.006 5936283.037 560279.645 5936233.667 560279.167 5936234.669 560279.126 5936234.649 560277.002 5936239.201 560271.996 5936269.038 560263.407 5936320.234 560268.631 5936327.671</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_98">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Blankenese20(1Aend)</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_98_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_98_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_2304ec6d-2256-4366-9b56-10b8c6fd3dcb" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>554002.953 5935402.187 554007.026 5935404.240 554076.429 5935439.228 554075.133 5935442.010 554075.402 5935442.146 554075.667 5935442.292 554075.926 5935442.446 554076.180 5935442.610 554076.428 5935442.782 554076.670 5935442.963 554076.905 5935443.152 554077.134 5935443.349 554077.355 5935443.554 554077.570 5935443.767 554077.776 5935443.987 554077.975 5935444.213 554078.167 5935444.447 554078.349 5935444.687 554078.524 5935444.934 554078.689 5935445.186 554078.846 5935445.444 554078.994 5935445.707 554079.132 5935445.976 554079.262 5935446.249 554079.381 5935446.526 554079.491 5935446.807 554079.591 5935447.092 554079.681 5935447.380 554079.761 5935447.671 554079.831 5935447.965 554079.890 5935448.261 554079.939 5935448.559 554079.978 5935448.858 554077.872 5935460.871 554078.799 5935464.989 554070.249 5935466.918 554066.641 5935467.732 554062.761 5935468.608 554061.690 5935468.849 554060.599 5935468.597 554044.262 5935464.797 554040.180 5935463.949 553998.866 5935455.364 553994.696 5935454.497 553978.208 5935451.072 553975.546 5935450.519 553958.078 5935447.108 553957.510 5935446.989 553936.860 5935442.666 553928.716 5935440.961 553916.208 5935438.409 553895.108 5935434.104 553879.652 5935430.951 553870.605 5935404.390 553864.160 5935385.464 553861.331 5935377.159 553859.817 5935376.282 553838.353 5935364.702 553799.405 5935343.500 553799.208 5935343.393 553795.380 5935341.369 553801.162 5935317.546 553803.097 5935309.599 553803.939 5935306.143 553806.039 5935296.278 553806.095 5935296.013 553806.824 5935292.589 553806.299 5935267.230 553806.259 5935266.410 553805.196 5935244.882 553804.813 5935234.359 553807.451 5935234.327 553812.608 5935234.265 553813.192 5935234.259 553869.643 5935241.660 553920.541 5935242.584 553940.824 5935240.458 553949.229 5935239.576 553988.973 5935231.568 553992.253 5935235.263 553998.268 5935242.039 553989.061 5935252.521 553979.430 5935263.485 553968.204 5935276.419 553957.041 5935289.631 553945.954 5935302.769 553933.440 5935311.309 553927.635 5935314.767 553922.131 5935311.544 553921.222 5935311.013 553919.025 5935309.975 553910.438 5935305.920 553904.496 5935303.123 553903.275 5935302.541 553894.827 5935320.186 553893.669 5935322.785 553875.365 5935314.221 553864.640 5935336.918 554002.953 5935402.187</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_99">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Blankenese34(1Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/12037362/bebauungsplanentwurf-blankenese-34/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_99_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_99_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_963fe2e0-5eb2-4aab-89df-02b5cbb44e32" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>553745.371 5935285.841 553764.385 5935255.226 553768.558 5935248.507 553768.549 5935244.290 553768.536 5935242.318 553768.885 5935235.409 553789.509 5935234.622 553803.323 5935234.258 553804.813 5935234.359 553805.196 5935244.882 553806.259 5935266.410 553806.299 5935267.230 553806.824 5935292.589 553806.095 5935296.013 553806.039 5935296.278 553803.939 5935306.143 553796.850 5935304.598 553794.555 5935304.097 553778.054 5935300.809 553763.801 5935297.749 553757.592 5935296.438 553749.110 5935294.361 553747.182 5935293.889 553741.928 5935292.602 553743.559 5935288.757 553745.371 5935285.841</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_100">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Blankenese6(1Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/12037104/bebauungsplanentwurf-blankenese-6/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_100_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_100_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_8cb6ad8d-8eaa-411c-a402-6e1f30386abb" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>553756.150 5934642.550 553764.120 5934641.478 553769.783 5934641.083 553770.692 5934641.007 553777.583 5934641.550 553782.662 5934642.517 553786.135 5934643.238 553794.991 5934645.077 553796.010 5934645.332 553797.105 5934645.682 553807.468 5934648.651 553809.596 5934648.993 553817.606 5934649.504 553828.127 5934650.173 553839.541 5934652.144 553849.275 5934653.826 553861.828 5934656.157 553867.715 5934657.251 553867.767 5934656.956 553872.118 5934657.640 553878.658 5934658.670 553883.306 5934659.402 553884.475 5934659.586 553887.337 5934660.015 553881.119 5934719.625 553873.469 5934741.600 553863.271 5934761.509 553861.451 5934765.636 553944.739 5934816.385 553940.854 5934822.577 553920.822 5934854.141 553904.552 5934880.242 553886.824 5934910.596 553876.043 5934931.079 553874.685 5934933.663 553842.631 5934994.851 553734.943 5934977.252 553728.992 5934959.647 553726.443 5934941.074 553706.295 5934939.099 553667.794 5934934.197 553668.287 5934929.904 553673.010 5934888.758 553673.015 5934888.710 553678.223 5934843.345 553678.227 5934843.312 553679.010 5934836.489 553679.392 5934833.158 553679.793 5934833.143 553682.738 5934833.269 553685.236 5934834.971 553689.965 5934836.547 553692.005 5934837.201 553703.464 5934840.879 553704.705 5934841.277 553706.261 5934835.536 553706.535 5934834.440 553705.519 5934827.786 553709.150 5934806.604 553711.115 5934795.131 553711.236 5934794.422 553711.358 5934793.715 553711.403 5934793.465 553712.464 5934786.905 553703.138 5934792.528 553699.282 5934776.031 553698.717 5934773.661 553697.016 5934766.516 553695.127 5934758.581 553691.351 5934742.723 553692.157 5934742.649 553701.891 5934741.750 553715.325 5934740.510 553723.606 5934739.745 553726.821 5934717.004 553727.247 5934713.994 553727.559 5934710.828 553729.047 5934706.408 553730.966 5934700.709 553731.433 5934699.324 553732.666 5934695.415 553742.868 5934699.084 553746.715 5934689.943 553746.928 5934685.542 553749.857 5934669.065 553751.770 5934658.308 553754.423 5934646.633 553754.645 5934643.750 553756.150 5934642.550</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_101">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Lurup58(1Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/6032328/lurup58/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_101_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_101_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_07d05ce3-019f-44e4-b6db-bb58a41d7835" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>557753.347 5939147.415 557723.442 5939161.755 557709.910 5939168.244 557717.077 5939185.013 557692.889 5939195.790 557671.690 5939205.235 557645.459 5939216.923 557640.494 5939219.134 557470.042 5938855.461 557464.715 5938844.040 557517.626 5938764.921 557609.209 5938619.616 557629.872 5938586.672 557641.889 5938568.821 557644.702 5938564.844 557654.903 5938550.423 557655.875 5938548.928 557670.581 5938529.231 557679.412 5938517.403 557687.352 5938507.276 557693.887 5938498.943 557721.558 5938468.136 557760.083 5938425.029 557818.479 5938358.400 557827.522 5938364.396 557850.157 5938379.403 557860.984 5938386.212 557885.594 5938399.990 557910.959 5938412.064 557930.682 5938420.134 557953.602 5938429.553 557978.369 5938439.339 557991.811 5938444.810 558015.473 5938453.115 558014.823 5938458.949 558010.823 5938494.878 558007.768 5938534.379 557996.457 5938574.488 557976.563 5938644.210 557962.157 5938679.503 557943.612 5938724.937 557927.969 5938764.573 557917.141 5938794.778 557899.775 5938851.496 557892.524 5938881.049 557885.662 5938909.017 557876.949 5938945.540 557840.295 5939102.719 557838.023 5939102.804 557807.983 5939103.925 557800.053 5939127.032 557798.845 5939130.297 557774.827 5939143.625 557769.413 5939146.629 557762.590 5939150.414 557762.579 5939142.989 557753.347 5939147.415</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_103">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Othmarschen19-Ottensen51(1Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/12754706/-bebauungsplanentwurf-othmarschen-19-ottensen-51-aenderung-/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_103_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_103_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_1260716e-be3e-451f-a5aa-dbe1dfcaad98" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>560277.228 5934948.497 560268.313 5934954.625 560266.239 5934956.051 560250.558 5934954.965 560052.966 5934941.286 559662.649 5934914.265 559643.308 5934912.926 559643.619 5934899.289 559643.805 5934891.131 559647.919 5934891.190 559651.028 5934891.234 559664.898 5934891.433 559752.264 5934857.249 559786.536 5934843.840 559787.780 5934843.353 559788.481 5934832.346 559845.920 5934809.875 559883.724 5934795.086 559925.943 5934778.569 559929.285 5934777.262 559929.622 5934771.763 559968.238 5934756.659 559987.695 5934749.048 559997.190 5934705.641 560006.954 5934707.775 560022.334 5934637.458 559962.156 5934624.301 559960.351 5934607.764 559946.302 5934611.535 559933.879 5934615.900 559831.168 5934675.432 559817.627 5934683.841 559816.887 5934684.301 559808.546 5934689.481 559805.411 5934691.148 559780.130 5934704.483 559751.793 5934718.612 559734.410 5934726.986 559722.265 5934733.495 559704.366 5934742.781 559644.732 5934762.853 559638.237 5934764.601 559627.265 5934767.553 559624.789 5934768.220 559620.961 5934752.624 559596.611 5934653.431 559591.371 5934632.087 559629.713 5934620.809 559652.268 5934612.351 559677.641 5934601.637 559706.741 5934587.145 559758.836 5934561.038 559777.600 5934551.008 559791.540 5934543.558 559843.978 5934513.672 559908.257 5934474.766 559950.500 5934447.811 559962.753 5934440.297 559988.216 5934426.970 560045.209 5934397.105 560071.624 5934385.682 560107.558 5934370.690 560140.637 5934359.981 560170.741 5934350.462 560202.630 5934341.895 560271.287 5934324.596 560273.864 5934338.183 560275.297 5934345.743 560287.388 5934406.986 560297.775 5934454.819 560302.906 5934474.884 560320.505 5934540.138 560340.773 5934596.596 560393.840 5934726.483 560434.261 5934826.766 560437.908 5934835.815 560438.342 5934836.879 560316.865 5934920.824 560277.228 5934948.497</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_104">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Ottensen12(1Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/12273886/bebauungsplanentwurf-ottensen12/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_104_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_104_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_10fddd6d-8470-4c44-b982-15181bb7aad4" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>560904.321 5934794.846 560831.707 5934615.417 561046.987 5934517.024 561042.247 5934543.818 560995.426 5934782.299 560975.590 5934778.332 560962.099 5934777.009 560949.670 5934777.802 560938.827 5934781.242 560904.321 5934794.846</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_105">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Ottensen45(1Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/12037374/bebauungsplanentwurf-ottensen-45/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_105_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_105_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_fceada9b-0a64-4a4f-81d6-0235b6bc692a" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>561150.484 5934212.196 561168.878 5934197.904 561171.003 5934200.875 561268.071 5934124.840 561282.608 5934111.650 561290.105 5934102.657 561294.959 5934096.300 561302.600 5934086.534 561307.551 5934078.185 561310.807 5934072.668 561315.618 5934064.460 561319.862 5934055.401 561324.110 5934044.366 561327.503 5934032.902 561328.495 5934028.657 561332.587 5934029.431 561357.999 5934034.912 561432.696 5934049.402 561437.456 5934050.589 561434.138 5934079.274 561427.691 5934140.165 561439.293 5934164.205 561405.280 5934186.707 561395.648 5934193.110 561374.306 5934207.297 561367.645 5934211.725 561363.065 5934207.714 561294.699 5934268.762 561182.974 5934224.940 561150.484 5934212.196</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_106">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Ottensen49(1Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/12754636/bebauungsplanentwurf-ottensen-49/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_106_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_106_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_d9c00423-8ccc-4761-ac17-481020a301d6" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>561426.892 5934266.055 561462.129 5934293.060 561489.856 5934314.720 561432.743 5934372.272 561369.352 5934435.951 561360.543 5934428.856 561319.023 5934392.703 561305.450 5934382.164 561289.929 5934371.602 561273.143 5934362.246 561257.504 5934355.592 561243.932 5934350.247 561232.522 5934346.784 561221.406 5934343.605 561243.092 5934320.977 561244.615 5934319.380 561252.018 5934312.414 561280.330 5934282.698 561284.992 5934277.802 561294.699 5934268.762 561363.065 5934207.714 561367.645 5934211.725 561405.357 5934246.488 561426.892 5934266.055</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_107">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Ottensen71</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_107_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_107_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_963e9e8d-2ab4-4c07-b5ac-a34f7a445428" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>560364.658 5934308.072 560270.753 5934324.120 560273.142 5934338.336 560274.280 5934345.106 560288.103 5934412.440 560291.638 5934428.669 560295.341 5934444.860 560299.212 5934461.012 560303.250 5934477.123 560307.454 5934493.191 560311.825 5934509.215 560316.361 5934525.193 560321.063 5934541.123 560330.053 5934568.094 560339.861 5934595.155 560400.384 5934569.689 560511.245 5934523.139 560520.108 5934519.418 560515.921 5934508.349 560511.843 5934497.239 560507.874 5934486.090 560504.014 5934474.903 560500.265 5934463.678 560496.626 5934452.417 560493.098 5934441.120 560489.681 5934429.790 560486.377 5934418.239 560483.142 5934406.669 560479.978 5934395.079 560476.883 5934383.470 560473.859 5934371.843 560470.904 5934360.198 560468.021 5934348.535 560465.207 5934336.855 560459.916 5934310.397 560455.096 5934294.944 560364.658 5934308.072</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_108">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Rissen39(1Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/11707488/bebauungsplanentwurf-rissen-39/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_108_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_108_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_b8a56ef2-8d3e-4eae-89ea-c4b1399c4674" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>550328.069 5937332.663 550280.106 5937338.569 550221.597 5937347.459 550218.369 5937347.950 550208.253 5937349.590 550204.984 5937350.119 550012.755 5937384.455 550010.549 5937382.156 549952.350 5937396.610 549852.273 5937411.293 549849.196 5937402.029 549882.509 5937378.233 549879.224 5937373.625 549873.361 5937365.402 549868.811 5937368.488 549863.114 5937361.051 549809.298 5937399.831 549807.546 5937399.736 549802.124 5937398.527 549787.350 5937385.616 549795.999 5937379.837 549786.003 5937364.922 549855.574 5937318.428 549891.950 5937294.112 549908.583 5937282.994 549930.640 5937314.297 549930.888 5937314.649 549934.457 5937319.714 549983.708 5937285.166 549997.750 5937281.498 549995.162 5937275.958 549981.191 5937246.042 549972.185 5937226.762 549970.050 5937222.347 549968.141 5937218.396 549966.652 5937215.314 549962.845 5937207.434 549961.281 5937204.198 549970.421 5937199.233 549982.570 5937193.199 549995.636 5937187.040 550010.617 5937181.463 550017.858 5937178.633 550026.098 5937176.303 550038.665 5937172.557 550052.814 5937168.229 550064.466 5937164.899 550077.200 5937161.736 550091.681 5937158.407 550101.502 5937156.742 550112.571 5937155.410 550122.892 5937154.911 550135.959 5937154.328 550142.783 5937154.328 550163.091 5937155.825 550177.573 5937157.073 550194.469 5937160.069 550207.619 5937162.566 550217.606 5937164.313 550226.012 5937165.312 550236.832 5937166.477 550250.482 5937167.309 550265.712 5937168.058 550278.779 5937168.141 550292.096 5937167.725 550304.331 5937166.726 550315.733 5937165.144 550327.468 5937162.814 550339.675 5937160.300 550349.136 5937158.039 550353.594 5937163.067 550403.739 5937219.610 550407.448 5937223.792 550438.620 5937223.316 550439.649 5937229.919 550440.393 5937234.696 550446.753 5937269.817 550449.958 5937287.517 550454.007 5937309.880 550328.069 5937332.663</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_109">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Suelldorf23-Iserbrook27</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_109_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_109_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_df3a7979-53c4-45ac-b24f-339b59e86adc" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>553093.799 5937139.078 553079.942 5937142.914 553074.902 5937144.309 553071.708 5937145.193 553067.424 5937146.380 553057.622 5937149.093 553056.353 5937149.396 553041.358 5937152.978 553016.571 5937158.900 553013.551 5937159.689 552992.990 5937165.059 552978.514 5937168.840 552940.020 5937177.838 552937.300 5937178.513 552924.310 5937181.738 552905.021 5937186.528 552895.199 5937185.050 552875.757 5937182.124 552874.892 5937178.073 552862.585 5937175.909 552857.578 5937175.029 552858.130 5937171.858 552861.775 5937150.915 552862.996 5937147.316 552864.129 5937140.258 552865.403 5937132.325 552867.522 5937119.129 552868.796 5937111.196 552866.324 5937099.840 552881.071 5937096.630 552922.402 5937086.770 552969.698 5937075.505 553078.827 5937049.494 553167.842 5937028.909 553168.039 5937028.858 553168.087 5937028.846 553186.175 5937024.161 553269.678 5937001.990 553293.457 5936994.575 553317.003 5936986.778 553338.315 5936979.523 553380.853 5936964.157 553434.359 5936943.696 553452.427 5936936.749 553511.025 5936917.370 553557.120 5936902.930 553627.933 5936882.348 553647.133 5936878.384 553684.643 5936870.641 553720.442 5936864.960 553738.170 5936862.683 553745.269 5936861.777 553754.562 5936860.688 553764.614 5936859.685 553771.268 5936859.148 553769.709 5936860.638 553762.009 5936861.352 553753.336 5936862.156 553743.301 5936863.464 553739.462 5936863.968 553739.029 5936864.171 553720.075 5936879.033 553720.015 5936879.080 553682.546 5936908.583 553681.527 5936918.669 553680.969 5936928.591 553680.825 5936931.168 553680.634 5936934.636 553680.380 5936939.173 553677.097 5936939.636 553666.107 5936941.187 553630.031 5936957.296 553591.514 5936977.877 553554.160 5936997.294 553523.649 5937009.211 553488.312 5937022.193 553488.356 5937022.291 553385.020 5937063.958 553336.305 5937082.497 553326.643 5937085.667 553313.640 5937089.935 553296.103 5937097.247 553276.811 5937102.742 553269.406 5937104.850 553225.378 5937115.692 553137.217 5937137.403 553091.043 5937149.606 553094.508 5937138.903 553093.799 5937139.078</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_102">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Lurup68</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/12141906/lurup68/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_102_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_102_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_65440035-c7db-4400-97e0-4a77e4bb6aab" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>556733.399 5939272.358 556767.090 5939274.356 556768.383 5939269.874 556775.808 5939158.279 556776.599 5939146.385 556839.691 5939143.213 556861.785 5939142.102 556885.321 5939085.454 556887.320 5939080.644 556887.732 5939079.652 556868.899 5939072.766 556863.862 5939083.239 556857.754 5939095.937 556841.943 5939086.886 556826.319 5939077.942 556811.128 5939104.639 556799.647 5939098.115 556791.450 5939100.301 556788.390 5939098.616 556785.767 5939097.111 556782.728 5939095.380 556773.180 5939089.941 556757.560 5939081.046 556752.225 5939078.008 556746.889 5939074.969 556731.780 5939099.946 556730.706 5939101.721 556719.339 5939094.128 556715.091 5939100.488 556712.095 5939105.348 556711.941 5939105.253 556707.666 5939102.612 556693.748 5939094.014 556681.015 5939086.141 556667.103 5939077.551 556659.163 5939089.042 556622.291 5939063.852 556618.380 5939061.159 556587.144 5939106.515 556587.144 5939106.515 556586.359 5939107.684 556585.676 5939108.916 556585.102 5939110.201 556584.640 5939111.532 556584.293 5939112.896 556584.065 5939114.286 556583.957 5939115.690 556583.969 5939117.098 556585.481 5939157.221 556564.794 5939158.195 556547.044 5939161.299 556548.965 5939172.258 556549.324 5939174.422 556550.718 5939182.831 556569.245 5939191.989 556570.425 5939203.314 556584.994 5939199.805 556590.459 5939202.496 556608.521 5939211.390 556622.304 5939218.177 556635.954 5939224.899 556650.009 5939231.820 556664.900 5939239.153 556681.133 5939246.985 556703.715 5939257.947 556721.898 5939266.774 556733.399 5939272.358</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_110">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Suelldorf25</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/12690820/bebauungsplan-entwurf-suelldorf-25/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_110_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_110_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_13785f88-5a60-4f5d-aff1-c53dc250f928" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>553024.394 5937009.232 553059.148 5937009.860 553063.329 5937009.927 553063.698 5936993.944 553102.335 5936994.572 553131.891 5936983.040 553134.161 5936946.400 553170.825 5936948.721 553183.954 5936949.552 553188.927 5936949.847 553189.438 5936941.241 553201.007 5936942.170 553215.427 5936941.321 553247.094 5936933.122 553284.417 5936917.005 553312.692 5936902.585 553339.553 5936891.275 553368.393 5936883.358 553385.640 5936879.117 553424.094 5936874.310 553452.086 5936868.655 553480.078 5936859.607 553516.269 5936845.753 553579.322 5936820.871 553590.349 5936818.044 553617.776 5936815.216 553622.893 5936815.454 553629.934 5936815.782 553629.086 5936851.973 553631.909 5936881.154 553631.944 5936881.520 553627.933 5936882.348 553617.219 5936885.874 553598.968 5936890.887 553575.804 5936897.990 553569.363 5936899.693 553525.762 5936912.526 553523.223 5936913.352 553511.025 5936917.370 553498.826 5936921.536 553476.979 5936928.873 553470.337 5936931.189 553468.947 5936931.033 553452.427 5936936.749 553434.359 5936943.696 553402.165 5936956.129 553380.853 5936964.157 553338.315 5936979.523 553317.003 5936986.778 553294.074 5936994.575 553293.457 5936994.575 553269.678 5937001.990 553250.220 5937007.547 553245.462 5937008.807 553167.842 5937028.909 553078.827 5937049.494 552969.698 5937075.505 552881.071 5937096.630 552865.281 5937100.067 552834.478 5937106.846 552794.939 5937115.874 552751.863 5937124.513 552751.863 5937109.249 552751.863 5937106.625 552753.167 5937099.545 552757.266 5937088.552 552766.210 5937074.950 552821.831 5937019.159 552827.476 5937024.489 552855.873 5937051.491 552900.071 5937020.529 552946.459 5937014.660 552945.915 5936982.924 552945.671 5936970.629 552960.163 5936971.003 552961.743 5936971.044 552981.739 5936971.562 552983.126 5936971.598 553001.736 5936972.079 553006.276 5936972.196 553021.750 5936972.596 553021.846 5936984.665 553022.764 5936993.210 553024.394 5937009.232</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_111">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Suelldorf7-Iserbrook19(1Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/12399796/bebauungsplanentwurf-suelldorf-7-iserbrook-19-aenderung/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_111_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_111_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_6348d75e-bbfd-4472-b3ab-3b4769afdd47" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>554062.857 5936606.255 554060.582 5936589.833 554058.907 5936580.005 554054.467 5936554.085 554054.109 5936550.401 554053.861 5936546.707 554053.722 5936543.008 554053.692 5936539.307 554053.773 5936535.606 554055.389 5936520.765 554057.983 5936510.217 554060.241 5936502.969 554065.092 5936492.420 554070.300 5936482.626 554075.201 5936475.222 554082.501 5936465.627 554098.457 5936444.769 554114.120 5936418.974 554116.499 5936415.256 554119.486 5936409.336 554120.936 5936404.945 554134.254 5936364.601 554139.861 5936366.410 554182.519 5936380.169 554196.143 5936384.563 554201.306 5936386.227 554198.310 5936394.991 554188.803 5936422.812 554185.258 5936434.342 554184.295 5936437.473 554183.340 5936440.580 554172.369 5936476.262 554167.753 5936491.274 554167.389 5936492.459 554162.390 5936505.257 554157.741 5936517.160 554157.101 5936518.305 554150.161 5936530.741 554148.135 5936534.372 554128.624 5936564.108 554117.406 5936578.972 554116.886 5936579.513 554105.637 5936591.201 554086.835 5936609.466 554079.789 5936615.412 554073.679 5936620.569 554064.056 5936627.913 554062.857 5936606.255</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_112">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Suelldorf9(1Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/12399830/bebauungsplanentwurf-suelldorf-9/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_112_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_112_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_2652fc2f-fd6e-42c1-817c-2aac44000c3d" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>553949.278 5936721.469 553920.995 5936744.142 553896.464 5936762.824 553849.846 5936802.594 553803.468 5936838.502 553801.077 5936840.302 553783.520 5936853.611 553782.209 5936855.148 553778.881 5936858.869 553771.268 5936859.148 553764.614 5936859.685 553754.562 5936860.688 553745.269 5936861.777 553738.170 5936862.683 553720.442 5936864.960 553684.643 5936870.641 553647.133 5936878.384 553627.933 5936882.348 553627.967 5936864.401 553627.870 5936831.307 553627.819 5936813.706 553603.387 5936815.749 553590.887 5936817.908 553582.929 5936820.360 553553.609 5936831.547 553508.782 5936849.056 553487.275 5936857.397 553468.204 5936863.922 553441.101 5936871.454 553421.777 5936875.093 553408.727 5936876.097 553331.327 5936764.133 553489.268 5936612.313 553508.391 5936594.245 553538.584 5936563.511 553548.806 5936550.146 553555.476 5936540.091 553562.473 5936528.502 553569.037 5936513.895 553574.590 5936499.455 553579.960 5936479.459 553582.092 5936469.092 553585.611 5936441.322 553590.239 5936404.665 553592.421 5936389.432 553627.923 5936402.455 553659.442 5936414.692 553687.438 5936426.925 553720.995 5936444.168 553738.238 5936454.367 553749.546 5936461.411 553775.499 5936376.345 553777.564 5936369.306 553782.844 5936369.502 553831.594 5936375.091 553829.577 5936379.938 553819.240 5936404.783 553815.478 5936413.918 553814.905 5936415.310 553812.738 5936420.573 553827.023 5936439.958 553837.993 5936454.731 553840.105 5936457.653 553852.513 5936474.812 553883.605 5936517.810 553887.726 5936523.509 553910.907 5936524.319 553911.192 5936525.721 554017.817 5936524.133 554024.363 5936526.004 554044.771 5936531.837 554048.886 5936533.013 554053.773 5936535.606 554054.467 5936554.085 554058.907 5936580.005 554060.582 5936589.833 554062.857 5936606.255 554064.027 5936627.396 554052.903 5936636.486 553949.278 5936721.469</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+              <gml:interior>
+                <gml:LinearRing>
+                  <gml:posList>553842.189 5936744.213 553852.162 5936756.112 553853.933 5936758.226 553856.137 5936756.337 553870.571 5936743.963 553895.874 5936723.305 553935.461 5936690.382 553940.630 5936685.931 553942.213 5936684.569 553938.756 5936681.684 553919.473 5936665.587 553917.583 5936667.851 553902.942 5936685.386 553875.115 5936715.440 553844.366 5936742.498 553842.189 5936744.213</gml:posList>
+                </gml:LinearRing>
+              </gml:interior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_113">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Billstedt115</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/mitte/bplaene-im-verfahren/12324162/bebauungsplan-entwurf-billstedt-115-geesthang/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_113_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_113_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_60cb25ec-da2e-47cf-89ae-1e4d85f57bef" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>573097.691 5932876.574 573028.345 5932913.303 573017.264 5932921.301 572950.277 5932949.393 572903.651 5932853.703 572961.943 5932820.060 572979.716 5932809.731 573005.518 5932790.591 573045.606 5932770.413 573067.123 5932757.029 573145.772 5932708.106 573149.912 5932714.761 573154.141 5932715.258 573170.765 5932705.518 573187.389 5932695.777 573203.588 5932686.282 573219.788 5932676.787 573225.080 5932682.276 573230.373 5932687.766 573232.982 5932690.473 573235.592 5932693.180 573237.050 5932694.589 573238.509 5932695.997 573242.596 5932699.944 573246.682 5932703.890 573248.887 5932705.923 573251.091 5932707.956 573253.137 5932709.842 573255.183 5932711.728 573258.915 5932715.170 573261.577 5932717.663 573265.379 5932721.223 573269.260 5932724.857 573270.157 5932725.697 573277.428 5932735.086 573262.045 5932746.999 573232.989 5932769.501 573199.129 5932791.939 573097.691 5932876.574</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_115">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Finkenwerder41</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_115_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_115_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_c74fb43e-c932-4b34-adc9-fabb03704183" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>557899.932 5932332.003 557892.068 5932344.607 557873.814 5932373.868 557871.420 5932377.725 557840.912 5932358.787 557803.456 5932419.279 557775.137 5932465.014 557763.688 5932483.532 557758.754 5932504.988 557721.197 5932496.352 557669.656 5932484.501 557666.876 5932483.862 557666.708 5932484.627 557665.016 5932484.333 557662.088 5932483.732 557659.056 5932481.844 557653.709 5932478.510 557649.294 5932485.588 557646.134 5932483.620 557650.546 5932476.539 557705.351 5932388.572 557760.155 5932300.606 557793.590 5932247.074 557827.024 5932193.542 557830.095 5932191.220 557833.165 5932188.898 557833.645 5932188.129 557841.916 5932174.887 557850.186 5932161.645 557859.057 5932147.393 557867.927 5932133.141 557873.136 5932124.515 557878.345 5932115.889 557879.094 5932114.648 557879.843 5932113.408 557880.670 5932113.322 557881.496 5932113.236 557881.911 5932112.571 557882.326 5932111.906 557883.035 5932110.769 557883.745 5932109.633 557885.012 5932107.601 557903.892 5932105.637 557950.022 5932100.836 557954.579 5932107.862 557955.938 5932109.959 557945.507 5932128.003 557935.076 5932146.047 557931.195 5932147.267 557927.314 5932148.488 557923.811 5932154.546 557920.308 5932160.604 557925.716 5932163.732 557931.124 5932166.860 557928.409 5932171.555 557925.691 5932176.249 557929.514 5932178.634 557945.505 5932188.609 557957.168 5932195.883 557972.487 5932205.439 557938.102 5932219.548 557971.193 5932240.261 557965.301 5932249.674 557959.651 5932258.731 557953.215 5932269.047 557949.331 5932275.273 557939.251 5932268.976 557935.320 5932275.279 557931.388 5932281.582 557927.456 5932287.884 557923.524 5932294.187 557919.329 5932300.912 557915.660 5932306.793 557907.796 5932319.397 557899.932 5932332.003</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_122">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Neustadt51-StPauli46</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_122_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_122_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_a386cd14-1618-4556-a97c-0cce83870213" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565316.818 5935050.106 565285.734 5935069.375 565304.843 5935077.679 565307.691 5935071.225 565313.976 5935067.371 565316.995 5935072.321 565312.349 5935075.155 565310.202 5935080.008 565318.743 5935083.748 565327.284 5935087.488 565342.383 5935094.099 565357.482 5935100.711 565356.868 5935102.178 565377.053 5935111.028 565397.237 5935119.879 565396.193 5935122.296 565395.149 5935124.713 565397.357 5935125.623 565399.605 5935126.430 565401.887 5935127.132 565404.200 5935127.727 565406.538 5935128.214 565408.896 5935128.592 565411.269 5935128.861 565413.652 5935129.019 565411.041 5935131.403 565408.430 5935133.787 565404.188 5935135.411 565399.945 5935137.036 565391.902 5935136.271 565383.859 5935135.506 565380.994 5935133.639 565378.128 5935131.772 565372.414 5935132.689 565366.700 5935133.606 565349.498 5935128.768 565332.295 5935123.930 565327.490 5935125.167 565321.934 5935126.597 565316.377 5935128.027 565298.337 5935119.577 565297.418 5935118.833 565296.452 5935118.151 565295.444 5935117.532 565294.398 5935116.981 565286.387 5935113.101 565278.376 5935109.221 565253.750 5935097.293 565229.124 5935085.366 565195.247 5935069.701 565161.370 5935054.037 565141.733 5935045.116 565116.526 5935034.197 565091.319 5935023.278 565091.518 5935022.820 565066.235 5935011.867 565050.877 5935013.019 565035.935 5935008.006 565045.523 5934998.129 565055.111 5934988.253 565057.577 5934982.919 565069.437 5934957.267 565090.294 5934912.154 565114.728 5934859.304 565118.019 5934852.187 565123.254 5934840.863 565130.028 5934827.315 565132.254 5934822.862 565136.889 5934829.184 565175.036 5934881.215 565185.476 5934898.254 565195.916 5934915.294 565193.698 5934928.102 565213.342 5934975.072 565276.359 5935002.738 565300.529 5935013.349 565303.798 5935011.329 565305.700 5935020.495 565310.463 5935017.551 565316.818 5935050.106</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_149">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Altona-Nord27-Bahrenfeld72</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bebauungsplaene/6012284/altona-nord-27-bahrenfeld-72/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_149_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_149_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_e37b00b6-d304-44f9-94f8-f4dbcab5f6f4" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>562012.283 5935931.451 562022.112 5935932.218 562031.355 5935932.939 562031.943 5935932.985 562031.167 5935950.473 562024.895 5935950.195 562019.446 5935950.143 562014.146 5935950.304 562008.875 5935950.593 562003.396 5935951.172 561997.973 5935951.867 561979.050 5935958.306 561977.301 5935958.899 561971.146 5935962.156 561960.765 5935967.630 561953.660 5935972.622 561942.876 5935980.195 561928.565 5935994.265 561916.400 5936009.851 561906.559 5936027.264 561899.161 5936045.767 561893.063 5936065.063 561890.380 5936081.341 561889.404 5936087.265 561887.525 5936098.660 561884.287 5936118.299 561882.157 5936131.216 561880.123 5936143.547 561881.395 5936146.777 561868.578 5936144.966 561848.407 5936142.115 561845.689 5936141.731 561842.482 5936141.278 561833.047 5936139.945 561774.485 5936131.668 561785.830 5936051.387 561787.674 5936036.935 561791.066 5935989.066 561741.796 5935984.734 561742.543 5935982.715 561742.939 5935979.708 561742.626 5935977.028 561742.543 5935976.701 561741.383 5935973.898 561739.536 5935971.492 561738.426 5935970.515 561739.057 5935949.587 561740.158 5935934.208 561742.316 5935934.124 561778.201 5935932.735 561778.823 5935931.947 561779.475 5935926.993 561781.653 5935887.969 561783.325 5935858.055 561784.628 5935834.706 561785.000 5935828.111 561785.792 5935814.089 561786.578 5935800.119 561787.340 5935786.637 561789.149 5935754.554 561793.500 5935730.066 561795.418 5935722.410 561848.050 5935727.164 561898.618 5935731.733 561900.522 5935731.834 561900.842 5935731.831 561902.872 5935731.680 561903.061 5935731.654 561903.221 5935731.633 561905.166 5935731.331 561907.252 5935730.902 561907.771 5935730.693 561911.147 5935729.028 561911.971 5935728.534 561914.276 5935726.937 561916.177 5935725.344 561916.685 5935724.714 561916.847 5935724.505 561917.174 5935724.070 561927.791 5935728.103 561928.757 5935743.402 561923.045 5935763.284 561918.479 5935780.108 561917.125 5935786.441 561914.611 5935803.158 561981.267 5935841.937 561961.370 5935862.239 561968.645 5935895.793 561970.011 5935896.132 561980.258 5935906.328 561959.362 5935927.327 561973.574 5935928.436 561988.197 5935929.576 562012.283 5935931.451</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_183">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Alsterdorf8(2Aend)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/politik-und-verwaltung/bezirke/hamburg-nord/bebauungsplan-alsterdorf-8-2-textaenderung-954242</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_183_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_183_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_d0479af7-40ee-4978-ab2e-dcef33b08e47" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>566814.378 5940770.812 566865.610 5940652.998 566888.497 5940598.490 566929.284 5940608.031 566930.315 5940605.911 566935.031 5940596.012 566937.577 5940589.226 566942.801 5940573.802 566949.157 5940549.112 566953.974 5940533.582 566955.856 5940523.489 566958.253 5940512.372 566961.845 5940489.619 566968.683 5940428.042 566979.457 5940327.807 566980.479 5940319.084 566982.876 5940298.557 566982.399 5940291.673 566981.727 5940288.104 566979.626 5940279.896 566978.134 5940274.519 566974.869 5940262.754 566973.924 5940258.978 566971.901 5940250.927 566970.862 5940245.519 566970.768 5940240.762 566971.158 5940235.429 566971.423 5940231.329 566972.032 5940227.041 566972.570 5940223.242 566973.273 5940218.314 566965.617 5940214.191 566957.259 5940210.326 566957.259 5940210.326 566944.120 5940203.258 566930.877 5940196.387 566917.533 5940189.713 566904.092 5940183.238 566890.556 5940176.964 566876.928 5940170.891 566876.928 5940170.891 566787.594 5940131.885 566788.180 5940130.543 566742.537 5940110.044 566696.829 5940089.769 566651.296 5940069.189 566625.879 5940057.743 566624.536 5940057.157 566615.330 5940053.312 566613.760 5940056.877 566610.559 5940064.198 566608.680 5940069.379 566603.211 5940082.273 566596.183 5940097.010 566588.936 5940110.622 566582.986 5940123.086 566575.412 5940136.257 566562.996 5940158.756 566552.227 5940175.992 566541.030 5940194.950 566518.478 5940242.420 566500.422 5940280.364 566495.356 5940290.742 566503.040 5940294.326 566497.550 5940305.743 566491.889 5940316.935 566410.666 5940481.870 566399.137 5940506.514 566397.250 5940512.577 566395.236 5940518.934 566392.183 5940533.409 566391.355 5940538.383 566390.660 5940543.776 566389.762 5940554.420 566389.286 5940564.877 566388.404 5940575.018 566387.436 5940581.535 566386.468 5940588.376 566385.507 5940593.125 566384.427 5940596.519 566383.571 5940599.399 566382.524 5940603.019 566379.471 5940611.067 566377.227 5940615.172 566376.496 5940616.897 566373.872 5940621.872 566370.967 5940626.850 566367.648 5940631.548 566365.305 5940634.726 566361.502 5940639.287 566348.649 5940653.524 566322.089 5940681.400 566312.149 5940691.838 566303.769 5940700.612 566319.037 5940708.898 566324.240 5940711.120 566340.614 5940718.113 566359.700 5940724.622 566379.872 5940729.718 566397.474 5940733.447 566418.614 5940736.293 566440.308 5940738.326 566474.192 5940740.765 566527.467 5940744.558 566611.245 5940750.791 566654.758 5940753.768 566703.964 5940757.834 566720.637 5940760.411 566745.046 5940765.351 566764.641 5940769.316 566801.319 5940779.255 566808.623 5940781.992 566814.785 5940784.256 566814.378 5940770.812</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_123">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Rothenburgsort16</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_123_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_123_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_017146f4-3426-4b69-81b1-9958d7aae865" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>568609.363 5932694.250 568605.928 5932685.792 568604.483 5932682.235 568602.340 5932676.860 568591.572 5932680.853 568581.562 5932682.611 568581.375 5932682.643 568581.187 5932682.671 568580.998 5932682.695 568580.809 5932682.716 568580.620 5932682.733 568580.430 5932682.747 568580.240 5932682.757 568580.050 5932682.763 568579.860 5932682.766 568579.670 5932682.765 568579.480 5932682.761 568579.290 5932682.753 568579.100 5932682.741 568578.911 5932682.726 568578.722 5932682.707 568578.533 5932682.684 568578.344 5932682.658 568578.157 5932682.628 568577.970 5932682.595 568577.783 5932682.558 568577.597 5932682.517 568577.412 5932682.473 568577.228 5932682.425 568577.045 5932682.374 568576.863 5932682.320 568576.682 5932682.262 568576.502 5932682.200 568576.323 5932682.135 568576.146 5932682.067 568575.970 5932681.995 568575.795 5932681.920 568575.622 5932681.842 568575.450 5932681.760 568575.280 5932681.675 568575.112 5932681.587 568574.945 5932681.496 568574.780 5932681.401 568574.617 5932681.303 568574.456 5932681.203 568574.297 5932681.099 568574.139 5932680.992 568573.984 5932680.882 568573.831 5932680.769 568573.680 5932680.653 568573.532 5932680.535 568573.385 5932680.414 568573.241 5932680.289 568573.100 5932680.163 568572.961 5932680.033 568572.824 5932679.901 568572.690 5932679.766 568572.559 5932679.629 568572.430 5932679.489 568572.304 5932679.347 568572.180 5932679.202 568572.060 5932679.055 568571.942 5932678.906 568571.827 5932678.754 568571.715 5932678.601 568571.606 5932678.445 568571.500 5932678.287 568571.397 5932678.127 568571.297 5932677.966 568571.200 5932677.802 568571.187 5932677.780 568571.174 5932677.758 568571.161 5932677.736 568571.149 5932677.713 568571.136 5932677.691 568571.124 5932677.669 568571.111 5932677.647 568571.098 5932677.624 568571.086 5932677.602 568571.074 5932677.579 568571.061 5932677.557 568571.049 5932677.535 568571.037 5932677.512 568571.025 5932677.489 568571.013 5932677.467 568571.001 5932677.444 568570.989 5932677.422 568570.977 5932677.399 568570.965 5932677.376 568570.953 5932677.354 568570.941 5932677.331 568570.930 5932677.308 568570.918 5932677.285 568570.907 5932677.262 568570.895 5932677.240 568570.884 5932677.217 568570.872 5932677.194 568570.861 5932677.171 568570.850 5932677.148 568570.839 5932677.125 568570.827 5932677.102 568570.816 5932677.079 568570.805 5932677.056 568570.794 5932677.032 568570.783 5932677.009 568570.773 5932676.986 568570.762 5932676.963 568570.751 5932676.940 568570.740 5932676.916 568570.730 5932676.893 568570.719 5932676.870 568570.709 5932676.846 568570.698 5932676.823 568570.688 5932676.800 568570.678 5932676.776 568570.668 5932676.753 568570.657 5932676.729 568570.647 5932676.706 568570.637 5932676.682 568570.627 5932676.659 568570.617 5932676.635 568570.608 5932676.611 568570.598 5932676.588 568570.588 5932676.564 568570.578 5932676.540 568570.569 5932676.517 568570.559 5932676.493 568570.550 5932676.469 568570.540 5932676.445 568570.531 5932676.422 568570.522 5932676.398 568570.512 5932676.374 568570.503 5932676.350 568570.494 5932676.326 568568.624 5932671.416 568568.617 5932671.397 568566.093 5932664.775 568599.113 5932652.193 568596.420 5932645.127 568636.884 5932629.615 568653.494 5932621.781 568681.698 5932612.066 568718.154 5932598.162 568716.924 5932595.030 568708.547 5932573.693 568698.877 5932553.660 568699.056 5932553.573 568676.345 5932509.773 568775.478 5932449.364 568790.171 5932440.383 568775.428 5932416.519 568771.355 5932409.924 568757.312 5932418.547 568739.923 5932429.225 568729.329 5932412.070 568718.823 5932419.581 568681.205 5932374.045 568679.707 5932372.232 568762.635 5932303.835 568763.900 5932305.369 568786.635 5932332.929 568846.749 5932405.804 568822.909 5932420.375 568834.628 5932432.499 568835.342 5932433.643 568836.053 5932434.788 568836.762 5932435.935 568837.469 5932437.083 568838.172 5932438.233 568838.873 5932439.385 568839.572 5932440.538 568840.268 5932441.693 568840.962 5932442.849 568841.653 5932444.007 568842.341 5932445.166 568843.027 5932446.327 568843.710 5932447.489 568844.390 5932448.653 568845.068 5932449.819 568845.744 5932450.985 568846.417 5932452.154 568847.087 5932453.324 568847.755 5932454.495 568848.420 5932455.668 568849.082 5932456.842 568849.742 5932458.018 568850.399 5932459.195 568851.054 5932460.374 568851.706 5932461.554 568852.355 5932462.736 568853.002 5932463.919 568853.646 5932465.103 568854.287 5932466.289 568854.926 5932467.477 568855.562 5932468.665 568856.196 5932469.855 568856.826 5932471.047 568857.455 5932472.240 568858.080 5932473.434 568858.703 5932474.630 568859.323 5932475.827 568859.941 5932477.026 568860.556 5932478.226 568861.168 5932479.427 568861.778 5932480.629 568862.385 5932481.833 568862.989 5932483.039 568863.590 5932484.245 568864.189 5932485.453 568864.785 5932486.662 568865.379 5932487.873 568865.970 5932489.085 568866.558 5932490.298 568867.143 5932491.513 568867.726 5932492.729 568868.306 5932493.946 568868.883 5932495.164 568869.458 5932496.384 568870.030 5932497.605 568870.599 5932498.827 568871.165 5932500.051 568871.729 5932501.275 568872.290 5932502.501 568872.848 5932503.729 568873.404 5932504.957 568873.957 5932506.187 568874.507 5932507.418 568875.054 5932508.650 568882.839 5932532.003 568988.816 5932492.337 569027.987 5932477.832 569057.177 5932466.884 569066.767 5932463.292 569066.838 5932466.501 569071.122 5932508.865 568990.120 5932539.794 568990.963 5932542.009 568987.230 5932543.468 568987.802 5932544.929 568959.986 5932555.796 568959.417 5932554.302 568951.427 5932557.337 568952.021 5932558.908 568918.372 5932572.053 568917.701 5932570.169 568909.811 5932572.984 568910.570 5932575.101 568881.008 5932586.650 568881.003 5932586.652 568857.660 5932595.392 568856.961 5932593.702 568848.999 5932596.972 568849.590 5932598.414 568816.854 5932610.672 568781.768 5932624.822 568746.162 5932639.161 568609.363 5932694.250</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_185">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Veddel5</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_185_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_185_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_350a184a-ace3-4203-8e3a-7ca41d6e8c6e" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567505.730 5931541.681 567536.439 5931600.430 567540.336 5931607.596 567549.978 5931625.329 567561.668 5931646.828 567639.461 5931609.205 567706.232 5931576.912 567755.956 5931552.864 567755.956 5931552.864 567757.756 5931551.130 567759.609 5931549.452 567761.514 5931547.834 567763.469 5931546.276 567765.472 5931544.780 567767.520 5931543.348 567769.613 5931541.980 567771.747 5931540.678 567773.920 5931539.444 567776.132 5931538.279 567778.378 5931537.183 567780.658 5931536.158 567782.969 5931535.205 567785.309 5931534.325 567787.675 5931533.519 567790.065 5931532.787 567794.809 5931531.579 567780.220 5931491.341 567764.538 5931433.222 567762.225 5931424.652 567762.225 5931424.652 567761.418 5931421.827 567760.528 5931419.027 567759.557 5931416.255 567758.504 5931413.512 567740.752 5931354.897 567732.084 5931334.634 567724.270 5931316.803 567695.899 5931327.067 567698.102 5931333.297 567698.102 5931333.297 567698.936 5931335.955 567699.578 5931338.665 567700.025 5931341.415 567700.275 5931344.189 567700.326 5931346.974 567700.178 5931349.756 567699.832 5931352.520 567699.290 5931355.252 567687.324 5931405.960 567673.743 5931463.510 567669.492 5931466.139 567655.431 5931475.923 567654.636 5931479.317 567645.671 5931517.680 567641.228 5931520.708 567595.059 5931517.284 567584.453 5931516.583 567582.240 5931516.313 567580.034 5931515.986 567577.838 5931515.601 567575.653 5931515.158 567573.481 5931514.658 567571.322 5931514.101 567569.178 5931513.487 567567.052 5931512.818 567564.943 5931512.093 567562.855 5931511.313 567560.787 5931510.478 567558.743 5931509.589 567556.722 5931508.647 567554.727 5931507.652 567552.758 5931506.605 567550.818 5931505.507 567540.208 5931523.445 567507.897 5931540.532 567505.729 5931541.679 567505.730 5931541.681</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_119">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Hamm3</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_119_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_119_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_6a284730-c2b7-4f49-84c8-fc879452558e" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>570651.476 5933651.654 570670.263 5933653.657 570689.120 5933652.127 570694.163 5933656.427 570706.876 5933676.348 570711.090 5933699.318 570684.871 5933711.005 570649.130 5933726.019 570648.464 5933726.293 570647.798 5933726.566 570647.131 5933726.838 570646.464 5933727.108 570645.796 5933727.377 570645.128 5933727.645 570644.459 5933727.911 570643.790 5933728.177 570643.120 5933728.440 570642.449 5933728.703 570641.778 5933728.964 570641.107 5933729.224 570640.435 5933729.482 570639.763 5933729.740 570639.090 5933729.995 570638.416 5933730.250 570637.742 5933730.503 570637.068 5933730.755 570636.393 5933731.006 570635.717 5933731.255 570635.041 5933731.503 570634.365 5933731.750 570633.688 5933731.995 570633.011 5933732.239 570632.333 5933732.482 570631.655 5933732.723 570630.976 5933732.963 570630.297 5933733.202 570629.617 5933733.439 570628.937 5933733.675 570628.256 5933733.910 570627.575 5933734.143 570626.893 5933734.375 570626.211 5933734.606 570625.529 5933734.835 570624.846 5933735.063 570624.162 5933735.289 570623.479 5933735.515 570622.794 5933735.739 570622.110 5933735.961 570621.425 5933736.183 570620.739 5933736.402 570620.053 5933736.621 570619.367 5933736.838 570618.680 5933737.054 570617.992 5933737.269 570617.305 5933737.482 570616.617 5933737.694 570615.928 5933737.904 570615.239 5933738.113 570614.550 5933738.321 570613.860 5933738.528 570613.170 5933738.733 570612.480 5933738.936 570611.789 5933739.139 570611.097 5933739.340 570610.405 5933739.539 570609.713 5933739.738 570609.021 5933739.935 570608.328 5933740.130 570607.635 5933740.325 570606.941 5933740.517 570606.247 5933740.709 570605.553 5933740.899 570604.309 5933741.260 570603.064 5933741.618 570601.819 5933741.975 570600.573 5933742.330 570599.327 5933742.684 570598.081 5933743.035 570596.833 5933743.384 570595.586 5933743.732 570594.337 5933744.078 570593.089 5933744.422 570591.839 5933744.764 570590.590 5933745.104 570589.339 5933745.442 570588.089 5933745.778 570586.837 5933746.113 570585.586 5933746.446 570584.333 5933746.776 570583.080 5933747.105 570581.827 5933747.432 570580.574 5933747.758 570579.319 5933748.081 570578.065 5933748.402 570576.809 5933748.722 570575.554 5933749.040 570574.298 5933749.356 570573.041 5933749.670 570571.784 5933749.982 570570.526 5933750.292 570569.268 5933750.600 570568.010 5933750.907 570566.751 5933751.211 570565.492 5933751.514 570564.232 5933751.815 570562.972 5933752.114 570561.711 5933752.411 570560.450 5933752.706 570559.188 5933752.999 570557.926 5933753.290 570556.664 5933753.580 570555.401 5933753.868 570554.138 5933754.153 570552.874 5933754.437 570551.610 5933754.719 570550.345 5933754.999 570549.080 5933755.278 570547.815 5933755.554 570546.549 5933755.828 570545.283 5933756.101 570544.016 5933756.371 570542.749 5933756.640 570541.481 5933756.907 570540.214 5933757.172 570538.945 5933757.435 570537.677 5933757.696 570536.408 5933757.956 570535.138 5933758.213 570533.869 5933758.468 570532.598 5933758.722 570531.328 5933758.974 570530.057 5933759.224 570528.786 5933759.471 570527.514 5933759.717 570526.242 5933759.962 570524.970 5933760.204 570524.969 5933760.204 570524.874 5933760.222 570524.780 5933760.240 570524.686 5933760.258 570524.592 5933760.275 570524.497 5933760.293 570524.403 5933760.311 570524.309 5933760.329 570524.214 5933760.347 570524.120 5933760.365 570524.026 5933760.382 570523.931 5933760.400 570523.837 5933760.418 570523.743 5933760.436 570523.648 5933760.453 570523.554 5933760.471 570523.460 5933760.489 570523.366 5933760.506 570523.271 5933760.524 570523.177 5933760.542 570523.083 5933760.560 570522.988 5933760.577 570522.894 5933760.595 570522.800 5933760.612 570522.705 5933760.630 570522.611 5933760.648 570522.517 5933760.665 570522.422 5933760.683 570522.328 5933760.701 570522.234 5933760.718 570522.139 5933760.736 570522.045 5933760.753 570521.950 5933760.771 570521.856 5933760.788 570521.762 5933760.806 570521.667 5933760.823 570521.573 5933760.841 570521.479 5933760.858 570521.384 5933760.876 570521.290 5933760.893 570521.196 5933760.911 570521.101 5933760.928 570521.007 5933760.946 570520.913 5933760.963 570520.818 5933760.980 570520.724 5933760.998 570520.629 5933761.015 570520.535 5933761.033 570520.441 5933761.050 570520.346 5933761.067 570520.252 5933761.085 570520.157 5933761.102 570520.063 5933761.119 570519.969 5933761.137 570519.874 5933761.154 570519.780 5933761.171 570519.686 5933761.189 570519.591 5933761.206 570519.497 5933761.223 570519.402 5933761.240 570519.308 5933761.258 570519.213 5933761.275 570519.119 5933761.292 570519.025 5933761.309 570518.930 5933761.327 570389.755 5933784.867 570354.810 5933737.171 570298.311 5933744.654 570287.849 5933756.843 570406.471 5933947.222 570398.578 5933948.725 570172.135 5933988.606 570194.527 5933895.090 570194.515 5933895.092 569984.209 5933933.398 569900.690 5933765.551 570315.709 5933702.112 570312.132 5933678.134 570313.357 5933677.875 570304.567 5933619.033 570361.156 5933610.579 570364.714 5933610.042 570368.270 5933609.493 570371.825 5933608.933 570375.378 5933608.362 570378.929 5933607.780 570382.478 5933607.187 570386.025 5933606.582 570389.570 5933605.966 570393.114 5933605.339 570396.655 5933604.700 570400.194 5933604.050 570403.731 5933603.389 570407.266 5933602.717 570410.799 5933602.034 570414.330 5933601.339 570417.858 5933600.633 570421.385 5933599.916 570424.909 5933599.188 570428.430 5933598.448 570431.949 5933597.698 570435.466 5933596.936 570438.981 5933596.163 570442.493 5933595.379 570446.002 5933594.584 570449.509 5933593.778 570453.013 5933592.960 570456.515 5933592.132 570460.014 5933591.292 570463.510 5933590.441 570467.004 5933589.579 570470.495 5933588.706 570473.983 5933587.822 570477.468 5933586.927 570480.951 5933586.021 570484.430 5933585.104 570487.907 5933584.175 570491.380 5933583.236 570494.851 5933582.286 570498.319 5933581.324 570501.783 5933580.352 570505.245 5933579.369 570508.703 5933578.374 570512.158 5933577.369 570515.610 5933576.353 570519.059 5933575.326 570522.504 5933574.287 570525.946 5933573.238 570529.385 5933572.178 570532.820 5933571.108 570536.252 5933570.026 570539.681 5933568.933 570543.106 5933567.829 570546.527 5933566.715 570549.945 5933565.590 570553.359 5933564.454 570556.770 5933563.307 570560.177 5933562.149 570563.580 5933560.980 570566.980 5933559.801 570570.376 5933558.611 570573.768 5933557.410 570577.156 5933556.198 570580.541 5933554.976 570583.921 5933553.743 570583.922 5933553.742 570584.357 5933553.583 570584.793 5933553.423 570585.228 5933553.263 570585.663 5933553.103 570586.098 5933552.942 570586.533 5933552.782 570586.968 5933552.621 570587.403 5933552.460 570587.838 5933552.299 570588.272 5933552.138 570588.707 5933551.976 570589.142 5933551.815 570589.576 5933551.653 570590.011 5933551.491 570590.445 5933551.329 570590.880 5933551.167 570591.314 5933551.004 570591.748 5933550.842 570592.182 5933550.679 570592.616 5933550.516 570593.050 5933550.353 570593.484 5933550.189 570593.918 5933550.026 570594.352 5933549.862 570594.786 5933549.698 570595.220 5933549.534 570595.653 5933549.370 570596.087 5933549.205 570596.520 5933549.041 570596.954 5933548.876 570597.387 5933548.711 570597.820 5933548.546 570598.254 5933548.381 570598.687 5933548.215 570599.120 5933548.050 570599.553 5933547.884 570599.986 5933547.718 570600.419 5933547.551 570600.851 5933547.385 570601.284 5933547.219 570601.717 5933547.052 570602.150 5933546.885 570602.582 5933546.718 570603.015 5933546.551 570603.447 5933546.383 570603.879 5933546.216 570604.312 5933546.048 570604.744 5933545.880 570605.176 5933545.712 570605.608 5933545.543 570606.040 5933545.375 570606.472 5933545.206 570606.904 5933545.038 570607.336 5933544.868 570607.767 5933544.699 570608.199 5933544.530 570608.630 5933544.360 570609.062 5933544.191 570609.493 5933544.021 570609.925 5933543.851 570610.356 5933543.680 570610.787 5933543.510 570611.219 5933543.339 570611.650 5933543.169 570617.127 5933557.133 570622.964 5933568.905 570636.797 5933629.782 570651.476 5933651.654</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_120">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Hammerbrook14</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/mitte/bauleitplanung/15674514/hammerbrook/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_120_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_120_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_836a79d7-b9d9-4759-9248-4a4c6be34ef6" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>566823.978 5933503.344 566789.206 5933521.108 566779.556 5933525.718 566772.270 5933529.198 566765.019 5933499.434 566764.925 5933499.046 566764.453 5933497.103 566762.337 5933488.384 566761.869 5933486.456 566759.752 5933477.737 566759.281 5933475.794 566759.157 5933475.284 566757.858 5933475.542 566741.588 5933478.766 566737.856 5933460.214 566736.924 5933455.580 566736.212 5933452.040 566734.208 5933442.073 566733.491 5933438.513 566727.523 5933408.842 566757.599 5933392.953 566760.842 5933391.160 566766.399 5933387.704 566771.719 5933383.892 566776.655 5933379.848 566776.778 5933379.740 566781.555 5933375.266 566786.029 5933370.489 566790.181 5933365.430 566792.191 5933362.717 566830.132 5933309.641 566867.577 5933258.857 566902.976 5933209.126 566909.846 5933212.396 567156.825 5933329.941 567139.911 5933336.617 567140.861 5933339.472 567142.474 5933340.618 567136.059 5933343.895 567132.385 5933341.902 567109.697 5933357.358 567089.507 5933367.670 566985.632 5933420.790 566950.092 5933438.911 566823.978 5933503.344</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_137">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Winterhude75</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_137_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_137_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_4cdd1e05-5969-46ed-886e-272e557e2457" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567737.482 5939860.050 567763.468 5939860.411 567763.749 5939840.174 567763.779 5939838.064 567763.819 5939835.174 567807.795 5939835.783 567838.780 5939836.212 567837.959 5939895.445 567836.836 5939976.483 567836.831 5939976.808 567738.346 5939975.671 567727.642 5939965.076 567728.771 5939875.924 567739.060 5939876.067 567739.239 5939863.073 567737.440 5939863.049 567737.482 5939860.050</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_187">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Neugraben-Fischbek74</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/politik-und-verwaltung/bezirke/harburg/themen/planen-bauen-wohnen/stadt-und-landschaftsplanung/bauleitplanung/bebauungsplanentwurf-neugraben-fischbek-74-1006552</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_187_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_187_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_c0fb5aba-43c9-48f5-be32-41bb2f319f25" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>556715.264 5924868.150 556718.435 5924767.829 556718.919 5924749.518 556723.153 5924726.655 556725.156 5924715.819 556715.028 5924714.512 556713.864 5924716.257 556708.956 5924723.622 556663.516 5924752.299 556654.745 5924757.125 556645.319 5924760.910 556633.998 5924763.822 556622.375 5924765.104 556612.115 5924764.875 556603.650 5924763.372 556602.593 5924799.066 556591.103 5924798.726 556589.154 5924864.508 556626.748 5924865.730 556703.713 5924867.911 556715.264 5924868.150</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_124">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Rothenburgsort17</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/mitte/bplaene-im-verfahren/4330222/rothenburgsort17/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_124_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_124_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_14f34cc6-ca81-41ee-a7f6-9822b1e64562" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>568794.742 5932935.032 568787.746 5932943.814 568780.491 5932952.912 568774.603 5932960.803 568764.373 5932975.988 568762.144 5932979.251 568755.244 5932991.220 568748.345 5933003.189 568740.098 5933016.894 568731.852 5933030.599 568722.456 5933047.714 568719.325 5933053.418 568710.640 5933071.941 568701.956 5933090.463 568692.912 5933112.395 568461.663 5933114.587 568441.995 5933106.251 568451.019 5933087.569 568468.760 5933050.837 568469.600 5933047.255 568470.439 5933043.673 568470.881 5933038.658 568471.323 5933033.643 568471.458 5933028.646 568471.593 5933023.649 568471.739 5933018.216 568471.886 5933012.782 568471.646 5933007.352 568471.406 5933001.921 568471.162 5932996.387 568470.918 5932990.852 568470.382 5932986.823 568469.846 5932982.794 568469.354 5932980.415 568468.861 5932978.037 568398.013 5932811.351 568446.677 5932792.909 568448.094 5932792.392 568449.512 5932791.875 568450.317 5932793.597 568451.251 5932794.966 568452.069 5932795.880 568453.881 5932797.344 568454.638 5932799.283 568455.395 5932801.222 568464.370 5932797.829 568473.346 5932794.436 568472.390 5932792.128 568491.896 5932783.766 568511.402 5932775.405 568514.767 5932774.066 568529.659 5932768.143 568543.879 5932762.487 568558.098 5932756.831 568581.446 5932747.544 568604.794 5932738.257 568626.211 5932728.913 568647.628 5932719.570 568669.046 5932710.226 568690.463 5932700.882 568705.260 5932694.910 568720.056 5932688.938 568734.853 5932682.966 568749.650 5932676.994 568757.147 5932674.345 568779.640 5932666.397 568775.988 5932658.267 568802.445 5932647.562 568828.901 5932636.857 568855.357 5932626.152 568881.814 5932615.447 568902.915 5932608.794 568926.329 5932601.411 568945.117 5932595.487 568966.218 5932588.834 568983.043 5932583.973 568999.868 5932579.111 569016.693 5932574.249 569033.518 5932569.388 569041.754 5932566.722 569049.990 5932564.056 569058.225 5932561.391 569066.461 5932558.725 569076.211 5932555.569 569079.174 5932585.077 569086.142 5932652.424 569086.362 5932654.549 569092.952 5932720.747 569083.332 5932725.506 569081.856 5932726.232 569081.496 5932726.408 569055.438 5932739.293 569014.338 5932760.581 568975.136 5932781.131 568961.861 5932788.823 568945.946 5932798.202 568928.773 5932809.162 568913.170 5932820.334 568900.839 5932829.607 568883.136 5932844.465 568867.861 5932857.745 568844.987 5932879.456 568819.271 5932906.329 568816.952 5932909.019 568798.304 5932930.569 568794.742 5932935.032</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_125">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>StGeorg43</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/mitte/bplaene-im-verfahren/83818/stgeorg43-1/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_125_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_125_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_b03807f9-ea86-4f04-be75-86ada27eb1fd" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567514.790 5934795.858 567511.382 5934799.028 567507.800 5934802.372 567496.646 5934792.086 567492.734 5934788.478 567486.596 5934782.818 567483.668 5934780.118 567482.661 5934780.574 567481.394 5934781.092 567480.045 5934781.647 567477.072 5934782.874 567474.690 5934783.866 567468.456 5934778.277 567445.889 5934799.962 567441.816 5934795.708 567468.586 5934770.027 567468.685 5934766.301 567473.645 5934761.410 567389.353 5934686.357 567388.522 5934687.290 567291.606 5934599.305 567285.258 5934593.272 567252.947 5934564.265 567211.881 5934532.419 567199.143 5934522.550 567213.847 5934503.594 567225.141 5934512.444 567227.213 5934509.761 567230.700 5934512.445 567239.921 5934519.591 567266.007 5934485.676 567330.110 5934535.596 567344.450 5934544.945 567481.097 5934652.015 567552.335 5934707.316 567539.443 5934723.758 567531.177 5934731.375 567524.170 5934740.518 567493.961 5934770.408 567492.187 5934772.163 567493.512 5934773.355 567493.891 5934773.753 567494.331 5934774.148 567495.218 5934774.948 567495.890 5934775.553 567496.748 5934776.326 567500.128 5934779.309 567504.617 5934783.348 567508.538 5934786.876 567512.884 5934790.786 567520.306 5934790.720 567514.790 5934795.858</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_126">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wilhelmsburg100</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/mitte/bplaene-im-verfahren/12751284/wilhelmsburg-100/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_126_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_126_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_f67591ae-5205-4b40-912f-c98b927ba4c7" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>566826.511 5930128.255 566832.063 5930132.257 566833.950 5930133.538 566837.780 5930136.019 566839.920 5930137.369 566844.263 5930139.387 566844.692 5930139.581 566849.509 5930141.692 566853.839 5930143.590 566856.358 5930144.649 566858.205 5930145.406 566867.219 5930149.731 566875.184 5930156.129 566884.575 5930159.418 566890.747 5930163.638 566891.442 5930164.108 566892.128 5930164.561 566893.529 5930165.454 566899.589 5930167.480 566902.568 5930168.724 566933.544 5930178.588 566937.433 5930199.968 566940.658 5930214.039 566946.129 5930237.907 566948.842 5930249.741 566952.658 5930266.390 566947.388 5930264.780 566848.222 5930233.995 566788.152 5930215.344 566767.372 5930208.890 566703.876 5930189.189 566677.495 5930182.028 566656.401 5930175.773 566651.991 5930174.466 566636.874 5930169.352 566593.074 5930158.326 566581.127 5930155.636 566520.839 5930142.030 566486.707 5930134.326 566457.414 5930129.246 566441.939 5930129.117 566401.940 5930128.785 566398.459 5930128.756 566388.172 5930130.698 566379.598 5930132.266 566378.866 5930124.296 566378.453 5930120.923 566377.796 5930116.365 566376.919 5930111.653 566376.086 5930107.682 566374.049 5930099.343 566373.980 5930099.086 566365.302 5930100.472 566356.178 5930103.026 566355.142 5930103.310 566348.706 5930104.810 566346.303 5930105.258 566342.186 5930105.887 566336.254 5930106.490 566328.547 5930107.037 566326.106 5930100.549 566318.722 5930080.926 566175.978 5930142.775 566151.101 5930152.488 566137.084 5930096.061 566132.597 5930097.131 566130.252 5930086.737 566118.005 5930035.560 566080.094 5930045.215 565965.135 5930063.731 565964.419 5930052.948 565955.522 5929908.375 565945.328 5929746.270 565945.272 5929745.377 565945.225 5929744.629 565950.849 5929744.274 565967.449 5929743.226 565985.786 5929742.069 565999.981 5929741.177 566005.145 5929740.851 566006.856 5929740.745 566020.961 5929739.860 566025.555 5929739.568 566028.582 5929739.380 566039.259 5929738.709 566054.398 5929737.758 566075.630 5929736.423 566072.688 5929702.558 566088.687 5929701.555 566097.384 5929700.974 566113.147 5929700.268 566105.723 5929588.782 566105.204 5929581.009 566209.203 5929561.043 566210.234 5929556.113 566293.904 5929550.723 566288.914 5929473.115 566288.690 5929469.622 566285.073 5929413.509 566344.933 5929409.667 566344.254 5929398.989 566361.226 5929398.049 566375.563 5929397.217 566381.140 5929404.912 566388.147 5929412.440 566394.117 5929417.517 566400.177 5929422.670 566410.411 5929429.595 566419.470 5929433.831 566432.440 5929437.762 566444.486 5929440.006 566446.917 5929440.204 566457.406 5929439.510 566462.079 5929439.202 566462.566 5929448.898 566480.325 5929448.004 566484.012 5929520.511 566492.212 5929686.442 566493.892 5929706.463 566496.942 5929726.419 566501.354 5929746.306 566507.366 5929766.702 566514.826 5929786.359 566524.139 5929804.359 566532.793 5929818.441 566534.657 5929821.475 566547.085 5929838.977 566578.100 5929887.296 566581.710 5929892.920 566585.287 5929898.493 566613.461 5929942.384 566622.097 5929955.838 566639.687 5929948.284 566653.326 5929942.426 566682.342 5929929.966 566691.088 5929926.209 566699.588 5929922.559 566708.367 5929949.773 566710.019 5929954.888 566711.619 5929960.020 566712.131 5929961.647 566714.778 5929969.748 566718.136 5929979.412 566719.717 5929983.733 566721.445 5929988.194 566722.724 5929991.341 566725.081 5929996.845 566725.599 5929997.994 566727.576 5930002.272 566729.992 5930007.282 566730.174 5930007.651 566730.224 5930007.752 566734.062 5930015.247 566734.384 5930015.850 566738.181 5930022.720 566740.012 5930025.934 566744.673 5930033.750 566745.435 5930034.982 566751.151 5930043.847 566751.598 5930044.514 566756.710 5930051.865 566759.476 5930055.665 566762.874 5930060.176 566767.827 5930066.465 566768.944 5930067.836 566773.635 5930073.382 566774.118 5930073.934 566779.489 5930079.860 566779.694 5930080.079 566784.430 5930085.115 566787.071 5930087.892 566789.730 5930090.653 566794.643 5930096.168 566795.992 5930097.815 566797.307 5930099.489 566797.545 5930099.796 566798.206 5930100.678 566799.069 5930101.893 566799.433 5930102.433 566800.041 5930103.358 566800.976 5930104.847 566801.582 5930105.756 566802.215 5930106.646 566804.891 5930109.556 566806.774 5930111.485 566807.668 5930112.369 566811.814 5930116.305 566813.123 5930117.470 566816.147 5930120.033 566821.266 5930124.223 566824.025 5930126.375 566826.511 5930128.255</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_139">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wilstorf44</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/harburg/bebauungsplaene/16827596/wilstorf-44/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_139_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_139_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_46be12d5-5677-4869-b090-6a8de7756d72" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565120.140 5922954.670 565117.260 5922940.732 565216.514 5922920.539 565217.794 5922922.987 565219.578 5922926.957 565220.065 5922928.486 565221.051 5922931.587 565221.831 5922935.639 565232.988 5922935.499 565246.921 5922963.841 565248.118 5922967.446 565249.144 5922971.346 565249.934 5922975.420 565250.470 5922979.749 565250.689 5922983.586 565250.694 5922986.621 565241.237 5922985.875 565238.952 5922985.647 565234.542 5922984.856 565224.119 5922982.735 565222.061 5922982.316 565218.256 5922981.542 565205.270 5922978.695 565190.823 5922975.528 565177.711 5922972.654 565168.147 5922970.543 565157.958 5922968.294 565154.103 5922984.495 565151.278 5922996.366 565124.284 5922989.946 565116.791 5922976.055 565112.208 5922954.086 565111.699 5922951.934 565120.140 5922954.670</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_150">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Altona-Nord29</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_150_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_150_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_639755db-85c6-49de-87d6-f0032c92ece5" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>562233.842 5936111.281 562233.157 5936117.544 562098.271 5936108.082 562058.314 5936101.054 562013.717 5936097.507 562001.094 5936097.104 562000.356 5936097.157 562000.788 5936093.119 561890.380 5936081.341 561893.063 5936065.063 561899.161 5936045.767 561906.559 5936027.264 561916.400 5936009.851 561928.565 5935994.265 561942.876 5935980.195 561960.765 5935967.630 561977.301 5935958.899 561997.973 5935951.867 562003.396 5935951.172 562008.875 5935950.593 562014.146 5935950.304 562019.446 5935950.143 562024.895 5935950.195 562030.980 5935950.465 562031.370 5935941.672 562256.593 5935961.372 562256.007 5935969.730 562248.662 5935975.772 562233.842 5936111.281</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_91049204-776d-4830-b064-7ac5aca1ba0d" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>561918.420 5936234.072 561921.820 5936240.760 561921.301 5936240.509 561915.302 5936236.172 561909.836 5936231.472 561881.303 5936155.911 561883.893 5936153.377 561881.395 5936146.777 561880.123 5936143.547 561881.331 5936136.222 561918.420 5936234.072</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_127">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wilhelmsburg101</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_127_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_127_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_6c3ba5e8-24e1-4398-87bf-800d912b935e" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567378.121 5929070.911 567379.002 5929069.933 567379.887 5929068.959 567380.774 5929067.987 567381.665 5929067.018 567382.559 5929066.052 567383.456 5929065.089 567384.357 5929064.129 567385.260 5929063.172 567386.167 5929062.218 567387.076 5929061.267 567387.989 5929060.319 567388.905 5929059.374 567389.824 5929058.432 567390.746 5929057.493 567391.672 5929056.557 567392.600 5929055.624 567393.531 5929054.694 567394.466 5929053.767 567395.403 5929052.843 567396.344 5929051.922 567397.287 5929051.005 567398.234 5929050.090 567399.183 5929049.179 567400.136 5929048.271 567401.091 5929047.365 567402.049 5929046.463 567403.011 5929045.564 567403.975 5929044.669 567404.942 5929043.776 567405.913 5929042.887 567406.886 5929042.001 567407.862 5929041.118 567408.841 5929040.238 567409.822 5929039.361 567410.807 5929038.488 567411.795 5929037.618 567412.785 5929036.751 567413.778 5929035.888 567414.774 5929035.027 567415.773 5929034.170 567416.775 5929033.317 567417.779 5929032.466 567418.786 5929031.619 567419.796 5929030.775 567420.809 5929029.935 567421.825 5929029.098 567422.843 5929028.264 567423.864 5929027.433 567424.888 5929026.606 567425.914 5929025.782 567426.943 5929024.962 567427.975 5929024.145 567429.010 5929023.331 567430.047 5929022.521 567431.087 5929021.714 567432.129 5929020.911 567433.174 5929020.111 567434.222 5929019.314 567435.273 5929018.521 567436.325 5929017.732 567437.381 5929016.946 567438.439 5929016.163 567439.500 5929015.384 567440.563 5929014.608 567441.303 5929013.851 567442.042 5929013.092 567442.778 5929012.331 567443.512 5929011.568 567444.244 5929010.803 567444.974 5929010.036 567445.701 5929009.267 567446.427 5929008.497 567447.151 5929007.724 567447.872 5929006.949 567448.591 5929006.172 567449.309 5929005.393 567450.024 5929004.612 567450.736 5929003.829 567451.447 5929003.045 567452.156 5929002.258 567452.862 5929001.469 567453.566 5929000.679 567454.268 5928999.886 567454.968 5928999.092 567455.666 5928998.295 567456.362 5928997.497 567457.055 5928996.697 567457.746 5928995.895 567458.435 5928995.091 567459.122 5928994.285 567459.806 5928993.477 567460.489 5928992.668 567461.169 5928991.856 567461.846 5928991.043 567462.522 5928990.228 567463.195 5928989.411 567463.866 5928988.592 567464.535 5928987.771 567465.202 5928986.949 567465.866 5928986.124 567466.528 5928985.298 567467.188 5928984.470 567467.846 5928983.640 567468.501 5928982.809 567469.154 5928981.975 567469.805 5928981.140 567470.453 5928980.303 567471.099 5928979.464 567471.743 5928978.624 567472.384 5928977.781 567473.024 5928976.937 567473.660 5928976.092 567474.295 5928975.244 567474.927 5928974.395 567475.557 5928973.544 567476.185 5928972.691 567476.810 5928971.837 567477.433 5928970.980 567478.053 5928970.123 567478.671 5928969.263 567479.287 5928968.402 567479.900 5928967.539 567480.512 5928966.674 567481.120 5928965.808 567481.726 5928964.940 567482.330 5928964.070 567482.932 5928963.199 567483.531 5928962.326 567484.649 5928960.655 567485.769 5928958.984 567486.891 5928957.315 567488.014 5928955.646 567489.138 5928953.979 567490.264 5928952.313 567491.392 5928950.648 567492.521 5928948.984 567493.652 5928947.321 567494.785 5928945.659 567495.919 5928943.998 567497.054 5928942.338 567498.192 5928940.680 567499.330 5928939.022 567500.471 5928937.366 567501.613 5928935.710 567502.756 5928934.056 567503.901 5928932.403 567505.048 5928930.750 567506.196 5928929.099 567507.346 5928927.449 567508.497 5928925.801 567509.650 5928924.153 567510.804 5928922.506 567511.960 5928920.860 567513.118 5928919.216 567514.277 5928917.572 567515.438 5928915.930 567516.600 5928914.289 567517.764 5928912.649 567518.929 5928911.010 567520.096 5928909.372 567521.264 5928907.735 567522.434 5928906.099 567523.606 5928904.465 567524.779 5928902.831 567525.954 5928901.199 567527.130 5928899.568 567528.307 5928897.937 567529.487 5928896.308 567530.668 5928894.681 567531.850 5928893.054 567533.034 5928891.428 567534.219 5928889.804 567535.406 5928888.180 567536.595 5928886.558 567537.785 5928884.937 567538.976 5928883.317 567540.170 5928881.698 567541.364 5928880.080 567542.560 5928878.463 567543.758 5928876.848 567544.957 5928875.234 567546.158 5928873.620 567547.361 5928872.008 567548.564 5928870.397 567549.770 5928868.788 567550.977 5928867.179 567552.185 5928865.571 567553.395 5928863.965 567554.606 5928862.360 567555.819 5928860.756 567557.034 5928859.153 567558.250 5928857.551 567559.076 5928856.553 567559.906 5928855.557 567560.738 5928854.565 567561.574 5928853.575 567562.414 5928852.588 567563.256 5928851.603 567564.102 5928850.622 567564.951 5928849.643 567565.804 5928848.667 567566.659 5928847.694 567567.518 5928846.724 567568.380 5928845.757 567569.246 5928844.792 567570.114 5928843.831 567570.986 5928842.872 567571.860 5928841.916 567572.738 5928840.963 567573.620 5928840.013 567574.504 5928839.066 567575.391 5928838.122 567576.282 5928837.181 567577.176 5928836.243 567578.073 5928835.308 567578.973 5928834.375 567579.876 5928833.446 567580.782 5928832.520 567581.691 5928831.597 567582.603 5928830.677 567583.518 5928829.759 567584.437 5928828.845 567585.358 5928827.934 567586.283 5928827.026 567587.210 5928826.122 567588.140 5928825.220 567589.074 5928824.321 567590.010 5928823.425 567590.949 5928822.533 567591.892 5928821.644 567592.837 5928820.757 567593.785 5928819.874 567594.736 5928818.994 567595.690 5928818.118 567596.647 5928817.244 567597.607 5928816.374 567598.570 5928815.506 567599.536 5928814.642 567600.504 5928813.782 567601.475 5928812.924 567602.449 5928812.070 567603.426 5928811.219 567604.406 5928810.371 567605.389 5928809.526 567606.374 5928808.685 567607.363 5928807.847 567608.354 5928807.012 567609.347 5928806.181 567610.344 5928805.353 567611.343 5928804.528 567612.345 5928803.706 567613.350 5928802.888 567614.357 5928802.073 567615.368 5928801.262 567616.380 5928800.454 567617.396 5928799.649 567707.700 5928728.450 567730.150 5928718.700 567919.847 5928684.759 567933.694 5928708.058 567936.701 5928714.205 567942.088 5928722.180 567959.805 5928751.969 567960.717 5928752.304 567961.908 5928752.741 567960.363 5928756.949 567956.148 5928764.885 567938.791 5928793.270 567928.806 5928809.201 567928.464 5928809.748 567898.752 5928858.171 567898.632 5928858.367 567877.323 5928895.277 567868.700 5928912.120 567865.352 5928918.656 567860.962 5928927.876 567856.886 5928936.437 567852.794 5928946.200 567844.173 5928964.134 567842.966 5928966.315 567821.731 5929005.793 567820.920 5929006.547 567818.765 5929005.021 567796.300 5928983.921 567732.609 5928922.634 567708.446 5928898.716 567687.874 5928876.787 567673.526 5928860.451 567648.301 5928883.378 567595.700 5928930.000 567388.836 5929158.050 567334.775 5929109.841 567349.331 5929096.767 567378.121 5929070.911</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_128">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wilhelmsburg102</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/mitte/bplaene-im-verfahren/14660682/wilhelmsburg-102-spreehafenviertel-bebauungsplan/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_128_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_128_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_7d0fb67d-b790-4fbb-90d5-57f387bee901" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>566175.978 5930142.775 566318.722 5930080.926 566326.106 5930100.549 566328.547 5930107.037 566336.254 5930106.490 566342.186 5930105.887 566346.303 5930105.258 566348.706 5930104.810 566355.142 5930103.309 566356.178 5930103.026 566365.302 5930100.472 566373.980 5930099.086 566374.049 5930099.344 566376.086 5930107.682 566376.919 5930111.652 566377.796 5930116.365 566378.453 5930120.922 566378.866 5930124.296 566379.598 5930132.266 566379.601 5930132.315 566379.731 5930134.515 566379.845 5930136.717 566379.969 5930143.337 566379.590 5930154.898 566379.359 5930158.011 566378.457 5930166.410 566376.572 5930177.823 566376.315 5930179.092 566368.208 5930204.207 566332.181 5930309.188 566315.826 5930383.393 566315.016 5930387.639 566275.237 5930596.128 566197.030 5930581.877 566194.074 5930581.282 566192.130 5930580.720 566189.308 5930579.613 566184.634 5930577.769 566169.432 5930571.339 566166.055 5930569.950 566162.442 5930568.767 566156.578 5930567.455 566150.714 5930566.308 566120.418 5930560.811 565970.085 5930533.541 565949.216 5930529.658 565942.879 5930528.776 565934.253 5930527.799 565913.574 5930524.651 565901.547 5930522.500 565866.633 5930515.704 565866.979 5930513.587 565852.566 5930510.972 565842.640 5930509.170 565830.343 5930507.090 565820.251 5930505.618 565811.535 5930504.479 565797.910 5930503.001 565771.450 5930500.322 565763.983 5930499.502 565756.386 5930498.632 565748.849 5930497.694 565741.072 5930496.644 565634.520 5930480.665 565598.421 5930475.249 565598.119 5930477.264 565584.645 5930476.464 565581.788 5930476.732 565576.558 5930477.224 565571.300 5930478.624 565566.442 5930481.013 565561.964 5930484.112 565555.900 5930489.472 565543.479 5930501.819 565473.239 5930571.645 565469.467 5930567.870 565459.291 5930557.687 565451.229 5930549.617 565463.538 5930537.347 565481.912 5930519.160 565503.104 5930498.148 565516.844 5930484.699 565518.476 5930483.121 565534.039 5930468.291 565546.458 5930456.643 565564.504 5930440.366 565586.232 5930421.932 565588.674 5930419.935 565608.550 5930404.218 565631.437 5930387.244 565633.159 5930386.013 565637.083 5930383.232 565654.884 5930371.016 565660.012 5930367.616 565678.811 5930355.588 565683.427 5930352.738 565693.544 5930346.627 565703.253 5930340.938 565703.743 5930340.655 565705.650 5930339.625 565707.558 5930338.597 565702.953 5930327.742 565706.564 5930325.754 565711.187 5930336.651 565711.300 5930336.590 565730.750 5930326.360 565735.277 5930324.026 565750.450 5930316.330 565754.364 5930314.377 565759.098 5930312.033 565783.531 5930300.231 565808.155 5930288.831 565808.251 5930288.787 565832.962 5930277.835 565857.945 5930267.246 565863.024 5930265.152 565875.303 5930260.174 565881.306 5930257.830 566151.101 5930152.488 566175.978 5930142.775</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_147">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Barmbek-Sued4</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_147_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_147_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_33f0dfcf-eefc-4d06-809b-da08bd28d844" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567919.044 5936586.345 567837.009 5936529.442 567841.159 5936523.744 567844.102 5936519.703 567846.523 5936516.378 567851.661 5936509.319 567856.802 5936502.258 567861.388 5936495.961 567867.089 5936488.130 567872.233 5936481.065 567867.557 5936477.794 567865.133 5936476.099 567900.162 5936426.998 567908.925 5936433.109 567932.514 5936449.559 567952.064 5936463.547 567936.826 5936484.467 567942.887 5936488.805 567950.834 5936494.494 567956.663 5936498.667 567959.906 5936500.988 567967.039 5936506.094 567973.400 5936510.647 567919.044 5936586.345</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_129">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wilhelmsburg86</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/mitte/bplaene-im-verfahren/83822/wilhelmsburg-86-1/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_129_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_129_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_4bdfcaa5-a18f-4983-a69a-771c63b13008" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>570063.067 5929184.150 570067.707 5929199.053 570080.600 5929236.629 570090.651 5929269.328 570100.703 5929302.027 570116.921 5929362.217 570119.510 5929371.824 570094.276 5929377.361 570065.495 5929377.497 570036.715 5929377.633 570019.495 5929366.527 569942.880 5929370.553 569942.279 5929402.243 569942.126 5929415.437 569942.034 5929423.673 569925.901 5929423.116 569918.465 5929425.369 569915.555 5929430.573 569913.346 5929437.966 569904.708 5929438.755 569896.071 5929439.545 569897.693 5929428.825 569897.686 5929428.813 569896.451 5929426.965 569894.986 5929425.293 569893.314 5929423.828 569891.466 5929422.593 569891.099 5929422.387 569889.473 5929421.610 569887.368 5929420.895 569885.188 5929420.462 569882.970 5929420.316 569882.114 5929420.338 569871.097 5929420.893 569860.080 5929421.447 569845.170 5929420.606 569830.260 5929419.765 569791.177 5929421.984 569752.093 5929424.203 569730.745 5929425.069 569709.396 5929425.935 569676.641 5929426.893 569643.886 5929427.850 569608.447 5929430.129 569573.007 5929432.408 569547.693 5929433.553 569522.379 5929434.697 569486.422 5929435.053 569450.465 5929435.408 569438.867 5929435.075 569427.270 5929434.742 569414.663 5929433.315 569402.055 5929431.888 569368.007 5929426.764 569340.935 5929420.971 569313.863 5929415.178 569279.218 5929405.029 569244.573 5929394.880 569242.622 5929401.380 569239.020 5929399.971 569235.419 5929398.563 569226.117 5929394.450 569216.814 5929390.336 569204.982 5929384.471 569193.150 5929378.606 569181.144 5929371.723 569169.137 5929364.839 569156.951 5929356.996 569144.766 5929349.152 569134.424 5929340.971 569124.081 5929332.790 569114.850 5929325.273 569105.619 5929317.756 569099.225 5929311.934 569092.830 5929306.112 569090.423 5929303.921 569080.432 5929294.408 569070.441 5929284.896 569061.161 5929274.399 569051.882 5929263.902 569045.428 5929255.946 569038.974 5929247.990 569034.469 5929242.183 569029.964 5929236.375 569024.723 5929229.112 569019.481 5929221.850 569014.307 5929213.909 569009.133 5929205.968 569003.079 5929195.860 568997.025 5929185.752 568991.592 5929175.096 568986.158 5929164.441 568981.069 5929153.164 568975.981 5929141.888 568971.162 5929130.696 568966.343 5929119.504 568962.536 5929108.491 568958.729 5929097.478 568955.413 5929085.731 568952.096 5929073.984 568949.311 5929061.733 568946.525 5929049.482 568944.275 5929037.362 568942.024 5929025.241 568938.621 5929000.441 568937.232 5928986.632 568936.135 5928975.688 568935.677 5928950.320 568946.095 5928807.554 568950.578 5928800.182 568957.477 5928800.364 568957.721 5928791.781 568955.433 5928789.323 568955.132 5928777.128 568953.581 5928775.590 568952.927 5928767.401 568951.628 5928751.182 568948.499 5928747.886 568949.133 5928734.694 568949.767 5928721.503 568951.577 5928718.778 568953.387 5928716.053 568954.839 5928710.583 568956.290 5928705.114 568955.417 5928699.657 568952.739 5928682.905 568962.610 5928684.226 568964.557 5928684.678 568975.294 5928687.169 568986.031 5928689.660 569000.008 5928694.257 569013.984 5928698.853 569025.028 5928705.073 569036.071 5928711.294 569045.591 5928715.813 569051.044 5928716.220 569064.175 5928717.283 569085.321 5928722.479 569104.507 5928730.184 569117.230 5928735.294 569123.861 5928737.530 569132.002 5928739.785 569141.392 5928741.561 569149.853 5928742.541 569158.314 5928743.520 569163.710 5928744.339 569169.106 5928745.159 569173.332 5928746.069 569177.558 5928746.979 569183.537 5928748.877 569189.317 5928751.457 569195.097 5928754.037 569202.937 5928757.540 569217.637 5928760.733 569226.024 5928760.825 569246.894 5928763.965 569267.765 5928767.104 569279.743 5928769.051 569291.722 5928770.998 569301.422 5928773.414 569312.449 5928776.161 569323.326 5928779.269 569339.676 5928782.177 569339.693 5928782.180 569343.110 5928782.674 569349.045 5928783.533 569354.735 5928784.355 569365.400 5928786.609 569376.065 5928788.862 569384.466 5928790.880 569392.867 5928792.898 569402.469 5928795.616 569412.071 5928798.334 569422.293 5928801.226 569432.515 5928804.119 569474.117 5928814.253 569515.718 5928824.388 569562.373 5928834.680 569609.029 5928844.971 569628.918 5928849.596 569648.808 5928854.222 569656.543 5928855.291 569661.786 5928856.024 569672.990 5928858.940 569684.195 5928861.855 569690.721 5928863.418 569697.246 5928864.981 569702.260 5928865.677 569706.090 5928865.404 569720.583 5928862.430 569719.884 5928855.871 569732.755 5928849.752 569736.139 5928846.496 569792.874 5928837.091 569794.109 5928834.710 569791.828 5928828.944 569789.547 5928823.179 569791.981 5928822.682 569794.415 5928822.186 569798.898 5928820.873 569851.910 5928799.122 569904.921 5928777.371 569910.148 5928789.529 569915.375 5928801.686 569934.545 5928848.759 569953.715 5928895.832 569990.941 5928994.797 570028.168 5929093.761 570058.427 5929169.247 570063.067 5929184.150</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_130">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wilhelmsburg91</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/mitte/bplaene-im-verfahren/83830/bebauungsplan-entwurf-wilhelmsburg-91/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_130_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_130_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_e3760b69-ebaa-4db1-9e9a-8294fb10721e" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>566524.797 5928520.016 566529.073 5928525.616 566533.235 5928530.515 566535.168 5928532.603 566536.235 5928533.760 566537.575 5928535.250 566539.224 5928537.151 566540.834 5928539.079 566542.406 5928541.033 566543.939 5928543.014 566545.433 5928545.021 566547.021 5928547.240 566551.400 5928553.653 566553.180 5928556.288 566558.777 5928564.969 566564.087 5928573.828 566569.104 5928582.856 566570.164 5928584.856 566573.824 5928592.044 566578.240 5928601.381 566582.348 5928610.858 566585.210 5928618.013 566587.752 5928623.926 566589.649 5928624.990 566660.472 5928608.306 566675.072 5928604.868 566680.417 5928597.179 566696.416 5928593.012 566700.324 5928608.029 566701.385 5928609.809 566702.700 5928611.335 566704.859 5928612.835 566708.160 5928613.735 566708.808 5928620.177 566706.934 5928620.837 566705.466 5928622.064 566703.815 5928623.866 566701.937 5928628.464 566701.452 5928630.921 566700.359 5928638.288 566700.009 5928642.273 566699.098 5928759.938 566700.211 5928788.373 566699.989 5928788.379 566699.623 5928796.342 566699.489 5928798.247 566698.513 5928808.079 566697.447 5928819.345 566697.229 5928823.280 566697.028 5928832.165 566697.131 5928838.534 566699.338 5928906.333 566700.354 5928937.547 566700.338 5928939.092 566699.841 5928941.562 566698.870 5928943.938 566701.270 5928999.115 566702.892 5929002.870 566703.599 5929007.821 566695.663 5929007.406 566696.293 5929018.485 566696.670 5929025.123 566680.464 5929045.577 566668.661 5929045.762 566676.849 5929050.140 566673.681 5929054.147 566662.046 5929047.879 566662.595 5929060.607 566651.334 5929059.940 566646.162 5929059.635 566642.849 5929059.438 566639.653 5929059.249 566614.098 5929057.737 566614.360 5929040.144 566600.388 5929039.365 566584.427 5929038.484 566579.464 5929038.201 566546.538 5929036.322 566525.162 5929035.102 566510.568 5929034.270 566506.573 5929034.042 566503.578 5929033.872 566498.890 5929033.604 566480.521 5929032.557 566479.493 5929032.498 566441.565 5929030.335 566340.446 5929024.567 566332.462 5929024.111 566313.918 5929023.143 566259.883 5929020.321 566249.425 5929019.774 566234.817 5929019.007 566215.105 5929015.851 566199.656 5929013.352 566190.766 5929011.915 566135.548 5929003.010 566117.293 5929000.065 566106.476 5928998.321 566126.044 5928950.998 566139.099 5928923.944 566153.964 5928887.920 566157.630 5928878.159 566160.721 5928867.971 566163.138 5928857.604 566164.017 5928852.811 566164.872 5928847.100 566165.916 5928836.506 566166.264 5928825.866 566165.985 5928816.344 566154.764 5928624.947 566143.702 5928506.932 566143.021 5928500.888 566141.286 5928490.381 566139.626 5928482.948 566138.868 5928480.011 566135.777 5928469.821 566132.026 5928459.855 566132.020 5928459.840 566121.577 5928434.636 566090.366 5928368.772 566072.054 5928362.798 566040.855 5928292.886 566041.146 5928290.360 566042.121 5928281.917 566040.983 5928262.764 566039.552 5928238.665 566036.262 5928183.251 566033.148 5928130.944 566031.518 5928103.554 566031.241 5928089.604 566031.843 5928082.630 566033.117 5928075.759 566035.555 5928068.920 566041.718 5928056.568 566046.413 5928048.816 566085.377 5928020.695 566099.245 5928020.929 566117.454 5928021.769 566127.831 5928017.234 566140.785 5928002.906 566142.505 5927998.286 566145.093 5927989.452 566145.705 5927973.414 566198.082 5927973.257 566205.051 5927973.257 566205.887 5927978.993 566208.001 5927985.192 566210.992 5927991.010 566214.300 5927996.103 566218.509 5928001.547 566222.729 5928006.219 566228.057 5928009.902 566233.737 5928013.186 566243.223 5928018.253 566249.468 5928021.597 566250.269 5928022.255 566252.569 5928023.326 566256.460 5928025.271 566262.632 5928028.233 566273.103 5928032.313 566276.328 5928033.554 566282.561 5928035.913 566285.352 5928036.968 566287.112 5928037.801 566289.220 5928039.348 566289.596 5928039.708 566291.502 5928042.192 566291.926 5928042.995 566294.264 5928047.859 566295.681 5928050.954 566296.993 5928053.683 566299.861 5928059.652 566342.945 5928149.283 566343.234 5928149.957 566344.470 5928153.597 566344.639 5928154.260 566345.219 5928157.366 566345.419 5928159.459 566342.132 5928158.854 566342.158 5928158.948 566342.372 5928160.573 566342.296 5928161.547 566342.158 5928162.199 566341.531 5928163.714 566341.315 5928164.061 566353.435 5928190.743 566330.440 5928201.428 566306.354 5928212.052 566303.595 5928226.021 566332.190 5928255.596 566336.050 5928260.444 566340.551 5928266.098 566354.228 5928283.278 566357.686 5928286.611 566358.842 5928287.734 566360.757 5928289.698 566362.720 5928291.846 566364.583 5928294.008 566367.422 5928294.151 566370.737 5928298.119 566374.015 5928301.862 566376.790 5928304.971 566378.567 5928307.034 566380.370 5928309.206 566382.133 5928311.407 566383.598 5928313.320 566383.806 5928313.590 566385.578 5928315.963 566387.480 5928318.662 566409.195 5928350.461 566408.645 5928353.380 566414.735 5928362.299 566417.654 5928362.849 566427.065 5928376.630 566428.124 5928378.184 566429.827 5928380.704 566431.488 5928383.188 566434.844 5928388.256 566437.488 5928392.161 566524.797 5928520.016</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_159">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Harburg75</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bebauungsplaene/12063238/harburg-75/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_159_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_159_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_f179bcdf-7851-4de3-8a1a-a3be4f15c7c2" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>564623.423 5923570.478 564624.548 5923561.102 564627.062 5923540.158 564623.058 5923538.900 564619.877 5923537.901 564629.415 5923507.546 564631.421 5923501.161 564631.715 5923500.226 564617.397 5923495.824 564609.430 5923493.498 564610.844 5923492.018 564612.231 5923490.459 564612.973 5923489.575 564614.183 5923488.053 564615.110 5923486.814 564616.137 5923485.353 564617.237 5923483.674 564617.789 5923482.780 564619.940 5923474.577 564622.022 5923466.640 564665.939 5923479.581 564706.424 5923491.511 564705.312 5923500.996 564704.987 5923503.761 564704.357 5923509.133 564702.347 5923526.273 564701.404 5923534.318 564698.647 5923549.558 564695.985 5923564.113 564694.995 5923569.404 564693.856 5923575.384 564692.401 5923582.793 564672.210 5923580.845 564658.946 5923579.565 564647.157 5923578.427 564634.563 5923577.212 564627.922 5923576.571 564622.844 5923576.081 564623.481 5923570.485 564623.423 5923570.478</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_131">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wilhelmsburg99</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/mitte/bplaene-im-verfahren/12751272/wilhelmsburg-99-1/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_131_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_131_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_6eacdd19-61be-43bb-b569-b76cfc831a22" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>566361.226 5929398.049 566344.254 5929398.989 566344.933 5929409.667 566285.073 5929413.509 566288.690 5929469.622 566288.914 5929473.115 566293.904 5929550.723 566271.126 5929552.190 566225.723 5929555.115 566210.234 5929556.113 566209.203 5929561.043 566105.204 5929581.009 566086.100 5929295.273 566059.302 5929296.985 566053.523 5929273.415 566055.330 5929270.342 566053.813 5929231.325 566081.705 5929229.543 566071.613 5929078.597 566106.236 5928998.283 566106.476 5928998.321 566117.293 5929000.065 566135.548 5929003.010 566190.766 5929011.915 566199.656 5929013.352 566215.105 5929015.851 566234.817 5929019.007 566249.425 5929019.774 566259.883 5929020.321 566313.918 5929023.143 566332.462 5929024.111 566340.446 5929024.567 566441.565 5929030.335 566479.493 5929032.498 566480.521 5929032.557 566498.890 5929033.604 566503.578 5929033.872 566506.573 5929034.042 566510.568 5929034.270 566525.162 5929035.102 566546.538 5929036.322 566579.464 5929038.201 566584.427 5929038.484 566600.388 5929039.365 566614.360 5929040.144 566614.098 5929057.737 566639.653 5929059.249 566642.849 5929059.438 566646.162 5929059.635 566651.334 5929059.940 566655.880 5929060.209 566655.877 5929059.764 566655.887 5929059.564 566655.953 5929059.148 566656.157 5929059.160 566656.221 5929059.162 566656.880 5929058.909 566656.923 5929058.871 566657.213 5929058.219 566657.415 5929054.695 566657.583 5929054.349 566657.908 5929054.227 566657.946 5929054.224 566662.668 5929054.496 566662.912 5929049.686 566663.125 5929048.330 566663.774 5929046.763 566664.807 5929045.417 566664.993 5929045.239 566666.153 5929044.385 566667.720 5929043.736 566669.402 5929043.514 566669.592 5929043.517 566681.813 5929043.874 566700.272 5929045.266 566700.553 5929045.423 566700.807 5929045.574 566701.325 5929045.909 566702.196 5929046.605 566702.488 5929046.884 566702.970 5929047.407 566704.043 5929048.564 566703.502 5929055.616 566702.302 5929055.569 566702.172 5929057.264 566702.163 5929057.466 566702.079 5929059.260 566702.056 5929059.744 566702.000 5929061.080 566701.957 5929062.268 566701.746 5929063.598 566701.542 5929064.933 566701.471 5929065.411 566701.149 5929067.670 566701.149 5929067.775 566701.152 5929069.116 566701.163 5929070.457 566701.170 5929071.000 566701.164 5929071.184 566701.163 5929071.206 566701.148 5929071.748 566701.115 5929073.090 566701.090 5929074.434 566701.074 5929075.778 566701.066 5929077.122 566701.065 5929078.098 566701.065 5929078.157 566701.064 5929078.463 566701.064 5929079.801 566701.064 5929080.005 566701.056 5929081.107 566701.042 5929082.207 566701.027 5929082.998 566701.020 5929083.301 566700.988 5929084.402 566700.915 5929086.636 566700.914 5929086.727 566701.085 5929088.024 566701.586 5929089.233 566701.729 5929089.467 566702.382 5929090.270 566703.420 5929091.067 566703.994 5929091.351 566703.994 5929091.863 566704.796 5929091.879 566704.742 5929094.152 566704.406 5929100.525 566704.247 5929114.466 566704.285 5929117.492 566704.153 5929120.499 566703.488 5929129.468 566702.191 5929146.081 566696.792 5929176.348 566696.739 5929177.348 566695.517 5929177.332 566688.621 5929209.107 566688.406 5929210.096 566695.505 5929210.816 566687.186 5929258.739 566684.377 5929273.368 566681.185 5929288.152 566680.710 5929290.354 566676.865 5929304.839 566671.417 5929321.761 566665.202 5929337.816 566659.150 5929351.708 566650.179 5929370.959 566645.041 5929368.369 566638.920 5929380.254 566632.581 5929392.475 566625.102 5929406.802 566604.365 5929406.560 566599.750 5929406.506 566587.193 5929406.230 566587.040 5929416.836 566585.145 5929496.444 566584.893 5929500.931 566578.534 5929502.150 566565.597 5929504.866 566534.263 5929510.703 566501.621 5929515.933 566484.012 5929520.511 566480.325 5929448.004 566462.566 5929448.898 566462.079 5929439.202 566457.406 5929439.510 566446.917 5929440.204 566444.486 5929440.006 566432.440 5929437.762 566419.470 5929433.831 566410.411 5929429.595 566400.177 5929422.670 566394.117 5929417.517 566388.147 5929412.440 566381.140 5929404.912 566375.563 5929397.217 566361.226 5929398.049</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_133">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Niendorf97</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/eimsbuettel/bplaene-im-verfahren/16940198/bebauungsplaene-eimsbuettel/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_133_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_133_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_bb123ac7-974f-4ba5-a84a-539d55fb2379" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>563323.647 5940655.944 563211.219 5940749.464 563190.892 5940739.458 563207.310 5940725.815 563209.951 5940723.696 563204.095 5940717.167 563162.776 5940683.816 563154.240 5940678.364 563130.051 5940660.489 563101.423 5940635.310 563094.364 5940630.978 563093.420 5940632.157 563080.250 5940628.163 563073.692 5940626.766 563068.217 5940627.584 563060.060 5940627.824 563052.358 5940627.727 563049.979 5940627.718 563041.350 5940624.439 563035.756 5940621.200 563029.602 5940624.182 563030.269 5940660.162 562990.603 5940640.579 562985.326 5940614.895 562956.496 5940619.894 562917.257 5940626.888 562907.640 5940642.199 562905.662 5940637.840 562901.101 5940624.528 562884.608 5940586.996 562871.944 5940559.398 562841.161 5940569.013 562837.732 5940574.796 562818.172 5940580.905 562796.381 5940608.270 562793.836 5940603.895 562796.850 5940600.362 562794.569 5940592.240 562842.310 5940530.636 562847.948 5940525.530 562839.804 5940511.441 562835.426 5940512.623 562834.347 5940505.516 562829.794 5940506.221 562818.356 5940476.698 562814.084 5940474.573 562783.147 5940459.178 562773.537 5940455.739 562764.018 5940453.825 562770.663 5940412.454 562772.858 5940398.558 562770.758 5940361.916 562778.599 5940362.218 562780.331 5940350.321 562781.641 5940350.377 562835.231 5940352.383 562894.992 5940354.534 562977.523 5940357.476 563019.877 5940355.804 563047.355 5940354.151 563074.825 5940351.148 563099.667 5940347.770 563125.611 5940343.786 563149.001 5940338.997 563174.990 5940333.142 563198.989 5940326.897 563225.085 5940319.643 563252.078 5940311.212 563259.717 5940307.658 563259.102 5940357.290 563263.528 5940419.816 563126.503 5940443.287 563125.995 5940481.256 563125.731 5940506.798 563151.496 5940518.279 563153.549 5940519.291 563168.722 5940526.774 563181.818 5940534.228 563193.691 5940541.491 563204.784 5940548.310 563208.963 5940551.167 563216.403 5940556.219 563230.839 5940565.342 563232.533 5940566.327 563242.971 5940572.392 563261.995 5940581.821 563290.853 5940596.126 563296.330 5940589.695 563303.791 5940587.850 563323.647 5940655.944</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_134">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Marienthal36</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/15910806/marienthal-36/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_134_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_134_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_8ec0b723-e7c3-4025-b5c8-ba3ca971614f" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>570313.555 5936093.097 570308.816 5936090.419 570307.469 5936089.657 570295.686 5936075.635 570279.289 5936056.123 570274.676 5936050.633 570278.114 5936041.979 570278.402 5936040.082 570278.691 5936038.184 570279.051 5936037.431 570279.410 5936036.678 570293.421 5936007.353 570308.151 5935976.522 570311.171 5935969.217 570314.190 5935961.911 570324.928 5935935.934 570335.666 5935909.956 570337.785 5935904.831 570339.904 5935899.706 570346.167 5935884.558 570352.429 5935869.409 570357.427 5935857.316 570362.426 5935845.223 570369.973 5935826.966 570377.520 5935808.709 570384.118 5935811.471 570390.716 5935814.233 570408.441 5935821.260 570426.165 5935828.286 570430.424 5935829.904 570434.683 5935831.521 570442.458 5935834.474 570450.232 5935837.426 570451.961 5935838.082 570453.689 5935838.739 570458.191 5935840.553 570450.862 5935857.025 570443.533 5935873.498 570433.274 5935894.384 570430.746 5935899.533 570423.016 5935915.271 570413.418 5935933.470 570403.821 5935951.669 570398.673 5935961.182 570393.526 5935970.694 570390.048 5935977.121 570386.570 5935983.548 570382.236 5935991.557 570377.902 5935999.565 570372.343 5936009.838 570366.784 5936020.111 570363.558 5936026.072 570360.333 5936032.033 570358.284 5936035.820 570356.235 5936039.606 570352.389 5936046.712 570348.544 5936053.818 570337.196 5936070.634 570325.848 5936087.449 570322.744 5936091.993 570319.640 5936096.536 570313.555 5936093.097</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_135">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Iserbrook28</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_135_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_135_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_947e2e3d-5471-432d-b51d-840649503dcc" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>554633.316 5936552.118 554640.366 5936561.206 554649.401 5936572.854 554650.658 5936574.475 554654.537 5936579.476 554669.658 5936598.078 554669.664 5936598.085 554670.484 5936599.093 554685.627 5936616.972 554700.374 5936634.148 554706.431 5936641.201 554712.127 5936651.598 554529.704 5936700.053 554499.196 5936708.156 554503.703 5936689.152 554515.402 5936637.750 554534.449 5936542.747 554541.868 5936544.103 554544.497 5936544.617 554574.388 5936550.462 554582.285 5936550.440 554600.538 5936550.388 554609.511 5936544.976 554622.341 5936537.238 554633.316 5936552.118</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_136">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Veddel4</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_136_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_136_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_6410ca21-7258-4b8a-b59c-c29bd749870b" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567326.912 5930722.554 567178.956 5930743.553 567174.467 5930732.815 567173.741 5930731.024 567173.235 5930729.777 567177.369 5930727.868 567177.907 5930725.976 567170.773 5930705.376 567169.256 5930705.964 567163.698 5930691.979 567165.742 5930691.284 567163.117 5930683.441 567161.274 5930684.040 567156.472 5930672.792 567154.600 5930668.406 567152.904 5930663.559 567151.118 5930658.456 567149.023 5930653.861 567135.074 5930613.650 567121.530 5930566.290 567119.001 5930559.988 567140.895 5930572.874 567142.956 5930574.030 567145.032 5930575.158 567149.647 5930573.690 567163.566 5930580.575 567164.744 5930584.153 567171.218 5930586.495 567182.038 5930589.778 567189.494 5930591.599 567193.050 5930592.345 567204.206 5930594.187 567215.077 5930595.270 567245.570 5930599.338 567270.430 5930601.667 567286.449 5930601.505 567302.468 5930601.344 567304.953 5930601.004 567307.361 5930600.007 567307.565 5930599.886 567309.429 5930598.420 567311.016 5930596.352 567311.197 5930596.024 567326.973 5930596.032 567326.912 5930722.554</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_140">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Langenhorn76</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_140_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_140_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_802eaadb-b0da-4cb0-aa5a-d0a6d68efde3" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567380.932 5946766.158 567383.176 5946774.902 567388.650 5946800.043 567393.466 5946826.403 567393.883 5946829.350 567396.981 5946851.248 567400.000 5946876.152 567401.774 5946898.736 567403.950 5946971.861 567401.309 5947023.619 567398.873 5947047.602 567395.487 5947073.211 567391.321 5947098.002 567386.485 5947122.737 567383.549 5947135.322 567381.172 5947145.514 567375.273 5947168.426 567366.156 5947201.649 567365.915 5947202.950 567365.773 5947203.715 567365.314 5947205.383 567364.649 5947207.797 567363.436 5947212.206 567361.175 5947211.584 567344.460 5947206.946 567287.120 5947191.269 567271.357 5947186.725 567264.287 5947184.532 567252.925 5947180.803 567241.744 5947176.882 567234.683 5947174.276 567226.159 5947170.992 567216.695 5947167.167 567210.746 5947164.665 567214.843 5947154.947 567216.628 5947128.154 567219.244 5947088.894 567164.870 5947085.268 567166.598 5947059.336 567144.783 5947049.140 567119.935 5947037.529 567106.678 5947031.336 567088.575 5947021.126 567080.173 5947016.388 567074.859 5947013.393 567069.548 5947010.396 567064.053 5947007.298 567052.980 5947002.937 567050.525 5947001.969 567047.971 5947000.963 567042.787 5946998.917 567037.734 5946996.915 567032.732 5946994.931 567027.728 5946992.949 567022.606 5946990.922 567017.474 5946988.893 567012.497 5946986.923 567007.481 5946984.941 567005.848 5946984.296 566981.181 5946969.631 566956.013 5946954.678 566929.291 5946952.896 566920.623 5946952.317 566915.138 5946951.951 566909.652 5946951.585 566904.108 5946951.216 566898.792 5946950.861 566893.705 5946950.522 566888.350 5946950.164 566883.194 5946949.820 566878.087 5946949.479 566872.980 5946949.140 566867.764 5946948.793 566862.498 5946948.441 566857.382 5946948.100 566852.265 5946947.758 566844.994 5946947.274 566843.734 5946966.192 566814.879 5946964.349 566803.048 5946865.343 566798.039 5946823.423 566791.505 5946821.788 566726.288 5946805.473 566715.601 5946778.716 566630.877 5946777.735 566606.863 5946761.818 566497.612 5946760.962 566490.896 5946760.909 566421.745 5946566.557 566553.197 5946594.291 566554.361 5946590.246 566556.164 5946585.223 566599.413 5946464.804 566610.732 5946433.286 566617.489 5946414.470 566619.371 5946415.145 566628.830 5946388.801 566654.167 5946318.245 566652.284 5946317.569 566667.045 5946276.457 566670.122 5946267.715 566670.510 5946266.593 566661.684 5946261.371 566653.117 5946255.874 566644.550 5946250.378 566635.058 5946243.924 566623.701 5946236.319 566612.897 5946229.501 566599.253 5946219.988 566585.372 5946211.151 566521.638 5946170.538 566463.916 5946134.251 566458.649 5946131.261 566432.901 5946117.349 566435.448 5946108.185 566448.026 5946063.588 566458.145 5946034.199 566456.439 5946032.593 566455.416 5946032.302 566451.571 5946031.209 566438.215 5946026.031 566410.515 5946015.292 566367.616 5945998.659 566346.234 5945995.400 566335.760 5945991.363 566360.729 5945926.463 566440.968 5945956.317 566444.056 5945948.017 566473.197 5945971.255 566487.379 5945982.564 566493.884 5945985.759 566497.640 5945988.605 566503.430 5945992.989 566524.148 5946008.681 566653.356 5946106.579 566680.167 5946126.892 566698.976 5946149.348 566702.089 5946147.245 566735.899 5946121.955 566755.385 5946107.379 566760.547 5946100.562 566810.221 5946138.180 566830.152 5946151.994 566832.673 5946153.741 566849.416 5946164.179 566870.642 5946176.463 566881.769 5946182.903 566914.997 5946199.041 566931.342 5946205.148 566951.232 5946211.845 566980.189 5946218.147 567090.869 5946237.648 567142.278 5946247.101 567147.031 5946242.679 567152.596 5946234.780 567153.993 5946227.281 567162.200 5946228.259 567163.506 5946228.264 567213.983 5946228.466 567233.610 5946228.734 567246.129 5946273.446 567259.261 5946321.652 567265.167 5946340.176 567266.874 5946349.899 567267.170 5946350.942 567373.862 5946738.633 567379.305 5946759.832 567379.498 5946760.582 567380.739 5946765.408 567380.932 5946766.158</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_141">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Othmarschen48</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_141_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_141_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_da71343a-4379-40e0-9770-14da782f7033" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>559895.681 5934127.968 559923.923 5934113.747 559925.060 5934113.248 559969.303 5934093.833 559990.542 5934085.831 559997.238 5934082.771 559995.393 5934078.734 559993.125 5934073.772 559992.006 5934074.195 559990.453 5934074.400 559988.900 5934074.195 559988.523 5934074.081 559987.453 5934073.596 559986.211 5934072.643 559985.257 5934071.400 559985.061 5934071.032 559983.756 5934068.357 559983.377 5934067.476 559983.086 5934066.565 559983.085 5934066.563 559983.084 5934066.557 559982.743 5934063.970 559982.765 5934063.305 559983.084 5934061.383 559983.515 5934060.119 559986.424 5934053.149 559987.026 5934051.708 559988.077 5934049.189 559988.930 5934047.466 559989.182 5934047.045 559990.019 5934045.835 559990.616 5934045.106 559991.925 5934043.606 559993.063 5934042.125 559993.610 5934041.249 559993.839 5934040.837 559994.479 5934039.486 559994.483 5934039.477 559995.541 5934036.920 559996.051 5934035.609 559988.920 5934032.660 559997.672 5934011.495 560001.364 5934004.107 560020.487 5933962.179 560023.879 5933953.354 560028.259 5933939.850 560035.039 5933929.971 560018.354 5933943.817 559990.061 5933968.801 559984.931 5933972.401 559973.093 5933979.182 559958.922 5933985.830 559952.640 5933986.808 559913.925 5933997.780 559900.185 5933934.405 559889.403 5933892.112 559881.911 5933864.849 559926.269 5933860.800 559924.162 5933850.738 559924.162 5933850.736 559924.167 5933850.736 559955.899 5933847.841 559953.286 5933804.876 559946.027 5933798.494 559960.720 5933797.127 559966.257 5933884.190 559983.584 5933882.819 559983.832 5933856.836 560046.953 5933852.065 560047.745 5933855.759 560049.634 5933862.581 560064.061 5933914.673 560064.769 5933917.228 560052.786 5933923.991 560038.436 5933934.908 560030.622 5933949.851 560032.343 5933950.378 560030.230 5933955.984 560026.974 5933964.156 560025.234 5933968.110 560064.190 5933984.520 560069.581 5933978.135 560092.679 5934015.390 560095.188 5934019.437 560034.977 5934056.135 560009.373 5934071.131 560011.006 5934074.900 560012.585 5934078.545 560014.162 5934082.319 560016.348 5934089.035 560022.773 5934119.297 560023.394 5934123.653 560027.653 5934149.096 560043.583 5934143.753 560048.682 5934142.043 560049.627 5934141.713 560065.068 5934136.317 560077.850 5934131.018 560081.434 5934129.531 560090.126 5934125.807 560095.233 5934139.895 560109.461 5934187.659 560107.081 5934188.630 560033.625 5934215.769 560039.179 5934258.683 560040.845 5934286.063 560039.166 5934285.661 560027.820 5934282.939 560023.800 5934281.975 560015.831 5934280.063 560015.794 5934280.055 559989.337 5934278.325 559988.448 5934278.178 559987.400 5934278.004 559985.462 5934277.684 559983.961 5934277.436 559968.683 5934274.911 559960.209 5934273.510 559957.088 5934272.994 559935.125 5934269.429 559909.709 5934198.474 559887.757 5934132.828 559895.681 5934127.968</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_142">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wandsbek85</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_142_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_142_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_19a4241c-7f96-4a7e-98df-3085b38bc613" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>570512.175 5936544.812 570486.969 5936530.693 570484.565 5936535.230 570450.124 5936522.011 570443.104 5936519.845 570482.836 5936414.105 570494.585 5936418.286 570523.072 5936429.312 570524.990 5936423.323 570533.628 5936427.181 570549.296 5936400.226 570552.448 5936394.544 570577.621 5936408.722 570558.931 5936442.315 570587.108 5936457.993 570567.261 5936491.099 570573.777 5936494.744 570571.488 5936499.051 570564.790 5936495.447 570560.450 5936503.088 570541.971 5936535.611 570522.456 5936525.470 570512.175 5936544.812</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_143">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Eppendorf21</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_143_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_143_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_6ca97338-2222-4b95-8096-4d01501466a9" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>564781.726 5939216.898 564781.582 5939224.532 564779.884 5939314.463 564778.692 5939377.659 564778.275 5939399.740 564678.484 5939396.250 564679.400 5939371.212 564680.056 5939353.297 564680.640 5939337.324 564681.420 5939316.008 564683.082 5939270.571 564683.110 5939269.820 564683.130 5939269.268 564683.147 5939268.803 564684.269 5939238.164 564684.719 5939225.859 564691.179 5939223.864 564698.891 5939220.851 564705.884 5939217.803 564724.604 5939208.797 564739.378 5939201.829 564739.037 5939201.250 564746.947 5939197.113 564756.531 5939214.327 564761.456 5939214.890 564777.100 5939216.680 564781.726 5939216.898</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_144">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Lurup70</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_144_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_144_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_630296f7-032a-4b46-9027-c2c75c08118a" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>557154.598 5939071.731 557177.795 5938999.205 557182.370 5938984.899 557190.888 5938958.260 557221.825 5938967.382 557269.767 5938981.520 557276.693 5938983.562 557269.184 5939009.065 557265.613 5939033.754 557240.002 5939047.800 557266.548 5939094.962 557262.306 5939097.349 557258.711 5939099.119 557255.776 5939100.563 557233.794 5939111.383 557227.785 5939114.341 557219.288 5939117.916 557213.082 5939120.526 557203.524 5939124.548 557196.664 5939127.434 557189.782 5939130.159 557181.014 5939133.632 557174.968 5939136.026 557167.844 5939138.847 557159.923 5939141.646 557154.516 5939143.556 557144.853 5939146.971 557141.198 5939148.262 557129.754 5939152.304 557114.540 5939109.578 557115.862 5939106.888 557112.938 5939097.092 557117.101 5939095.702 557123.802 5939093.434 557133.771 5939089.988 557146.814 5939085.350 557154.291 5939082.625 557158.059 5939081.233 557156.196 5939076.214 557154.598 5939071.731</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_145">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Bahrenfeld76</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_145_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_145_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_b8861805-20b7-4c45-9ca5-dff6f085370a" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>561539.444 5935832.773 561543.688 5935811.282 561572.813 5935806.480 561598.253 5935800.697 561612.130 5935798.549 561638.561 5935790.454 561676.556 5935778.723 561692.415 5935773.106 561708.439 5935766.828 561725.453 5935759.724 561773.336 5935739.007 561778.150 5935736.924 561792.852 5935730.663 561793.180 5935729.411 561793.718 5935729.194 561793.500 5935730.066 561789.149 5935754.554 561787.340 5935786.637 561786.578 5935800.119 561785.792 5935814.089 561785.000 5935828.111 561784.628 5935834.706 561783.325 5935858.055 561781.653 5935887.969 561779.475 5935926.993 561778.823 5935931.947 561778.201 5935932.735 561742.316 5935934.124 561740.158 5935934.208 561739.524 5935943.060 561734.149 5935942.195 561729.263 5935941.680 561727.953 5935941.585 561721.730 5935941.381 561718.913 5935941.423 561650.292 5935943.943 561647.443 5935944.075 561642.594 5935944.553 561640.251 5935944.899 561637.786 5935945.346 561633.040 5935946.453 561630.432 5935947.203 561561.218 5935974.326 561527.426 5935986.418 561492.818 5935996.606 561539.444 5935832.773</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_146">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wandsbek86</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_146_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_146_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_8f032bfc-f1b2-40bc-bed4-4e64f083cb7a" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>570613.038 5936640.834 570536.370 5936606.676 570490.225 5936586.117 570501.201 5936565.467 570512.178 5936544.813 570522.453 5936525.474 570541.971 5936535.610 570542.216 5936535.187 570551.794 5936543.131 570634.711 5936586.957 570640.688 5936590.006 570641.396 5936590.367 570638.104 5936596.445 570636.903 5936595.809 570613.038 5936640.834</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_160">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Langenhorn2(1Aend)</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_160_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_160_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_1fa22778-bd43-42a2-8bd3-2bcb7f00f9bd" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>566482.604 5946998.796 566482.221 5947010.565 566482.604 5947010.577 566482.323 5947019.233 566464.269 5947018.646 566464.558 5947009.761 566455.537 5947009.468 566455.913 5946997.928 566482.604 5946998.796</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_152">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Barmbek-Nord39</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_152_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_152_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_10cc8602-a9e9-426c-8ce9-cfe4d308cd59" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569241.520 5938304.819 569231.872 5938301.770 569238.232 5938281.657 569247.790 5938284.595 569241.520 5938304.819</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_63f064d8-ebc6-46b5-a3da-40da57c20dbc" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569260.881 5938311.420 569261.847 5938281.201 569280.092 5938280.019 569279.155 5938311.963 569260.881 5938311.420</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_5d410b07-64cb-4cc1-a820-f2faffbbcc81" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569280.092 5938280.019 569244.579 5938282.319 569243.609 5938267.351 569283.615 5938264.794 569284.583 5938279.728 569280.092 5938280.019</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_dd6c9b29-fff4-4ecc-830d-9b6e7d8f66c3" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569238.232 5938281.656 569240.596 5938274.179 569243.898 5938271.814 569244.579 5938282.319 569248.362 5938282.074 569247.790 5938284.594 569238.232 5938281.656</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_bb97e39c-0f49-4ec5-b366-ac9cdf861026" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569080.175 5938556.678 569078.757 5938558.466 569076.222 5938558.956 569045.970 5938558.022 569044.469 5938555.496 569043.397 5938552.760 569042.783 5938549.887 569042.644 5938546.952 569042.982 5938544.033 569043.789 5938541.207 569057.844 5938536.128 569057.328 5938534.720 569070.669 5938529.829 569079.671 5938554.400 569080.175 5938556.678</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_153">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Barmbek-Sued43</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_153_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_153_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_652dfd03-3ca0-4a94-b5a7-fbeef984a7e2" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>568583.294 5937032.243 568574.462 5937030.852 568571.436 5937030.375 568573.987 5937010.518 568574.751 5937004.567 568586.668 5937005.982 568583.294 5937032.243</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_708a69bd-9104-4f1b-b0c0-8de3e02aab7d" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569018.596 5937104.039 569004.159 5937051.932 569017.654 5937048.213 569032.142 5937100.502 569018.596 5937104.039</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_2eb21e0a-e1a0-4237-9386-5577de4f1973" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569010.713 5937313.498 568993.324 5937288.324 569005.493 5937279.549 569023.001 5937304.894 569010.713 5937313.498</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_94562725-5132-41aa-accf-66f535d78e8a" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>568574.750 5937004.567 568573.986 5937010.518 568564.258 5937009.363 568552.246 5937005.175 568554.189 5936999.498 568565.615 5937003.482 568574.750 5937004.567</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_154">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Barmbek-Sued44</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_154_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_154_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_3ab56e3d-ddac-4415-8ee2-b281060d39bd" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569223.949 5936741.586 569221.499 5936748.997 569167.659 5936734.219 569170.173 5936725.157 569167.615 5936724.444 569164.831 5936688.445 569162.874 5936663.135 569161.202 5936641.509 569160.783 5936636.083 569160.596 5936633.916 569161.733 5936633.828 569172.697 5936632.981 569172.797 5936635.121 569186.791 5936634.000 569187.118 5936631.865 569207.281 5936634.206 569206.884 5936636.389 569222.928 5936638.898 569222.479 5936641.702 569239.988 5936644.893 569233.720 5936681.776 569256.332 5936685.720 569248.291 5936727.274 569226.992 5936723.239 569223.949 5936741.586</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_155">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>HafenCity12-Hamburg-Altstadt48</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bebauungsplaene/3724382/hafencity-12.html</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_155_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_155_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_9e3e65e0-e81d-431c-a20a-ba9262654754" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>566398.395 5933396.860 566370.970 5933450.288 566399.238 5933464.727 566437.894 5933476.334 566454.523 5933485.717 566461.844 5933499.712 566461.486 5933499.925 566467.536 5933511.825 566476.244 5933507.565 566478.003 5933509.538 566488.221 5933504.288 566524.589 5933544.600 566498.577 5933557.135 566498.455 5933557.696 566499.213 5933559.300 566407.412 5933604.159 566327.234 5933602.169 566322.193 5933601.573 566306.057 5933592.755 566305.115 5933592.925 566304.819 5933593.457 566280.537 5933579.944 566255.756 5933567.371 566252.516 5933565.750 566242.988 5933561.244 566242.377 5933560.968 566233.318 5933557.052 566228.718 5933555.188 566223.520 5933553.180 566214.807 5933550.043 566213.597 5933549.630 566203.564 5933546.406 566200.674 5933545.544 566176.110 5933539.881 566171.589 5933539.035 566159.152 5933536.152 566158.640 5933536.016 566145.917 5933532.156 566142.575 5933530.989 566130.680 5933526.647 566126.446 5933525.036 566111.336 5933519.002 566110.484 5933518.649 566110.875 5933517.656 566110.309 5933516.306 566104.894 5933513.976 566103.650 5933514.303 566088.104 5933507.715 566084.978 5933510.229 566084.420 5933510.580 566076.234 5933506.880 566076.889 5933502.475 566053.596 5933491.125 566051.627 5933494.489 565898.045 5933399.822 565898.890 5933398.449 565898.571 5933397.013 565893.652 5933393.673 565892.425 5933393.693 565875.940 5933382.607 565875.162 5933382.371 565875.160 5933382.370 565874.380 5933382.606 565874.029 5933383.128 565870.222 5933380.568 565855.091 5933370.019 565824.804 5933347.958 565794.517 5933325.898 565791.672 5933323.913 565786.893 5933320.941 565781.929 5933318.288 565779.630 5933317.196 565776.803 5933315.965 565771.536 5933313.983 565766.150 5933312.349 565763.307 5933311.639 565760.149 5933310.956 565753.883 5933309.921 565750.641 5933309.550 565747.563 5933309.299 565741.216 5933309.091 565737.811 5933309.151 565598.922 5933314.045 565598.911 5933313.831 565590.101 5933314.266 565589.820 5933312.929 565565.206 5933307.679 565564.190 5933316.632 565537.361 5933316.928 565537.329 5933315.978 565513.018 5933316.482 565453.105 5933323.076 565451.529 5933320.968 565448.750 5933320.950 565438.808 5933308.932 565437.125 5933308.233 565435.107 5933308.421 565434.186 5933309.514 565423.662 5933310.762 565422.462 5933309.842 565420.857 5933310.046 565419.118 5933311.733 565417.648 5933320.992 565397.816 5933321.203 565386.763 5933245.240 565394.203 5933246.653 565412.429 5933103.670 565610.590 5933129.067 565610.325 5933131.165 565610.059 5933133.263 565810.793 5933158.192 565853.743 5933164.671 565861.181 5933166.029 565895.418 5933170.424 565955.250 5933187.363 565984.328 5933196.989 566003.460 5933204.027 566010.993 5933206.400 566018.689 5933208.173 566032.749 5933212.399 566102.556 5933243.054 566161.057 5933273.444 566167.033 5933279.160 566398.395 5933396.860</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_162">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Moorfleet9-Billwerder22(Aufhebung)</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bauleitplanung/16722662/moorfleet-9/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_162_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_162_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_ccc53492-ae8a-48bf-aa73-a5ab241e82cd" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>572239.870 5929675.291 572246.239 5929664.497 572253.929 5929650.160 572261.176 5929634.986 572268.540 5929617.238 572275.190 5929598.268 572280.497 5929579.953 572286.436 5929555.925 572290.022 5929537.107 572293.073 5929515.326 572295.502 5929485.381 572262.191 5929482.413 572246.664 5929472.054 572243.820 5929470.156 572244.147 5929467.459 572246.111 5929451.255 572257.356 5929411.854 572217.640 5929389.423 572203.436 5929381.648 572198.013 5929385.792 572083.936 5929350.276 572064.649 5929346.311 571990.084 5929332.930 571952.823 5929326.244 571945.772 5929325.049 571941.736 5929322.557 571936.397 5929319.261 571935.706 5929319.200 571931.272 5929318.808 571926.991 5929317.060 571926.634 5929316.868 571925.754 5929316.396 571925.143 5929316.025 571924.067 5929315.372 571919.780 5929315.389 571916.470 5929315.402 571898.212 5929317.446 571885.872 5929319.924 571878.697 5929321.763 571870.317 5929324.174 571865.877 5929327.447 571856.096 5929334.657 571837.497 5929301.737 571826.989 5929283.258 571816.045 5929263.931 571799.217 5929234.215 571816.112 5929235.244 571836.128 5929236.700 571859.152 5929238.672 571882.908 5929241.055 571902.925 5929243.268 571925.451 5929246.123 571963.742 5929251.613 571999.929 5929257.726 572033.244 5929263.942 572061.487 5929269.930 572089.563 5929276.306 572116.194 5929282.788 572148.117 5929291.274 572177.006 5929299.558 572206.301 5929308.449 572239.846 5929319.366 572277.758 5929332.654 572319.604 5929348.503 572334.294 5929108.260 572327.777 5929030.655 572309.926 5928923.429 572306.372 5928895.637 572306.353 5928885.189 572306.685 5928874.745 572307.365 5928864.319 572308.394 5928853.921 572309.769 5928843.563 572311.491 5928833.258 572313.556 5928823.015 572315.962 5928812.847 572318.707 5928802.766 572321.788 5928792.782 572325.201 5928782.906 572328.942 5928773.151 572333.008 5928763.525 572337.393 5928754.041 572342.093 5928744.709 572347.102 5928735.540 572362.001 5928708.201 572435.248 5928573.791 572439.234 5928566.477 572437.124 5928564.568 572347.332 5928483.306 572342.167 5928478.470 572328.434 5928465.611 572392.493 5928407.880 572416.764 5928386.281 572434.264 5928370.706 572467.209 5928341.388 572476.382 5928333.284 572499.346 5928312.997 572509.499 5928304.318 572580.478 5928233.626 572650.386 5928162.211 572667.317 5928143.586 572711.663 5928185.755 572727.774 5928201.075 573077.876 5928533.985 573508.005 5928939.951 573525.558 5928956.656 573538.377 5928968.856 573037.158 5929579.188 573012.404 5929611.931 573000.017 5929628.317 572996.245 5929633.306 572995.061 5929634.873 572982.211 5929651.870 572900.388 5929611.857 572858.186 5929591.220 572821.454 5929573.258 572377.865 5929371.375 572347.898 5929471.709 572289.353 5929667.720 572255.386 5929660.209 572254.243 5929659.956 572239.870 5929675.291</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_164">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Othmarschen47</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bauleitplanung/15590544/othmarschen-47/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_164_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_164_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_6471474c-c332-4efe-825b-1d7d3b50c732" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>559565.704 5933793.046 559569.443 5933793.709 559583.529 5933796.131 559588.729 5933797.077 559600.349 5933799.190 559599.013 5933807.586 559589.518 5933867.243 559616.204 5933871.258 559646.037 5933874.399 559668.290 5933875.953 559673.817 5933876.031 559673.206 5933889.088 559673.524 5933892.731 559673.878 5933896.370 559674.270 5933900.006 559674.699 5933903.637 559675.165 5933907.264 559675.668 5933910.886 559676.208 5933914.503 559676.672 5933917.990 559671.339 5933918.440 559633.846 5933921.605 559636.424 5933952.164 559615.438 5933960.355 559614.197 5933956.546 559597.674 5933963.032 559611.315 5934004.880 559613.261 5934010.424 559604.983 5934015.854 559602.590 5934017.424 559572.203 5934037.356 559570.972 5934038.646 559569.805 5934039.994 559568.706 5934041.398 559567.678 5934042.854 559566.721 5934044.359 559565.840 5934045.909 559565.035 5934047.500 559560.005 5934044.744 559553.107 5934041.143 559548.027 5934038.492 559492.028 5934009.259 559491.008 5934008.726 559467.084 5933996.237 559466.593 5933996.897 559466.065 5933997.528 559465.501 5933998.127 559464.904 5933998.693 559464.275 5933999.224 559463.617 5933999.718 559462.931 5934000.173 559462.211 5934000.592 559461.467 5934000.968 559460.702 5934001.300 559459.920 5934001.586 559459.121 5934001.826 559458.311 5934002.019 559457.490 5934002.164 559456.662 5934002.261 559455.830 5934002.309 559455.529 5934002.314 559455.227 5934002.313 559454.926 5934002.305 559454.625 5934002.291 559454.324 5934002.271 559454.024 5934002.245 559453.724 5934002.212 559452.734 5934002.057 559451.758 5934001.832 559450.800 5934001.539 559449.865 5934001.179 559448.958 5934000.755 559448.083 5934000.267 559447.244 5933999.720 559446.446 5933999.114 559445.692 5933998.454 559444.987 5933997.742 559444.334 5933996.983 559440.683 5933992.650 559436.587 5933987.611 559437.284 5933987.041 559445.361 5933980.932 559449.029 5933978.158 559453.845 5933974.515 559457.473 5933971.771 559458.553 5933970.748 559465.804 5933963.876 559470.255 5933968.795 559476.824 5933974.941 559503.886 5933972.770 559502.428 5933955.345 559501.877 5933948.770 559507.163 5933938.111 559511.553 5933937.191 559511.430 5933936.604 559510.384 5933931.614 559510.420 5933931.541 559509.599 5933929.366 559511.740 5933928.880 559513.703 5933920.258 559512.351 5933899.845 559527.185 5933899.192 559543.467 5933898.474 559534.031 5933870.518 559532.152 5933846.110 559554.409 5933845.410 559564.230 5933800.628 559565.535 5933793.013 559565.704 5933793.046</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_165">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Ottensen72</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bebauungsplaene/12063230/ottensen-72/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_165_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_165_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_27d9f177-60ee-499b-bc07-aa83fdb218c4" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>561234.635 5933949.426 561235.763 5934005.678 561233.804 5934020.049 561232.802 5934027.399 561231.829 5934026.858 561229.029 5934025.303 561226.100 5934023.677 561218.771 5934020.764 561213.156 5934015.606 561194.312 5933987.214 561192.473 5933984.483 561187.284 5933976.779 561186.949 5933976.281 561186.468 5933962.945 561186.569 5933949.927 561234.635 5933949.426</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_166">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Uhlenhorst16</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_166_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_166_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_e3bf9ad3-4275-4d70-b678-28cea804c95a" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567573.747 5936758.093 567571.109 5936768.344 567562.518 5936766.133 567565.156 5936755.882 567573.747 5936758.093</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_32">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Rahlstedt138</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/stadtplanung-wandsbek/bauleitplanung/bebauungsplaene/14880538/bebauungsplanentwurf-rahlstedt-138/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_32_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_32_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_c2366c69-33a6-4d8d-8bd3-18daac960881" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>577691.138 5943267.994 577724.992 5943216.180 577739.065 5943224.528 577752.480 5943232.486 577766.486 5943240.794 577780.229 5943248.948 577793.965 5943257.095 577807.709 5943265.249 577864.633 5943299.015 577868.574 5943297.066 577874.324 5943287.884 577874.237 5943287.833 577883.634 5943272.513 577910.237 5943229.145 577910.299 5943229.044 577913.241 5943224.248 577893.794 5943173.145 577811.436 5943133.805 577811.137 5943133.662 577762.698 5943110.524 577760.283 5943108.862 577713.198 5943076.460 577707.850 5943084.757 577707.818 5943084.807 577690.330 5943111.941 577675.211 5943135.401 577660.045 5943158.936 577644.875 5943182.476 577627.141 5943209.997 577625.644 5943208.884 577623.114 5943207.003 577610.392 5943226.754 577610.395 5943226.756 577592.355 5943254.762 577587.211 5943262.749 577659.380 5943316.599 577668.383 5943302.820 577671.544 5943297.982 577691.010 5943268.190 577691.138 5943267.994</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_30">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Rahlstedt136</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/stadtplanung-wandsbek/bauleitplanung/bebauungsplaene/13785662/bebauungsplanentwurf-rahlstedt-136/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_30_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_30_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_0f72ef65-1f30-41d1-8dd4-796d60019eb9" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>578210.662 5939885.462 578207.018 5939936.445 578204.292 5939974.584 578203.492 5939985.775 578180.208 5939989.547 578166.541 5939992.347 578155.506 5939994.655 578146.497 5939996.598 578137.875 5939998.745 578127.366 5940001.654 578118.832 5940004.370 578111.286 5940006.781 578103.190 5940009.743 578094.484 5940013.436 578087.296 5940016.885 578073.191 5940024.586 578058.150 5940033.829 578056.214 5940027.440 578050.683 5940009.657 578047.723 5939999.743 578044.818 5939989.988 578041.318 5939978.852 578034.804 5939962.504 578026.447 5939941.888 578023.783 5939934.782 578014.067 5939915.232 578011.286 5939910.020 578008.938 5939906.533 578017.835 5939898.408 578048.837 5939870.096 578105.816 5939869.874 578108.815 5939869.862 578108.854 5939879.823 578108.878 5939885.855 578168.309 5939885.626 578182.354 5939885.572 578210.662 5939885.462</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_181">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Neugraben-Fischbek75</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_181_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_181_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_376633f0-2386-40df-81d4-132ea61cabc1" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>556160.583 5925446.046 556170.043 5925445.616 556192.554 5925444.593 556549.282 5925428.380 556547.770 5925395.084 556546.717 5925371.921 556430.900 5925378.029 556335.962 5925382.580 556233.753 5925385.435 556208.430 5925386.489 556131.345 5925389.764 556085.275 5925392.207 556085.384 5925394.610 556073.903 5925394.706 556060.127 5925396.373 556009.090 5925402.549 556008.962 5925403.638 556008.675 5925403.486 556008.671 5925395.743 556007.478 5925395.704 556002.501 5925395.541 556002.469 5925395.543 555986.287 5925396.503 555979.981 5925396.877 555974.283 5925397.215 555971.554 5925398.478 555902.702 5925403.814 555858.847 5925406.135 555853.378 5925406.424 555853.696 5925412.402 555852.673 5925416.887 555818.419 5925567.028 555817.336 5925571.775 555817.468 5925587.437 555817.398 5925588.121 555802.257 5925735.329 555802.091 5925736.941 555850.140 5925746.322 555849.204 5925751.253 555842.740 5925785.272 555896.647 5925795.589 555896.724 5925795.604 555908.082 5925797.777 555914.351 5925768.459 555916.260 5925768.824 555983.558 5925454.091 556028.510 5925452.048 556043.254 5925451.378 556061.846 5925450.533 556100.781 5925448.763 556112.273 5925448.241 556119.373 5925447.919 556126.370 5925447.601 556135.900 5925447.167 556160.583 5925446.046</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_167">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wilstorf42</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bebauungsplaene/12063244/wilstorf-42/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_167_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_167_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_9778cecf-7d3e-4f1e-aff7-5a1cc2162092" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565678.521 5922704.917 565686.969 5922714.373 565693.492 5922721.674 565698.587 5922728.195 565684.391 5922741.001 565668.140 5922755.660 565652.710 5922769.580 565634.536 5922785.975 565607.258 5922755.834 565608.082 5922754.166 565575.946 5922745.984 565576.328 5922743.874 565576.650 5922742.203 565576.972 5922740.615 565577.858 5922736.589 565578.648 5922733.406 565579.351 5922730.659 565580.843 5922725.472 565582.752 5922720.371 565584.469 5922716.135 565585.865 5922712.900 565586.293 5922711.940 565586.910 5922710.583 565588.083 5922708.079 565590.433 5922703.336 565593.208 5922698.138 565595.983 5922693.308 565597.940 5922690.094 565599.538 5922687.574 565602.142 5922683.651 565604.314 5922680.537 565606.412 5922677.655 565610.360 5922673.415 565616.679 5922666.628 565624.799 5922673.915 565629.332 5922678.094 565631.930 5922680.488 565632.618 5922681.122 565640.071 5922684.933 565648.987 5922689.493 565655.822 5922692.988 565660.442 5922688.098 565672.164 5922699.002 565678.521 5922704.917</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_168">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Rothenburgsort19</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_168_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_168_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_99a83836-946b-46ab-8de2-9efbf50ef9a3" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569802.319 5933138.777 569709.566 5933184.854 569634.120 5933284.528 569298.842 5933333.894 569152.865 5933355.329 569066.109 5933287.165 568913.993 5933080.893 568942.064 5933066.401 569119.210 5932983.113 569313.888 5932891.758 569351.207 5932911.407 569351.577 5932910.676 569401.618 5932930.994 569484.018 5932962.341 569497.652 5932969.636 569535.068 5932989.654 569554.926 5933000.279 569569.607 5933008.132 569586.316 5933017.072 569602.955 5933025.973 569635.569 5933043.421 569640.274 5933045.938 569679.335 5933066.836 569701.009 5933085.255 569758.087 5933115.829 569758.718 5933115.538 569802.319 5933138.777</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_169">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Hammerbrook15</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/mitte/bauleitplanung/16646994/hammerbrook/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_169_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_169_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_3a05d724-dc8a-4e19-ae87-61eb0be656b8" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567620.120 5933866.454 567678.644 5933894.712 567662.737 5933927.009 567650.044 5933952.487 567635.336 5933982.019 567630.070 5933992.600 567549.482 5933953.739 567574.855 5933900.340 567590.649 5933907.844 567612.791 5933862.916 567620.120 5933866.454</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_170">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Eppendorf3</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_170_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_170_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_7840c113-0057-44bd-8391-4ef1509bee97" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565441.360 5938399.812 565431.742 5938387.798 565420.259 5938373.457 565407.531 5938357.448 565402.857 5938351.602 565466.440 5938300.769 565491.930 5938332.171 565485.830 5938337.100 565479.569 5938342.159 565473.451 5938347.102 565468.529 5938351.079 565466.754 5938352.514 565462.644 5938355.834 565462.151 5938360.396 565460.971 5938371.315 565459.298 5938386.796 565456.576 5938388.995 565450.745 5938393.706 565442.077 5938400.710 565441.360 5938399.812</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_171">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Rotherbaum39</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/eimsbuettel/bplaene-im-verfahren/17385632/bebauungsplaene-eimsbuettel/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_171_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_171_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_aa75955b-d9c6-4cdc-8529-5f2ea79181e3" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565035.484 5935882.220 565041.061 5935875.691 565043.930 5935872.331 565050.496 5935864.643 565062.002 5935851.172 565064.032 5935848.794 565070.748 5935840.931 565072.764 5935838.570 565084.190 5935825.191 565094.934 5935812.610 565106.793 5935822.737 565109.098 5935826.811 565103.018 5935833.929 565103.665 5935843.570 565105.440 5935845.052 565106.095 5935855.377 565108.937 5935857.211 565121.853 5935855.510 565122.080 5935847.846 565129.547 5935847.528 565129.539 5935847.346 565156.328 5935846.204 565156.313 5935845.844 565158.532 5935845.750 565159.168 5935850.141 565158.957 5935850.172 565159.054 5935850.843 565169.361 5935849.352 565193.844 5935845.893 565193.839 5935845.646 565205.032 5935844.053 565208.655 5935854.937 565203.691 5935872.499 565202.788 5935881.344 565202.683 5935882.835 565202.570 5935884.426 565203.057 5935884.460 565202.936 5935886.175 565202.448 5935886.140 565201.549 5935898.796 565201.337 5935901.786 565208.783 5935902.315 565213.278 5935902.635 565221.985 5935903.253 565234.258 5935904.124 565234.287 5935903.622 565238.324 5935903.910 565237.654 5935915.736 565235.980 5935945.314 565234.871 5935964.901 565212.628 5935978.634 565214.892 5935982.303 565200.082 5935991.446 565193.983 5935980.728 565176.250 5935991.655 565166.736 5935982.815 565163.186 5935985.758 565158.381 5935989.741 565152.802 5935994.366 565142.312 5936003.064 565133.992 5936008.712 565124.886 5935991.974 565116.952 5935978.546 565108.924 5935968.442 565081.591 5935942.700 565061.314 5935924.018 565039.100 5935903.122 565033.548 5935900.432 565027.561 5935899.180 565022.199 5935891.518 565035.484 5935882.220</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_172">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Langenhorn8</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_172_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_172_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_e33fe079-9ddc-4797-af40-6d0fec6eef5e" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>567960.194 5947572.536 567974.441 5947634.696 567974.598 5947635.379 567881.785 5947656.650 567872.774 5947658.834 567857.051 5947594.093 567854.798 5947584.861 567957.528 5947561.040 567960.194 5947572.536</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_173">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Jenfeld30</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/stadtplanung-wandsbek/bauleitplanung/bebauungsplaene/17322110/bebauungsplanentwurf-jenfeld-30/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_173_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_173_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_06bd0f5a-9f13-4baa-961a-dbc0210e7024" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>574133.499 5936119.640 574171.430 5936046.356 574340.728 5936014.742 574379.756 5936126.460 574376.348 5936130.969 574133.499 5936119.640</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_163">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Othmarschen43</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bauleitplanung/15590450/othmarschen-43/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_163_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_163_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_1ae5723b-7815-43dd-9512-3327b561b700" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>559962.753 5934440.297 559972.830 5934435.023 559966.632 5934425.345 559965.589 5934423.630 559958.862 5934412.563 559957.378 5934409.739 559956.262 5934406.750 559955.532 5934403.645 559955.476 5934401.195 559955.478 5934401.072 559955.644 5934381.227 559955.857 5934356.746 559955.433 5934347.192 559960.410 5934317.952 559962.587 5934305.161 559965.764 5934286.490 559982.020 5934289.177 559983.522 5934289.425 559987.975 5934290.161 559989.460 5934290.258 560014.005 5934291.863 560015.758 5934292.283 560021.024 5934293.547 560025.044 5934294.511 560044.598 5934299.201 560046.135 5934298.891 560046.596 5934299.039 560058.300 5934302.798 560064.976 5934304.943 560068.107 5934305.949 560071.780 5934307.129 560094.396 5934314.394 560119.347 5934326.737 560133.190 5934334.177 560137.652 5934337.507 560137.261 5934339.941 560136.183 5934346.660 560140.323 5934358.743 560140.737 5934359.949 560142.366 5934359.434 560147.930 5934357.675 560150.688 5934356.803 560161.706 5934353.319 560162.494 5934353.070 560164.255 5934352.513 560170.741 5934350.462 560202.630 5934341.895 560227.913 5934335.525 560226.490 5934322.031 560225.912 5934315.947 560225.335 5934309.864 560224.786 5934304.082 560222.690 5934281.989 560222.676 5934281.844 560221.217 5934266.466 560220.363 5934257.471 560219.405 5934247.372 560217.776 5934230.198 560217.292 5934225.102 560216.813 5934215.849 560216.690 5934213.463 560216.713 5934213.439 560214.639 5934173.823 560213.127 5934144.692 560134.405 5934177.480 560094.169 5934193.397 560033.626 5934215.766 560038.639 5934254.511 560038.903 5934258.084 560039.309 5934260.826 560040.304 5934277.175 560040.349 5934277.914 559927.762 5934263.105 559928.774 5934266.141 559929.569 5934268.527 559929.855 5934269.384 559932.054 5934275.982 559933.108 5934279.142 559944.736 5934302.487 559944.771 5934302.557 559944.751 5934302.673 559944.606 5934303.526 559939.301 5934334.699 559937.366 5934346.068 559937.532 5934349.820 559937.854 5934357.083 559937.719 5934376.683 559937.680 5934382.232 559937.656 5934385.730 559937.101 5934390.872 559936.625 5934396.021 559936.230 5934401.177 559935.918 5934406.296 559935.914 5934406.364 559935.712 5934410.118 559935.759 5934413.879 559936.435 5934417.579 559938.955 5934423.604 559945.700 5934434.700 559947.137 5934433.758 559947.472 5934437.615 559949.631 5934436.232 559950.500 5934447.811 559954.046 5934445.636 559959.827 5934442.091 559962.753 5934440.297</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_77">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Bramfeld73</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/wandsbek/bebauungsplaene/14984242/bramfeld-73/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_77_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_77_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_c0f0d06c-066d-45f2-8da5-1eba141eb93e" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>570264.629 5939046.430 570195.998 5938959.269 570132.339 5938874.025 570120.944 5938889.764 570108.211 5938908.076 570075.442 5938953.974 570065.489 5938967.397 570093.549 5938979.315 570093.791 5938991.919 570094.127 5938998.683 570095.564 5939011.877 570096.563 5939018.105 570098.438 5939029.894 570099.265 5939033.388 570100.804 5939039.909 570102.413 5939046.723 570104.873 5939055.349 570144.719 5939159.010 570154.651 5939155.513 570198.808 5939139.964 570213.919 5939135.412 570247.706 5939127.285 570259.142 5939124.979 570262.310 5939124.376 570264.700 5939123.847 570267.071 5939123.295 570269.708 5939122.631 570273.056 5939121.714 570275.766 5939120.730 570278.397 5939119.640 570281.786 5939118.135 570284.499 5939116.784 570287.467 5939115.133 570291.391 5939112.789 570294.630 5939110.791 570298.022 5939108.634 570310.704 5939099.492 570282.790 5939067.818 570264.629 5939046.430</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_28">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Rahlstedt133</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/stadtplanung-wandsbek/bauleitplanung/bebauungsplaene/9765568/rahlstedt-133/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_28_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_28_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_a68d9ccb-c658-42a9-9a45-92509a3463b4" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>578122.874 5938670.308 578124.791 5938570.945 578119.219 5938571.870 578119.665 5938550.097 578119.650 5938549.794 578119.628 5938549.492 578119.600 5938549.190 578119.565 5938548.888 578119.524 5938548.588 578119.477 5938548.288 578119.422 5938547.990 578119.362 5938547.693 578119.295 5938547.397 578119.221 5938547.103 578119.141 5938546.810 578119.055 5938546.519 578118.963 5938546.230 578118.864 5938545.944 578118.760 5938545.659 578118.649 5938545.377 578118.532 5938545.097 578118.409 5938544.820 578118.280 5938544.545 578118.145 5938544.274 578118.004 5938544.005 578117.857 5938543.739 578117.705 5938543.477 578117.547 5938543.218 578117.384 5938542.963 578117.215 5938542.711 578117.040 5938542.463 578116.861 5938542.218 578116.676 5938541.978 578116.485 5938541.742 578116.290 5938541.510 578116.090 5938541.282 578115.885 5938541.058 578115.675 5938540.839 578115.461 5938540.625 578115.241 5938540.415 578115.018 5938540.210 578114.790 5938540.010 578114.558 5938539.815 578114.321 5938539.625 578114.081 5938539.441 578113.836 5938539.261 578113.588 5938539.087 578113.336 5938538.918 578113.080 5938538.755 578112.821 5938538.597 578112.559 5938538.445 578112.293 5938538.299 578112.024 5938538.158 578111.753 5938538.023 578111.478 5938537.895 578111.201 5938537.772 578110.921 5938537.655 578110.638 5938537.544 578110.354 5938537.440 578110.067 5938537.341 578109.778 5938537.249 578109.487 5938537.163 578109.194 5938537.084 578108.900 5938537.011 578108.604 5938536.944 578108.307 5938536.883 578108.009 5938536.829 578107.709 5938536.782 578079.993 5938536.239 578079.450 5938557.434 578079.393 5938558.022 578079.328 5938558.609 578079.255 5938559.194 578079.174 5938559.779 578079.086 5938560.363 578078.989 5938560.946 578078.885 5938561.527 578078.773 5938562.106 578078.653 5938562.685 578078.526 5938563.261 578078.390 5938563.836 578078.247 5938564.409 578078.097 5938564.980 578077.938 5938565.548 578077.772 5938566.115 578077.599 5938566.679 578077.417 5938567.241 578077.229 5938567.801 578077.033 5938568.358 578076.829 5938568.912 578076.618 5938569.463 578076.399 5938570.012 578076.174 5938570.557 578075.940 5938571.100 578075.700 5938571.639 578075.452 5938572.175 578075.198 5938572.708 578074.936 5938573.237 578074.667 5938573.763 578074.391 5938574.285 578074.108 5938574.803 578073.818 5938575.317 578073.521 5938575.827 578073.217 5938576.334 578072.907 5938576.836 578072.589 5938577.334 578072.266 5938577.828 578071.935 5938578.317 578071.598 5938578.802 578071.255 5938579.282 578070.905 5938579.758 578070.549 5938580.229 578070.186 5938580.695 578069.817 5938581.156 578069.442 5938581.612 578069.061 5938582.063 578068.674 5938582.509 578068.281 5938582.949 578067.882 5938583.385 578067.478 5938583.815 578067.067 5938584.239 578066.651 5938584.658 578066.229 5938585.071 578065.802 5938585.479 578065.369 5938585.881 578064.931 5938586.276 578064.488 5938586.666 578064.040 5938587.051 578063.586 5938587.428 578063.127 5938587.800 578062.664 5938588.166 578062.195 5938588.525 578061.722 5938588.878 578061.244 5938589.225 577997.389 5938623.735 578004.997 5938639.223 578005.247 5938639.638 578005.502 5938640.050 578005.763 5938640.459 578006.029 5938640.864 578006.301 5938641.265 578006.578 5938641.663 578006.861 5938642.057 578007.149 5938642.447 578007.442 5938642.833 578007.740 5938643.216 578008.043 5938643.594 578008.351 5938643.968 578008.665 5938644.338 578008.983 5938644.703 578009.306 5938645.065 578009.634 5938645.421 578009.967 5938645.774 578010.305 5938646.122 578010.647 5938646.465 578010.993 5938646.804 578011.345 5938647.138 578011.700 5938647.467 578012.061 5938647.792 578012.425 5938648.112 578012.794 5938648.426 578013.167 5938648.736 578013.544 5938649.041 578013.925 5938649.340 578014.310 5938649.634 578014.699 5938649.924 578015.092 5938650.208 578015.489 5938650.486 578015.889 5938650.759 578016.293 5938651.027 578016.701 5938651.290 578017.112 5938651.546 578017.526 5938651.798 578017.944 5938652.043 578018.365 5938652.284 578018.790 5938652.518 578019.217 5938652.747 578019.648 5938652.969 578020.081 5938653.186 578020.517 5938653.398 578020.957 5938653.603 578021.398 5938653.802 578021.843 5938653.996 578022.290 5938654.183 578022.739 5938654.365 578023.191 5938654.540 578023.646 5938654.709 578024.102 5938654.872 578024.561 5938655.029 578025.022 5938655.180 578025.484 5938655.325 578025.949 5938655.463 578026.415 5938655.595 578026.883 5938655.721 578027.353 5938655.840 578027.825 5938655.953 578028.297 5938656.060 578028.772 5938656.160 578029.247 5938656.254 578029.724 5938656.342 578117.220 5938669.384 578122.874 5938670.308</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_27">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Poppenbuettel46</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/stadtplanung-wandsbek/bauleitplanung/bebauungsplaene/12352814/poppenbuettel-46/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_27_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_27_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_6d84f3fc-9174-44d5-846d-9873a7db0200" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>571353.945 5945522.962 571341.298 5945517.358 571326.827 5945510.946 571321.436 5945508.402 571252.394 5945475.825 571229.573 5945461.812 571224.616 5945450.654 571247.547 5945396.059 571248.530 5945393.222 571248.897 5945392.316 571237.384 5945387.492 571232.099 5945399.898 571232.090 5945399.919 571216.132 5945393.400 571215.732 5945394.326 571089.808 5945340.786 571101.304 5945315.125 571101.877 5945313.846 571143.865 5945220.121 571067.429 5945187.851 571067.994 5945186.522 571065.796 5945185.550 571063.689 5945183.936 571062.761 5945183.225 571060.577 5945180.862 571059.163 5945180.094 571057.393 5945178.161 570992.726 5945149.433 570922.151 5945116.590 570920.777 5945115.950 570923.290 5945111.196 570943.427 5945073.964 570944.646 5945071.709 570959.535 5945044.180 570963.392 5945037.003 570965.205 5945033.614 570967.191 5945029.896 570968.382 5945027.667 570977.198 5945011.173 570980.643 5945004.727 570984.206 5944998.062 570986.258 5944998.959 570990.848 5945000.964 571026.078 5945016.359 571059.932 5945031.154 571065.658 5945033.656 571096.205 5945047.006 571104.094 5945050.454 571111.011 5945053.477 571114.529 5945055.014 571139.899 5945066.104 571144.178 5945067.974 571150.328 5945070.645 571168.229 5945078.420 571179.702 5945083.403 571185.326 5945085.846 571195.729 5945090.367 571228.031 5945104.396 571230.712 5945105.564 571241.313 5945110.169 571244.575 5945111.646 571274.867 5945125.353 571276.677 5945126.172 571303.458 5945138.294 571307.167 5945139.973 571322.268 5945147.174 571334.353 5945152.847 571327.348 5945171.420 571327.340 5945171.440 571298.986 5945241.482 571298.977 5945241.502 571288.534 5945265.453 571303.374 5945271.924 571337.999 5945286.702 571347.998 5945290.749 571346.957 5945306.216 571345.069 5945334.273 571338.833 5945424.162 571337.638 5945440.429 571337.333 5945450.694 571337.896 5945460.792 571339.254 5945470.662 571341.574 5945482.360 571342.355 5945485.464 571342.593 5945486.408 571344.399 5945485.933 571353.945 5945522.962</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_174">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Bramfeld74</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/stadtplanung-wandsbek/bauleitplanung/bebauungsplaene/18107496/bramfeld-74/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_174_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_174_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_7754075a-c00b-4906-969e-f8f349511890" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>571835.582 5942948.152 571839.260 5942956.822 571839.723 5942957.926 571842.076 5942963.974 571843.188 5942967.135 571844.523 5942971.261 571851.728 5942994.741 571853.167 5942999.192 571856.038 5943006.984 571856.887 5943009.074 571861.245 5943018.693 571861.318 5943018.841 571883.081 5943062.831 571904.844 5943106.822 571906.738 5943110.651 571909.549 5943116.835 571911.300 5943119.873 571912.751 5943123.000 571912.779 5943123.061 571914.201 5943126.127 571936.167 5943173.479 571958.134 5943220.830 571709.925 5943149.206 571665.651 5943136.431 571657.317 5943031.178 571650.482 5942941.450 571648.687 5942941.588 571635.972 5942782.188 571636.494 5942777.785 571647.442 5942779.947 571647.644 5942782.506 571784.268 5942809.522 571783.818 5942811.800 571787.278 5942816.054 571788.081 5942824.049 571789.472 5942832.473 571790.558 5942837.428 571791.411 5942840.789 571793.890 5942848.960 571796.897 5942856.951 571797.323 5942857.967 571803.939 5942873.564 571806.281 5942879.085 571808.918 5942885.488 571811.268 5942890.839 571813.251 5942895.513 571831.904 5942939.482 571835.582 5942948.152</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_175">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Wandsbek87</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_175_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_175_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_f4a0deb9-1e9f-49ab-bcaf-6cafc0fd14b2" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>571083.930 5937268.177 571084.043 5937278.622 571084.665 5937336.317 571007.371 5937337.386 571007.781 5937353.599 571012.013 5937364.884 571033.527 5937399.799 571124.165 5937547.219 571136.862 5937564.148 571145.422 5937561.426 571165.782 5937554.980 571492.216 5937589.019 571500.473 5937589.893 571545.968 5937449.880 571383.031 5937433.657 571428.972 5937274.980 571423.412 5937273.697 571417.827 5937272.526 571412.220 5937271.469 571406.592 5937270.526 571400.946 5937269.697 571395.285 5937268.982 571389.611 5937268.382 571383.925 5937267.897 571348.395 5937266.790 571285.749 5937265.016 571240.311 5937265.606 571226.202 5937265.789 571182.023 5937265.788 571171.633 5937265.788 571103.781 5937267.776 571083.930 5937268.177</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_148">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Farmsen-Berne40</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/stadtplanung-wandsbek/bauleitplanung/bebauungsplaene/16886358/bebauungsplanverfahren-farmsen-berne-40/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_148_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_148_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_7b6d2d5d-5591-46bf-a7d9-5dc784c4b679" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>573886.902 5940868.887 573899.393 5940809.878 573919.457 5940715.094 573931.023 5940660.445 573958.834 5940666.413 573960.324 5940669.400 573963.262 5940672.193 573967.452 5940674.150 573977.636 5940676.259 573983.443 5940674.993 573985.633 5940673.052 573997.964 5940667.056 574000.596 5940665.031 574028.888 5940671.099 574032.191 5940687.760 574032.713 5940710.756 574026.985 5940737.818 574028.568 5940738.153 574052.079 5940743.129 574102.159 5940833.071 574110.389 5940847.738 574154.798 5940931.080 574193.884 5941019.293 574173.316 5941028.405 574116.101 5941009.037 574115.138 5941011.878 574049.168 5940989.550 574043.010 5941017.805 573934.150 5940994.287 573944.007 5940948.643 573894.260 5940937.723 573877.929 5940928.180 573805.845 5940913.924 573798.234 5940912.329 573810.732 5940852.699 573814.098 5940853.404 573818.460 5940854.317 573886.902 5940868.887</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_151">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Bahrenfeld71</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/bauleitplanung/16006470/bahrenfeld-71/ </app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_151_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_151_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_d350ded8-208d-4550-9f54-e2eecc7f6f06" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>558308.373 5936360.759 558305.777 5936381.975 558298.248 5936413.394 558276.134 5936468.160 558269.802 5936483.896 558264.553 5936496.838 558256.533 5936517.329 558160.290 5936504.753 558162.576 5936482.348 558095.910 5936473.631 558099.224 5936439.263 558106.028 5936368.678 558107.876 5936349.513 558186.152 5936357.371 558211.711 5936359.937 558215.898 5936309.738 558216.193 5936300.727 558216.822 5936291.755 558217.861 5936282.761 558218.521 5936278.588 558219.254 5936273.947 558219.067 5936270.623 558217.546 5936267.629 558214.957 5936265.564 558220.654 5936254.303 558230.549 5936259.091 558242.843 5936264.287 558253.236 5936268.069 558260.325 5936270.342 558267.634 5936272.604 558279.208 5936275.247 558289.078 5936277.170 558293.220 5936277.850 558306.670 5936279.274 558305.805 5936290.969 558309.044 5936296.235 558311.661 5936319.624 558308.919 5936356.299 558308.373 5936360.759</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_39fbf212-988c-4087-9663-a0b8e82f01fb" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>558454.328 5937346.240 558441.860 5937360.913 558429.897 5937375.999 558418.452 5937391.481 558407.537 5937407.343 558397.166 5937423.565 558387.351 5937440.129 558378.102 5937457.016 558371.731 5937469.793 558364.413 5937466.218 558354.694 5937461.437 558333.935 5937451.197 558308.920 5937441.819 558276.313 5937429.976 558248.964 5937420.042 558231.823 5937413.817 558228.994 5937412.791 558171.432 5937391.917 558170.316 5937391.513 558134.020 5937378.351 558076.302 5937357.533 558058.984 5937346.380 558035.379 5937331.180 557942.796 5937285.780 557974.170 5937208.821 557927.128 5937189.774 557927.828 5937187.924 557927.828 5937184.074 557926.652 5937180.017 557924.928 5937177.274 557918.670 5937173.248 557880.481 5937158.775 557858.931 5937150.225 557838.382 5937142.412 557817.833 5937134.575 557794.934 5937125.675 557773.535 5937117.275 557758.086 5937111.475 557740.437 5937105.926 557718.138 5937100.320 557625.742 5937087.326 557620.062 5937040.080 557614.437 5936993.731 557603.245 5936901.930 557624.520 5936898.863 557615.744 5936814.084 557636.039 5936812.711 557634.209 5936785.662 557612.949 5936787.086 557611.319 5936771.337 557610.299 5936761.482 557590.226 5936738.841 557588.749 5936719.535 557574.576 5936720.667 557519.984 5936658.293 557513.979 5936651.460 557484.297 5936647.951 557483.520 5936630.821 557461.360 5936631.944 557458.883 5936581.597 557458.753 5936581.603 557458.743 5936581.394 557454.249 5936581.616 557450.781 5936522.977 557478.011 5936527.271 557501.677 5936531.003 557512.415 5936546.973 557520.123 5936558.436 557579.321 5936615.044 557711.802 5936578.028 557773.563 5936581.843 557821.125 5936587.297 557838.431 5936589.883 557874.448 5936595.122 557878.575 5936595.679 557884.868 5936588.890 557886.716 5936552.191 557925.445 5936551.488 557952.779 5936550.993 557953.536 5936561.640 557958.079 5936561.088 557959.225 5936565.485 557964.649 5936623.419 557997.764 5936860.126 557999.463 5936873.600 558000.490 5936881.739 557994.854 5936948.179 557988.841 5937019.054 557988.581 5937041.405 558000.525 5937041.727 558123.919 5937051.126 558123.017 5937118.227 558121.519 5937229.523 558244.114 5937232.723 558263.913 5937230.523 558285.312 5937226.323 558302.511 5937221.724 558318.710 5937216.324 558332.110 5937211.124 558346.509 5937204.124 558362.508 5937196.524 558376.162 5937187.746 558376.508 5937187.524 558389.107 5937178.124 558402.907 5937166.724 558416.506 5937153.325 558427.385 5937157.170 558439.705 5937161.525 558487.103 5937086.726 558573.214 5937120.149 558581.398 5937122.825 558586.326 5937122.856 558584.411 5937125.874 558612.515 5937126.249 558624.452 5937136.359 558639.249 5937148.284 558662.120 5937118.918 558679.108 5937097.102 558701.499 5937067.212 558714.437 5937048.820 558722.759 5937036.508 558802.048 5937099.048 558658.180 5937286.299 558654.680 5937290.854 558548.322 5937409.963 558486.683 5937354.706 558476.136 5937345.263 558473.896 5937343.256 558475.736 5937341.181 558467.285 5937331.999 558454.328 5937346.240</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_49">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Farmsen-Berne39</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/stadtplanung-wandsbek/bauleitplanung/bebauungsplaene/15602980/bebauungsplanverfahren-farmsen-berne-39/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_49_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_49_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_1703a57e-6d48-40ea-9434-ebb42833cebb" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>574455.797 5942667.125 574423.081 5942660.005 574354.034 5942645.680 574348.732 5942670.076 574348.262 5942670.822 574326.994 5942704.582 574307.415 5942716.632 574303.036 5942719.327 574346.671 5942790.363 574412.794 5942804.658 574430.848 5942721.089 574443.679 5942723.151 574451.505 5942686.967 574455.797 5942667.125</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_180">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Osdorf50</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_180_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_180_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_0c66aed5-249c-4a7d-8a4a-94a5dfb5bd3d" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>556555.131 5937131.116 556556.060 5937132.045 556562.270 5937138.255 556572.408 5937128.116 556591.743 5937128.146 556593.620 5937128.039 556595.486 5937127.813 556597.335 5937127.469 556599.157 5937127.008 556599.188 5937124.659 556598.332 5937009.640 556586.320 5937007.868 556576.424 5937004.825 556565.471 5937000.168 556531.048 5936977.123 556528.389 5936975.204 556521.952 5936970.117 556516.814 5936966.011 556511.548 5936960.719 556507.500 5936955.480 556499.616 5936942.939 556504.669 5936942.489 556511.853 5936942.202 556516.602 5936938.184 556516.936 5936860.350 556517.036 5936857.756 556535.663 5936858.365 556559.264 5936859.344 556578.956 5936859.975 556621.733 5936861.385 556627.719 5936787.082 556628.056 5936780.020 556616.459 5936779.468 556583.488 5936777.846 556552.790 5936776.529 556533.006 5936775.308 556517.826 5936773.981 556509.856 5936773.063 556496.386 5936771.261 556476.028 5936767.782 556474.595 5936774.692 556473.533 5936779.812 556460.442 5936842.920 556459.944 5936846.705 556450.390 5936919.361 556445.570 5936980.497 556444.413 5936990.187 556439.448 5937031.806 556437.799 5937045.625 556449.358 5937051.172 556468.349 5937062.044 556479.282 5937068.486 556492.600 5937077.332 556501.136 5937082.955 556521.228 5937099.857 556539.579 5937115.564 556555.131 5937131.116</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_90">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Altona-Altstadt56</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/3263930/altona-altstadt56/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_90_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_90_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_14a6c890-5e4a-465b-b0a8-c3e70ca47cef" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>561471.541 5933198.797 561471.588 5933198.805 561517.261 5933206.824 561517.025 5933208.180 561694.768 5933221.314 561698.256 5933221.429 561751.925 5933223.202 561781.794 5933224.187 561788.045 5933224.393 561796.878 5933224.685 561796.969 5933222.036 561834.927 5933223.251 561903.167 5933225.274 561935.239 5933225.827 561967.311 5933226.380 562005.628 5933226.208 562017.184 5933225.773 562017.143 5933216.721 562052.930 5933214.846 562088.717 5933212.971 562124.504 5933211.096 562159.814 5933209.246 562160.291 5933209.221 562194.265 5933206.323 562228.238 5933203.425 562293.691 5933197.841 562327.665 5933194.943 562427.092 5933186.461 562440.581 5933190.265 562453.880 5933194.016 562454.070 5933194.055 562454.171 5933231.889 562454.212 5933247.619 562454.004 5933262.719 562439.630 5933263.736 562425.636 5933266.716 562426.596 5933266.723 562427.427 5933266.888 562427.943 5933267.064 562428.520 5933267.343 562429.030 5933267.670 562429.464 5933268.031 562429.799 5933268.368 562430.170 5933268.842 562430.649 5933269.708 562430.772 5933270.020 562430.901 5933270.438 562430.994 5933270.874 562431.046 5933271.302 562431.942 5933282.658 562431.948 5933282.732 562432.015 5933283.590 562432.023 5933283.768 562432.022 5933284.047 562432.017 5933284.177 562431.997 5933284.422 562431.991 5933284.476 562431.985 5933284.530 562431.973 5933284.613 562431.961 5933284.695 562431.936 5933284.835 562431.910 5933284.966 562431.878 5933285.101 562431.841 5933285.241 562431.804 5933285.369 562431.729 5933285.595 562431.712 5933285.641 562431.660 5933285.774 562431.580 5933285.961 562431.536 5933286.057 562431.461 5933286.206 562431.414 5933286.296 562431.355 5933286.399 562431.299 5933286.495 562431.224 5933286.614 562431.154 5933286.719 562431.082 5933286.823 562430.973 5933286.968 562430.690 5933287.301 562424.090 5933294.413 562421.624 5933297.070 562302.987 5933306.945 562301.241 5933305.017 562287.204 5933306.197 562287.138 5933304.306 562285.594 5933304.434 562285.361 5933304.453 562267.832 5933305.910 562265.804 5933306.078 562251.565 5933307.261 562179.267 5933313.268 562175.815 5933313.554 562160.808 5933314.791 562160.804 5933314.705 562135.849 5933316.518 562122.924 5933317.487 562112.819 5933318.434 562108.147 5933318.877 562075.888 5933321.944 562049.081 5933322.099 561989.446 5933322.353 561870.734 5933322.859 561857.456 5933329.303 561846.508 5933334.616 561839.919 5933337.814 561830.967 5933337.266 561817.495 5933335.315 561813.131 5933334.845 561805.083 5933334.732 561799.496 5933336.787 561792.542 5933351.704 561792.274 5933352.279 561791.799 5933353.107 561790.208 5933355.861 561779.369 5933350.473 561760.595 5933346.437 561735.996 5933341.149 561528.862 5933299.769 561525.377 5933299.084 561521.515 5933298.326 561520.887 5933298.202 561512.120 5933296.481 561505.212 5933295.124 561492.455 5933292.619 561464.599 5933287.148 561455.060 5933285.896 561457.124 5933280.666 561462.871 5933248.030 561462.880 5933247.981 561464.239 5933240.266 561469.867 5933208.303 561469.882 5933208.219 561471.541 5933198.797</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_176">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Tonndorf36</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_176_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_176_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_d4e0a113-08f9-4834-92fa-75d618f21336" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>574105.297 5938203.340 574111.372 5938206.694 574157.263 5938236.141 574272.755 5938308.419 574379.833 5938374.195 574394.747 5938380.313 574406.985 5938334.041 574423.812 5938279.354 574285.757 5938145.123 574245.603 5938107.264 574210.420 5938078.965 574162.618 5938045.311 574090.722 5937995.979 574054.199 5937967.843 574028.904 5937946.971 574022.056 5937940.626 574015.275 5937934.209 574008.563 5937927.721 574001.919 5937921.162 573995.345 5937914.533 573988.842 5937907.835 573982.409 5937901.069 573976.049 5937894.235 573933.901 5938062.088 573919.765 5938089.223 574033.158 5938159.888 574099.222 5938199.986 574105.297 5938203.340</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_178">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Hammerbrook9</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/mitte/bplaene-im-verfahren/3260532/hammerbrook9/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_178_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_178_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_4d43ae1d-8bdb-4fbb-8f29-338be2f89ee6" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>568139.069 5934163.433 568173.079 5934139.372 568187.198 5934127.380 568198.428 5934115.389 568207.080 5934104.006 568214.897 5934093.229 568224.002 5934079.266 568236.294 5934059.078 568254.582 5934022.651 568282.967 5933962.245 568310.299 5933902.500 568317.451 5933888.219 568332.186 5933895.318 568338.694 5933881.807 568367.940 5933819.719 568376.556 5933801.397 568450.029 5933645.037 568463.359 5933616.730 568463.925 5933615.560 568495.246 5933548.973 568508.156 5933521.908 568525.945 5933486.104 568563.435 5933410.634 568574.679 5933384.309 568608.124 5933315.192 568688.319 5933352.834 568744.560 5933231.380 568801.780 5933110.389 568533.947 5933113.902 568510.116 5933163.315 568481.177 5933223.849 568473.611 5933239.741 568466.242 5933255.006 568449.217 5933290.188 568364.020 5933466.248 568277.313 5933645.427 568127.688 5933954.916 568101.867 5933942.964 568095.160 5933956.814 568053.289 5933936.538 568045.737 5933956.224 568038.184 5933975.909 568029.552 5934009.157 568020.919 5934042.405 568010.229 5934112.606 568134.013 5934173.327 568132.136 5934168.631 568139.069 5934163.433</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_179">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Harburg72-Heimfeld55</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_179_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_179_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_0fce7e09-c646-4f47-af5a-1156860f3ff4" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565228.240 5924684.117 565246.724 5924676.904 565256.455 5924702.983 565354.990 5924688.407 565382.596 5924684.323 565381.859 5924681.488 565377.146 5924662.231 565349.559 5924669.317 565346.062 5924655.413 565339.618 5924629.970 565337.435 5924622.642 565339.580 5924621.598 565351.902 5924617.841 565353.104 5924617.791 565359.165 5924615.838 565364.364 5924615.151 565370.468 5924613.826 565460.803 5924595.207 565441.558 5924499.487 565428.673 5924502.078 565332.098 5924518.067 565332.045 5924517.732 565325.682 5924518.817 565325.706 5924518.054 565309.386 5924522.632 565309.529 5924523.432 565305.848 5924524.458 565301.821 5924500.629 565282.044 5924507.121 565265.291 5924513.221 565261.510 5924514.364 565256.032 5924516.787 565250.171 5924519.380 565253.187 5924529.607 565254.084 5924533.227 565256.252 5924532.415 565256.779 5924534.833 565258.807 5924544.689 565271.419 5924542.813 565287.695 5924539.788 565292.601 5924569.257 565294.203 5924577.063 565297.736 5924600.189 565302.611 5924620.846 565306.439 5924637.072 565306.599 5924644.129 565266.416 5924660.772 565198.588 5924686.928 565144.753 5924707.764 565160.861 5924753.443 565165.565 5924766.624 565178.984 5924762.156 565179.063 5924761.987 565213.976 5924745.921 565247.147 5924730.662 565228.155 5924684.227 565228.240 5924684.117</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_e6152de0-88bf-4c7b-b66f-7c0929457636" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565135.381 5924914.838 565197.288 5924886.010 565202.492 5924912.838 565214.617 5924910.731 565336.566 5924849.733 565348.856 5924844.489 565416.104 5924811.217 565424.287 5924805.488 565441.502 5924796.954 565458.717 5924788.420 565482.751 5924776.505 565508.600 5924764.000 565492.830 5924732.851 565510.775 5924717.590 565516.003 5924707.047 565516.853 5924706.257 565498.660 5924696.918 565498.995 5924695.439 565483.271 5924686.946 565480.886 5924688.096 565430.609 5924712.337 565417.888 5924718.665 565401.260 5924726.937 565381.899 5924736.568 565381.268 5924737.308 565288.992 5924782.796 565197.964 5924827.773 565183.699 5924831.811 565155.755 5924845.882 565100.004 5924873.172 565099.494 5924874.683 565105.322 5924885.240 565106.002 5924886.829 565106.582 5924886.569 565107.721 5924888.348 565110.661 5924890.148 565128.613 5924893.306 565130.940 5924900.715 565129.655 5924901.493 565134.817 5924914.996 565135.381 5924914.838</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_26d136f2-7704-4518-89e5-b0c4483e8336" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>565580.862 5924991.097 565621.456 5924948.418 565618.565 5924944.707 565618.485 5924944.605 565618.405 5924944.503 565618.324 5924944.402 565618.243 5924944.301 565618.161 5924944.201 565618.079 5924944.101 565617.996 5924944.001 565617.913 5924943.902 565617.829 5924943.803 565617.745 5924943.705 565617.660 5924943.607 565617.575 5924943.509 565617.490 5924943.412 565617.404 5924943.315 565617.317 5924943.218 565617.230 5924943.122 565617.143 5924943.027 565617.055 5924942.931 565616.967 5924942.837 565616.878 5924942.742 565616.789 5924942.648 565616.700 5924942.555 565616.610 5924942.462 565616.519 5924942.369 565616.428 5924942.276 565616.337 5924942.185 565616.245 5924942.093 565616.153 5924942.002 565616.061 5924941.912 565615.968 5924941.821 565615.874 5924941.732 565615.780 5924941.642 565615.686 5924941.554 565615.592 5924941.465 565615.496 5924941.377 565615.401 5924941.290 565615.305 5924941.203 565615.209 5924941.116 565615.112 5924941.030 565615.015 5924940.944 565614.917 5924940.859 565614.819 5924940.775 565614.721 5924940.690 565614.622 5924940.606 565614.523 5924940.523 565614.424 5924940.440 565614.324 5924940.358 565614.223 5924940.276 565614.123 5924940.194 565614.022 5924940.113 565613.920 5924940.033 565613.818 5924939.953 565613.716 5924939.873 565613.614 5924939.794 565613.511 5924939.715 565613.407 5924939.637 565613.304 5924939.560 565613.200 5924939.483 565613.095 5924939.406 565612.991 5924939.330 565612.885 5924939.254 565612.780 5924939.179 565612.674 5924939.104 565612.568 5924939.030 565604.652 5924933.512 565604.626 5924933.494 565604.600 5924933.477 565604.574 5924933.460 565604.548 5924933.443 565604.521 5924933.426 565604.495 5924933.409 565604.468 5924933.393 565604.441 5924933.377 565604.415 5924933.361 565604.388 5924933.345 565604.360 5924933.329 565604.333 5924933.314 565604.306 5924933.299 565604.278 5924933.284 565604.251 5924933.269 565604.223 5924933.254 565604.195 5924933.240 565604.167 5924933.226 565604.139 5924933.212 565604.111 5924933.198 565604.083 5924933.185 565604.054 5924933.172 565604.026 5924933.159 565603.997 5924933.146 565603.969 5924933.133 565603.940 5924933.121 565603.911 5924933.109 565603.882 5924933.097 565603.853 5924933.085 565603.824 5924933.074 565603.795 5924933.063 565603.765 5924933.052 565603.736 5924933.041 565603.707 5924933.030 565603.677 5924933.020 565603.647 5924933.010 565603.618 5924933.000 565603.588 5924932.991 565603.558 5924932.981 565603.528 5924932.972 565603.498 5924932.963 565603.468 5924932.954 565603.438 5924932.946 565603.408 5924932.938 565603.377 5924932.930 565603.347 5924932.922 565603.317 5924932.915 565603.286 5924932.907 565603.256 5924932.900 565603.225 5924932.893 565603.195 5924932.887 565603.164 5924932.880 565603.133 5924932.874 565603.103 5924932.868 565603.072 5924932.863 565603.041 5924932.857 565603.010 5924932.852 565602.979 5924932.847 565602.948 5924932.843 565602.917 5924932.838 565602.886 5924932.834 565602.855 5924932.830 565602.824 5924932.826 565602.793 5924932.823 565597.366 5924932.243 565597.294 5924932.235 565597.221 5924932.226 565597.149 5924932.216 565597.077 5924932.206 565597.005 5924932.194 565596.933 5924932.182 565596.862 5924932.170 565596.790 5924932.156 565596.719 5924932.142 565596.648 5924932.127 565596.576 5924932.112 565596.506 5924932.095 565596.435 5924932.078 565596.364 5924932.060 565596.294 5924932.041 565596.224 5924932.022 565596.154 5924932.002 565596.084 5924931.981 565596.014 5924931.960 565595.945 5924931.938 565595.876 5924931.915 565595.807 5924931.891 565595.738 5924931.867 565595.670 5924931.842 565595.602 5924931.816 565595.534 5924931.789 565595.467 5924931.762 565595.399 5924931.734 565595.332 5924931.706 565595.266 5924931.676 565595.199 5924931.646 565595.133 5924931.616 565595.068 5924931.584 565595.002 5924931.552 565594.937 5924931.520 565594.873 5924931.486 565594.808 5924931.452 565594.744 5924931.417 565594.681 5924931.382 565594.617 5924931.346 565594.554 5924931.309 565594.492 5924931.272 565594.430 5924931.234 565594.368 5924931.195 565594.307 5924931.156 565594.246 5924931.116 565594.185 5924931.076 565594.125 5924931.035 565594.066 5924930.993 565594.006 5924930.950 565593.948 5924930.907 565593.889 5924930.864 565593.832 5924930.820 565593.774 5924930.775 565593.717 5924930.729 565593.661 5924930.683 565593.605 5924930.637 565593.549 5924930.590 565593.494 5924930.542 565593.440 5924930.494 565593.386 5924930.445 565593.332 5924930.395 565593.279 5924930.346 565593.227 5924930.295 565591.179 5924928.295 565591.055 5924928.171 565590.934 5924928.044 565590.816 5924927.914 565590.702 5924927.781 565590.591 5924927.646 565590.484 5924927.507 565590.379 5924927.366 565590.279 5924927.223 565590.182 5924927.077 565590.089 5924926.928 565589.999 5924926.777 565589.914 5924926.624 565589.832 5924926.469 565589.754 5924926.312 565589.680 5924926.153 565589.610 5924925.993 565589.544 5924925.830 565589.483 5924925.666 565589.425 5924925.501 565589.372 5924925.334 565589.322 5924925.165 565589.277 5924924.996 565589.236 5924924.826 565589.200 5924924.654 565589.168 5924924.482 565589.140 5924924.309 565589.116 5924924.135 565589.097 5924923.961 565589.082 5924923.786 565589.072 5924923.611 565589.066 5924923.436 565589.064 5924923.261 565589.067 5924923.085 565589.074 5924922.910 565589.085 5924922.735 565589.101 5924922.561 565589.121 5924922.387 565589.146 5924922.213 565589.175 5924922.040 565589.208 5924921.868 565589.246 5924921.697 565589.288 5924921.527 565589.334 5924921.357 565589.384 5924921.190 565589.438 5924921.023 565589.497 5924920.858 565589.560 5924920.694 565589.627 5924920.532 565589.697 5924920.372 565589.772 5924920.213 565589.851 5924920.057 565589.934 5924919.902 565590.020 5924919.750 565590.111 5924919.599 565590.205 5924919.451 565590.303 5924919.306 565590.404 5924919.163 565590.509 5924919.023 565590.617 5924918.885 565590.729 5924918.750 565590.844 5924918.618 565590.963 5924918.488 565591.084 5924918.362 565591.209 5924918.239 565597.476 5924912.202 565597.539 5924912.142 565597.603 5924912.084 565597.668 5924912.027 565597.734 5924911.970 565597.802 5924911.915 565597.870 5924911.861 565597.938 5924911.809 565598.008 5924911.757 565598.079 5924911.707 565598.151 5924911.658 565598.223 5924911.610 565598.296 5924911.564 565598.370 5924911.518 565598.445 5924911.474 565598.521 5924911.432 565598.597 5924911.390 565598.674 5924911.350 565598.752 5924911.312 565598.830 5924911.274 565598.909 5924911.238 565598.989 5924911.204 565599.069 5924911.171 565599.150 5924911.139 565599.231 5924911.108 565599.313 5924911.079 565599.395 5924911.052 565599.478 5924911.026 565599.561 5924911.001 565599.645 5924910.978 565599.729 5924910.956 565599.813 5924910.936 565599.898 5924910.917 565599.983 5924910.899 565600.068 5924910.884 565600.154 5924910.869 565600.239 5924910.856 565600.325 5924910.845 565600.412 5924910.835 565600.498 5924910.826 565600.584 5924910.819 565600.671 5924910.814 565600.758 5924910.810 565600.845 5924910.808 565600.931 5924910.807 565601.018 5924910.807 565601.105 5924910.809 565601.192 5924910.813 565601.278 5924910.818 565601.365 5924910.824 565601.451 5924910.833 565601.537 5924910.842 565601.623 5924910.853 565601.709 5924910.866 565601.795 5924910.880 565601.880 5924910.895 565601.965 5924910.912 565602.050 5924910.931 565602.135 5924910.951 565602.219 5924910.972 565602.302 5924910.995 565602.386 5924911.019 565602.469 5924911.045 565602.551 5924911.072 565602.633 5924911.101 565605.812 5924912.241 565605.821 5924912.246 565605.830 5924912.250 565605.839 5924912.254 565605.848 5924912.258 565605.857 5924912.261 565605.867 5924912.265 565605.876 5924912.268 565605.886 5924912.271 565605.895 5924912.274 565605.905 5924912.277 565605.914 5924912.279 565605.924 5924912.281 565605.934 5924912.283 565605.944 5924912.285 565605.953 5924912.286 565605.963 5924912.287 565605.973 5924912.288 565605.983 5924912.289 565605.993 5924912.290 565606.003 5924912.290 565606.013 5924912.290 565606.023 5924912.290 565606.033 5924912.290 565606.043 5924912.289 565606.053 5924912.289 565606.063 5924912.288 565606.073 5924912.286 565606.082 5924912.285 565606.092 5924912.283 565606.102 5924912.281 565606.112 5924912.279 565606.121 5924912.277 565606.131 5924912.274 565606.140 5924912.271 565606.150 5924912.268 565606.159 5924912.265 565606.169 5924912.262 565606.178 5924912.258 565606.187 5924912.254 565606.196 5924912.250 565606.205 5924912.246 565606.214 5924912.241 565606.223 5924912.237 565606.232 5924912.232 565606.240 5924912.227 565606.248 5924912.221 565606.257 5924912.216 565606.265 5924912.210 565606.273 5924912.204 565606.281 5924912.198 565606.289 5924912.192 565606.296 5924912.186 565606.304 5924912.179 565606.311 5924912.172 565606.318 5924912.165 565606.325 5924912.158 565606.332 5924912.151 565606.339 5924912.144 565606.345 5924912.136 565606.352 5924912.129 565606.358 5924912.121 565606.364 5924912.113 565606.370 5924912.105 565606.375 5924912.097 565606.381 5924912.088 565606.386 5924912.080 565606.391 5924912.071 565606.396 5924912.062 565606.400 5924912.054 565606.405 5924912.045 565606.409 5924912.036 565606.413 5924912.027 565606.417 5924912.017 565606.421 5924912.008 565606.424 5924911.999 565606.427 5924911.989 565606.430 5924911.980 565606.433 5924911.970 565606.435 5924911.961 565606.438 5924911.951 565606.440 5924911.941 565606.442 5924911.932 565606.443 5924911.922 565606.445 5924911.912 565606.446 5924911.902 565606.447 5924911.892 565606.448 5924911.882 565606.448 5924911.872 565606.448 5924911.862 565606.448 5924911.852 565606.448 5924911.842 565606.448 5924911.832 565606.447 5924911.822 565606.446 5924911.813 565606.445 5924911.803 565606.444 5924911.793 565606.442 5924911.783 565606.441 5924911.773 565606.439 5924911.763 565606.436 5924911.754 565606.434 5924911.744 565606.431 5924911.734 565606.428 5924911.725 565606.425 5924911.716 565606.422 5924911.706 565606.419 5924911.697 565606.415 5924911.688 565606.411 5924911.678 565606.407 5924911.669 565606.402 5924911.660 565606.398 5924911.652 565606.393 5924911.643 565606.388 5924911.634 565606.383 5924911.626 565606.378 5924911.617 565606.372 5924911.609 565606.366 5924911.601 565606.360 5924911.593 565606.354 5924911.585 565606.348 5924911.577 565606.342 5924911.570 565606.335 5924911.562 565606.328 5924911.555 565606.321 5924911.548 565606.314 5924911.541 565606.307 5924911.534 565606.300 5924911.527 565606.292 5924911.521 565586.161 5924898.107 565586.098 5924898.066 565586.035 5924898.026 565585.970 5924897.988 565585.905 5924897.951 565585.839 5924897.914 565585.773 5924897.880 565585.706 5924897.846 565585.638 5924897.814 565585.570 5924897.783 565585.501 5924897.753 565585.432 5924897.724 565585.362 5924897.697 565585.291 5924897.671 565585.221 5924897.647 565585.149 5924897.624 565585.078 5924897.602 565585.005 5924897.581 565584.933 5924897.562 565584.860 5924897.544 565584.787 5924897.528 565584.713 5924897.513 565584.640 5924897.499 565584.566 5924897.487 565584.491 5924897.476 565584.417 5924897.466 565584.343 5924897.458 565584.268 5924897.452 565584.193 5924897.446 565584.118 5924897.442 565584.043 5924897.440 565583.968 5924897.439 565583.893 5924897.439 565583.818 5924897.441 565583.743 5924897.444 565583.668 5924897.448 565583.594 5924897.454 565583.519 5924897.462 565583.445 5924897.470 565583.370 5924897.480 565583.296 5924897.492 565583.222 5924897.505 565583.149 5924897.519 565583.075 5924897.535 565583.002 5924897.552 565582.930 5924897.570 565582.857 5924897.590 565582.785 5924897.611 565582.714 5924897.633 565582.643 5924897.657 565582.572 5924897.682 565582.502 5924897.708 565582.432 5924897.736 565582.363 5924897.765 565582.294 5924897.795 565582.226 5924897.827 565582.159 5924897.860 565582.092 5924897.894 565582.026 5924897.929 565581.960 5924897.966 565581.896 5924898.004 565581.832 5924898.043 565581.768 5924898.083 565581.706 5924898.124 565581.644 5924898.167 565570.388 5924906.075 565570.125 5924906.256 565569.858 5924906.431 565569.587 5924906.600 565569.313 5924906.764 565569.036 5924906.921 565568.755 5924907.073 565568.471 5924907.219 565568.184 5924907.359 565567.894 5924907.492 565567.601 5924907.619 565567.306 5924907.740 565567.008 5924907.855 565566.708 5924907.963 565566.405 5924908.065 565566.101 5924908.161 565565.794 5924908.250 565565.486 5924908.332 565565.176 5924908.408 565564.864 5924908.477 565564.551 5924908.540 565564.237 5924908.596 565563.921 5924908.645 565563.605 5924908.688 565563.288 5924908.723 565562.970 5924908.752 565562.651 5924908.774 565562.333 5924908.790 565562.014 5924908.798 565561.694 5924908.800 565561.375 5924908.795 565561.056 5924908.784 565560.737 5924908.765 565560.419 5924908.740 565560.102 5924908.708 565559.785 5924908.669 565559.469 5924908.623 565559.154 5924908.571 565558.840 5924908.512 565558.528 5924908.446 565558.217 5924908.374 565557.908 5924908.295 565557.600 5924908.210 565557.295 5924908.118 565556.991 5924908.019 565556.689 5924907.914 565556.390 5924907.803 565556.093 5924907.685 565555.799 5924907.561 565555.508 5924907.431 565555.219 5924907.295 565554.934 5924907.152 565554.651 5924907.004 565554.372 5924906.849 565554.096 5924906.689 565553.823 5924906.523 565553.554 5924906.351 565553.289 5924906.173 565553.028 5924905.990 565552.770 5924905.801 565552.517 5924905.607 565552.268 5924905.407 565552.023 5924905.202 565551.783 5924904.992 565551.547 5924904.777 565537.244 5924891.452 565537.217 5924891.426 565537.190 5924891.399 565537.163 5924891.372 565537.137 5924891.345 565537.111 5924891.317 565537.085 5924891.290 565537.059 5924891.262 565537.034 5924891.233 565537.009 5924891.205 565536.985 5924891.176 565536.960 5924891.147 565536.936 5924891.117 565536.913 5924891.088 565536.890 5924891.058 565536.867 5924891.027 565536.844 5924890.997 565536.822 5924890.966 565536.800 5924890.936 565536.778 5924890.904 565536.757 5924890.873 565536.736 5924890.841 565536.715 5924890.810 565536.695 5924890.778 565536.675 5924890.745 565536.655 5924890.713 565536.636 5924890.680 565536.617 5924890.647 565536.599 5924890.614 565536.580 5924890.581 565536.563 5924890.548 565536.545 5924890.514 565536.528 5924890.480 565536.511 5924890.446 565536.495 5924890.412 565536.479 5924890.377 565536.463 5924890.343 565536.448 5924890.308 565536.433 5924890.273 565536.419 5924890.238 565536.405 5924890.203 565536.391 5924890.168 565536.378 5924890.132 565536.365 5924890.097 565536.352 5924890.061 565536.340 5924890.025 565536.328 5924889.989 565536.317 5924889.953 565536.306 5924889.916 565536.295 5924889.880 565536.285 5924889.844 565536.275 5924889.807 565536.266 5924889.770 565536.257 5924889.733 565536.248 5924889.696 565536.240 5924889.659 565536.232 5924889.622 565536.225 5924889.585 565536.218 5924889.548 565536.211 5924889.511 565536.205 5924889.473 565536.199 5924889.436 565536.194 5924889.398 565536.189 5924889.361 565536.184 5924889.323 565536.144 5924887.973 565531.836 5924882.980 565526.159 5924876.398 565522.319 5924872.732 565440.675 5924913.104 565429.522 5924943.551 565421.629 5924973.052 565420.350 5924972.750 565416.913 5924989.383 565400.074 5924986.117 565402.759 5924993.592 565425.248 5925015.228 565551.295 5925033.532 565558.223 5925016.780 565553.559 5925015.875 565553.861 5925015.222 565560.209 5925008.534 565565.316 5925007.305 565580.862 5924991.097</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_41">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Niendorf95</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/eimsbuettel/bplaene-im-verfahren/17013018/bebauungsplaene-eimsbuettel/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_41_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_41_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_4ef98c20-890c-4c27-a837-86ccba17b1bd" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>562820.910 5942637.842 562826.091 5942621.519 562831.911 5942603.581 562836.778 5942590.255 562843.119 5942576.990 562850.523 5942561.881 562858.181 5942544.914 562863.410 5942531.190 562867.804 5942519.272 562871.449 5942509.262 562874.645 5942499.279 562877.942 5942487.826 562880.927 5942473.205 562881.635 5942467.844 562882.427 5942460.241 562870.787 5942458.090 562720.657 5942430.351 562712.151 5942428.888 562709.136 5942423.254 562697.588 5942401.678 562681.773 5942380.702 562707.132 5942374.771 562747.120 5942365.420 562757.177 5942363.069 562761.694 5942362.012 562759.887 5942357.386 562758.444 5942354.105 562762.271 5942352.524 562802.797 5942335.780 562852.897 5942315.150 562851.618 5942311.397 562846.252 5942300.604 562861.684 5942297.295 562884.870 5942292.341 562892.881 5942293.334 562890.696 5942310.964 562889.423 5942321.245 562889.376 5942329.157 562887.538 5942347.563 562887.027 5942353.650 562886.619 5942364.707 562893.854 5942364.974 562900.921 5942364.312 562927.412 5942361.833 562949.499 5942358.163 562989.790 5942346.265 562991.270 5942351.275 562993.745 5942358.077 563046.631 5942503.392 563041.921 5942505.107 563005.442 5942518.437 563004.866 5942539.931 563004.376 5942558.228 563003.888 5942576.468 563003.649 5942585.397 563004.480 5942592.823 562992.704 5942590.616 562967.936 5942586.009 562956.225 5942583.776 562939.063 5942602.890 562924.381 5942660.644 562922.630 5942667.534 562920.056 5942677.665 562917.783 5942685.242 562918.457 5942685.445 562948.474 5942695.836 563059.465 5942734.768 563064.242 5942736.548 563039.647 5942772.195 563022.678 5942796.882 563017.834 5942803.932 563010.820 5942814.142 563006.670 5942820.182 562997.169 5942834.012 562995.504 5942836.438 562989.842 5942844.681 562982.517 5942855.346 562981.921 5942856.213 562972.309 5942870.207 562963.760 5942882.634 562961.725 5942885.591 562958.186 5942890.735 562960.526 5942896.174 562965.556 5942907.867 562967.663 5942908.744 562969.826 5942913.773 562971.215 5942913.942 562974.218 5942921.353 562974.860 5942920.415 562984.637 5942943.145 562985.571 5942945.317 562988.182 5942951.386 563000.474 5942979.961 563001.168 5942981.578 563003.784 5942987.656 563016.088 5943016.260 563016.661 5943017.591 563019.300 5943023.725 563031.757 5943052.688 563032.232 5943053.789 563034.859 5943059.896 563047.457 5943089.187 563050.420 5943096.074 563063.087 5943125.523 563064.250 5943128.052 563064.765 5943129.425 563066.779 5943134.620 563060.294 5943137.134 563005.172 5943152.620 562998.963 5943154.365 562988.609 5943157.402 562992.136 5943169.425 563000.130 5943206.547 563000.847 5943213.650 563002.159 5943252.935 562995.090 5943292.371 562990.888 5943317.404 562982.141 5943355.650 562978.957 5943374.452 562943.215 5943525.363 562901.391 5943532.284 562901.148 5943524.885 562901.087 5943523.031 562900.094 5943492.753 562899.504 5943474.789 562895.269 5943474.925 562895.363 5943445.708 562895.402 5943431.640 562895.488 5943406.791 562834.886 5943406.708 562829.888 5943406.698 562791.028 5943406.645 562777.470 5943406.626 562757.883 5943406.600 562755.460 5943395.710 562751.446 5943377.674 562733.452 5943311.353 562729.377 5943299.976 562718.614 5943260.209 562714.629 5943241.979 562691.501 5943156.734 562656.847 5943029.027 562683.602 5943020.981 562682.486 5943015.047 562674.452 5942972.325 562662.764 5942936.886 562651.707 5942903.365 562644.875 5942882.649 562637.115 5942841.388 562636.182 5942836.425 562623.570 5942836.962 562622.637 5942832.002 562614.716 5942789.886 562603.346 5942755.305 562592.290 5942721.685 562590.660 5942716.726 562581.398 5942688.564 562572.703 5942662.125 562569.376 5942652.007 562673.160 5942659.736 562786.056 5942668.405 562808.625 5942670.138 562814.285 5942655.259 562820.910 5942637.842</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_97">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Bahrenfeld75</app:plan>
+      <app:hotlink_iv>https://www.hamburg.de/altona/bebauungsplaene/16082508/bahrenfeld-75/</app:hotlink_iv>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_97_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_97_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_0312ac6d-8612-4312-af80-3cd8175f73a0" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>560105.513 5935507.951 560111.318 5935492.928 560116.544 5935476.481 560119.419 5935469.377 560129.325 5935468.889 560139.921 5935468.160 560151.774 5935467.345 560205.387 5935463.660 560211.541 5935463.238 560211.677 5935465.370 560211.793 5935467.189 560215.108 5935519.364 560223.904 5935516.281 560225.404 5935530.650 560225.497 5935537.567 560225.589 5935543.996 560225.680 5935550.492 560228.933 5935579.071 560229.313 5935588.960 560090.129 5935594.281 560072.756 5935593.848 560078.350 5935579.203 560091.659 5935544.117 560105.513 5935507.951</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+  <wfs:member>
+    <app:prosin_imverfahren xmlns:app="http://www.deegree.org/app" gml:id="APP_PROSIN_IMVERFAHREN_186">
+      <app:feststellung>nein</app:feststellung>
+      <app:plan>Steilshoop13</app:plan>
+      <app:the_geom>
+        <!--Inlined geometry 'APP_PROSIN_IMVERFAHREN_186_APP_THE_GEOM'-->
+        <gml:MultiSurface gml:id="APP_PROSIN_IMVERFAHREN_186_APP_THE_GEOM" srsName="EPSG:25832">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GEOMETRY_362e53ae-e81c-49b7-86a1-8658e2eb9b2c" srsName="EPSG:25832">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>569993.911 5940672.813 569993.891 5940672.878 569958.210 5940787.197 569953.360 5940805.211 569952.969 5940806.562 569952.706 5940807.943 569952.572 5940809.342 569952.570 5940810.748 569952.698 5940812.148 569952.957 5940813.530 569953.343 5940814.882 569953.853 5940816.192 569954.484 5940817.449 569955.229 5940818.642 569956.081 5940819.760 569957.034 5940820.793 569958.080 5940821.733 569959.208 5940822.572 569960.410 5940823.302 569961.674 5940823.917 570007.055 5940838.813 570051.050 5940852.670 570052.559 5940852.919 570054.085 5940853.039 570055.614 5940853.028 570057.138 5940852.887 570058.643 5940852.616 570060.120 5940852.217 570061.558 5940851.694 570062.946 5940851.050 570064.273 5940850.289 570065.531 5940849.419 570066.710 5940848.443 570067.802 5940847.371 570068.797 5940846.210 570069.691 5940844.968 570070.474 5940843.654 570071.143 5940842.278 570112.713 5940712.023 570058.155 5940694.049 570063.015 5940679.296 570064.538 5940674.511 570063.241 5940646.298 570076.407 5940604.958 570078.528 5940598.216 570041.607 5940586.599 570041.607 5940586.599 570039.776 5940586.543 570037.945 5940586.607 570036.122 5940586.791 570034.315 5940587.093 570032.532 5940587.512 570030.780 5940588.047 570029.066 5940588.696 570027.399 5940589.455 570025.784 5940590.322 570024.230 5940591.292 570022.743 5940592.361 570021.328 5940593.525 570019.993 5940594.780 570018.743 5940596.119 570017.582 5940597.536 570016.517 5940599.027 569993.911 5940672.813</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </app:the_geom>
+    </app:prosin_imverfahren>
+  </wfs:member>
+</wfs:FeatureCollection>

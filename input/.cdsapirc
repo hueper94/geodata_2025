@@ -1,0 +1,6 @@
+
+   - Erstelle die Datei `.cdsapirc` in deinem Home-Verzeichnis und füge den folgenden Inhalt hinzu:
+     ```
+     url: https://cds.climate.copernicus.eu/api/v2
+     key: b21b0503-255f-41c0-9817-6d647be49d1b
+     ```

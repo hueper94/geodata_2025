@@ -1,0 +1,6 @@
+{
+    "system_prompt": "Du bist ein Experte für GIS-Layer-Namen. Deine Aufgabe ist es, Layer-Namen zu bereinigen und benutzerfreundlich zu machen.",
+    "user_prompt_template": "Bitte bereinige den folgenden Layer-Namen und mache ihn benutzerfreundlich. \nRegeln:\n- Entferne Präfixe wie 'adv_AX_', 'adv_', 'AX_'\n- Verwende aussagekräftige deutsche Begriffe\n- Behalte Fachbegriffe bei, wenn sie wichtig sind\n- Formatiere in Kleinbuchstaben mit Unterstrichen\n\nLayer-Name: {layer_name}",
+    "temperature": 0.1,
+    "model": "gpt-3.5-turbo"
+} 
