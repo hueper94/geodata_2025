@@ -100,6 +100,18 @@
                         <i class="bi bi-search"></i> Suchen
                     </button>
                 </div>
+                <!-- Neue Export-Buttons -->
+                <div class="col-md-2">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="exportDropdown" data-bs-toggle="dropdown">
+                            <i class="bi bi-download"></i> Exportieren
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" onclick="lexiconService.exportLayers('json')">Als JSON</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="lexiconService.exportLayers('csv')">Als CSV</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
 

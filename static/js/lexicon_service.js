@@ -185,6 +185,52 @@ export class LexiconService {
             throw error;
         }
     }
+
+    // Exportiert Layer-Informationen als JSON oder CSV
+    async exportLayers(format = 'json', filter = {}) {
+        try {
+            const layers = await this.getLayers(filter);
+            
+            if (format === 'csv') {
+                // CSV-Export
+                const headers = ['Name', 'Titel', 'Beschreibung', 'Quelle', 'Datum'];
+                const csvContent = [
+                    headers.join(','),
+                    ...layers.map(layer => [
+                        layer.name,
+                        layer.title,
+                        layer.description || '',
+                        layer.source_url || '',
+                        layer.created_at
+                    ].join(','))
+                ].join('\n');
+                
+                // Download initiieren
+                const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = `layer_export_${new Date().toISOString().split('T')[0]}.csv`;
+                link.click();
+                
+                this.log('Layer als CSV exportiert');
+                return true;
+            } else {
+                // JSON-Export
+                const jsonContent = JSON.stringify(layers, null, 2);
+                const blob = new Blob([jsonContent], { type: 'application/json' });
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = `layer_export_${new Date().toISOString().split('T')[0]}.json`;
+                link.click();
+                
+                this.log('Layer als JSON exportiert');
+                return true;
+            }
+        } catch (error) {
+            this.log('Fehler beim Exportieren der Layer:', error);
+            throw error;
+        }
+    }
 }
 
 // Exportiere eine Instanz des Lexikon-Service
