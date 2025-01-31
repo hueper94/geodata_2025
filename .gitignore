@@ -47,4 +47,17 @@ instance/
 # Temporäre Dateien
 *.tmp
 .DS_Store
+Thumbs.db
+
+# Backups
+backups/
+*.zip
+*.bak
+*.backup
+
+# Config files with sensitive data
+config/tk_gh.json
+
+# OS
+.DS_Store
 Thumbs.db 
