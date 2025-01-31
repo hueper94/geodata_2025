@@ -346,7 +346,8 @@
         </div>
     </div>
 
-    <div class="container">
+    <!-- WFS/WMS Explorer -->
+    <div class="container-fluid mt-4">
         <div class="tab-content">
             <!-- WFS Section -->
             <div class="tab-pane fade show active" id="wfs-section">
@@ -378,10 +379,6 @@
 
                         <!-- Layer Container -->
                         <div id="wfs-layers-container" style="display: none;">
-                            <div class="tools-container mb-3">
-                                <!-- Hier wird der KI-Button eingefügt -->
-                            </div>
-
                             <h5 class="mt-4 mb-3">Verfügbare Layer</h5>
                             <div class="table-responsive">
                                 <table class="table table-striped">
@@ -430,6 +427,28 @@
                                 <i class="bi bi-search me-2"></i>Layer abrufen
                             </button>
                         </form>
+
+                        <!-- Layer Container -->
+                        <div id="wms-layers-container" style="display: none;">
+                            <div class="tools-container mb-3">
+                                <!-- Hier wird der KI-Button eingefügt -->
+                            </div>
+
+                            <h5 class="mt-4 mb-3">Verfügbare Layer</h5>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Original Name</th>
+                                            <th>Gesäuberter Name</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="wmsLayerTable">
+                                        <!-- Layer werden hier dynamisch eingefügt -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -479,5 +498,14 @@
     <script type="module" src="{{ url_for('static', filename='js/ai_cleaner_service.js') }}"></script>
     <script type="module" src="{{ url_for('static', filename='js/main.js') }}"></script>
     <script src="{{ url_for('static', filename='js/wfs_wms_explorer.js') }}"></script>
+
+    <!-- JavaScript -->
+    <script type="module">
+        import { WfsService } from '/static/js/wfs_service.js';
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            new WfsService();
+        });
+    </script>
 </body>
 </html> 

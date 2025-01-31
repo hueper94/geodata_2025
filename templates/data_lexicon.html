@@ -1,213 +1,121 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datenlexikon - GIS-Daten Explorer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
-    <style>
-        :root {
-            --dark-green: #2c5530;
-            --accent-green: #5c8d76;
-            --light-green: #7ab092;
-        }
+{% extends "base.html" %}
 
-        body {
-            background-color: #f8f9fa;
-        }
-
-        .header-section {
-            background: var(--dark-green);
-            color: white;
-            padding: 2rem 0;
-            margin-bottom: 2rem;
-        }
-
-        .search-box {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-bottom: 2rem;
-        }
-
-        .table {
-            background: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        .table th {
-            background: var(--dark-green);
-            color: white;
-            border: none;
-        }
-
-        .table tbody tr:hover {
-            background-color: rgba(92, 141, 118, 0.1);
-        }
-
-        .btn-primary {
-            background: var(--accent-green);
-            border: none;
-        }
-
-        .btn-primary:hover {
-            background: var(--light-green);
-        }
-    </style>
-</head>
-<body>
-    <div class="header-section">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <div>
-                    <h1>Datenlexikon</h1>
-                    <p class="lead mb-0">Durchsuchen Sie alle Layer und Attribute</p>
-                </div>
-                <a href="/" class="btn btn-outline-light">
-                    <i class="bi bi-arrow-left"></i> Zurück zur Übersicht
-                </a>
-            </div>
+{% block content %}
+<div class="container mt-4">
+    <h2>Datenlexikon</h2>
+    
+    <!-- Suchleiste -->
+    <div class="row mb-4">
+        <div class="col">
+            <input type="text" id="searchInput" class="form-control" placeholder="Layer suchen...">
         </div>
     </div>
 
-    <div class="container">
-        <!-- Suchbox -->
-        <div class="search-box">
-            <div class="row g-3">
-                <div class="col-md-4">
-                    <input type="text" class="form-control" placeholder="Suche nach Layer-Namen...">
-                </div>
-                <div class="col-md-3">
-                    <select class="form-select">
-                        <option value="">Alle Typen</option>
-                        <option value="wfs">WFS</option>
-                        <option value="wms">WMS</option>
-                    </select>
-                </div>
-                <div class="col-md-3">
-                    <select class="form-select">
-                        <option value="">Alle Attribute</option>
-                        <option value="name">Name</option>
-                        <option value="type">Typ</option>
-                    </select>
-                </div>
-                <div class="col-md-2">
-                    <button class="btn btn-primary w-100">
-                        <i class="bi bi-search"></i> Suchen
-                    </button>
-                </div>
-                <!-- Neue Export-Buttons -->
-                <div class="col-md-2">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="exportDropdown" data-bs-toggle="dropdown">
-                            <i class="bi bi-download"></i> Exportieren
+    <!-- Layer-Tabelle -->
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Typ</th>
+                    <th>Bundesland</th>
+                    <th>Quelle</th>
+                    <th>Aktionen</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for layer in layers %}
+                <tr>
+                    <td>
+                        {% if layer[1] %}
+                            {{ layer[1] if not layer[2] else layer[2] }}
+                        {% else %}
+                            Kein Name verfügbar
+                        {% endif %}
+                    </td>
+                    <td>{{ layer[4] }}</td>
+                    <td>{{ layer[6] }}</td>
+                    <td>
+                        {% if layer[5] %}
+                            <a href="{{ layer[5] }}" target="_blank" title="{{ layer[5] }}" class="text-truncate d-inline-block" style="max-width: 200px;">
+                                {{ layer[5]|truncate(30) }}
+                                <i class="fas fa-external-link-alt ms-1"></i>
+                            </a>
+                        {% else %}
+                            Keine Quelle verfügbar
+                        {% endif %}
+                    </td>
+                    <td>
+                        <!-- Info-Button -->
+                        <button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#infoModal{{ layer[0] }}">
+                            <i class="fas fa-info-circle"></i>
                         </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#" onclick="lexiconService.exportLayers('json')">Als JSON</a></li>
-                            <li><a class="dropdown-item" href="#" onclick="lexiconService.exportLayers('csv')">Als CSV</a></li>
-                        </ul>
+                    </td>
+                </tr>
+
+                <!-- Info Modal -->
+                <div class="modal fade" id="infoModal{{ layer[0] }}" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Layer-Informationen</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="mb-3">
+                                    <h6>Originaler Name:</h6>
+                                    <p>{{ layer[1] }}</p>
+                                </div>
+                                
+                                {% if layer[2] %}
+                                <div class="mb-3">
+                                    <h6>Bereinigter Name:</h6>
+                                    <p>{{ layer[2] }}</p>
+                                </div>
+                                {% endif %}
+
+                                <div class="mb-3">
+                                    <h6>Titel:</h6>
+                                    <p>{{ layer[3] }}</p>
+                                </div>
+
+                                {% if layer[4] %}
+                                <div class="mb-3">
+                                    <h6>KI-generierte Beschreibung:</h6>
+                                    <p>{{ layer[4] }}</p>
+                                </div>
+                                {% endif %}
+
+                                <div class="mb-3">
+                                    <h6>Technische Details:</h6>
+                                    <ul>
+                                        <li>Typ: {{ layer[4] }}</li>
+                                        <li>Bundesland: {{ layer[6] }}</li>
+                                        <li>Quelle: <a href="{{ layer[5] }}" target="_blank">{{ layer[5] }}</a></li>
+                                        <li>Erstellt am: {{ layer[7] }}</li>
+                                        <li>Zuletzt aktualisiert: {{ layer[8] }}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <!-- Debug-Ausgabe -->
-        <div class="container mt-3">
-            <div class="alert alert-info">
-                <h4>Debug-Informationen:</h4>
-                <p>Anzahl Layer: {{ layers|length if layers else 0 }}</p>
-                {% if layers %}
-                    <p>Erster Layer:</p>
-                    <ul>
-                        <li>ID: {{ layers[0][0] }}</li>
-                        <li>Name: {{ layers[0][1] }}</li>
-                        <li>Titel: {{ layers[0][2] }}</li>
-                        <li>Typ: {{ layers[0][4] }}</li>
-                        <li>URL: {{ layers[0][5] }}</li>
-                        <li>Datum: {{ layers[0][7] }}</li>
-                    </ul>
-                {% else %}
-                    <p>Keine Layer gefunden!</p>
-                {% endif %}
-                
-                {% if error %}
-                    <div class="alert alert-danger">
-                        Fehler: {{ error }}
-                    </div>
-                {% endif %}
-            </div>
-        </div>
-
-        <!-- Datentabelle -->
-        <div class="table-responsive">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Titel</th>
-                        <th>Typ</th>
-                        <th>Quelle</th>
-                        <th>Datum</th>
-                        <th>Aktionen</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for layer in layers %}
-                    <tr>
-                        <td>{{ layer[1] }}</td>
-                        <td>{{ layer[2] }}</td>
-                        <td>{{ layer[4] }}</td>
-                        <td>{{ layer[5] }}</td>
-                        <td>{{ layer[7] }}</td>
-                        <td>
-                            <button class="btn btn-sm btn-primary" onclick="showAttributes('{{ layer[0] }}')">
-                                <i class="bi bi-table"></i>
-                            </button>
-                            <button class="btn btn-sm btn-danger" onclick="deleteEntry('{{ layer[0] }}')">
-                                <i class="bi bi-trash"></i>
-                            </button>
-                        </td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        function showAttributes(layerId) {
-            // Implementierung folgt
-            console.log('Zeige Attribute für Layer:', layerId);
-        }
-
-        function deleteEntry(layerId) {
-            if (confirm('Möchten Sie diesen Eintrag wirklich löschen?')) {
-                fetch('/delete_lexicon_entry', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/x-www-form-urlencoded',
-                    },
-                    body: `id=${layerId}`
-                })
-                .then(response => response.json())
-                .then(data => {
-                    if (data.status === 'success') {
-                        location.reload();
-                    } else {
-                        alert('Fehler beim Löschen: ' + data.message);
-                    }
-                })
-                .catch(error => {
-                    console.error('Fehler:', error);
-                    alert('Fehler beim Löschen des Eintrags');
-                });
-            }
-        }
-    </script>
-</body>
-</html> 
+<!-- JavaScript für die Suche -->
+<script>
+document.getElementById('searchInput').addEventListener('keyup', function() {
+    var searchText = this.value.toLowerCase();
+    var tableRows = document.querySelectorAll('tbody tr');
+    
+    tableRows.forEach(function(row) {
+        var text = row.textContent.toLowerCase();
+        row.style.display = text.includes(searchText) ? '' : 'none';
+    });
+});
+</script>
+{% endblock %} 

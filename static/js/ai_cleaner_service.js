@@ -77,21 +77,18 @@ class AiCleanerService {
             return;
         }
 
-        // Finde den tools-container
         const toolsContainer = container.querySelector('.tools-container');
         if (!toolsContainer) {
             this.log('FEHLER: Tools-Container nicht gefunden');
             return;
         }
 
-        // Erstelle Clean-Button
         const cleanButton = document.createElement('button');
         cleanButton.type = 'button';
         cleanButton.className = 'btn btn-success';
         cleanButton.innerHTML = '<i class="bi bi-magic"></i> Layer-Namen mit KI säubern';
         cleanButton.addEventListener('click', () => this.cleanSelectedLayers());
         
-        // Füge Button zum tools-container hinzu
         toolsContainer.appendChild(cleanButton);
         this.buttonAdded = true;
         this.log('Clean-Button erfolgreich hinzugefügt');
@@ -109,7 +106,6 @@ class AiCleanerService {
                 const titleCell = row.querySelector('td:nth-child(3)');
                 if (nameCell && titleCell) {
                     layers.push({
-                        id: nameCell.textContent,
                         name: nameCell.textContent,
                         title: titleCell.textContent
                     });
@@ -123,14 +119,11 @@ class AiCleanerService {
     // Säubere ausgewählte Layer
     async cleanSelectedLayers() {
         const layers = this.getSelectedLayers();
-        
         if (layers.length === 0) {
             this.showError('Bitte wählen Sie mindestens einen Layer aus');
             return;
         }
 
-        this.log(`Starte Säuberung von ${layers.length} Layern`);
-        
         try {
             const response = await fetch('/api/clean-layer-names', {
                 method: 'POST',
@@ -160,7 +153,6 @@ class AiCleanerService {
                 throw new Error(data.error);
             }
 
-            // Aktualisiere die Layer-Namen in der Tabelle
             this.updateLayerNames(data.cleaned_layers);
             this.showSuccess('Layer-Namen wurden erfolgreich gesäubert');
             
@@ -211,5 +203,5 @@ class AiCleanerService {
     }
 }
 
-// Exportiere eine Instanz des AI Cleaner Service
-export const aiCleanerService = new AiCleanerService(); 
+// Exportiere die Klasse
+export { AiCleanerService }; 

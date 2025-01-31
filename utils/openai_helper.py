@@ -8,7 +8,8 @@ logger = logging.getLogger(__name__)
 class OpenAIHelper:
     def __init__(self, config_path='config/config.json', prompts_dir='prompts'):
         self.prompts_dir = prompts_dir
-        self.load_config(config_path)
+        self.config_path = config_path
+        self.api_key = self._load_api_key()
         try:
             self.client = OpenAI(api_key=self.api_key)
             # Teste die Verbindung
@@ -18,6 +19,15 @@ class OpenAIHelper:
             logger.error(f"Fehler bei der OpenAI-Initialisierung: {e}")
             raise
         
+    def _load_api_key(self):
+        try:
+            with open(self.config_path, 'r') as f:
+                config = json.load(f)
+                return config.get('openai_api_key')
+        except Exception as e:
+            logger.error(f"Fehler beim Laden des API-Keys: {str(e)}")
+            return None
+
     def load_config(self, config_path):
         try:
             with open(config_path, 'r') as f:
@@ -121,16 +131,56 @@ class OpenAIHelper:
             raise ValueError(f"Fehler bei der KI-Verarbeitung: {str(e)}")
             
     def clean_layer_name(self, layer_name):
-        """Einzelne Layer-Namen-Verarbeitung (für Kompatibilität)"""
+        """Bereinigt den Layer-Namen mit Hilfe von OpenAI"""
+        if not self.api_key:
+            logger.error("Kein API-Key konfiguriert")
+            return layer_name
+            
         try:
-            result = self.clean_layer_names_batch([layer_name])
-            return {
-                'name': result['names'][0] if result['names'] else layer_name,
-                'explanation': result['explanations'][0] if result['explanations'] else ''
+            response = self.client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": """Du bist ein Experte für GIS-Layer-Namen. 
+                    Deine Aufgabe ist es, technische Layer-Namen in benutzerfreundliche, verständliche deutsche Namen umzuwandeln.
+                    
+                    WICHTIGE REGELN:
+                    1. Entferne technische Präfixe wie 'adv_', 'ax_', 'ap_'
+                    2. Ersetze ALLE Umlaute und Sonderzeichen:
+                       - 'ä' wird zu 'ae'
+                       - 'ö' wird zu 'oe'
+                       - 'ü' wird zu 'ue'
+                       - 'ß' wird zu 'ss'
+                    3. Ersetze Abkürzungen durch ausgeschriebene Wörter
+                    4. Verwende NUR deutsche Begriffe
+                    5. Keine Sonderzeichen außer Bindestrich erlaubt
+                    6. Antworte NUR mit dem bereinigten Namen
+                    
+                    Beispiele:
+                    - 'adv_ax_flurstueck' -> 'Flurstueck'
+                    - 'ap_pto' -> 'Punktfoermiges-Topographisches-Objekt'
+                    - 'ax_gewässer' -> 'Gewaesser'"""
+                    },
+                    {"role": "user", "content": f"Bereinige diesen Layer-Namen: {layer_name}"}
+                ],
+                temperature=0.1,
+                max_tokens=50
+            )
+            cleaned_name = response.choices[0].message.content.strip()
+            # Entferne alle unerwünschten Zeichen
+            cleaned_name = cleaned_name.strip('"\'')
+            # Ersetze Umlaute
+            umlaut_map = {
+                'ä': 'ae', 'ö': 'oe', 'ü': 'ue', 'ß': 'ss',
+                'Ä': 'Ae', 'Ö': 'Oe', 'Ü': 'Ue'
             }
+            for umlaut, replacement in umlaut_map.items():
+                cleaned_name = cleaned_name.replace(umlaut, replacement)
+            # Entferne alle anderen Sonderzeichen außer Bindestrich
+            cleaned_name = ''.join(c for c in cleaned_name if c.isalnum() or c == '-')
+            return cleaned_name
         except Exception as e:
-            logger.error(f"Fehler bei der KI-Verarbeitung: {str(e)}")
-            raise 
+            logger.error(f"Fehler bei der Layer-Namen-Bereinigung: {str(e)}")
+            return layer_name
 
     def get_alkis_definition(self, layer_name):
         """Holt die ALKIS-Definition für einen Layer-Namen."""
@@ -210,4 +260,44 @@ class OpenAIHelper:
             return {
                 "explanation": f"Keine Erklärung verfügbar: {str(e)}",
                 "source": "Fehler bei der KI-Generierung"
-            } 
+            }
+
+    def generate_layer_description(self, layer_name, original_description):
+        """Generiert eine ausführliche Layer-Beschreibung mit Hilfe von OpenAI"""
+        if not self.api_key:
+            logger.error("Kein API-Key konfiguriert")
+            return original_description
+            
+        try:
+            response = self.client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": """Du bist ein Experte für Geodaten und GIS-Layer. 
+                    Deine Aufgabe ist es, technische Layer-Beschreibungen in ausführliche, verständliche Erklärungen umzuwandeln.
+                    
+                    WICHTIGE REGELN für die Beschreibung:
+                    1. Verwende eine klare, technisch korrekte aber verständliche Sprache
+                    2. Strukturiere die Beschreibung in drei Teile:
+                       a) Was ist das? (Ein Satz)
+                       b) Was enthält der Layer? (2-3 Sätze)
+                       c) Wofür wird er verwendet? (1-2 Sätze)
+                    3. Behalte wichtige technische Details bei
+                    4. Maximal 5-6 Sätze insgesamt
+                    5. Vermeide Füllwörter und Wiederholungen
+                    
+                    Beispiel:
+                    Name: ax_flurstueck
+                    Beschreibung: Ein Flurstück ist die kleinste Einheit des amtlichen Liegenschaftskatasters. Dieser Layer enthält die geometrischen und beschreibenden Informationen aller Flurstücke, einschließlich ihrer eindeutigen Kennungen und Flächengrößen. Die Daten werden für Grundstücksverwaltung, Stadtplanung und rechtliche Dokumentation verwendet."""
+                    },
+                    {"role": "user", "content": f"""Erstelle eine verständliche Beschreibung für diesen Layer:
+                    
+                    Name: {layer_name}
+                    Originalbeschreibung: {original_description}"""}
+                ],
+                temperature=0.3,
+                max_tokens=300
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            logger.error(f"Fehler bei der Beschreibungsgenerierung: {str(e)}")
+            return original_description 
